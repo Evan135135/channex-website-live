@@ -38,7 +38,7 @@ const Pricing = () => {
     },
     {
       name: "Enterprise",
-      price: "Contact",
+      price: "$1500",
       period: "per month (billed monthly)",
       description: "For large businesses with special requirements.",
       popular: false,
