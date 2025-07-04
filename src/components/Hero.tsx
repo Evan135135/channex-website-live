@@ -48,9 +48,12 @@ const Hero = () => {
                 variant="outline" 
                 size="lg" 
                 className="border-primary/20 hover:bg-primary/5 font-inter text-lg px-8 py-6 h-auto"
+                asChild
               >
-                <Code size={20} className="mr-2" />
-                View API Docs
+                <a href="https://docs.channex.io/" target="_blank" rel="noopener noreferrer">
+                  <Code size={20} className="mr-2" />
+                  View API Docs
+                </a>
               </Button>
             </div>
 
