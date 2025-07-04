@@ -28,12 +28,11 @@ const Pricing = () => {
       description: "For tech providers like PMS and Booking Engines. Very Competitive Prices per property.",
       popular: false,
       features: [
-        "White-label solution",
-        "PMS integration",
-        "Booking engine support",
         "Competitive per-property pricing",
-        "Advanced features",
-        "Priority support"
+        "API Access",
+        "White-label solution",
+        "Mapping API",
+        "Tech Support"
       ]
     },
     {
