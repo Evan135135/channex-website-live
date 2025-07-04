@@ -1,10 +1,8 @@
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Card, CardContent } from "@/components/ui/card";
-import { Mail, MessageSquare, Phone, ArrowRight } from "lucide-react";
+import { Mail, MessageSquare, Phone } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ContactForm from "@/components/ContactForm";
 
 const Contact = () => {
   return (
@@ -26,82 +24,7 @@ const Contact = () => {
 
           <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
             {/* Contact Form */}
-            <Card className="border-border/50 shadow-elegant">
-              <CardContent className="p-8 space-y-6">
-                <div className="space-y-2">
-                  <h2 className="text-2xl font-semibold text-foreground font-inter">
-                    Start Your Integration
-                  </h2>
-                  <p className="text-muted-foreground font-inter">
-                    Get in touch with our team to begin your channel manager integration.
-                  </p>
-                </div>
-
-                <form className="space-y-4">
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div className="space-y-2">
-                      <label className="text-sm font-medium text-foreground font-inter">
-                        First Name
-                      </label>
-                      <Input 
-                        placeholder="John" 
-                        className="border-border/50 focus:border-primary/50 font-inter"
-                      />
-                    </div>
-                    <div className="space-y-2">
-                      <label className="text-sm font-medium text-foreground font-inter">
-                        Last Name
-                      </label>
-                      <Input 
-                        placeholder="Doe" 
-                        className="border-border/50 focus:border-primary/50 font-inter"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="space-y-2">
-                    <label className="text-sm font-medium text-foreground font-inter">
-                      Company Email
-                    </label>
-                    <Input 
-                      type="email" 
-                      placeholder="john@company.com" 
-                      className="border-border/50 focus:border-primary/50 font-inter"
-                    />
-                  </div>
-
-                  <div className="space-y-2">
-                    <label className="text-sm font-medium text-foreground font-inter">
-                      Company Name
-                    </label>
-                    <Input 
-                      placeholder="Your PMS Company" 
-                      className="border-border/50 focus:border-primary/50 font-inter"
-                    />
-                  </div>
-
-                  <div className="space-y-2">
-                    <label className="text-sm font-medium text-foreground font-inter">
-                      Message
-                    </label>
-                    <Textarea 
-                      placeholder="Tell us about your integration needs..."
-                      rows={4}
-                      className="border-border/50 focus:border-primary/50 font-inter resize-none"
-                    />
-                  </div>
-
-                  <Button 
-                    type="submit" 
-                    className="w-full bg-gradient-primary hover:shadow-primary transition-all duration-300 font-inter"
-                    size="lg"
-                  >
-                    Send Message
-                    <ArrowRight size={16} className="ml-2" />
-                  </Button>
-                </form>
-              </CardContent>
-            </Card>
+            <ContactForm />
 
             {/* Contact Info */}
             <div className="space-y-8">
