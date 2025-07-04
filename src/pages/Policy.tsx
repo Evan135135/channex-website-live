@@ -64,7 +64,7 @@ const Policy = () => {
                   <div>
                     <h3 className="text-xl font-semibold text-foreground mb-3">2. Types of Channex Products</h3>
                     <p>
-                      This Agreement governs (a) Channex's commercially available downloadable software products (currently designated as "Server" or "Data Center" deployments) ("Software"), (b) Channex's hosted or cloud-based solutions (currently designated as "Cloud" deployments) ("Hosted Services"), and (c) any related support or maintenance services provided by Channex. Software and Hosted Services, together with related Documentation, are referred to as "Products".
+                      This Agreement governs (a) Channex's commercially available downloadable software products (currently designated as "Server" or "Data Center" deployments) ("Software"), (b) Channex's hosted or cloud-based solutions (currently designated as "Cloud" deployments) ("Hosted Services"), and (c) any related support or maintenance services provided by Channex. Software and Hosted Services, together with related Documentation, are referred to as "Products". The Products and their permitted use are further described in Channex's standard documentation ("Documentation"). Section 6 (Software Terms) applies specifically to Software, and Section 7 (Hosted Services Terms) applies specifically to Hosted Services, but unless otherwise specified, other provisions of this Agreement apply to all Products.
                     </p>
                   </div>
 
