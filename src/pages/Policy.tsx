@@ -169,6 +169,22 @@ const Policy = () => {
                   </div>
 
                   <div>
+                    <h3 className="text-xl font-semibold text-foreground mb-3">10. Returns and Financial Terms</h3>
+                    <p>
+                      10.1 Return Policy. As part of our commitment to customer satisfaction, it is our customary business practice to allow customers to return a Product within 30 days of payment for any reason or no reason and to receive a refund of the amount paid for the returned Product. In the context of Software, a return means that we will disable the license key that allowed the Software to operate. In the context of Hosted Services, a return means that we will disable access to the Hosted Service. We will not accept returns after the 30-day return period. You understand that Channex may change this practice in the future in accordance with Section 26 (Changes to this Agreement).
+                    </p>
+                    <p>
+                      10.2 Delivery. We will deliver the applicable license keys (in the case of Software) or login instructions (in the case of Hosted Services) to the email addresses specified in your Order when we have received payment of the applicable fees. All deliveries under this Agreement will be electronic. For the avoidance of doubt, you are responsible for installation of any Software, and you acknowledge that Channex has no further delivery obligation with respect to the Software after delivery of the license keys.
+                    </p>
+                    <p>
+                      10.3 Payment. You agree to pay all fees in accordance with each Order. Unless otherwise specified in your Order, you will pay all amounts in U.S. dollars at the time you place your Order. Other than as expressly set forth in Section 10.1 (Return Policy) and Section 20 (IP Indemnification by Channex), all amounts are non-refundable, non-cancelable and non-creditable. In making payments, you acknowledge that you are not relying on future availability of any Products beyond the current License Term or Subscription Term or any Product upgrades or feature enhancements. If you add Authorised Users during your License Term or Subscription Term, we will charge you for the increased number of Authorised Users pursuant to the then-currently applicable rates in your next billing cycle. You agree that we may bill your credit card for renewals, additional users, and unpaid fees, as applicable. If you purchase any Products through a Reseller, you owe payment to the Reseller as agreed between you and the Reseller, but you acknowledge that we may terminate your rights to use Products if we do not receive our corresponding payment from the Reseller.
+                    </p>
+                    <p>
+                      10.4 Taxes. Your payments under this Agreement exclude any taxes or duties payable in respect of the Products in the jurisdiction where the payment is either made or received. To the extent that any such taxes or duties are payable by Channex, you must pay to Channex the amount of such taxes or duties in addition to any fees owed under this Agreement. Notwithstanding the foregoing, you may have obtained an exemption from relevant taxes or duties as of the time such taxes or duties are levied or assessed. In that case, you will have the right to provide to Channex any such exemption information, and Channex will use reasonable efforts to provide such invoicing documents as may enable you to obtain a refund or credit for the amount so paid from any relevant revenue authority if such a refund or credit is available.
+                    </p>
+                  </div>
+
+                  <div>
                     <h3 className="text-xl font-semibold text-foreground mb-3">18. Warranty Disclaimer</h3>
                     <p className="uppercase text-sm">
                       All products are provided "as is," and Channex and its suppliers expressly disclaim any and all warranties and representations of any kind, including any warranty of non-infringement, title, fitness for a particular purpose, functionality, or merchantability, whether express, implied, or statutory.
