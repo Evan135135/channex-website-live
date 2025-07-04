@@ -283,6 +283,66 @@ const CustomerAgreement = () => {
               Any notice under this Agreement must be given in writing. We may provide notice to you via email or through your account. Our notices to you will be deemed given upon the first business day after we send it. You may provide notice to us by email to support@channex.io. Your notices to us will be deemed given upon our receipt. Neither party shall be liable to the other for any delay or failure to perform any obligation under this Agreement (except for a failure to pay fees) if the delay or failure is due to unforeseen events which are beyond the reasonable control of such party, such as a strike, blockade, war, act of terrorism, riot, natural disaster, failure or diminishment of power or telecommunications or data networks or services, or refusal of a license by a government agency. You may not assign this Agreement without our prior written consent. We will not unreasonably withhold our consent if the assignee agrees to be bound by the terms and conditions of this Agreement. We may assign our rights and obligations under this Agreement (in whole or in part) without your consent. The Products are commercial computer software. If you are an agency, department, or other entity of the United States Government, the use, duplication, reproduction, release, modification, disclosure, or transfer of the Products, or any related documentation of any kind, including technical data and manuals, is restricted by the terms of this Agreement. The Products were developed fully at private expense. All other use is prohibited. This Agreement is the entire agreement between you and Channex relating to the Products and supersedes all prior or contemporaneous oral or written communications, proposals and representations with respect to the Products or any other subject matter covered by this Agreement. If any provision of this Agreement is held to be void, invalid, unenforceable or illegal, the other provisions shall continue in full force and effect. This Agreement may not be modified or amended by you without our written agreement (which may be withheld in our complete discretion without any requirement to provide any explanation). As used herein, "including" (and its variants) means "including without limitation" (and its variants). No failure or delay by the injured party to this Agreement in exercising any right, power or privilege hereunder shall operate as a waiver thereof, nor shall any single or partial exercise thereof preclude any other or further exercise thereof or the exercise of any right, power or privilege hereunder at law or equity. The parties are independent contractors. This Agreement shall not be construed as constituting either party as a partner of the other or to create any other form of legal association that would give on party the express or implied right, power or authority to create any duty or obligation of the other party.
             </p>
           </div>
+
+          <div>
+            <h3 className="text-xl font-semibold text-foreground mb-3">28. GDPR Data Protection Addendum</h3>
+            <div className="space-y-4">
+              <p>
+                <strong>28.1 Definitions:</strong> In this Addendum, the following terms shall have the following meanings:
+              </p>
+              <div className="ml-4 space-y-2">
+                <p>
+                  (a) "controller", "processor", "data subject", "personal data", "processing" (and "process") and "special categories of personal data" shall have the meanings given in Applicable Data Protection Law;
+                </p>
+                <p>
+                  (b) "Applicable Data Protection Law" shall mean: (i) prior to 25 May 2018, the EU Data Protection Directive (Directive 95/46/EC); and (ii) on and after 25 May 2018, the EU General Data Protection Regulation (Regulation 2016/679); and
+                </p>
+                <p>
+                  (c) "Channex" means the Channex entity that is a party to this Addendum, as specified in paragraph 1 of the section "APPLICATION OF THIS ADDENDUM" above.
+                </p>
+              </div>
+              
+              <p>
+                <strong>28.2 Relationship of the parties:</strong> Customer (the controller) appoints Channex as a processor to process the personal data described in the Agreement (the "Data") for the purposes described, and the terms set out, in the Agreement, including, for the avoidance of doubt, to provide you with, and update and improve, our services (or as otherwise agreed in writing by the parties) (the "Permitted Purpose"). Each party shall comply with the obligations that apply to it under Applicable Data Protection Law.
+              </p>
+
+              <p>
+                <strong>28.3 Prohibited data:</strong> Unless explicitly requested by Channex to do so, Customer shall not disclose (and shall not permit any data subject to disclose) any special categories of personal data to Channex for processing.
+              </p>
+
+              <p>
+                <strong>28.4 International transfers:</strong> Channex shall not transfer the Data outside of the European Economic Area ("EEA") unless it has taken such measures as are necessary to ensure the transfer is in compliance with Applicable Data Protection Law. Such measures may include (without limitation) transferring the Data to a recipient in a country that the European Commission has decided provides adequate protection for personal data (e.g., New Zealand), to a recipient in the United States that has certified its compliance with the EU-US Privacy Shield, or to a recipient that has executed standard contractual clauses adopted or approved by the European Commission.
+              </p>
+
+              <p>
+                <strong>28.5 Confidentiality of processing:</strong> Channex shall ensure that any person it authorises to process the Data (an "Authorised Person") shall protect the Data in accordance with Channex's confidentiality obligations under the Agreement.
+              </p>
+
+              <p>
+                <strong>28.6 Security:</strong> Channex shall implement technical and organisational measures which may be amended and updated from time to time, to protect the Data (i) from accidental or unlawful destruction, and (ii) loss, alteration, unauthorised disclosure of, or access to the Data (a "Security Incident").
+              </p>
+
+              <p>
+                <strong>28.7 Subcontracting:</strong> Customer consents to Channex engaging third party subprocessors to process the Data for the Permitted Purpose provided that: (i) Channex maintains an up-to-date list of its subprocessors, which shall be available on its website on or before 25 May 2018, which it shall update with details of any change in subprocessors at least 30 days prior to the change; (ii) Channex imposes data protection terms on any subprocessor it appoints that require it to protect the Data to the standard required by Applicable Data Protection Law; and (iii) Channex remains liable for any breach of this Addendum that is caused by an act, error or omission of its subprocessor. Customer may object to Channex's appointment or replacement of a subprocessor prior to its appointment or replacement, provided such objection is based on reasonable grounds relating to data protection. In such event, Channex will either not appoint or replace the subprocessor or, if this is not reasonably possible, in Channex's sole discretion, Customer may suspend or terminate the Agreement without penalty (without prejudice to any fees incurred by Customer up to and including the date of suspension or termination).
+              </p>
+
+              <p>
+                <strong>28.8 Cooperation and data subjects' rights:</strong> Channex shall provide reasonable and timely assistance to Customer (at Customer's expense) to enable Customer to respond to: (i) any request from a data subject to exercise any of its rights under Applicable Data Protection Law; and (ii) any other correspondence, enquiry or complaint received from a data subject, regulator or other third party in connection with the processing of the Data. In the event that any such request, correspondence, enquiry or complaint is made directly to Channex, Channex shall promptly inform Customer providing full details of the same.
+              </p>
+
+              <p>
+                <strong>28.9 Data Protection Impact Assessment:</strong> If Channex believes or becomes aware that its processing of the Data is likely to result in a high risk to the data protection rights and freedoms of data subjects, it shall inform Customer and provide reasonable cooperation to Customer in connection with any data protection impact assessment that may be required under Applicable Data Protection Law.
+              </p>
+
+              <p>
+                <strong>28.10 Security incidents:</strong> If it becomes aware of a confirmed Security Incident, Channex shall inform Customer without undue delay and shall provide reasonable information and cooperation to Customer so that Customer can fulfil any data breach reporting obligations it may have under (and in accordance with the timescales required by) Applicable Data Protection Law. Channex shall further take reasonably necessary measures and actions to remedy or mitigate the effects of the Security Incident and keep Customer informed of all material developments in connection with the Security Incident.
+              </p>
+
+              <p>
+                <strong>28.11 Deletion or return of Data:</strong> Upon termination or expiry of the Agreement, Channex will, on Customer's explicit request, delete or return the Data in its possession or control (in a manner and form decided by Channex, acting reasonably). This requirement shall not apply to the extent that Channex is required by applicable law to retain some or all of the Data, or to Data it has archived on back-up systems, which Data Channex shall securely isolate and protect from any further processing.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
