@@ -130,20 +130,17 @@ const Pricing = () => {
                 </thead>
                 <tbody>
                   {[
-                    { feature: "Properties", standard: "Unlimited", whitelabel: "Unlimited", enterprise: "Unlimited" },
-                    { feature: "Channel Connections", standard: "Basic channels", whitelabel: "All channels", enterprise: "All channels + Custom" },
-                    { feature: "API Access", standard: "✓", whitelabel: "✓", enterprise: "✓" },
-                    { feature: "Rate & Inventory Management", standard: "✓", whitelabel: "✓", enterprise: "✓" },
-                    { feature: "Booking Management", standard: "✓", whitelabel: "✓", enterprise: "✓" },
-                    { feature: "White-label Solution", standard: "✗", whitelabel: "✓", enterprise: "✓" },
-                    { feature: "Custom Branding", standard: "✗", whitelabel: "✓", enterprise: "✓" },
-                    { feature: "Staging Environment", standard: "✓", whitelabel: "✓", enterprise: "✓" },
-                    { feature: "Webhooks", standard: "Basic", whitelabel: "Advanced", enterprise: "Custom" },
-                    { feature: "Support Level", standard: "Standard", whitelabel: "Priority", enterprise: "Dedicated" },
-                    { feature: "SLA Guarantee", standard: "✗", whitelabel: "99.5%", enterprise: "99.9%" },
-                    { feature: "Custom Integrations", standard: "✗", whitelabel: "Limited", enterprise: "✓" },
-                    { feature: "Training & Onboarding", standard: "Self-service", whitelabel: "Guided", enterprise: "Full service" },
-                    { feature: "Reporting & Analytics", standard: "Basic", whitelabel: "Advanced", enterprise: "Custom" }
+                    { feature: "Hotels Fee (Per Property)", standard: "$50", whitelabel: "Contact", enterprise: "Contact" },
+                    { feature: "Vacation Rental Fee (Per unit)", standard: "$4", whitelabel: "Contact", enterprise: "Contact" },
+                    { feature: "Dashboard", standard: "✓", whitelabel: "✓", enterprise: "✓" },
+                    { feature: "PMS Integration", standard: "✓", whitelabel: "✓", enterprise: "✓" },
+                    { feature: "Channel Reports", standard: "✓", whitelabel: "✓", enterprise: "✓" },
+                    { feature: "Support via Chat & Email", standard: "✓", whitelabel: "✓", enterprise: "✓" },
+                    { feature: "Unlimited Users", standard: "✓", whitelabel: "✓", enterprise: "✓" },
+                    { feature: "Onboarding & Training", standard: "✓", whitelabel: "✓", enterprise: "✓" },
+                    { feature: "Messaging & Reviews App", standard: "Included", whitelabel: "Contact", enterprise: "✓" },
+                    { feature: "Channel and Mapping API", standard: "✗", whitelabel: "✓", enterprise: "✓" },
+                    { feature: "Custom Billing", standard: "✗", whitelabel: "✗", enterprise: "✓" }
                   ].map((row, index) => (
                     <tr key={index} className={index % 2 === 0 ? "bg-background" : "bg-muted/25"}>
                       <td className="p-6 font-medium text-foreground font-inter">{row.feature}</td>
@@ -178,6 +175,69 @@ const Pricing = () => {
                   ))}
                 </tbody>
               </table>
+            </div>
+            
+            {/* Channels Section */}
+            <div className="mt-12">
+              <h3 className="text-2xl font-bold text-center text-foreground mb-8 font-inter">
+                Supported Channels
+              </h3>
+              <div className="overflow-x-auto">
+                <table className="w-full border border-border rounded-lg overflow-hidden">
+                  <thead>
+                    <tr className="bg-muted/50">
+                      <th className="text-left p-6 font-semibold text-foreground font-inter">Channel</th>
+                      <th className="text-center p-6 font-semibold text-foreground font-inter">Standard</th>
+                      <th className="text-center p-6 font-semibold text-foreground font-inter">WhiteLabel</th>
+                      <th className="text-center p-6 font-semibold text-foreground font-inter">Enterprise</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {[
+                      { channel: "Booking.com", standard: "✓", whitelabel: "✓", enterprise: "✓" },
+                      { channel: "Expedia", standard: "✓", whitelabel: "✓", enterprise: "✓" },
+                      { channel: "Google Hotel Search (Hotels & Vacation Rentals)", standard: "✓", whitelabel: "✓", enterprise: "✓" },
+                      { channel: "Airbnb", standard: "✓", whitelabel: "✓", enterprise: "✓" },
+                      { channel: "Hostelworld", standard: "✓", whitelabel: "✓", enterprise: "✓" },
+                      { channel: "Agoda", standard: "✓", whitelabel: "✓", enterprise: "✓" },
+                      { channel: "Hotelbeds", standard: "✓", whitelabel: "✓", enterprise: "✓" },
+                      { channel: "Ctrip", standard: "✓", whitelabel: "✓", enterprise: "✓" },
+                      { channel: "Other Channels (See integration page for full list)", standard: "✓", whitelabel: "✓", enterprise: "✓" }
+                    ].map((row, index) => (
+                      <tr key={index} className={index % 2 === 0 ? "bg-background" : "bg-muted/25"}>
+                        <td className="p-6 font-medium text-foreground font-inter">{row.channel}</td>
+                        <td className="p-6 text-center text-muted-foreground font-inter">
+                          {row.standard === "✓" ? (
+                            <Check className="h-5 w-5 text-primary mx-auto" />
+                          ) : row.standard === "✗" ? (
+                            <span className="text-muted-foreground">—</span>
+                          ) : (
+                            row.standard
+                          )}
+                        </td>
+                        <td className="p-6 text-center text-muted-foreground font-inter">
+                          {row.whitelabel === "✓" ? (
+                            <Check className="h-5 w-5 text-primary mx-auto" />
+                          ) : row.whitelabel === "✗" ? (
+                            <span className="text-muted-foreground">—</span>
+                          ) : (
+                            row.whitelabel
+                          )}
+                        </td>
+                        <td className="p-6 text-center text-muted-foreground font-inter">
+                          {row.enterprise === "✓" ? (
+                            <Check className="h-5 w-5 text-primary mx-auto" />
+                          ) : row.enterprise === "✗" ? (
+                            <span className="text-muted-foreground">—</span>
+                          ) : (
+                            row.enterprise
+                          )}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
 
