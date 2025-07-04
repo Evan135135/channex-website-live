@@ -185,6 +185,13 @@ const Policy = () => {
                   </div>
 
                   <div>
+                    <h3 className="text-xl font-semibold text-foreground mb-3">11. No-Charge Products</h3>
+                    <p>
+                      We may offer certain Products to you at no charge, including free accounts, trial use, and access to Beta Versions as defined below ("No-Charge Products"). Your use of No-Charge Products is subject to any additional terms that we specify and is only permitted for the period designated by us. You may not use No-Charge Products for competitive analysis or similar purposes. We may terminate your right to use No-Charge Products at any time and for any reason in our sole discretion, without liability to you. You understand that any pre-release and beta products we make available ("Beta Versions") are still under development, may be inoperable or incomplete and are likely to contain more errors and bugs than generally available Products. We make no promises that any Beta Versions will ever be made generally available. In some circumstances, we may charge a fee in order to allow you to access Beta Versions, but the Beta Versions will still remain subject to this Section 11 (No-Charge Products). All information regarding the characteristics, features or performance of Beta Versions constitutes Channex's Confidential Information. To the maximum extent permitted by applicable law, we disclaim all obligations or liabilities with respect to No-Charge Products, including any Support and Maintenance, warranty, and indemnity obligations.
+                    </p>
+                  </div>
+
+                  <div>
                     <h3 className="text-xl font-semibold text-foreground mb-3">18. Warranty Disclaimer</h3>
                     <p className="uppercase text-sm">
                       All products are provided "as is," and Channex and its suppliers expressly disclaim any and all warranties and representations of any kind, including any warranty of non-infringement, title, fitness for a particular purpose, functionality, or merchantability, whether express, implied, or statutory.
