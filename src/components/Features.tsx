@@ -108,10 +108,12 @@ const Features = () => {
               <p className="text-muted-foreground font-inter leading-relaxed">
                 Our REST API is designed for developers, by developers. Start integrating with just a few lines of code.
               </p>
-              <Button className="bg-gradient-primary hover:shadow-primary transition-all duration-300 font-inter">
-                View Full Documentation
-                <ArrowRight size={16} className="ml-2" />
-              </Button>
+              <a href="https://docs.channex.io/" target="_blank" rel="noopener noreferrer">
+                <Button className="bg-gradient-primary hover:shadow-primary transition-all duration-300 font-inter">
+                  View Full Documentation
+                  <ArrowRight size={16} className="ml-2" />
+                </Button>
+              </a>
             </div>
             
             <div className="bg-slate-900 rounded-lg p-6 overflow-hidden">
