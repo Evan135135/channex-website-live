@@ -9,6 +9,7 @@ import Features from "./pages/Features";
 import Integrations from "./pages/Integrations";
 import IntegrationDetail from "./pages/IntegrationDetail";
 import Contact from "./pages/Contact";
+import Policy from "./pages/Policy";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/integrations" element={<Integrations />} />
           <Route path="/integrations/:slug" element={<IntegrationDetail />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/policy" element={<Policy />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
