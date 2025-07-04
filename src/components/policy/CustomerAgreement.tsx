@@ -267,6 +267,7 @@ const CustomerAgreement = () => {
               <p>
                 <strong>24.4 Exclusion of UN Convention and UCITA.</strong> The terms of the United Nations Convention on Contracts for the Sale of Goods do not apply to this Agreement. The Uniform Computer Information Transactions Act (UCITA) shall not apply to this Agreement regardless of when or where adopted.
               </p>
+            </div>
           </div>
 
           <div>
