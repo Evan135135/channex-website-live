@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Check, CreditCard, Shield, RefreshCw } from "lucide-react";
+import { Check, CreditCard, Shield, RefreshCw, X } from "lucide-react";
 
 const Pricing = () => {
   const plans = [
@@ -95,7 +95,11 @@ const Pricing = () => {
                   <ul className="space-y-3">
                     {plan.features.map((feature, featureIndex) => (
                       <li key={featureIndex} className="flex items-center space-x-3">
-                        <Check className="h-5 w-5 text-primary flex-shrink-0" />
+                        {feature === "No API access" ? (
+                          <X className="h-5 w-5 text-red-500 flex-shrink-0" />
+                        ) : (
+                          <Check className="h-5 w-5 text-primary flex-shrink-0" />
+                        )}
                         <span className="text-muted-foreground font-inter">{feature}</span>
                       </li>
                     ))}
