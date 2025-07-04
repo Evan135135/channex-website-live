@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PolicyNavigation from "@/components/policy/PolicyNavigation";
@@ -8,6 +10,20 @@ import SecurityPolicy from "@/components/policy/SecurityPolicy";
 import PolicyContact from "@/components/policy/PolicyContact";
 
 const Policy = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      // Small delay to ensure the page has loaded
+      setTimeout(() => {
+        const element = document.getElementById(location.hash.slice(1));
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    }
+  }, [location]);
+
   return (
     <div className="min-h-screen bg-background">
       <Header />
