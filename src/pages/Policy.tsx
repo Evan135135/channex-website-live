@@ -80,6 +80,9 @@ const Policy = () => {
                     <p>
                       4.1 Directly with Channex. Channex's Product ordering documentation or purchase flow ("Order") will specify your authorised scope of use for the Products, which may include: (a) number and type of Authorised Users (as defined below), (b) storage or capacity (for Hosted Services), (c) numbers of licenses, copies or instances (for Software), or (d) other restrictions or billable units (as applicable, the "Scope of Use"). The term "Order" also includes any applicable Product or Support and Maintenance renewal, or purchases you make to increase or upgrade your Scope of Use.
                     </p>
+                    <p>
+                      4.2 Reseller Orders. This Agreement applies whether you purchase our Products directly from Channex or through authorised resellers (each, a "Reseller"). If you purchase through a Reseller, your Scope of Use shall be as stated in the Order placed by Reseller for you, and Reseller is responsible for the accuracy of any such Order. Resellers are not authorised to make any promises or commitments on Channex's behalf, and we are not bound by any obligations to you other than what we specify in this Agreement.
+                    </p>
                   </div>
 
                   <div>
