@@ -175,6 +175,13 @@ const CustomerAgreement = () => {
           </div>
 
           <div>
+            <h3 className="text-xl font-semibold text-foreground mb-3">14. License Certifications and Audits</h3>
+            <p>
+              At our request, you agree to provide a signed certification that you are using all Products pursuant to the terms of this Agreement, including the Scope of Use. You agree to allow us, or our authorised agent, to audit your use of the Products. We will provide you with at least 10 days advance notice prior to the audit, and the audit will be conducted during normal business hours. We will bear all out-of-pocket costs that we incur for the audit, unless the audit reveals that you have exceeded the Scope of Use. You will provide reasonable assistance, cooperation, and access to relevant information in the course of any audit at your own cost. If you exceed your Scope of Use, we may invoice you for any past or ongoing excessive use, and you will pay the invoice promptly after receipt. This remedy is without prejudice to any other remedies available to Channex at law or equity or under this Agreement. To the extent we are obligated to do so, we may share audit results with certain of our third party licensors or assign the audit rights specified in this Section to such licensors.
+            </p>
+          </div>
+
+          <div>
             <h3 className="text-xl font-semibold text-foreground mb-3">18. Warranty Disclaimer</h3>
             <p className="uppercase text-sm">
               All products are provided "as is," and Channex and its suppliers expressly disclaim any and all warranties and representations of any kind, including any warranty of non-infringement, title, fitness for a particular purpose, functionality, or merchantability, whether express, implied, or statutory.
