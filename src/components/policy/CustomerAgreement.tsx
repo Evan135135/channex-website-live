@@ -189,6 +189,13 @@ const CustomerAgreement = () => {
           </div>
 
           <div>
+            <h3 className="text-xl font-semibold text-foreground mb-3">16. Confidentiality</h3>
+            <p>
+              Except as otherwise set forth in this Agreement, each party agrees that all code, inventions, know-how, business, technical and financial information disclosed to such party ("Receiving Party") by the disclosing party ("Disclosing Party") constitute the confidential property of the Disclosing Party ("Confidential Information"), provided that it is identified as confidential at the time of disclosure. Any Channex Technology and any performance information relating to the Products shall be deemed Confidential Information of Channex without any marking or further designation. Except as expressly authorised herein, the Receiving Party will hold in confidence and not use or disclose any Confidential Information. The Receiving Party's nondisclosure obligation shall not apply to information which the Receiving Party can document: (i) was rightfully in its possession or known to it prior to receipt of the Confidential Information; (ii) is or has become public knowledge through no fault of the Receiving Party; (iii) is rightfully obtained by the Receiving Party from a third party without breach of any confidentiality obligation; or (iv) is independently developed by employees of the Receiving Party who had no access to such information. The Receiving Party may also disclose Confidential Information if so required pursuant to a regulation, law or court order (but only to the minimum extent required to comply with such regulation or order and with advance notice to the Disclosing Party). The Receiving Party acknowledges that disclosure of Confidential Information would cause substantial harm for which damages alone would not be a sufficient remedy, and therefore that upon any such disclosure by the Receiving Party the Disclosing Party shall be entitled to appropriate equitable relief in addition to whatever other remedies it might have at law. For the avoidance of doubt, this Section shall not operate as a separate warranty with respect to the operation of any Product.
+            </p>
+          </div>
+
+          <div>
             <h3 className="text-xl font-semibold text-foreground mb-3">18. Warranty Disclaimer</h3>
             <p className="uppercase text-sm">
               All products are provided "as is," and Channex and its suppliers expressly disclaim any and all warranties and representations of any kind, including any warranty of non-infringement, title, fitness for a particular purpose, functionality, or merchantability, whether express, implied, or statutory.
