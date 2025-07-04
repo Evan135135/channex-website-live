@@ -27,8 +27,8 @@ const Features = () => {
     {
       icon: Shield,
       title: "Enterprise Security",
-      description: "Bank-grade security with OAuth 2.0, webhook signatures, and SOC 2 compliance.",
-      highlight: "SOC 2 Compliant"
+      description: "Bank-grade security with OAuth 2.0, webhook signatures, and PCI compliance.",
+      highlight: "PCI Compliant"
     },
     {
       icon: Globe,
