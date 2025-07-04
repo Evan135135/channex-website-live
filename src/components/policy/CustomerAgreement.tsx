@@ -163,6 +163,18 @@ const CustomerAgreement = () => {
           </div>
 
           <div>
+            <h3 className="text-xl font-semibold text-foreground mb-3">13. Your Development of Add-Ons</h3>
+            <div className="space-y-4">
+              <p>
+                <strong>13.1 License to Developer Guides.</strong> From time to time, Channex may publish SDK's or API's and associated guidelines ("Developer Guides") to allow you to develop plugins, extensions, add-ons or other software products or services that interoperate or are integrated with the Products ("Add-Ons"). You may distribute your Add-Ons to third parties, but only for those Products permitted by Channex, and only in accordance with the Developer Guides.
+              </p>
+              <p>
+                <strong>13.2 Conditions to Development of Add-Ons.</strong> Notwithstanding anything in this Agreement to the contrary, Channex has no support, warranty, indemnification or other obligation or liability with respect to your Add-Ons or their combination, interaction or use with the Products. You shall indemnify, defend and hold us harmless from and against any and all claims, costs, damages, losses, liabilities and expenses (including reasonable attorneys' fees and costs) arising out of or in connection with any claim brought against us by a third party relating to your Add-Ons (including but not limited to any representations or warranties you make about your Add-Ons) or your breach of this Section.
+              </p>
+            </div>
+          </div>
+
+          <div>
             <h3 className="text-xl font-semibold text-foreground mb-3">18. Warranty Disclaimer</h3>
             <p className="uppercase text-sm">
               All products are provided "as is," and Channex and its suppliers expressly disclaim any and all warranties and representations of any kind, including any warranty of non-infringement, title, fitness for a particular purpose, functionality, or merchantability, whether express, implied, or statutory.
