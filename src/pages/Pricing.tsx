@@ -130,8 +130,8 @@ const Pricing = () => {
                 </thead>
                 <tbody>
                   {[
-                    { feature: "Hotels Fee (Per Property)", standard: "$50", whitelabel: "Contact", enterprise: "Contact" },
-                    { feature: "Vacation Rental Fee (Per unit)", standard: "$4", whitelabel: "Contact", enterprise: "Contact" },
+                    { feature: "Hotels Fee (Per Property)", standard: "$50", whitelabel: "$7", enterprise: "Contact" },
+                    { feature: "Vacation Rental Fee (Per unit)", standard: "$4", whitelabel: "$0.50", enterprise: "Contact" },
                     { feature: "Dashboard", standard: "✓", whitelabel: "✓", enterprise: "✓" },
                     { feature: "PMS Integration", standard: "✓", whitelabel: "✓", enterprise: "✓" },
                     { feature: "Channel Reports", standard: "✓", whitelabel: "✓", enterprise: "✓" },
