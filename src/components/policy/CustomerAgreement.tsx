@@ -156,6 +156,13 @@ const CustomerAgreement = () => {
           </div>
 
           <div>
+            <h3 className="text-xl font-semibold text-foreground mb-3">12. Restrictions</h3>
+            <p>
+              Except as otherwise expressly permitted in this Agreement, you will not: (a) rent, lease, reproduce, modify, adapt, create derivative works of, distribute, sell, sublicense, transfer, or provide access to the Products to a third party, (b) use the Products for the benefit of any third party, (c) incorporate any Products into a product or service you provide to a third party, (d) interfere with any license key mechanism in the Products or otherwise circumvent mechanisms in the Products intended to limit your use, (e) reverse engineer, disassemble, decompile, translate, or otherwise seek to obtain or derive the source code, underlying ideas, algorithms, file formats or non-public APIs to any Products, except as permitted by law, (f) remove or obscure any proprietary or other notices contained in any Product, or (g) publicly disseminate information regarding the performance of the Products.
+            </p>
+          </div>
+
+          <div>
             <h3 className="text-xl font-semibold text-foreground mb-3">18. Warranty Disclaimer</h3>
             <p className="uppercase text-sm">
               All products are provided "as is," and Channex and its suppliers expressly disclaim any and all warranties and representations of any kind, including any warranty of non-infringement, title, fitness for a particular purpose, functionality, or merchantability, whether express, implied, or statutory.
