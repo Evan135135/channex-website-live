@@ -27,7 +27,7 @@ const Features = () => {
     {
       icon: Shield,
       title: "Enterprise Security",
-      description: "Bank-grade security with OAuth 2.0, webhook signatures, and PCI compliance.",
+      description: "Channex follows industry-standard security practices to help keep your PMS platform and customers protected.",
       highlight: "PCI Compliant"
     },
     {
