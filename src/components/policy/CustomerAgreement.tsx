@@ -343,6 +343,32 @@ const CustomerAgreement = () => {
               </p>
             </div>
           </div>
+
+          <div>
+            <h3 className="text-xl font-semibold text-foreground mb-3">29. Modifications</h3>
+            <div className="space-y-4">
+              <p>
+                We may revise these Terms from time to time to better reflect:
+              </p>
+              <div className="ml-4 space-y-2">
+                <p>(a) changes to the law,</p>
+                <p>(b) new regulatory requirements, or</p>
+                <p>(c) improvements or enhancements made to our Services.</p>
+              </div>
+              <p>
+                If an update affects your use of the Services or your legal rights as a user of our Services, we'll notify you prior to the update's effective date by sending an email to the email address associated with your account or via an in-product notification. These updated terms will be effective no less than 30 days from when we notify you.
+              </p>
+              <p>
+                If you don't agree to the updates we make, please cancel your account before they become effective.
+              </p>
+              <p>
+                Where applicable, we'll offer you a pro rata refund based on the amounts you have prepaid for Services and your account cancellation date.
+              </p>
+              <p>
+                By continuing to use or access the Services after the updates come into effect, you agree to be bound by the revised Terms.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
