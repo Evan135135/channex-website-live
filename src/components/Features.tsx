@@ -45,7 +45,7 @@ const Features = () => {
     {
       icon: Smartphone,
       title: "White Label Ready",
-      description: "Fully customizable interface that seamlessly integrates with your existing PMS brand.",
+      description: "An API that lets you build the entire experience directly into your own UI.",
       highlight: "Your brand"
     }
   ];
