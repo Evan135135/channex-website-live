@@ -162,6 +162,13 @@ const Policy = () => {
                   </div>
 
                   <div>
+                    <h3 className="text-xl font-semibold text-foreground mb-3">9. TAM and Training Services</h3>
+                    <p>
+                      We will provide Technical Account Manager (TAM) and training services purchased in an Order in accordance with the descriptions and conditions for those services set forth in the Order and the accompanying service descriptions or datasheets ("Ancillary Services"). Channex shall retain all right, title and interest in and to any materials, deliverables, modifications, derivative works or developments related to any training services we provide ("Training Materials"). Any Training Materials provided to you may be used only in connection with the Products subject to the same use restrictions for the Products. If applicable, you will reimburse Channex for reasonable travel and lodging expenses as incurred.
+                    </p>
+                  </div>
+
+                  <div>
                     <h3 className="text-xl font-semibold text-foreground mb-3">18. Warranty Disclaimer</h3>
                     <p className="uppercase text-sm">
                       All products are provided "as is," and Channex and its suppliers expressly disclaim any and all warranties and representations of any kind, including any warranty of non-infringement, title, fitness for a particular purpose, functionality, or merchantability, whether express, implied, or statutory.
