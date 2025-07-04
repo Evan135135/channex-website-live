@@ -142,7 +142,7 @@ const Pricing = () => {
                     { feature: "Support via Chat & Email", standard: "✓", whitelabel: "✓", enterprise: "✓" },
                     { feature: "Unlimited Users", standard: "✓", whitelabel: "✓", enterprise: "✓" },
                     { feature: "Onboarding & Training", standard: "✓", whitelabel: "✓", enterprise: "✓" },
-                    { feature: "Messaging & Reviews App", standard: "Included", whitelabel: "Contact", enterprise: "✓" },
+                    { feature: "Messaging & Reviews App", standard: "Included", whitelabel: "$7 / $0.50", enterprise: "✓" },
                     { feature: "Channel and Mapping API", standard: "✗", whitelabel: "✓", enterprise: "✓" },
                     { feature: "Custom Billing", standard: "✗", whitelabel: "✗", enterprise: "✓" }
                   ].map((row, index) => (
