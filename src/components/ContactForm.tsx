@@ -26,30 +26,34 @@ const ContactForm = () => {
     reset,
   } = useForm<ContactFormData>();
 
-  const onSubmit = async (data: ContactFormData) => {
-    setIsSubmitting(true);
+  const onSubmit = (data: ContactFormData) => {
+    const subject = `Contact Form Submission from ${data.company}`;
+    const body = `
+Hello,
+
+I would like to get in touch regarding Channex integration.
+
+Name: ${data.firstName} ${data.lastName}
+Company: ${data.company}
+Email: ${data.email}
+
+Message:
+${data.message}
+
+Best regards,
+${data.firstName} ${data.lastName}
+    `.trim();
     
-    try {
-      // Simulate form submission delay
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      
-      console.log("Form submitted:", data);
-      
-      toast({
-        title: "Message sent successfully!",
-        description: "Thank you for your interest. We'll get back to you within 24 hours.",
-      });
-      
-      reset();
-    } catch (error) {
-      toast({
-        title: "Failed to send message",
-        description: "Please try again or contact us directly at hello@channex.io",
-        variant: "destructive",
-      });
-    } finally {
-      setIsSubmitting(false);
-    }
+    const mailtoLink = `mailto:hello@channex.io?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    
+    window.open(mailtoLink, '_self');
+    
+    toast({
+      title: "Opening email client...",
+      description: "Your default email application should open with the message pre-filled.",
+    });
+    
+    reset();
   };
 
   return (
