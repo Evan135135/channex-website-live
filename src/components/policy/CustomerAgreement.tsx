@@ -267,7 +267,13 @@ const CustomerAgreement = () => {
               <p>
                 <strong>24.4 Exclusion of UN Convention and UCITA.</strong> The terms of the United Nations Convention on Contracts for the Sale of Goods do not apply to this Agreement. The Uniform Computer Information Transactions Act (UCITA) shall not apply to this Agreement regardless of when or where adopted.
               </p>
-            </div>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-semibold text-foreground mb-3">25. Changes to this Agreement</h3>
+            <p>
+              We may update or modify this Agreement from time to time, including any referenced policies and other documents. If a revision meaningfully reduces your rights, we will use reasonable efforts to notify you (by, for example, sending an email to the billing or technical contact you designate in the applicable Order, posting on our blog, through your Channex account, or in the Product itself). If we modify the Agreement during your License Term or Subscription Term, the modified version will be effective upon your next renewal of a License Term, Support and Maintenance term, or Subscription Term, as applicable. In this case, if you object to the updated Agreement, as your exclusive remedy, you may choose not to renew, including cancelling any terms set to auto-renew. With respect to No-Charge Products, accepting the updated Agreement is required for you to continue using the No-Charge Products. You may be required to click through the updated Agreement to show your acceptance. If you do not agree to the updated Agreement after it becomes effective, you will no longer have a right to use No-Charge Products. For the avoidance of doubt, any Order is subject to the version of the Agreement in effect at the time of the Order.
+            </p>
           </div>
         </div>
       </div>
