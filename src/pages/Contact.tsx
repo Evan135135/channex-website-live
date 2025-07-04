@@ -57,7 +57,7 @@ const Contact = () => {
                   <div className="space-y-1">
                     <h3 className="font-semibold text-foreground font-inter">Live Chat</h3>
                     <p className="text-muted-foreground font-inter">Available 24/7</p>
-                    <p className="text-sm text-muted-foreground font-inter">Instant technical support</p>
+                    <p className="text-sm text-muted-foreground font-inter">Fast technical support</p>
                   </div>
                 </div>
 
