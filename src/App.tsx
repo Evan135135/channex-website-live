@@ -10,6 +10,7 @@ import Integrations from "./pages/Integrations";
 import IntegrationDetail from "./pages/IntegrationDetail";
 import Contact from "./pages/Contact";
 import Policy from "./pages/Policy";
+import Pricing from "./pages/Pricing";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -29,6 +30,7 @@ const App = () => (
           <Route path="/integrations" element={<Integrations />} />
           <Route path="/integrations/:slug" element={<IntegrationDetail />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/pricing" element={<Pricing />} />
           <Route path="/policy" element={<Policy />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

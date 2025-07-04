@@ -31,9 +31,9 @@ const Header = () => {
           <a href="#api" className="text-muted-foreground hover:text-foreground transition-colors font-inter">
             API Docs
           </a>
-          <a href="#pricing" className="text-muted-foreground hover:text-foreground transition-colors font-inter">
+          <Link to="/pricing" className="text-muted-foreground hover:text-foreground transition-colors font-inter">
             Pricing
-          </a>
+          </Link>
         </nav>
 
         {/* Desktop CTA */}
@@ -71,9 +71,9 @@ const Header = () => {
             <a href="#api" className="block text-muted-foreground hover:text-foreground transition-colors font-inter">
               API Docs
             </a>
-            <a href="#pricing" className="block text-muted-foreground hover:text-foreground transition-colors font-inter">
+            <Link to="/pricing" className="block text-muted-foreground hover:text-foreground transition-colors font-inter">
               Pricing
-            </a>
+            </Link>
             <div className="pt-4 space-y-2">
               <Button variant="ghost" className="w-full justify-start font-inter">
                 Login
