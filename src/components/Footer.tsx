@@ -37,7 +37,7 @@ const Footer = () => {
             <ul className="space-y-2 text-slate-400">
               <li><a href="https://docs.channex.io/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors font-inter">API Documentation</a></li>
               <li><a href="/integrations" className="hover:text-white transition-colors font-inter">Integrations</a></li>
-              <li><a href="#" className="hover:text-white transition-colors font-inter">Staging Environment</a></li>
+              <li><a href="https://staging.channex.io/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors font-inter">Staging Environment</a></li>
               <li><a href="#" className="hover:text-white transition-colors font-inter">Status Page</a></li>
             </ul>
           </div>
