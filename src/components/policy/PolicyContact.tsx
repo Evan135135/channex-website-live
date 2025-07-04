@@ -6,8 +6,8 @@ const PolicyContact = () => {
       </h3>
       <p className="text-muted-foreground font-inter">
         If you have any questions about these terms and policies, please contact us at{" "}
-        <a href="mailto:legal@channex.io" className="text-primary hover:text-primary/80">
-          legal@channex.io
+        <a href="mailto:hello@channex.io" className="text-primary hover:text-primary/80">
+          hello@channex.io
         </a>
       </p>
     </div>
