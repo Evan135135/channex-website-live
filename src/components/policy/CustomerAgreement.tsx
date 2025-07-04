@@ -248,6 +248,27 @@ const CustomerAgreement = () => {
               We are always striving to improve our Products. In order to do so, we need to measure, analyse, and aggregate how users interact with our Products, such as usage patterns and characteristics of our user base. We collect and use analytics data regarding the use of our Products as described in our Privacy Policy.
             </p>
           </div>
+
+          <div>
+            <h3 className="text-xl font-semibold text-foreground mb-3">24. Dispute Resolution</h3>
+            <div className="space-y-4">
+              <p>
+                <strong>24.1 Dispute Resolution; Arbitration.</strong> In the event of any controversy or claim arising out of or relating to this Agreement, the parties hereto shall consult and negotiate with each other and, recognising their mutual interests, attempt to reach a solution satisfactory to both parties. If the parties do not reach settlement within a period of 60 days, any unresolved controversy or claim arising out of or relating to this Agreement shall proceed to binding arbitration under the Rules of Arbitration of the International Chamber of Commerce. The parties shall seek to mutually appoint an arbitrator. If the parties cannot agree on a single arbitrator, then there shall be three (3) arbitrators: one selected by each party, and a third selected by the first two. Arbitration will take place in the following cities as mutually agreed between the parties: London (UK). All negotiations and arbitration proceedings pursuant to this Section will be confidential and treated as compromise and settlement negotiations for purposes of all similar rules and codes of evidence of applicable legislation and jurisdictions. The language of the arbitration shall be English.
+              </p>
+              <p>
+                <strong>24.2 Governing Law; Jurisdiction.</strong> This Agreement will be governed by and construed in accordance with the applicable laws of the United Kingdom.
+              </p>
+              <p>
+                Channex may bring a claim for equitable relief in any court with proper jurisdiction.
+              </p>
+              <p>
+                <strong>24.3 Injunctive Relief; Enforcement.</strong> Notwithstanding the provisions of Section 24.1 (Dispute Resolution; Arbitration), nothing in this Agreement shall prevent either party from seeking injunctive relief with respect to a violation of intellectual property rights, confidentiality obligations or enforcement or recognition of any award or order in any appropriate jurisdiction.
+              </p>
+              <p>
+                <strong>24.4 Exclusion of UN Convention and UCITA.</strong> The terms of the United Nations Convention on Contracts for the Sale of Goods do not apply to this Agreement. The Uniform Computer Information Transactions Act (UCITA) shall not apply to this Agreement regardless of when or where adopted.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
