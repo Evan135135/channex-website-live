@@ -3,10 +3,8 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
 import { Mail, MessageSquare, Phone, ArrowRight } from "lucide-react";
-
 const Contact = () => {
-  return (
-    <section id="contact" className="py-20 bg-background">
+  return <section id="contact" className="py-20 bg-background">
       <div className="container mx-auto px-4 lg:px-6">
         <div className="text-center space-y-6 mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground font-inter">
@@ -14,9 +12,7 @@ const Contact = () => {
             <span className="bg-gradient-primary bg-clip-text text-transparent"> Get Started?</span>
           </h2>
           
-          <p className="text-xl text-muted-foreground font-inter max-w-2xl mx-auto">
-            Join thousands of PMS providers already using Channex to connect their properties worldwide.
-          </p>
+          <p className="text-xl text-muted-foreground font-inter max-w-2xl mx-auto">Join hundreds of PMS providers already using Channex to connect their properties worldwide.</p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
@@ -38,19 +34,13 @@ const Contact = () => {
                     <label className="text-sm font-medium text-foreground font-inter">
                       First Name
                     </label>
-                    <Input 
-                      placeholder="John" 
-                      className="border-border/50 focus:border-primary/50 font-inter"
-                    />
+                    <Input placeholder="John" className="border-border/50 focus:border-primary/50 font-inter" />
                   </div>
                   <div className="space-y-2">
                     <label className="text-sm font-medium text-foreground font-inter">
                       Last Name
                     </label>
-                    <Input 
-                      placeholder="Doe" 
-                      className="border-border/50 focus:border-primary/50 font-inter"
-                    />
+                    <Input placeholder="Doe" className="border-border/50 focus:border-primary/50 font-inter" />
                   </div>
                 </div>
 
@@ -58,39 +48,24 @@ const Contact = () => {
                   <label className="text-sm font-medium text-foreground font-inter">
                     Company Email
                   </label>
-                  <Input 
-                    type="email" 
-                    placeholder="john@company.com" 
-                    className="border-border/50 focus:border-primary/50 font-inter"
-                  />
+                  <Input type="email" placeholder="john@company.com" className="border-border/50 focus:border-primary/50 font-inter" />
                 </div>
 
                 <div className="space-y-2">
                   <label className="text-sm font-medium text-foreground font-inter">
                     Company Name
                   </label>
-                  <Input 
-                    placeholder="Your PMS Company" 
-                    className="border-border/50 focus:border-primary/50 font-inter"
-                  />
+                  <Input placeholder="Your PMS Company" className="border-border/50 focus:border-primary/50 font-inter" />
                 </div>
 
                 <div className="space-y-2">
                   <label className="text-sm font-medium text-foreground font-inter">
                     Message
                   </label>
-                  <Textarea 
-                    placeholder="Tell us about your integration needs..."
-                    rows={4}
-                    className="border-border/50 focus:border-primary/50 font-inter resize-none"
-                  />
+                  <Textarea placeholder="Tell us about your integration needs..." rows={4} className="border-border/50 focus:border-primary/50 font-inter resize-none" />
                 </div>
 
-                <Button 
-                  type="submit" 
-                  className="w-full bg-gradient-primary hover:shadow-primary transition-all duration-300 font-inter"
-                  size="lg"
-                >
+                <Button type="submit" className="w-full bg-gradient-primary hover:shadow-primary transition-all duration-300 font-inter" size="lg">
                   Send Message
                   <ArrowRight size={16} className="ml-2" />
                 </Button>
@@ -159,8 +134,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Contact;
