@@ -39,7 +39,7 @@ const Features = () => {
     {
       icon: BarChart3,
       title: "Real-time Analytics",
-      description: "Monitor API usage, booking performance, and channel health with detailed dashboards.",
+      description: "Monitor channel errors, booking performance, and channel health with detailed dashboards.",
       highlight: "Live metrics"
     },
     {
