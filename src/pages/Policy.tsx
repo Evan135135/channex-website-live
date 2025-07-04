@@ -155,6 +155,13 @@ const Policy = () => {
                   </div>
 
                   <div>
+                    <h3 className="text-xl font-semibold text-foreground mb-3">8. Support and Maintenance</h3>
+                    <p>
+                      Channex will provide the support and maintenance services for the Products described in the Channex Support Policy ("Support and Maintenance") during the period for which you have paid the applicable fee. Support and Maintenance is subject to the terms of the Channex Support Policy and will be provided at the support level and during the support term specified in your Order. The Channex Support Policy may be modified by Channex from time to time to reflect process improvements or changing practices. Support and Maintenance for Software includes access to New Releases, if and when available. You may use any New Releases that we provide to you during a valid support term in the same way that you use Software, and New Releases are included in the definition of Software in that case. "New Releases" are bug fixes, patches, major or minor releases, or any other changes, enhancements, or modifications to the Software that we make generally commercially available.
+                    </p>
+                  </div>
+
+                  <div>
                     <h3 className="text-xl font-semibold text-foreground mb-3">18. Warranty Disclaimer</h3>
                     <p className="uppercase text-sm">
                       All products are provided "as is," and Channex and its suppliers expressly disclaim any and all warranties and representations of any kind, including any warranty of non-infringement, title, fitness for a particular purpose, functionality, or merchantability, whether express, implied, or statutory.
