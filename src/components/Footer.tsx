@@ -1,9 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Github, Twitter, Linkedin, Mail } from "lucide-react";
-
 const Footer = () => {
-  return (
-    <footer className="bg-slate-900 text-white">
+  return <footer className="bg-slate-900 text-white">
       <div className="container mx-auto px-4 lg:px-6 py-16">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand */}
@@ -49,9 +47,9 @@ const Footer = () => {
             <h3 className="font-semibold text-lg font-inter">Company</h3>
             <ul className="space-y-2 text-slate-400">
               <li><a href="#" className="hover:text-white transition-colors font-inter">About Us</a></li>
-              <li><a href="#" className="hover:text-white transition-colors font-inter">Careers</a></li>
+              
               <li><a href="#" className="hover:text-white transition-colors font-inter">Blog</a></li>
-              <li><a href="#" className="hover:text-white transition-colors font-inter">Press Kit</a></li>
+              
             </ul>
           </div>
 
@@ -80,8 +78,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
