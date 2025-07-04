@@ -203,16 +203,21 @@ const CustomerAgreement = () => {
           </div>
 
           <div>
-            <h3 className="text-xl font-semibold text-foreground mb-3">18. Warranty Disclaimer</h3>
-            <p className="uppercase text-sm">
-              All products are provided "as is," and Channex and its suppliers expressly disclaim any and all warranties and representations of any kind, including any warranty of non-infringement, title, fitness for a particular purpose, functionality, or merchantability, whether express, implied, or statutory.
-            </p>
+            <h3 className="text-xl font-semibold text-foreground mb-3">18. Representations and Warranties</h3>
+            <div className="space-y-4">
+              <p>
+                <strong>18.1 Due Authority.</strong> Each party represents and warrants that it has the legal power and authority to enter into this Agreement, and that, if you are an entity, this Agreement and each Order is entered into by an employee or agent of such party with all necessary authority to bind such party to the terms and conditions of this Agreement.
+              </p>
+              <p>
+                <strong>18.2 WARRANTY DISCLAIMER.</strong> <span className="uppercase text-sm">ALL PRODUCTS ARE PROVIDED "AS IS," AND Channex AND ITS SUPPLIERS EXPRESSLY DISCLAIM ANY AND ALL WARRANTIES AND REPRESENTATIONS OF ANY KIND, INCLUDING ANY WARRANTY OF NON-INFRINGEMENT, TITLE, FITNESS FOR A PARTICULAR PURPOSE, FUNCTIONALITY, OR MERCHANTABILITY, WHETHER EXPRESS, IMPLIED, OR STATUTORY. YOU MAY HAVE OTHER STATUTORY RIGHTS, BUT THE DURATION OF STATUTORILY REQUIRED WARRANTIES, IF ANY, SHALL BE LIMITED TO THE SHORTEST PERIOD PERMITTED BY LAW. Channex SHALL NOT BE LIABLE FOR DELAYS, INTERRUPTIONS, SERVICE FAILURES AND OTHER PROBLEMS INHERENT IN USE OF THE INTERNET AND ELECTRONIC COMMUNICATIONS OR OTHER SYSTEMS OUTSIDE THE REASONABLE CONTROL OF Channex. TO THE MAXIMUM EXTENT PERMITTED BY LAW, NEITHER Channex NOR ANY OF ITS THIRD PARTY SUPPLIERS MAKES ANY REPRESENTATION, WARRANTY OR GUARANTEE AS TO THE RELIABILITY, TIMELINESS, QUALITY, SUITABILITY, TRUTH, AVAILABILITY, ACCURACY OR COMPLETENESS OF ANY PRODUCTS OR ANY CONTENT THEREIN OR GENERATED THEREWITH, OR THAT: (A) THE USE OF ANY PRODUCTS WILL BE SECURE, TIMELY, UNINTERRUPTED OR ERROR-FREE; (B) THE PRODUCTS WILL OPERATE IN COMBINATION WITH ANY OTHER HARDWARE, SOFTWARE, SYSTEM, OR DATA; (C) THE PRODUCTS (OR ANY PRODUCTS, SERVICES, INFORMATION, OR OTHER MATERIAL PURCHASED OR OBTAINED BY YOU THROUGH THE PRODUCTS) WILL MEET YOUR REQUIREMENTS OR EXPECTATIONS); (D) ANY STORED DATA WILL BE ACCURATE OR RELIABLE OR THAT ANY STORED DATA WILL NOT BE LOST OR CORRUPTED; (E) ERRORS OR DEFECTS WILL BE CORRECTED; OR (F) THE PRODUCTS (OR ANY SERVER(S) THAT MAKE A HOSTED SERVICE AVAILABLE) ARE FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS.</span>
+              </p>
+            </div>
           </div>
 
           <div>
             <h3 className="text-xl font-semibold text-foreground mb-3">19. Limitation of Liability</h3>
             <p className="uppercase text-sm">
-              Neither party shall be liable for any indirect, special, incidental, reliance or consequential damages of any kind, regardless of the form of action. Neither party's aggregate liability to the other shall exceed the amount actually paid by you to us for products and support and maintenance in the 12 months immediately preceding the claim.
+              NEITHER PARTY (NOR ITS SUPPLIERS) SHALL BE LIABLE FOR ANY LOSS OF USE, LOST OR INACCURATE DATA, FAILURE OF SECURITY MECHANISMS, INTERRUPTION OF BUSINESS, COSTS OF DELAY OR ANY INDIRECT, SPECIAL, INCIDENTAL, RELIANCE OR CONSEQUENTIAL DAMAGES OF ANY KIND (INCLUDING LOST PROFITS), REGARDLESS OF THE FORM OF ACTION, WHETHER IN CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY OR OTHERWISE, EVEN IF INFORMED OF THE POSSIBILITY OF SUCH DAMAGES IN ADVANCE. NEITHER PARTY'S AGGREGATE LIABILITY TO THE OTHER SHALL EXCEED THE AMOUNT ACTUALLY PAID BY YOU TO US FOR PRODUCTS AND SUPPORT AND MAINTENANCE IN THE 12 MONTHS IMMEDIATELY PRECEDING THE CLAIM. NOTWITHSTANDING ANYTHING ELSE IN THIS AGREEMENT, OUR AGGREGATE LIABILITY TO YOU IN RESPECT OF NO-CHARGE PRODUCTS SHALL BE US$20. THIS SECTION 19 (LIMITATION OF LIABILITY) SHALL NOT APPLY TO (1) AMOUNTS OWED BY YOU UNDER ANY ORDERS, (2) EITHER PARTY'S EXPRESS INDEMNIFICATION OBLIGATIONS IN THIS AGREEMENT, OR (3) YOUR BREACH OF SECTION 12 (RESTRICTIONS) OR SECTION 2 (COMBINING THE PRODUCTS WITH OPEN SOURCE SOFTWARE) OF THIRD PARTY CODE IN Channex PRODUCTS). TO THE MAXIMUM EXTENT PERMITTED BY LAW, NO SUPPLIERS OF ANY THIRD PARTY COMPONENTS INCLUDED IN THE PRODUCTS WILL BE LIABLE TO YOU FOR ANY DAMAGES WHATSOEVER. The parties agree that the limitations specified in this Section 19 (Limitation of Liability) will survive and apply even if any limited remedy specified in this Agreement is found to have failed of its essential purpose.
             </p>
           </div>
         </div>
