@@ -134,6 +134,7 @@ const Pricing = () => {
                     { feature: "Vacation Rental Fee (Per unit)", standard: "$4", whitelabel: "$0.50", enterprise: "Contact" },
                     { feature: "Dashboard", standard: "✓", whitelabel: "✓", enterprise: "✓" },
                     { feature: "PMS Integration", standard: "✓", whitelabel: "✓", enterprise: "✓" },
+                    { feature: "API Access", standard: "✗", whitelabel: "✓", enterprise: "✓" },
                     { feature: "Channel Reports", standard: "✓", whitelabel: "✓", enterprise: "✓" },
                     { feature: "Support via Chat & Email", standard: "✓", whitelabel: "✓", enterprise: "✓" },
                     { feature: "Unlimited Users", standard: "✓", whitelabel: "✓", enterprise: "✓" },
