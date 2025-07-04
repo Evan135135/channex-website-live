@@ -14,11 +14,11 @@ const Pricing = () => {
       description: "For Individual properties such as hotels and Vacation Rentals to work directly with Channex",
       popular: true,
       features: [
-        "Individual property management",
-        "Direct hotel integration",
-        "Vacation rental support",
-        "Basic channel management",
-        "Standard support"
+        "Mews or Apaleo PMS Connection",
+        "No API access",
+        "Channel Manager",
+        "Messages And Reviews",
+        "Standard Support"
       ]
     },
     {
