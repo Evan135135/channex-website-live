@@ -112,6 +112,75 @@ const Pricing = () => {
             ))}
           </div>
 
+          {/* Feature Comparison Table */}
+          <div className="mb-20">
+            <h2 className="text-3xl font-bold text-center text-foreground mb-12 font-inter">
+              Feature Comparison
+            </h2>
+            
+            <div className="overflow-x-auto">
+              <table className="w-full border border-border rounded-lg overflow-hidden">
+                <thead>
+                  <tr className="bg-muted/50">
+                    <th className="text-left p-6 font-semibold text-foreground font-inter">Features</th>
+                    <th className="text-center p-6 font-semibold text-foreground font-inter">Standard</th>
+                    <th className="text-center p-6 font-semibold text-foreground font-inter">WhiteLabel</th>
+                    <th className="text-center p-6 font-semibold text-foreground font-inter">Enterprise</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    { feature: "Properties", standard: "Unlimited", whitelabel: "Unlimited", enterprise: "Unlimited" },
+                    { feature: "Channel Connections", standard: "Basic channels", whitelabel: "All channels", enterprise: "All channels + Custom" },
+                    { feature: "API Access", standard: "✓", whitelabel: "✓", enterprise: "✓" },
+                    { feature: "Rate & Inventory Management", standard: "✓", whitelabel: "✓", enterprise: "✓" },
+                    { feature: "Booking Management", standard: "✓", whitelabel: "✓", enterprise: "✓" },
+                    { feature: "White-label Solution", standard: "✗", whitelabel: "✓", enterprise: "✓" },
+                    { feature: "Custom Branding", standard: "✗", whitelabel: "✓", enterprise: "✓" },
+                    { feature: "Staging Environment", standard: "✓", whitelabel: "✓", enterprise: "✓" },
+                    { feature: "Webhooks", standard: "Basic", whitelabel: "Advanced", enterprise: "Custom" },
+                    { feature: "Support Level", standard: "Standard", whitelabel: "Priority", enterprise: "Dedicated" },
+                    { feature: "SLA Guarantee", standard: "✗", whitelabel: "99.5%", enterprise: "99.9%" },
+                    { feature: "Custom Integrations", standard: "✗", whitelabel: "Limited", enterprise: "✓" },
+                    { feature: "Training & Onboarding", standard: "Self-service", whitelabel: "Guided", enterprise: "Full service" },
+                    { feature: "Reporting & Analytics", standard: "Basic", whitelabel: "Advanced", enterprise: "Custom" }
+                  ].map((row, index) => (
+                    <tr key={index} className={index % 2 === 0 ? "bg-background" : "bg-muted/25"}>
+                      <td className="p-6 font-medium text-foreground font-inter">{row.feature}</td>
+                      <td className="p-6 text-center text-muted-foreground font-inter">
+                        {row.standard === "✓" ? (
+                          <Check className="h-5 w-5 text-primary mx-auto" />
+                        ) : row.standard === "✗" ? (
+                          <span className="text-muted-foreground">—</span>
+                        ) : (
+                          row.standard
+                        )}
+                      </td>
+                      <td className="p-6 text-center text-muted-foreground font-inter">
+                        {row.whitelabel === "✓" ? (
+                          <Check className="h-5 w-5 text-primary mx-auto" />
+                        ) : row.whitelabel === "✗" ? (
+                          <span className="text-muted-foreground">—</span>
+                        ) : (
+                          row.whitelabel
+                        )}
+                      </td>
+                      <td className="p-6 text-center text-muted-foreground font-inter">
+                        {row.enterprise === "✓" ? (
+                          <Check className="h-5 w-5 text-primary mx-auto" />
+                        ) : row.enterprise === "✗" ? (
+                          <span className="text-muted-foreground">—</span>
+                        ) : (
+                          row.enterprise
+                        )}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
           {/* OTA Section */}
           <div className="text-center mb-16 p-8 bg-muted/50 rounded-lg">
             <h2 className="text-2xl font-bold text-foreground mb-4 font-inter">Are you an OTA?</h2>
