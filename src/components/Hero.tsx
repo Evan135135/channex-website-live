@@ -1,8 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Code, Zap } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 const heroImage = "https://cdn.prod.website-files.com/5feef9d9acad0185ffea8445/6005701164ecb7076b1f7cc5_Channex%20Header%20Illustration.png";
 
 const Hero = () => {
+  const navigate = useNavigate();
+
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-subtle overflow-hidden">
       {/* Background gradient orb */}
@@ -35,6 +38,7 @@ const Hero = () => {
               <Button 
                 size="lg" 
                 className="bg-gradient-primary hover:shadow-elegant transition-all duration-300 font-inter text-lg px-8 py-6 h-auto"
+                onClick={() => navigate('/contact')}
               >
                 Start Integration
                 <ArrowRight size={20} className="ml-2" />
