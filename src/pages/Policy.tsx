@@ -78,7 +78,7 @@ const Policy = () => {
                   <div>
                     <h3 className="text-xl font-semibold text-foreground mb-3">4. Orders</h3>
                     <p>
-                      Channex's Product ordering documentation or purchase flow ("Order") will specify your authorised scope of use for the Products, which may include: (a) number and type of Authorised Users, (b) storage or capacity (for Hosted Services), (c) numbers of licenses, copies or instances (for Software), or (d) other restrictions or billable units.
+                      4.1 Directly with Channex. Channex's Product ordering documentation or purchase flow ("Order") will specify your authorised scope of use for the Products, which may include: (a) number and type of Authorised Users (as defined below), (b) storage or capacity (for Hosted Services), (c) numbers of licenses, copies or instances (for Software), or (d) other restrictions or billable units (as applicable, the "Scope of Use"). The term "Order" also includes any applicable Product or Support and Maintenance renewal, or purchases you make to increase or upgrade your Scope of Use.
                     </p>
                   </div>
 
