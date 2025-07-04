@@ -182,6 +182,13 @@ const CustomerAgreement = () => {
           </div>
 
           <div>
+            <h3 className="text-xl font-semibold text-foreground mb-3">15. Ownership and Feedback</h3>
+            <p>
+              Products are made available on a limited license or access basis, and no ownership right is conveyed to you, irrespective of the use of terms such as "purchase" or "sale". Channex and its licensors have and retain all right, title and interest, including all intellectual property rights, in and to the Products (including all No-Charge Products), their "look and feel", any and all related or underlying technology, and any modifications or derivative works of the foregoing created by or for Channex, including without limitation as they may incorporate Feedback ("Channex Technology"). From time to time, you may choose to submit comments, information, questions, data, ideas, description of processes, or other information to Channex, including sharing Your Modifications or in the course of receiving Support and Maintenance ("Feedback"). Channex may in connection with any of its products or services freely use, copy, disclose, license, distribute and exploit any Feedback in any manner without any obligation, royalty or restriction based on intellectual property rights or otherwise. No Feedback will be considered your Confidential Information, and nothing in this Agreement limits Channex's right to independently use, develop, evaluate, or market products, whether incorporating Feedback or otherwise.
+            </p>
+          </div>
+
+          <div>
             <h3 className="text-xl font-semibold text-foreground mb-3">18. Warranty Disclaimer</h3>
             <p className="uppercase text-sm">
               All products are provided "as is," and Channex and its suppliers expressly disclaim any and all warranties and representations of any kind, including any warranty of non-infringement, title, fitness for a particular purpose, functionality, or merchantability, whether express, implied, or statutory.
