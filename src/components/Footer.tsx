@@ -71,7 +71,7 @@ const Footer = () => {
               © 2024 Channex. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm text-slate-400">
-              <a href="#" className="hover:text-white transition-colors font-inter">Privacy Policy</a>
+              <a href="/policy#privacy" className="hover:text-white transition-colors font-inter">Privacy Policy</a>
               <a href="#" className="hover:text-white transition-colors font-inter">Terms of Service</a>
               <a href="#" className="hover:text-white transition-colors font-inter">Cookie Policy</a>
             </div>
