@@ -356,7 +356,7 @@ const Features = () => {
               Join hundreds of PMS providers who trust Channex to power their OTA connectivity.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" variant="secondary" className="font-inter">
+              <Button size="lg" variant="secondary" className="font-inter" onClick={() => window.open('https://docs.channex.io/', '_blank')}>
                 View the API
                 <ArrowRight size={16} className="ml-2" />
               </Button>
