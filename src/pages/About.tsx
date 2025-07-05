@@ -58,6 +58,10 @@ const About = () => {
     name: "Dawwalee Davies (Tikky)",
     role: "Co-Founder",
     bio: "Deep knowledge of the hotel industry."
+  }, {
+    name: "Paloma Sanchez",
+    role: "Head of Partnerships",
+    bio: "Over 15 years experience in sales and partnerships in hotel technology."
   }];
   return <div className="min-h-screen bg-background font-inter">
       <Header />
@@ -229,6 +233,12 @@ const About = () => {
                     <img 
                       src="/lovable-uploads/b27de44c-9399-4ca2-aa2e-9d7990932c5a.png" 
                       alt="Dawwalee Davies (Tikky)"
+                      className="w-20 h-20 rounded-full mx-auto object-cover"
+                    />
+                  ) : member.name === "Paloma Sanchez" ? (
+                    <img 
+                      src="/lovable-uploads/72ae10b3-884b-4f73-8f5a-1d2acb353b9d.png" 
+                      alt="Paloma Sanchez"
                       className="w-20 h-20 rounded-full mx-auto object-cover"
                     />
                   ) : (
