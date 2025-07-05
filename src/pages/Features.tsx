@@ -360,7 +360,7 @@ const Features = () => {
                 Request API Access
                 <ArrowRight size={16} className="ml-2" />
               </Button>
-              <Button size="lg" variant="outline" className="border-white/20 text-white hover:bg-white/10 font-inter">
+              <Button size="lg" variant="outline" className="border-primary/20 text-primary hover:bg-primary/10 font-inter">
                 Talk to Sales
               </Button>
             </div>
