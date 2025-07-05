@@ -39,7 +39,7 @@ const About = () => {
     description: "From boutique hotels to enterprise chains, our infrastructure scales to meet any demand worldwide."
   }];
   const teamMembers = [{
-    name: "Alex Chen",
+    name: "Evan Davies",
     role: "CEO & Co-Founder",
     bio: "Former engineering lead at Booking.com with 10+ years in hospitality tech."
   }, {
