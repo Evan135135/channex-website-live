@@ -203,6 +203,12 @@ const About = () => {
                       alt="Evan Davies"
                       className="w-20 h-20 rounded-full mx-auto object-cover"
                     />
+                  ) : member.name === "Andrew Yudin" ? (
+                    <img 
+                      src="/lovable-uploads/c4fc7035-fd21-4f38-a290-7b8ae1bb38f9.png" 
+                      alt="Andrew Yudin"
+                      className="w-20 h-20 rounded-full mx-auto object-cover"
+                    />
                   ) : (
                     <div className="w-20 h-20 bg-gradient-primary rounded-full flex items-center justify-center mx-auto">
                       <span className="text-white font-bold text-2xl">
