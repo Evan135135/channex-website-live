@@ -197,11 +197,19 @@ const About = () => {
             animationDelay: `${index * 0.1}s`
           }}>
                 <CardContent className="p-6 space-y-4">
-                  <div className="w-20 h-20 bg-gradient-primary rounded-full flex items-center justify-center mx-auto">
-                    <span className="text-white font-bold text-2xl">
-                      {member.name.split(' ').map(n => n[0]).join('')}
-                    </span>
-                  </div>
+                  {member.name === "Evan Davies" ? (
+                    <img 
+                      src="/lovable-uploads/26a78f80-b419-46d5-8783-e6bdceba7694.png" 
+                      alt="Evan Davies"
+                      className="w-20 h-20 rounded-full mx-auto object-cover"
+                    />
+                  ) : (
+                    <div className="w-20 h-20 bg-gradient-primary rounded-full flex items-center justify-center mx-auto">
+                      <span className="text-white font-bold text-2xl">
+                        {member.name.split(' ').map(n => n[0]).join('')}
+                      </span>
+                    </div>
+                  )}
                   
                   <div>
                     <h3 className="text-xl font-semibold text-foreground font-inter">
