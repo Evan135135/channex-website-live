@@ -357,7 +357,7 @@ const Features = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="secondary" className="font-inter">
-                Request API Access
+                View the API
                 <ArrowRight size={16} className="ml-2" />
               </Button>
               <Button size="lg" variant="outline" className="border-primary/20 text-primary hover:bg-primary/10 font-inter">
