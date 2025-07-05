@@ -43,7 +43,7 @@ const About = () => {
     role: "CEO & Co-Founder",
     bio: "Former Hotelier with 10+ years in hospitality tech."
   }, {
-    name: "Sarah Rodriguez",
+    name: "Andrew Yudin",
     role: "CTO & Co-Founder",
     bio: "API architecture expert who's built scalable systems for millions of bookings."
   }, {
