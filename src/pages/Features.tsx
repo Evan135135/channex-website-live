@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { Link } from "react-router-dom";
 import { 
   Code2, 
   Zap, 
@@ -360,8 +361,8 @@ const Features = () => {
                 View the API
                 <ArrowRight size={16} className="ml-2" />
               </Button>
-              <Button size="lg" variant="outline" className="border-primary/20 text-primary hover:bg-primary/10 font-inter">
-                Talk to Sales
+              <Button size="lg" variant="outline" className="border-primary/20 text-primary hover:bg-primary/10 font-inter" asChild>
+                <Link to="/contact">Talk to Sales</Link>
               </Button>
             </div>
           </div>
