@@ -47,9 +47,9 @@ const About = () => {
     role: "CTO & Co-Founder",
     bio: "API architecture expert who's built scalable systems for millions of bookings."
   }, {
-    name: "Marcus Thompson",
-    role: "VP of Engineering",
-    bio: "15 years experience building enterprise integrations for major hotel chains."
+    name: "Andrew Mamotko",
+    role: "Senior Developer",
+    bio: "15 years experience building enterprise integrations and scalable solutions."
   }, {
     name: "Elena Petrov",
     role: "Head of Partnerships",
