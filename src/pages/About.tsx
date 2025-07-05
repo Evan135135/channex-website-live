@@ -51,9 +51,9 @@ const About = () => {
     role: "Senior Developer",
     bio: "15 years experience building enterprise integrations and scalable solutions."
   }, {
-    name: "Elena Petrov",
-    role: "Head of Partnerships",
-    bio: "Deep relationships across the OTA ecosystem, formerly at Expedia Group."
+    name: "Andrew Sokolov",
+    role: "Senior Developer",
+    bio: "Over 15 years experience in Front End development and secure system design."
   }];
   return <div className="min-h-screen bg-background font-inter">
       <Header />
@@ -213,6 +213,12 @@ const About = () => {
                     <img 
                       src="/lovable-uploads/2bba953c-5623-4d9e-9fd9-fd30a724a83a.png" 
                       alt="Andrew Mamotko"
+                      className="w-20 h-20 rounded-full mx-auto object-cover"
+                    />
+                  ) : member.name === "Andrew Sokolov" ? (
+                    <img 
+                      src="/lovable-uploads/0a736d36-ed1f-4265-b5e6-c267de944708.png" 
+                      alt="Andrew Sokolov"
                       className="w-20 h-20 rounded-full mx-auto object-cover"
                     />
                   ) : (
