@@ -66,6 +66,10 @@ const About = () => {
     name: "Dmitry Krakosevich",
     role: "Senior Developer",
     bio: "Deep experience in integrations with PMS and OTA."
+  }, {
+    name: "Sergey Kurmaev",
+    role: "Senior DevOps",
+    bio: "Automating pipelines, scaling infrastructure, and championing reliability across cloud platforms."
   }];
   return <div className="min-h-screen bg-background font-inter">
       <Header />
@@ -249,6 +253,12 @@ const About = () => {
                     <img 
                       src="/lovable-uploads/c1982ae2-6167-4942-8ed6-7d753e056b5e.png" 
                       alt="Dmitry Krakosevich"
+                      className="w-20 h-20 rounded-full mx-auto object-cover"
+                    />
+                  ) : member.name === "Sergey Kurmaev" ? (
+                    <img 
+                      src="/lovable-uploads/f5dcca07-0e62-4c9f-8548-d08cee857114.png" 
+                      alt="Sergey Kurmaev"
                       className="w-20 h-20 rounded-full mx-auto object-cover"
                     />
                   ) : (
