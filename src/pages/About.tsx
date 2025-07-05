@@ -41,7 +41,7 @@ const About = () => {
   const teamMembers = [{
     name: "Evan Davies",
     role: "CEO & Co-Founder",
-    bio: "Former engineering lead at Booking.com with 10+ years in hospitality tech."
+    bio: "Former Hotelier with 10+ years in hospitality tech."
   }, {
     name: "Sarah Rodriguez",
     role: "CTO & Co-Founder",
