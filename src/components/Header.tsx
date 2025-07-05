@@ -38,7 +38,7 @@ const Header = () => {
 
         {/* Desktop CTA */}
         <div className="hidden md:flex items-center space-x-4">
-          <Button variant="ghost" className="font-inter">
+          <Button variant="ghost" className="font-inter" onClick={() => window.open('https://app.channex.io/', '_blank')}>
             Login
           </Button>
           <Button className="bg-gradient-primary hover:shadow-primary transition-all duration-300 font-inter">
@@ -75,7 +75,7 @@ const Header = () => {
               Pricing
             </Link>
             <div className="pt-4 space-y-2">
-              <Button variant="ghost" className="w-full justify-start font-inter">
+              <Button variant="ghost" className="w-full justify-start font-inter" onClick={() => window.open('https://app.channex.io/', '_blank')}>
                 Login
               </Button>
               <Button className="w-full bg-gradient-primary hover:shadow-primary transition-all duration-300 font-inter">
