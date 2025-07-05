@@ -199,7 +199,7 @@ const About = () => {
                 <CardContent className="p-6 space-y-4">
                   {member.name === "Evan Davies" ? (
                     <img 
-                      src="/lovable-uploads/26a78f80-b419-46d5-8783-e6bdceba7694.png" 
+                      src="/lovable-uploads/578448c6-4f90-414e-bbbd-a0d0d3ee17f2.png" 
                       alt="Evan Davies"
                       className="w-20 h-20 rounded-full mx-auto object-cover"
                     />
