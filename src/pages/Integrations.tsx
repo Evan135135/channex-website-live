@@ -12,7 +12,7 @@ import Footer from "@/components/Footer";
 
 const Integrations = () => {
   const [searchTerm, setSearchTerm] = useState("");
-  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
+  const [selectedCategories, setSelectedCategories] = useState<string[]>(["OTA"]);
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
 
   const filteredIntegrations = useMemo(() => {
