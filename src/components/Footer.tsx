@@ -68,9 +68,7 @@ const Footer = () => {
         
         <div className="border-t border-slate-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p className="text-slate-400 text-sm font-inter">
-              © 2024 Channex. All rights reserved.
-            </p>
+            <p className="text-slate-400 text-sm font-inter">© 2025 Channex. All rights reserved.</p>
             <div className="flex space-x-6 text-sm text-slate-400">
               <a href="/policy#privacy" className="hover:text-white transition-colors font-inter">Privacy Policy</a>
               <a href="/policy" className="hover:text-white transition-colors font-inter">Terms of Service</a>
