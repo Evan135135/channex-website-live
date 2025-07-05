@@ -24,7 +24,7 @@ const Integrations = () => {
                                selectedCategories.some(cat => integration.categories.includes(cat));
       
       return matchesSearch && matchesCategories;
-    });
+    }).sort((a, b) => a.name.localeCompare(b.name));
   }, [searchTerm, selectedCategories]);
 
   const toggleCategory = (category: string) => {
