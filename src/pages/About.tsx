@@ -54,6 +54,10 @@ const About = () => {
     name: "Andrew Sokolov",
     role: "Senior Developer",
     bio: "Over 15 years experience in Front End development and secure system design."
+  }, {
+    name: "Dawwalee Davies (Tikky)",
+    role: "Co-Founder",
+    bio: "Deep knowledge of the hotel industry."
   }];
   return <div className="min-h-screen bg-background font-inter">
       <Header />
@@ -219,6 +223,12 @@ const About = () => {
                     <img 
                       src="/lovable-uploads/0a736d36-ed1f-4265-b5e6-c267de944708.png" 
                       alt="Andrew Sokolov"
+                      className="w-20 h-20 rounded-full mx-auto object-cover"
+                    />
+                  ) : member.name === "Dawwalee Davies (Tikky)" ? (
+                    <img 
+                      src="/lovable-uploads/b27de44c-9399-4ca2-aa2e-9d7990932c5a.png" 
+                      alt="Dawwalee Davies (Tikky)"
                       className="w-20 h-20 rounded-full mx-auto object-cover"
                     />
                   ) : (
