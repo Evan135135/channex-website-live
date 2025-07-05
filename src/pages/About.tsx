@@ -62,6 +62,10 @@ const About = () => {
     name: "Paloma Sanchez",
     role: "Head of Partnerships",
     bio: "Over 15 years experience in sales and partnerships in hotel technology."
+  }, {
+    name: "Dmitry Krakosevich",
+    role: "Senior Developer",
+    bio: "Deep experience in integrations with PMS and OTA."
   }];
   return <div className="min-h-screen bg-background font-inter">
       <Header />
@@ -239,6 +243,12 @@ const About = () => {
                     <img 
                       src="/lovable-uploads/72ae10b3-884b-4f73-8f5a-1d2acb353b9d.png" 
                       alt="Paloma Sanchez"
+                      className="w-20 h-20 rounded-full mx-auto object-cover"
+                    />
+                  ) : member.name === "Dmitry Krakosevich" ? (
+                    <img 
+                      src="/lovable-uploads/c1982ae2-6167-4942-8ed6-7d753e056b5e.png" 
+                      alt="Dmitry Krakosevich"
                       className="w-20 h-20 rounded-full mx-auto object-cover"
                     />
                   ) : (
