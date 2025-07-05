@@ -109,7 +109,7 @@ const Features = () => {
   ];
 
   const otaLogos = [
-    "Booking.com", "Expedia", "Airbnb", "Agoda", "Hotels.com", "Priceline"
+    "Booking.com", "Expedia", "Airbnb", "Agoda", "Hotels.com", "Trip.com"
   ];
 
   return (
