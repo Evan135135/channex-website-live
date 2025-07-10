@@ -299,7 +299,7 @@ const StartIntegration = () => {
                   <ol className="text-muted-foreground text-sm space-y-1 font-inter">
                     <li>1. Pull the full booking details by ID: <Button variant="link" className="p-0 h-auto text-sm font-inter" onClick={() => window.open('https://docs.channex.io/booking-by-id', '_blank')}>Get Booking by ID <ArrowRight className="h-3 w-3 ml-1" /></Button></li>
                     <li>2. Save the booking in your PMS.</li>
-                    <li>3. Acknowledge the booking: <Button variant="link" className="p-0 h-auto text-sm font-inter" onClick={() => window.open('https://docs.channex.io/acknowledge-booking', '_blank')}>Acknowledge Booking <ArrowRight className="h-3 w-3 ml-1" /></Button></li>
+                    <li>3. Acknowledge the booking: <Button variant="link" className="p-0 h-auto text-sm font-inter" onClick={() => window.open('https://docs.channex.io/api-v.1-documentation/bookings-collection#acknowledge-booking-revision-receiving', '_blank')}>Acknowledge Booking <ArrowRight className="h-3 w-3 ml-1" /></Button></li>
                   </ol>
                 </div>
 
