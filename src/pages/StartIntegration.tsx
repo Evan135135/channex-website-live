@@ -239,7 +239,7 @@ const StartIntegration = () => {
                     <Button 
                       variant="link" 
                       className="p-0 h-auto text-blue-600 dark:text-blue-400 font-inter"
-                      onClick={() => window.open('https://docs.channex.io/booking-revisions', '_blank')}
+                      onClick={() => window.open('https://docs.channex.io/api-v.1-documentation/bookings-collection#booking-revisions-feed', '_blank')}
                     >
                       Booking Revisions Feed <ArrowRight className="h-4 w-4 ml-1" />
                     </Button>
