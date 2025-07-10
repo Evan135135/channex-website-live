@@ -268,7 +268,7 @@ const StartIntegration = () => {
                     <p className="font-semibold text-foreground mb-2 font-inter">When you receive a booking:</p>
                     <ul className="text-muted-foreground text-sm space-y-1 font-inter">
                       <li>• Save it in your PMS.</li>
-                      <li>• Acknowledge the booking to confirm receipt: <Button variant="link" className="p-0 h-auto text-sm font-inter" onClick={() => window.open('https://docs.channex.io/acknowledge-booking', '_blank')}>Acknowledge Booking <ArrowRight className="h-3 w-3 ml-1" /></Button></li>
+                      <li>• Acknowledge the booking to confirm receipt: <Button variant="link" className="p-0 h-auto text-sm font-inter" onClick={() => window.open('https://docs.channex.io/api-v.1-documentation/bookings-collection#acknowledge-booking-revision-receiving', '_blank')}>Acknowledge Booking <ArrowRight className="h-3 w-3 ml-1" /></Button></li>
                     </ul>
                     <p className="text-sm text-orange-600 dark:text-orange-400 mt-2 font-inter">
                       Acknowledging is mandatory. Without it, Channex will continue sending the booking in the feed.
