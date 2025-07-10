@@ -28,9 +28,9 @@ const Header = () => {
           <Link to="/integrations" className="text-muted-foreground hover:text-foreground transition-colors font-inter">
             Integrations
           </Link>
-          <a href="#api" className="text-muted-foreground hover:text-foreground transition-colors font-inter">
-            API Docs
-          </a>
+          <Link to="/start-integration" className="text-muted-foreground hover:text-foreground transition-colors font-inter">
+            Start Integration
+          </Link>
           <Link to="/pricing" className="text-muted-foreground hover:text-foreground transition-colors font-inter">
             Pricing
           </Link>
@@ -68,9 +68,9 @@ const Header = () => {
             <Link to="/integrations" className="block text-muted-foreground hover:text-foreground transition-colors font-inter">
               Integrations
             </Link>
-            <a href="#api" className="block text-muted-foreground hover:text-foreground transition-colors font-inter">
-              API Docs
-            </a>
+            <Link to="/start-integration" className="block text-muted-foreground hover:text-foreground transition-colors font-inter">
+              Start Integration
+            </Link>
             <Link to="/pricing" className="block text-muted-foreground hover:text-foreground transition-colors font-inter">
               Pricing
             </Link>
