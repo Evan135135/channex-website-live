@@ -2,7 +2,7 @@ const Partners = () => {
   const partners = [
     {
       name: "Booking.com",
-      logo: "/lovable-uploads/99b4d6c8-23a1-4d09-a40c-5aae496ed554.png"
+      logo: "https://cdn.prod.website-files.com/5feef9d9acad0185ffea8445/5ff5c9b59aa1ba29e0358d65_booking%20logo.svg"
     },
     {
       name: "Expedia",
