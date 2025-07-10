@@ -176,7 +176,7 @@ const StartIntegration = () => {
                       className="font-inter"
                       onClick={() => {
                         const urls = [
-                          'https://docs.channex.io/availability',
+                          'https://docs.channex.io/api-v.1-documentation/ari#update-availability',
                           'https://docs.channex.io/prices-restrictions'
                         ];
                         window.open(urls[index], '_blank');
