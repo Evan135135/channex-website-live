@@ -90,7 +90,7 @@ const StartIntegration = () => {
                     <Button 
                       variant="link" 
                       className="p-0 h-auto font-inter"
-                      onClick={() => window.open('https://docs.channex.io/api-key-setup', '_blank')}
+                      onClick={() => window.open('https://docs.channex.io/application-documentation/api-key-access#setup-an-api-key', '_blank')}
                     >
                       API Key Setup <ArrowRight className="h-4 w-4 ml-1" />
                     </Button>
