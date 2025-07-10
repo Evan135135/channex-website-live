@@ -1097,7 +1097,7 @@ export const integrations: Integration[] = [
     id: "44",
     name: "Booking.com",
     description: "Connect your PMS to Booking.com for seamless management of rates, availability, and reservations. Ideal for all property types aiming for global reach.",
-    icon: "https://storage.googleapis.com/your-bucket/booking-icon.png",
+    icon: "/lovable-uploads/aed36b81-7956-4937-9330-50eecab307fe.png",
     categories: ["OTA", "Global"],
     slug: "booking-com",
     longDescription: "Booking.com is the world's leading digital travel company, connecting properties with millions of travelers worldwide. Our integration provides real-time synchronization of rates, availability, and reservations, ensuring your property maintains optimal visibility and booking efficiency across this massive platform.",
