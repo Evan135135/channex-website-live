@@ -177,7 +177,7 @@ const StartIntegration = () => {
                       onClick={() => {
                         const urls = [
                           'https://docs.channex.io/api-v.1-documentation/ari#update-availability',
-                          'https://docs.channex.io/prices-restrictions'
+                          'https://docs.channex.io/api-v.1-documentation/ari#update-rate-and-restrictions'
                         ];
                         window.open(urls[index], '_blank');
                       }}
