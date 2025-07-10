@@ -370,7 +370,11 @@ const StartIntegration = () => {
 
           {/* CTA Section */}
           <div className="text-center">
-            <Button size="lg" className="bg-gradient-primary hover:shadow-primary transition-all duration-300 font-inter">
+            <Button 
+              size="lg" 
+              className="bg-gradient-primary hover:shadow-primary transition-all duration-300 font-inter"
+              onClick={() => window.open('https://docs.channex.io/', '_blank')}
+            >
               Get Started with API Documentation
               <ExternalLink className="h-5 w-5 ml-2" />
             </Button>
