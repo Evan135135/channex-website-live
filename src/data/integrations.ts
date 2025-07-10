@@ -611,7 +611,7 @@ export const integrations: Integration[] = [
     id: "8",
     name: "Agoda",
     description: "Easily connect your PMS with Agoda to manage bookings, rates, and availability. Ideal for properties focused on travellers in the Asia-Pacific and beyond.",
-    icon: "https://storage.googleapis.com/your-bucket/agoda-icon.png",
+    icon: "/src/assets/agoda-logo.png",
     categories: ["Asia", "Global", "OTA"],
     slug: "agoda",
     longDescription: "Agoda is Asia's leading online travel platform, serving over 45 million travelers annually across the Asia-Pacific region and beyond. As part of Booking Holdings, Agoda offers unparalleled reach in Asian markets while providing global distribution capabilities. Our integration ensures seamless connectivity to this crucial market, with localized support and market-specific features.",
