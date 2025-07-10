@@ -133,7 +133,7 @@ const StartIntegration = () => {
                         const urls = [
                           'https://docs.channex.io/api-v.1-documentation/hotels-collection#create-property',
                           'https://docs.channex.io/api-v.1-documentation/room-types-collection#create-room-type', 
-                          'https://docs.channex.io/rate-plans'
+                          'https://docs.channex.io/api-v.1-documentation/rate-plans-collection#create-rate-plan'
                         ];
                         window.open(urls[index], '_blank');
                       }}
