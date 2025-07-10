@@ -131,7 +131,7 @@ const StartIntegration = () => {
                       className="font-inter"
                       onClick={() => {
                         const urls = [
-                          'https://docs.channex.io/properties',
+                          'https://docs.channex.io/api-v.1-documentation/hotels-collection#create-property',
                           'https://docs.channex.io/room-types', 
                           'https://docs.channex.io/rate-plans'
                         ];
