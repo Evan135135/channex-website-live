@@ -288,7 +288,7 @@ const StartIntegration = () => {
 
                 <div className="space-y-3 mb-4">
                   <p className="text-muted-foreground font-inter">
-                    • Create your webhook here: <Button variant="link" className="p-0 h-auto font-inter" onClick={() => window.open('https://docs.channex.io/webhooks', '_blank')}>Create Webhook <ArrowRight className="h-4 w-4 ml-1" /></Button>
+                    • Create your webhook here: <Button variant="link" className="p-0 h-auto font-inter" onClick={() => window.open('https://docs.channex.io/api-v.1-documentation/webhook-collection#create-webhook', '_blank')}>Create Webhook <ArrowRight className="h-4 w-4 ml-1" /></Button>
                   </p>
                   <p className="text-muted-foreground font-inter">• Your webhook URL must use HTTPS.</p>
                   <p className="text-muted-foreground font-inter">• Your server must respond with a success status code (200 OK) even if an error occurs in your PMS (e.g., overbooking).</p>
