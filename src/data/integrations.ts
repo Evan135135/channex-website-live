@@ -533,7 +533,7 @@ export const integrations: Integration[] = [
     id: "7",
     name: "Airbnb",
     description: "Sync your PMS with Airbnb to manage bookings, rates, and availability effortlessly. Perfect for short-term rentals and unique stays.",
-    icon: "/src/assets/airbnb-app-icon.png",
+    icon: "/lovable-uploads/ef8baabd-373a-4a4d-a9ea-52d10cb360b6.png",
     categories: ["Global", "Vacation Rentals", "OTA"],
     slug: "airbnb",
     longDescription: "Airbnb is the world's leading marketplace for unique stays and experiences. Our seamless integration allows property managers to effortlessly synchronize their listings, manage bookings, and optimize pricing across this global platform that connects millions of hosts with travelers seeking authentic accommodations.",
