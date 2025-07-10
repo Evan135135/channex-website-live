@@ -788,7 +788,7 @@ export const integrations: Integration[] = [
     id: "11",
     name: "Despegar",
     description: "Latin America's leading travel platform. Ideal for properties targeting travellers across the region.",
-    icon: "https://storage.googleapis.com/your-bucket/despegar-icon.png",
+    icon: "/lovable-uploads/5497aac5-58cb-4673-9dc0-3513cb38f1a0.png",
     categories: ["Latin America", "Regional", "OTA"]
   },
   {
