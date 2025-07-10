@@ -971,7 +971,7 @@ export const integrations: Integration[] = [
     id: "26",
     name: "Didatravel",
     description: "China's leading B2B travel platform. Ideal for properties targeting travel agents, tour operators, and wholesalers globally.",
-    icon: "https://storage.googleapis.com/your-bucket/didatravel-icon.png",
+    icon: "/lovable-uploads/524270f8-c22d-41b4-8acd-a5f302d9b08d.png",
     categories: ["B2B", "Asia", "Distribution", "OTA"]
   },
   {
