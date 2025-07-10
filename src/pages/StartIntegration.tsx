@@ -87,7 +87,11 @@ const StartIntegration = () => {
                   </h3>
                   <p className="text-muted-foreground font-inter">
                     After creating your account, generate an API key to authenticate your API requests.{" "}
-                    <Button variant="link" className="p-0 h-auto font-inter">
+                    <Button 
+                      variant="link" 
+                      className="p-0 h-auto font-inter"
+                      onClick={() => window.open('https://docs.channex.io/api-key-setup', '_blank')}
+                    >
                       API Key Setup <ArrowRight className="h-4 w-4 ml-1" />
                     </Button>
                   </p>
@@ -121,7 +125,19 @@ const StartIntegration = () => {
                       <h4 className="font-semibold text-foreground font-inter">{item.title}</h4>
                       <p className="text-sm text-muted-foreground font-inter">{item.desc}</p>
                     </div>
-                    <Button variant="outline" size="sm" className="font-inter">
+                    <Button 
+                      variant="outline" 
+                      size="sm" 
+                      className="font-inter"
+                      onClick={() => {
+                        const urls = [
+                          'https://docs.channex.io/properties',
+                          'https://docs.channex.io/room-types', 
+                          'https://docs.channex.io/rate-plans'
+                        ];
+                        window.open(urls[index], '_blank');
+                      }}
+                    >
                       View API Guide <ExternalLink className="h-4 w-4 ml-1" />
                     </Button>
                   </div>
@@ -154,7 +170,18 @@ const StartIntegration = () => {
                       <h4 className="font-semibold text-foreground font-inter">{item.title}</h4>
                       <p className="text-sm text-muted-foreground font-inter">{item.desc}</p>
                     </div>
-                    <Button variant="outline" size="sm" className="font-inter">
+                    <Button 
+                      variant="outline" 
+                      size="sm" 
+                      className="font-inter"
+                      onClick={() => {
+                        const urls = [
+                          'https://docs.channex.io/availability',
+                          'https://docs.channex.io/prices-restrictions'
+                        ];
+                        window.open(urls[index], '_blank');
+                      }}
+                    >
                       View API Guide <ExternalLink className="h-4 w-4 ml-1" />
                     </Button>
                   </div>
@@ -209,7 +236,11 @@ const StartIntegration = () => {
                 <div className="bg-blue-50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800 rounded-lg p-4 mb-4">
                   <p className="text-blue-800 dark:text-blue-300 font-inter">
                     Use the Booking Revisions Feed API to check for new bookings across all properties.{" "}
-                    <Button variant="link" className="p-0 h-auto text-blue-600 dark:text-blue-400 font-inter">
+                    <Button 
+                      variant="link" 
+                      className="p-0 h-auto text-blue-600 dark:text-blue-400 font-inter"
+                      onClick={() => window.open('https://docs.channex.io/booking-revisions', '_blank')}
+                    >
                       Booking Revisions Feed <ArrowRight className="h-4 w-4 ml-1" />
                     </Button>
                   </p>
@@ -237,7 +268,7 @@ const StartIntegration = () => {
                     <p className="font-semibold text-foreground mb-2 font-inter">When you receive a booking:</p>
                     <ul className="text-muted-foreground text-sm space-y-1 font-inter">
                       <li>• Save it in your PMS.</li>
-                      <li>• Acknowledge the booking to confirm receipt: <Button variant="link" className="p-0 h-auto text-sm font-inter">Acknowledge Booking <ArrowRight className="h-3 w-3 ml-1" /></Button></li>
+                      <li>• Acknowledge the booking to confirm receipt: <Button variant="link" className="p-0 h-auto text-sm font-inter" onClick={() => window.open('https://docs.channex.io/acknowledge-booking', '_blank')}>Acknowledge Booking <ArrowRight className="h-3 w-3 ml-1" /></Button></li>
                     </ul>
                     <p className="text-sm text-orange-600 dark:text-orange-400 mt-2 font-inter">
                       Acknowledging is mandatory. Without it, Channex will continue sending the booking in the feed.
@@ -257,7 +288,7 @@ const StartIntegration = () => {
 
                 <div className="space-y-3 mb-4">
                   <p className="text-muted-foreground font-inter">
-                    • Create your webhook here: <Button variant="link" className="p-0 h-auto font-inter">Create Webhook <ArrowRight className="h-4 w-4 ml-1" /></Button>
+                    • Create your webhook here: <Button variant="link" className="p-0 h-auto font-inter" onClick={() => window.open('https://docs.channex.io/webhooks', '_blank')}>Create Webhook <ArrowRight className="h-4 w-4 ml-1" /></Button>
                   </p>
                   <p className="text-muted-foreground font-inter">• Your webhook URL must use HTTPS.</p>
                   <p className="text-muted-foreground font-inter">• Your server must respond with a success status code (200 OK) even if an error occurs in your PMS (e.g., overbooking).</p>
@@ -266,9 +297,9 @@ const StartIntegration = () => {
                 <div className="bg-gray-50 dark:bg-gray-900 rounded-lg p-4">
                   <p className="font-semibold text-foreground mb-2 font-inter">When you receive a webhook:</p>
                   <ol className="text-muted-foreground text-sm space-y-1 font-inter">
-                    <li>1. Pull the full booking details by ID: <Button variant="link" className="p-0 h-auto text-sm font-inter">Get Booking by ID <ArrowRight className="h-3 w-3 ml-1" /></Button></li>
+                    <li>1. Pull the full booking details by ID: <Button variant="link" className="p-0 h-auto text-sm font-inter" onClick={() => window.open('https://docs.channex.io/booking-by-id', '_blank')}>Get Booking by ID <ArrowRight className="h-3 w-3 ml-1" /></Button></li>
                     <li>2. Save the booking in your PMS.</li>
-                    <li>3. Acknowledge the booking: <Button variant="link" className="p-0 h-auto text-sm font-inter">Acknowledge Booking <ArrowRight className="h-3 w-3 ml-1" /></Button></li>
+                    <li>3. Acknowledge the booking: <Button variant="link" className="p-0 h-auto text-sm font-inter" onClick={() => window.open('https://docs.channex.io/acknowledge-booking', '_blank')}>Acknowledge Booking <ArrowRight className="h-3 w-3 ml-1" /></Button></li>
                   </ol>
                 </div>
 
@@ -323,7 +354,11 @@ const StartIntegration = () => {
                   <div>
                     <p className="text-green-800 dark:text-green-400 font-inter">
                       View the full certification tests here:{" "}
-                      <Button variant="link" className="p-0 h-auto text-green-600 dark:text-green-400 font-inter">
+                      <Button 
+                        variant="link" 
+                        className="p-0 h-auto text-green-600 dark:text-green-400 font-inter"
+                        onClick={() => window.open('https://docs.channex.io/certification', '_blank')}
+                      >
                         Certification Test Guide <ArrowRight className="h-4 w-4 ml-1" />
                       </Button>
                     </p>
