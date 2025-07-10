@@ -38,7 +38,7 @@ const Hero = () => {
               <Button 
                 size="lg" 
                 className="bg-gradient-primary hover:shadow-elegant transition-all duration-300 font-inter text-lg px-8 py-6 h-auto"
-                onClick={() => navigate('/contact')}
+                onClick={() => navigate('/start-integration')}
               >
                 Start Integration
                 <ArrowRight size={20} className="ml-2" />
