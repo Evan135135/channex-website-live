@@ -297,7 +297,7 @@ const StartIntegration = () => {
                 <div className="bg-gray-50 dark:bg-gray-900 rounded-lg p-4">
                   <p className="font-semibold text-foreground mb-2 font-inter">When you receive a webhook:</p>
                   <ol className="text-muted-foreground text-sm space-y-1 font-inter">
-                    <li>1. Pull the full booking details by ID: <Button variant="link" className="p-0 h-auto text-sm font-inter" onClick={() => window.open('https://docs.channex.io/booking-by-id', '_blank')}>Get Booking by ID <ArrowRight className="h-3 w-3 ml-1" /></Button></li>
+                    <li>1. Pull the full booking details by ID: <Button variant="link" className="p-0 h-auto text-sm font-inter" onClick={() => window.open('https://docs.channex.io/api-v.1-documentation/bookings-collection#get-booking-revision-by-id', '_blank')}>Get Booking by ID <ArrowRight className="h-3 w-3 ml-1" /></Button></li>
                     <li>2. Save the booking in your PMS.</li>
                     <li>3. Acknowledge the booking: <Button variant="link" className="p-0 h-auto text-sm font-inter" onClick={() => window.open('https://docs.channex.io/api-v.1-documentation/bookings-collection#acknowledge-booking-revision-receiving', '_blank')}>Acknowledge Booking <ArrowRight className="h-3 w-3 ml-1" /></Button></li>
                   </ol>
