@@ -41,8 +41,8 @@ const Header = () => {
           <Button variant="ghost" className="font-inter" onClick={() => window.open('https://app.channex.io/', '_blank')}>
             Login
           </Button>
-          <Button className="bg-gradient-primary hover:shadow-primary transition-all duration-300 font-inter">
-            Contact Sales
+          <Button asChild className="bg-gradient-primary hover:shadow-primary transition-all duration-300 font-inter">
+            <Link to="/contact">Contact Sales</Link>
           </Button>
         </div>
 
@@ -78,8 +78,8 @@ const Header = () => {
               <Button variant="ghost" className="w-full justify-start font-inter" onClick={() => window.open('https://app.channex.io/', '_blank')}>
                 Login
               </Button>
-              <Button className="w-full bg-gradient-primary hover:shadow-primary transition-all duration-300 font-inter">
-                Contact Sales
+              <Button asChild className="w-full bg-gradient-primary hover:shadow-primary transition-all duration-300 font-inter">
+                <Link to="/contact">Contact Sales</Link>
               </Button>
             </div>
           </div>
