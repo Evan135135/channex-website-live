@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Link } from "react-router-dom";
 import { Check, CreditCard, Shield, RefreshCw, X } from "lucide-react";
 
 const Pricing = () => {
@@ -105,10 +106,11 @@ const Pricing = () => {
                   </ul>
 
                   <Button 
+                    asChild
                     className={`w-full ${plan.popular ? 'bg-gradient-primary hover:shadow-primary' : ''} font-inter`}
                     variant={plan.popular ? 'default' : 'outline'}
                   >
-                    Contact Us
+                    <Link to="/contact">Contact Us</Link>
                   </Button>
                 </CardContent>
               </Card>
