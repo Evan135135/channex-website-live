@@ -28,6 +28,9 @@ const Header = () => {
           <Link to="/integrations" className="text-muted-foreground hover:text-foreground transition-colors font-inter">
             Integrations
           </Link>
+          <Link to="/blog" className="text-muted-foreground hover:text-foreground transition-colors font-inter">
+            Blog
+          </Link>
           <Link to="/start-integration" className="text-muted-foreground hover:text-foreground transition-colors font-inter">
             Start Integration
           </Link>
@@ -67,6 +70,9 @@ const Header = () => {
             </Link>
             <Link to="/integrations" className="block text-muted-foreground hover:text-foreground transition-colors font-inter">
               Integrations
+            </Link>
+            <Link to="/blog" className="block text-muted-foreground hover:text-foreground transition-colors font-inter">
+              Blog
             </Link>
             <Link to="/start-integration" className="block text-muted-foreground hover:text-foreground transition-colors font-inter">
               Start Integration
