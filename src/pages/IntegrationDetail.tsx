@@ -160,49 +160,7 @@ const IntegrationDetail = () => {
 
                 {/* Overview Tab */}
                 <TabsContent value="overview" className="space-y-6">
-                  {/* Video Section */}
-                  {integration.videoUrl && (
-                    <Card>
-                      <CardContent className="p-6">
-                        <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-4">
-                          <div className="text-center space-y-4">
-                            <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
-                              <Play className="text-primary" size={24} />
-                            </div>
-                            <div>
-                              <h3 className="font-semibold text-foreground mb-2">Demo Video</h3>
-                              <p className="text-sm text-muted-foreground mb-4">
-                                See {integration.name} in action
-                              </p>
-                              <Button asChild>
-                                <a href={integration.videoUrl} target="_blank" rel="noopener noreferrer">
-                                  Watch Demo
-                                </a>
-                              </Button>
-                            </div>
-                          </div>
-                        </div>
-                      </CardContent>
-                    </Card>
-                  )}
 
-                  {/* Screenshots Gallery */}
-                  {integration.screenshots && integration.screenshots.length > 0 && (
-                    <Card>
-                      <CardHeader>
-                        <CardTitle>Screenshots</CardTitle>
-                      </CardHeader>
-                      <CardContent>
-                        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-                          {integration.screenshots.map((screenshot, index) => (
-                            <div key={index} className="aspect-video bg-muted rounded-lg flex items-center justify-center">
-                              <span className="text-muted-foreground text-sm">Screenshot {index + 1}</span>
-                            </div>
-                          ))}
-                        </div>
-                      </CardContent>
-                    </Card>
-                  )}
 
                   {/* About Section */}
                   <Card>
