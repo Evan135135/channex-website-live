@@ -9,6 +9,7 @@ import { integrations } from "@/data/integrations";
 import { categories } from "@/types/integration";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Seo from "@/components/Seo";
 
 const Integrations = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -56,6 +57,11 @@ const Integrations = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Seo
+        title="OTA & PMS Integrations | Channel Manager API"
+        description="Browse 50+ OTA and PMS integrations powered by Channex's white-label channel manager API."
+        canonical="/integrations"
+      />
       <Header />
       
       {/* Hero Section */}

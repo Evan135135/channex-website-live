@@ -2,6 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Seo from "@/components/Seo";
 import { Code2, Users, Globe, Target, Award, ArrowRight, Building, Calendar, MapPin } from "lucide-react";
 const About = () => {
   const stats = [{
@@ -72,6 +73,11 @@ const About = () => {
     bio: "Automating pipelines, scaling infrastructure, and championing reliability across cloud platforms."
   }];
   return <div className="min-h-screen bg-background font-inter">
+      <Seo
+        title="About Channex | White-label Channel Manager API for PMS"
+        description="Learn about Channex, the white-label channel manager API helping PMS systems connect to OTAs like Booking.com, Airbnb, and Expedia."
+        canonical="/about"
+      />
       <Header />
       
       {/* Hero Section */}

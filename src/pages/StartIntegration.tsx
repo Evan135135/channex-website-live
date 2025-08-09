@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Seo from "@/components/Seo";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -8,6 +9,11 @@ import { CheckCircle, AlertCircle, ArrowRight, ExternalLink } from "lucide-react
 const StartIntegration = () => {
   return (
     <div className="min-h-screen bg-background">
+      <Seo
+        title="Start Integration | Channel Manager API for PMS"
+        description="Start integrating your PMS with Channex's white-label channel manager API."
+        canonical="/start-integration"
+      />
       <Header />
       
       <main className="pt-24 pb-16">

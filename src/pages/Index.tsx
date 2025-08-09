@@ -4,6 +4,7 @@ import Partners from "@/components/Partners";
 import Features from "@/components/Features";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import Seo from "@/components/Seo";
 
 const Index = () => {
   return (

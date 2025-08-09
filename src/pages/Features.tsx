@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Seo from "@/components/Seo";
 import { Link } from "react-router-dom";
 import { 
   Code2, 
@@ -115,6 +116,33 @@ const Features = () => {
 
   return (
     <div className="min-h-screen bg-background font-inter">
+      <Seo
+        title="Channel Manager API Features | White-label Solution for PMS"
+        description="Explore features of Channex's white-label channel manager API for PMS providers: real-time OTA connectivity, full logs, and developer tools."
+        canonical="/features"
+        structuredData={[{
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is a white-label channel manager API for PMS systems?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "An API that embeds OTA connectivity into your PMS under your own brand, handling rates, availability, restrictions and reservations across OTAs."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Which OTAs does Channex connect to?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Certified connections include Booking.com, Airbnb, Expedia, Agoda and 40+ regional OTAs with real-time synchronization."
+              }
+            }
+          ]
+        }]}
+      />
       <Header />
       
       {/* Hero Section */}

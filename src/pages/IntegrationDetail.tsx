@@ -8,6 +8,7 @@ import { Separator } from "@/components/ui/separator";
 import { integrations } from "@/data/integrations";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Seo from "@/components/Seo";
 import { useEffect, useState } from "react";
 
 const IntegrationDetail = () => {
@@ -19,21 +20,6 @@ const IntegrationDetail = () => {
     (int) => int.slug === slug || int.id === slug
   );
 
-  // Set page title for SEO
-  useEffect(() => {
-    if (integration) {
-      document.title = `${integration.name} Integration | Channex`;
-      
-      // Set meta description
-      const metaDescription = document.querySelector('meta[name="description"]');
-      if (metaDescription) {
-        metaDescription.setAttribute(
-          'content', 
-          integration.longDescription || integration.description
-        );
-      }
-    }
-  }, [integration]);
 
   if (!integration) {
     return <Navigate to="/integrations" replace />;
@@ -63,6 +49,20 @@ const IntegrationDetail = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
+      <Seo
+        title={`${integration.name} Integration | Channex`}
+        description={integration.longDescription || integration.description}
+        canonical={`/integrations/${integration.slug || integration.id}`}
+        structuredData={[{
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://channex.io/" },
+            { "@type": "ListItem", "position": 2, "name": "Integrations", "item": "https://channex.io/integrations" },
+            { "@type": "ListItem", "position": 3, "name": integration.name, "item": `https://channex.io/integrations/${integration.slug || integration.id}` }
+          ]
+        }]}
+      />
       
       {/* Breadcrumb and Back Navigation */}
       <section className="pt-24 pb-8 border-b border-border/50">

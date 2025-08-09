@@ -2,11 +2,17 @@ import { Button } from "@/components/ui/button";
 import { Mail, MessageSquare, Phone } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Seo from "@/components/Seo";
 import ContactForm from "@/components/ContactForm";
 
 const Contact = () => {
   return (
     <div className="min-h-screen bg-background">
+      <Seo
+        title="Contact Sales | Channel Manager API for PMS"
+        description="Talk to Channex about our white-label channel manager API for PMS providers."
+        canonical="/contact"
+      />
       <Header />
       
       <section className="pt-24 py-20 bg-background">

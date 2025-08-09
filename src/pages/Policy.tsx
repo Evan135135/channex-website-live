@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Seo from "@/components/Seo";
 import PolicyNavigation from "@/components/policy/PolicyNavigation";
 import CustomerAgreement from "@/components/policy/CustomerAgreement";
 import PrivacyPolicy from "@/components/policy/PrivacyPolicy";
@@ -26,6 +27,11 @@ const Policy = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Seo
+        title="Terms & Policies | Channex"
+        description="Legal terms, privacy, security, and acceptable use policies."
+        canonical="/policy"
+      />
       <Header />
       
       <div className="pt-24 pb-20">

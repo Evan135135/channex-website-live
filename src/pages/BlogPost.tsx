@@ -1,6 +1,7 @@
 import { useParams, Link } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Seo from "@/components/Seo";
 import BlogCard from "@/components/BlogCard";
 import { blogPosts } from "@/data/blogPosts";
 import { Button } from "@/components/ui/button";
@@ -28,6 +29,35 @@ const BlogPost = () => {
   return (
     <div className="min-h-screen bg-background font-inter">
       <Header />
+      <Seo
+        title={`${post.title} | Channex Blog`}
+        description={post.metaDescription || post.excerpt}
+        canonical={`/blog/${post.slug}`}
+        type="article"
+        ogImage={post.featuredImage}
+        structuredData={[
+          {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": post.title,
+            "description": post.metaDescription || post.excerpt,
+            "author": { "@type": "Person", "name": post.author.name },
+            "datePublished": new Date(post.publishDate).toISOString(),
+            "image": post.featuredImage,
+            "mainEntityOfPage": `https://channex.io/blog/${post.slug}`,
+            "publisher": { "@type": "Organization", "name": "Channex" }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://channex.io/" },
+              { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://channex.io/blog" },
+              { "@type": "ListItem", "position": 3, "name": post.title, "item": `https://channex.io/blog/${post.slug}` }
+            ]
+          }
+        ]}
+      />
       
       {/* Article Header */}
       <article className="pt-20">

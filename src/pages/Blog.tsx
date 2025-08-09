@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Seo from "@/components/Seo";
 import BlogCard from "@/components/BlogCard";
 import BlogSidebar from "@/components/BlogSidebar";
 import { blogPosts, blogCategories } from "@/data/blogPosts";
@@ -34,6 +35,11 @@ const Blog = () => {
 
   return (
     <div className="min-h-screen bg-background font-inter">
+      <Seo
+        title="Hotel Tech Blog | Channel Manager API Insights"
+        description="Insights on channel manager APIs, OTA connectivity, and PMS integration."
+        canonical="/blog"
+      />
       <Header />
       
       {/* Hero Section */}
