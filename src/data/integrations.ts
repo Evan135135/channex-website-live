@@ -1069,7 +1069,7 @@ export const integrations: Integration[] = [
     id: "40",
     name: "Emerging Travel Group",
     description: "Integrate your PMS with Emerging Travel Group platforms like RateHawk, RoundTrip, and ZenHotels to reach B2B, corporate, and individual travelers all over the world.",
-    icon: "https://storage.googleapis.com/your-bucket/etg-icon.png",
+    icon: "/images/integrations/etg-logo.svg",
     categories: ["Europe", "Regional", "OTA"]
   },
   {
