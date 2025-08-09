@@ -128,14 +128,6 @@ const IntegrationDetail = () => {
                       </a>
                     </Button>
                   )}
-                  {integration.documentation && (
-                    <Button variant="outline" asChild>
-                      <a href={integration.documentation} target="_blank" rel="noopener noreferrer">
-                        Documentation
-                        <Code size={16} className="ml-2" />
-                      </a>
-                    </Button>
-                  )}
                 </div>
               </div>
             </div>
