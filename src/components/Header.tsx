@@ -11,9 +11,11 @@ const Header = () => {
       <div className="container mx-auto px-4 lg:px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-            <span className="text-white font-bold text-lg">C</span>
-          </div>
+          <img
+            src="/lovable-uploads/69087199-9a31-470c-9fef-20343850d889.png"
+            alt="Channex logo"
+            className="w-8 h-8 rounded-lg object-contain"
+          />
           <span className="text-xl font-bold text-foreground font-inter">Channex</span>
         </Link>
 
