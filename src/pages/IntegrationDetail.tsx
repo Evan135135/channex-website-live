@@ -117,8 +117,8 @@ const IntegrationDetail = () => {
                 </div>
                 
                 <div className="flex flex-wrap gap-4">
-                  <Button className="bg-gradient-primary hover:shadow-primary transition-all duration-300">
-                    Start Integration
+                  <Button className="bg-gradient-primary hover:shadow-primary transition-all duration-300" asChild>
+                    <Link to="/start-integration">Start Integration</Link>
                   </Button>
                   {integration.website && (
                     <Button variant="outline" asChild>

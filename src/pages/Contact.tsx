@@ -86,8 +86,8 @@ const Contact = () => {
                 <p className="text-sm text-muted-foreground font-inter">
                   Ready to start immediately? Access our staging environment and begin testing your integration today.
                 </p>
-                <Button variant="outline" className="border-primary/20 hover:bg-primary/5 font-inter">
-                  Access Staging Environment
+                <Button variant="outline" className="border-primary/20 hover:bg-primary/5 font-inter" asChild>
+                  <a href="https://staging.channex.io/" target="_blank" rel="noopener noreferrer">Access Staging Environment</a>
                 </Button>
               </div>
             </div>

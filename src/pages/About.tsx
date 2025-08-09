@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Seo from "@/components/Seo";
 import { Code2, Users, Globe, Target, Award, ArrowRight, Building, Calendar, MapPin } from "lucide-react";
+import { Link } from "react-router-dom";
 const About = () => {
   const stats = [{
     number: "50+",
@@ -138,9 +139,11 @@ const About = () => {
                 That's why we created Channex: the invisible infrastructure that connects your PMS to the world's 
                 leading booking platforms. We handle the complexity of OTA integrations, so you can deliver seamless connectivity without the hassle.
               </p>
-              <Button className="bg-gradient-primary hover:shadow-primary transition-all duration-300 font-inter">
-                Learn About Our API
-                <ArrowRight size={16} className="ml-2" />
+              <Button className="bg-gradient-primary hover:shadow-primary transition-all duration-300 font-inter" asChild>
+                <a href="https://docs.channex.io/" target="_blank" rel="noopener noreferrer">
+                  Learn About Our API
+                  <ArrowRight size={16} className="ml-2" />
+                </a>
               </Button>
             </div>
             
@@ -302,12 +305,14 @@ const About = () => {
               Join the growing community of PMS providers who trust Channex to power their OTA connectivity.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" variant="secondary" className="font-inter">
-                Start Integration
-                <ArrowRight size={16} className="ml-2" />
+              <Button size="lg" variant="secondary" className="font-inter" asChild>
+                <Link to="/start-integration">
+                  Start Integration
+                  <ArrowRight size={16} className="ml-2" />
+                </Link>
               </Button>
-              <Button size="lg" variant="outline" className="border-white/20 text-white hover:bg-white/10 font-inter">
-                Schedule a Demo
+              <Button size="lg" variant="outline" className="border-white/20 text-white hover:bg-white/10 font-inter" asChild>
+                <Link to="/contact">Schedule a Demo</Link>
               </Button>
             </div>
           </div>
