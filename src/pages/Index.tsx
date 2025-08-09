@@ -9,6 +9,11 @@ import Seo from "@/components/Seo";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background font-inter">
+      <Seo
+        title="Channel Manager API for PMS | Channex"
+        description="Connect your PMS to 50+ OTAs via Channex's white-label channel manager API."
+        canonical="/"
+      />
       <Header />
       <Hero />
       <Partners />

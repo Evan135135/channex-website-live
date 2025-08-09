@@ -1,3 +1,5 @@
+import airbnbLogo from "@/assets/airbnb-logo.png";
+
 const Partners = () => {
   const partners = [
     {
@@ -6,15 +8,15 @@ const Partners = () => {
     },
     {
       name: "Expedia",
-      logo: "https://cdn.prod.website-files.com/5feef9d9acad0185ffea8445/5ff5c9bcb6be452fffed95de_Expedia-logo-vector-01.svg"
+      logo: "/images/integrations/expedia.svg"
     },
     {
       name: "Airbnb",
-      logo: "https://cdn.prod.website-files.com/5feef9d9acad0185ffea8445/5ff5c9cfee693e694bf3abde_airbnb%20logo.svg"
+      logo: airbnbLogo
     },
     {
       name: "Hostelworld",
-      logo: "https://cdn.prod.website-files.com/5feef9d9acad0185ffea8445/5ff5c9c3c9b88fb9deb7c5c9_hostelworld-logo-vector.svg"
+      logo: "/images/integrations/hostelworld.png"
     }
   ];
 
@@ -41,6 +43,8 @@ const Partners = () => {
                 <img 
                   src={partner.logo} 
                   alt={`${partner.name} logo`}
+                  loading="lazy"
+                  decoding="async"
                   className="max-h-12 w-auto opacity-60 hover:opacity-100 transition-opacity duration-300"
                 />
               </div>
