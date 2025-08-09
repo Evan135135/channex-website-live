@@ -1,5 +1,5 @@
 import { BlogPost, BlogCategory } from "@/types/blog";
-import heroImage from "@/assets/blog/non-refundable-airbnb-channex.jpg";
+
 
 export const blogCategories: BlogCategory[] = [
   {
@@ -80,7 +80,7 @@ export const blogPosts: BlogPost[] = [
     publishDate: "2025-08-09",
     category: blogCategories[1],
     tags: ["Airbnb", "Channex", "Pricing", "Non-refundable", "Channel Manager"],
-    featuredImage: heroImage,
+    featuredImage: "/lovable-uploads/9395960d-6320-483a-8f62-78c6ce80f67e.png",
     readTime: 4,
     metaDescription: "Learn how to add a non-refundable discount on Airbnb via Channex to boost bookings, reduce cancellations, and secure revenue in a few easy steps."
   }
