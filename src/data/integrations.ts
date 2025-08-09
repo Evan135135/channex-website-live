@@ -449,7 +449,7 @@ export const integrations: Integration[] = [
     id: "6",
     name: "Hostelworld",
     description: "For Hostels & Budget Stays. Ideal for properties seeking global travellers and social, budget-conscious guests.",
-    icon: "https://storage.googleapis.com/your-bucket/hostelworld-icon.png",
+    icon: "/images/integrations/hostelworld.png",
     categories: ["Global", "Budget", "OTA"],
     slug: "hostelworld",
     longDescription: "Hostelworld is the world's leading hostel booking platform, connecting over 13 million young travelers annually with unique accommodation experiences. Specializing in budget-friendly, social accommodations, Hostelworld is the go-to platform for backpackers, gap year travelers, and adventure seekers. Our integration helps properties tap into this vibrant, social travel community.",
@@ -696,14 +696,14 @@ export const integrations: Integration[] = [
     id: "9",
     name: "Hotelbeds",
     description: "Link your PMS with Hotelbeds to access a global B2B travel network. Perfect for properties seeking partnerships with travel agents and tour operators.",
-    icon: "https://storage.googleapis.com/your-bucket/hotelbeds-icon.png",
+    icon: "/images/integrations/hotelbeds.svg",
     categories: ["B2B", "Global", "Distribution", "OTA"]
   },
   {
     id: "10",
     name: "Trip.com",
     description: "Attract travellers from Asia and beyond. Ideal for properties seeking a global audience with a focus on Asian markets.",
-    icon: "https://storage.googleapis.com/your-bucket/tripcom-icon.png",
+    icon: "/images/integrations/tripcom.svg",
     categories: ["Asia", "Global", "OTA"],
     slug: "trip-com",
     longDescription: "Trip.com is China's leading online travel platform and one of the world's largest travel service providers. With over 400 million users globally, Trip.com offers unparalleled access to Chinese outbound travelers and growing Asian markets. Our integration enables properties to tap into this massive and lucrative market segment with localized services and payment methods.",
@@ -795,14 +795,14 @@ export const integrations: Integration[] = [
     id: "12",
     name: "Traveloka",
     description: "Reach travellers across Southeast Asia. Ideal for properties targeting this fast-growing regional market.",
-    icon: "https://storage.googleapis.com/your-bucket/traveloka-icon.png",
+    icon: "/images/integrations/traveloka.png",
     categories: ["Asia", "Regional", "OTA"]
   },
   {
     id: "13",
     name: "VRBO",
     description: "Manage vacation rental bookings seamlessly. Perfect for properties offering unique stays and family-friendly accommodations.",
-    icon: "https://storage.googleapis.com/your-bucket/vrbo-icon.png",
+    icon: "/images/integrations/vrbo.svg",
     categories: ["Vacation Rentals", "Global", "OTA"],
     slug: "vrbo",
     longDescription: "VRBO (Vacation Rentals by Owner) is the world's leading vacation rental marketplace, specializing in whole-home rentals for families and groups. As part of Expedia Group, VRBO connects property owners with travelers seeking authentic, home-like experiences. Our integration provides comprehensive tools for managing vacation rental bookings, guest communications, and property optimization across this premium platform.",
@@ -887,7 +887,7 @@ export const integrations: Integration[] = [
     id: "14",
     name: "Google Hotels & Vacation Rentals",
     description: "Showcase your property directly in search results. Ideal for hotels and vacation rentals seeking increased visibility and direct bookings.",
-    icon: "https://storage.googleapis.com/your-bucket/google-icon.png",
+    icon: "/images/integrations/google.svg",
     categories: ["Vacation Rentals", "Distribution", "OTA"]
   },
   {
@@ -908,7 +908,7 @@ export const integrations: Integration[] = [
     id: "17",
     name: "HRS",
     description: "Streamline bookings for business travelers and corporate clients. Ideal for properties targeting the corporate travel market.",
-    icon: "https://storage.googleapis.com/your-bucket/hrs-icon.png",
+    icon: "/images/integrations/hrs.png",
     categories: ["Corporate", "Global", "B2B", "OTA"]
   },
   {
@@ -985,14 +985,14 @@ export const integrations: Integration[] = [
     id: "28",
     name: "Mr & Mrs Smith",
     description: "A curated platform for luxury and boutique stays. Ideal for properties offering unique, high-end experiences.",
-    icon: "https://storage.googleapis.com/your-bucket/mrandmrssmith-icon.png",
+    icon: "/images/integrations/mrandmrssmith.svg",
     categories: ["Luxury", "Global", "OTA"]
   },
   {
     id: "29",
     name: "Hotel Tonight",
     description: "Attract last-minute travelers seeking great deals. Ideal for properties targeting spontaneous, mobile-first bookings.",
-    icon: "https://storage.googleapis.com/your-bucket/hoteltonight-icon.png",
+    icon: "/images/integrations/hoteltonight.svg",
     categories: ["OTA", "Global"]
   },
   {
@@ -1171,7 +1171,7 @@ export const integrations: Integration[] = [
     id: "45",
     name: "Expedia",
     description: "Integrate your PMS with Expedia to streamline bookings, rates, and availability. Perfect for properties targeting a wide, global audience.",
-    icon: "https://storage.googleapis.com/your-bucket/expedia-icon.png",
+    icon: "/images/integrations/expedia.svg",
     categories: ["OTA", "Global"],
     slug: "expedia",
     longDescription: "Expedia Group is one of the world's largest online travel companies, reaching over 750 million people annually across its family of brands including Expedia.com, Hotels.com, and Vrbo. Our integration provides seamless connectivity to this massive distribution network, enabling properties to manage rates, availability, and bookings across multiple Expedia Group platforms from a single interface.",
