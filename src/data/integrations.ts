@@ -915,7 +915,7 @@ export const integrations: Integration[] = [
     id: "18",
     name: "Hipcamp",
     description: "Ideal for campsites, glamping, and unique nature-focused properties.",
-    icon: "https://storage.googleapis.com/your-bucket/hipcamp-icon.png",
+    icon: "/images/integrations/hipcamp.png",
     categories: ["Outdoor", "Vacation Rentals", "OTA"]
   },
   {
