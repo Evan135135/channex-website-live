@@ -74,7 +74,7 @@ const Features = () => {
     {
       icon: Puzzle,
       title: "Marketplace & App Integrations",
-      description: "Connect to third-party apps (Priceless, Room Price Genie etc.) Future-ready for AI integrations & automation tools.",
+      description: "Connect to third-party apps (Pricelabs, Room Price Genie etc.) Future-ready for AI integrations & automation tools.",
       badge: "Optional"
     }
   ];
