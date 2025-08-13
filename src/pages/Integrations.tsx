@@ -102,6 +102,11 @@ const getCategoryColor = (category: string) => {
               <Badge variant="secondary" className="text-sm">Real-time Sync</Badge>
               <Badge variant="secondary" className="text-sm">One API</Badge>
             </div>
+            <div className="mt-6 flex justify-center">
+              <Button size="lg" onClick={handleDownloadOTA}>
+                <Download size={16} className="mr-2" /> Download OTAs (XLS)
+              </Button>
+            </div>
           </div>
         </div>
       </section>
@@ -136,9 +141,6 @@ const getCategoryColor = (category: string) => {
                 onClick={() => setViewMode("list")}
               >
                 <List size={16} />
-              </Button>
-              <Button variant="outline" size="sm" onClick={handleDownloadOTA}>
-                <Download size={16} className="mr-2" /> Download OTAs (XLS)
               </Button>
             </div>
           </div>
