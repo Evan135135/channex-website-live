@@ -1019,9 +1019,19 @@ export const integrations: Integration[] = [
   {
     id: "33",
     name: "Travia",
-    description: "Ideal for properties catering to travelers exploring Iceland's unique destinations.",
+    description: "Travia is a B2B distribution marketplace connecting agencies and accommodation providers with live availability, direct bookings, and seamless contracting.",
     icon: "https://storage.googleapis.com/your-bucket/travia-icon.png",
-    categories: ["Regional", "Europe", "OTA"]
+    categories: ["B2B", "Distribution", "Global"],
+    website: "https://travia.io/",
+    features: [
+      "Unique partner-to-partner contracting within the system",
+      "Customer mapping - properties can see what agent is booking",
+      "Flexible booking limit",
+      "Direct messaging in three different locations between partners",
+      "Allotments with automatic release & block-out dates",
+      "Dashboard with reports such as booking details and pace reports",
+      "No fixed monthly cost - limiting the risk for properties"
+    ]
   },
   {
     id: "34",
