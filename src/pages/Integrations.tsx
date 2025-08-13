@@ -1,5 +1,5 @@
 import { useState, useMemo } from "react";
-import { Search, Filter, Grid, List } from "lucide-react";
+import { Search, Filter, Grid, List, Download } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -10,6 +10,8 @@ import { categories } from "@/types/integration";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Seo from "@/components/Seo";
+import { useToast } from "@/components/ui/use-toast";
+import { utils, writeFile } from "xlsx";
 
 const HIDDEN_CATEGORIES = new Set(["Regional","Budget","Luxury","Corporate","API"]);
 
@@ -41,9 +43,26 @@ const Integrations = () => {
   const clearFilters = () => {
     setSelectedCategories([]);
     setSearchTerm("");
-  };
+};
 
-  const getCategoryColor = (category: string) => {
+const { toast } = useToast();
+
+const handleDownloadOTA = () => {
+  const otaList = integrations.filter((i) => i.categories.includes("OTA"));
+  const data = otaList.map((i) => ({
+    Name: i.name,
+    Description: i.description,
+    Categories: i.categories.join(", "),
+    Website: i.website || "",
+  }));
+  const ws = utils.json_to_sheet(data);
+  const wb = utils.book_new();
+  utils.book_append_sheet(wb, ws, "OTAs");
+  writeFile(wb, "channex-ota-integrations.xlsx");
+  toast({ title: "Download started", description: `Exported ${otaList.length} OTA integrations.` });
+};
+
+const getCategoryColor = (category: string) => {
     const colorMap: Record<string, string> = {
       "OTA": "bg-primary/10 text-primary border-primary/20",
       "PMS": "bg-accent/10 text-accent border-accent/20",
@@ -102,7 +121,7 @@ const Integrations = () => {
               />
             </div>
 
-            {/* View Mode Toggle */}
+            {/* View Mode Toggle + Download */}
             <div className="flex items-center gap-2">
               <Button
                 variant={viewMode === "grid" ? "default" : "outline"}
@@ -117,6 +136,9 @@ const Integrations = () => {
                 onClick={() => setViewMode("list")}
               >
                 <List size={16} />
+              </Button>
+              <Button variant="outline" size="sm" onClick={handleDownloadOTA}>
+                <Download size={16} className="mr-2" /> Download OTAs (XLS)
               </Button>
             </div>
           </div>
