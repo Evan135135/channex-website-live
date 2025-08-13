@@ -902,7 +902,7 @@ export const integrations: Integration[] = [
     name: "MG Bedbank",
     description: "Access Southeast Asia's leading B2B travel distribution network. Ideal for properties seeking connections with travel agents and wholesalers.",
     icon: "https://storage.googleapis.com/your-bucket/mgbedbank-icon.png",
-    categories: ["B2B", "Asia", "Distribution"]
+    categories: ["B2B", "Asia", "Distribution", "OTA"]
   },
   {
     id: "17",
@@ -923,7 +923,7 @@ export const integrations: Integration[] = [
     name: "TravelgateX",
     description: "Access a global marketplace of travel distributors. Ideal for properties seeking broad B2B connectivity and increased distribution.",
     icon: "https://storage.googleapis.com/your-bucket/travelgatex-icon.png",
-    categories: ["B2B", "Global", "Distribution"]
+    categories: ["B2B", "Global", "Distribution", "OTA"]
   },
   {
     id: "20",
@@ -937,7 +937,7 @@ export const integrations: Integration[] = [
     name: "Reconline",
     description: "Connect with Reconline GDS to access global distribution channels and connect with travel agents worldwide. Ideal for properties seeking broader exposure and increased bookings.",
     icon: "https://storage.googleapis.com/your-bucket/reconline-icon.png",
-    categories: ["Distribution", "Global", "B2B"]
+    categories: ["Distribution", "Global", "B2B", "OTA"]
   },
   {
     id: "22",
@@ -958,7 +958,7 @@ export const integrations: Integration[] = [
     name: "Roibos",
     description: "A robust B2B travel platform. Ideal for properties seeking connections with tour operators, travel agents, and wholesalers worldwide.",
     icon: "https://storage.googleapis.com/your-bucket/roibos-icon.png",
-    categories: ["B2B", "Global", "Distribution"]
+    categories: ["B2B", "Global", "Distribution", "OTA"]
   },
   {
     id: "25",
@@ -1000,14 +1000,14 @@ export const integrations: Integration[] = [
     name: "Bookeasy",
     description: "Australia's leading tourism destination management platform. Ideal for properties targeting local and regional travelers.",
     icon: "/lovable-uploads/592fc0e3-4382-414f-a873-fe6397751604.png",
-    categories: ["Australia", "Distribution"]
+    categories: ["Australia", "Distribution", "OTA"]
   },
   {
     id: "31",
     name: "Hyperguest",
     description: "Access a direct, commission-free B2B distribution network. Ideal for properties seeking to optimize margins and connect with travel agents globally.",
     icon: "https://storage.googleapis.com/your-bucket/hyperguest-icon.png",
-    categories: ["B2B", "Global", "Distribution"]
+    categories: ["B2B", "Global", "Distribution", "OTA"]
   },
   {
     id: "32",
@@ -1021,7 +1021,7 @@ export const integrations: Integration[] = [
     name: "Travia",
     description: "Travia is a B2B distribution marketplace connecting agencies and accommodation providers with live availability, direct bookings, and seamless contracting.",
     icon: "https://storage.googleapis.com/your-bucket/travia-icon.png",
-    categories: ["B2B", "Distribution", "Global"],
+    categories: ["B2B", "Distribution", "Global", "OTA"],
     website: "https://travia.io/",
     features: [
       "Unique partner-to-partner contracting within the system",
