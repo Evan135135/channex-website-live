@@ -11,6 +11,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Seo from "@/components/Seo";
 
+const HIDDEN_CATEGORIES = new Set(["Regional","Budget","Luxury","Corporate","API"]);
+
 const Integrations = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategories, setSelectedCategories] = useState<string[]>(["OTA"]);
@@ -202,18 +204,21 @@ const Integrations = () => {
                           {integration.name}
                         </CardTitle>
                         <div className="flex flex-wrap gap-1 mt-2">
-                          {integration.categories.slice(0, 3).map(category => (
-                            <Badge 
-                              key={category} 
-                              variant="outline" 
-                              className={`text-xs ${getCategoryColor(category)}`}
-                            >
-                              {category}
-                            </Badge>
-                          ))}
-                          {integration.categories.length > 3 && (
+                          {integration.categories
+                            .filter((c) => !HIDDEN_CATEGORIES.has(c))
+                            .slice(0, 3)
+                            .map((category) => (
+                              <Badge 
+                                key={category} 
+                                variant="outline" 
+                                className={`text-xs ${getCategoryColor(category)}`}
+                              >
+                                {category}
+                              </Badge>
+                            ))}
+                          {integration.categories.filter((c) => !HIDDEN_CATEGORIES.has(c)).length > 3 && (
                             <Badge variant="outline" className="text-xs">
-                              +{integration.categories.length - 3}
+                              +{integration.categories.filter((c) => !HIDDEN_CATEGORIES.has(c)).length - 3}
                             </Badge>
                           )}
                         </div>

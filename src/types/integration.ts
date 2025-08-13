@@ -33,17 +33,12 @@ export type Integration = {
 };
 
 export const categories = [
-  "API",
   "OTA",
   "Distribution",
-  "Regional",
   "Global",
   "B2B",
   "Vacation Rentals",
-  "Budget",
-  "Luxury",
   "Outdoor",
-  "Corporate",
   "Asia",
   "Europe",
   "Australia",

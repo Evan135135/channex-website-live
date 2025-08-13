@@ -11,6 +11,8 @@ import Footer from "@/components/Footer";
 import Seo from "@/components/Seo";
 import { useEffect, useState } from "react";
 
+const HIDDEN_CATEGORIES = new Set(["Regional","Budget","Luxury","Corporate","API"]);
+
 const IntegrationDetail = () => {
   const { slug } = useParams<{ slug: string }>();
   const [activeTab, setActiveTab] = useState("overview");
@@ -105,15 +107,17 @@ const IntegrationDetail = () => {
                 </p>
                 
                 <div className="flex flex-wrap gap-2 mb-6">
-                  {integration.categories.map((category) => (
-                    <Badge 
-                      key={category} 
-                      variant="outline" 
-                      className={getCategoryColor(category)}
-                    >
-                      {category}
-                    </Badge>
-                  ))}
+                  {integration.categories
+                    .filter((c) => !HIDDEN_CATEGORIES.has(c))
+                    .map((category) => (
+                      <Badge 
+                        key={category} 
+                        variant="outline" 
+                        className={getCategoryColor(category)}
+                      >
+                        {category}
+                      </Badge>
+                    ))}
                 </div>
                 
                 <div className="flex flex-wrap gap-4">
@@ -385,15 +389,17 @@ const IntegrationDetail = () => {
                 </CardHeader>
                 <CardContent>
                   <div className="flex flex-wrap gap-2">
-                    {integration.categories.map((category) => (
-                      <Badge 
-                        key={category} 
-                        variant="outline" 
-                        className={getCategoryColor(category)}
-                      >
-                        {category}
-                      </Badge>
-                    ))}
+                    {integration.categories
+                      .filter((c) => !HIDDEN_CATEGORIES.has(c))
+                      .map((category) => (
+                        <Badge 
+                          key={category} 
+                          variant="outline" 
+                          className={getCategoryColor(category)}
+                        >
+                          {category}
+                        </Badge>
+                      ))}
                   </div>
                 </CardContent>
               </Card>
