@@ -999,7 +999,7 @@ export const integrations: Integration[] = [
     id: "30",
     name: "Bookeasy",
     description: "Australia's leading tourism destination management platform. Ideal for properties targeting local and regional travelers.",
-    icon: "https://storage.googleapis.com/your-bucket/bookeasy-icon.png",
+    icon: "/lovable-uploads/592fc0e3-4382-414f-a873-fe6397751604.png",
     categories: ["Regional", "Australia", "Distribution"]
   },
   {
