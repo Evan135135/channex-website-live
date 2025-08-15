@@ -1951,9 +1951,10 @@ export const integrations: Integration[] = [
   {
     id: "144",
     name: "Dibooq",
-    description: "A cloud-based property management system offering solutions for booking management, guest communication, and operational efficiency.",
+    description: "A cloud-based vacation rental software designed for owners and property managers, offering property management, channel management, booking management, direct booking websites, guest communication, and enhanced operational efficiency.",
     icon: "https://storage.googleapis.com/your-bucket/dibooq-icon.png",
-    categories: ["PMS"]
+    categories: ["PMS"],
+    website: "https://www.dibooq.com"
   },
   {
     id: "145",
