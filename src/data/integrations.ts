@@ -2000,6 +2000,14 @@ export const integrations: Integration[] = [
   },
   {
     id: "151",
+    name: "StellarStay",
+    description: "A comprehensive property management system designed for vacation rentals and short-term accommodations, offering booking management, guest communication, and operational tools.",
+    icon: "https://storage.googleapis.com/your-bucket/stellarstay-icon.png",
+    categories: ["PMS"],
+    website: "https://www.stellarstay.com/"
+  },
+  {
+    id: "151",
     name: "Diafasol",
     description: "A property management solution offering tools for booking management, guest communication, and operational efficiency.",
     icon: "https://storage.googleapis.com/your-bucket/diafasol-icon.png",
