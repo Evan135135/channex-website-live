@@ -2007,42 +2007,42 @@ export const integrations: Integration[] = [
     website: "https://www.stellarstay.com/"
   },
   {
-    id: "151",
+    id: "152",
     name: "Diafasol",
     description: "A property management solution offering tools for booking management, guest communication, and operational efficiency.",
     icon: "https://storage.googleapis.com/your-bucket/diafasol-icon.png",
     categories: ["PMS"]
   },
   {
-    id: "152",
+    id: "153",
     name: "Hanz",
     description: "A property management system designed for hotels and accommodations in Vietnam, offering features like booking management, guest services, and operational optimization.",
     icon: "https://storage.googleapis.com/your-bucket/hanz-icon.png",
     categories: ["PMS", "Asia"]
   },
   {
-    id: "153",
+    id: "154",
     name: "RunHotel",
     description: "A cloud-based property management system designed to streamline hotel operations, offering tools for booking management, guest communication, and revenue optimization.",
     icon: "https://storage.googleapis.com/your-bucket/runhotel-icon.png",
     categories: ["PMS"]
   },
   {
-    id: "154",
+    id: "155",
     name: "Zotel.ai",
     description: "An AI-driven property management system designed to optimize hotel operations, offering features like booking management, dynamic pricing, and guest services automation.",
     icon: "https://storage.googleapis.com/your-bucket/zotelai-icon.png",
     categories: ["PMS"]
   },
   {
-    id: "155",
+    id: "156",
     name: "SaffronStays",
     description: "A hospitality platform specializing in managing and booking unique, luxury vacation homes and villas. Ideal for property owners and travelers seeking curated, high-end stays in various destinations.",
     icon: "https://storage.googleapis.com/your-bucket/saffronstays-icon.png",
     categories: ["PMS"]
   },
   {
-    id: "156",
+    id: "157",
     name: "Halmo",
     description: "A property management system designed for hotels and accommodations, offering tools for booking management, guest communication, and operational optimization.",
     icon: "https://storage.googleapis.com/your-bucket/halmo-icon.png",
