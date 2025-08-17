@@ -2393,11 +2393,20 @@ export const integrations: Integration[] = [
     icon: "/images/integrations/hoteltonight.svg",
     categories: ["OTA", "Global"]
   },
-    {
+     {
     id: "218",
     name: "Bookeasy",
     description: "Australia's leading tourism destination management platform. Ideal for properties targeting local and regional travelers.",
     icon: "/lovable-uploads/592fc0e3-4382-414f-a873-fe6397751604.png",
     categories: ["Australia", "Distribution", "OTA"]
+  },
+  {
+    id: "219",
+    name: "HomeinLeonidio",
+    description: "A specialized accommodation platform for unique stays in Leonidio, Greece. Connect with travelers seeking authentic local experiences in this charming climbing destination.",
+    icon: "/lovable-uploads/homeinleonidio-icon.png",
+    categories: ["Regional", "Vacation Rentals", "Europe"],
+    slug: "homeinleonidio",
+    website: "https://homeinleonidio.com"
   },
 ];
