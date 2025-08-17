@@ -933,75 +933,35 @@ export const integrations: Integration[] = [
     categories: ["OTA", "Global"]
   },
   {
-    id: "21",
+    id: "27",
     name: "Reconline",
     description: "Connect with Reconline GDS to access global distribution channels and connect with travel agents worldwide. Ideal for properties seeking broader exposure and increased bookings.",
     icon: "https://storage.googleapis.com/your-bucket/reconline-icon.png",
     categories: ["Distribution", "Global", "B2B", "OTA"]
   },
   {
-    id: "22",
+    id: "28",
     name: "Hostelhop",
     description: "For budget-conscious and social travelers. Ideal for hostels and shared accommodations seeking increased visibility.",
     icon: "https://storage.googleapis.com/your-bucket/hostelhop-icon.png",
     categories: ["Budget", "Global", "OTA"]
   },
   {
-    id: "25",
+    id: "29",
     name: "MakeMyTrip",
     description: "India's leading travel platform. Perfect for properties targeting travellers across India and beyond.",
     icon: "https://storage.googleapis.com/your-bucket/makemytrip-icon.png",
     categories: ["Asia", "Regional", "OTA"]
   },
   {
-    id: "26",
+    id: "30",
     name: "Roibos",
     description: "A robust B2B travel platform. Ideal for properties seeking connections with tour operators, travel agents, and wholesalers worldwide.",
     icon: "https://storage.googleapis.com/your-bucket/roibos-icon.png",
     categories: ["B2B", "Global", "Distribution", "OTA"]
   },
-  {
-    id: "27",
-    name: "Tablet Michelin",
-    description: "Connect with Tablet Hotels to showcase your property on a curated platform for boutique and luxury stays. Ideal for properties offering unique experiences and aiming to attract high-end travelers.",
-    icon: "https://storage.googleapis.com/your-bucket/tablet-icon.png",
-    categories: ["Luxury", "Global", "OTA"]
-  },
-  {
-    id: "28",
-    name: "Didatravel",
-    description: "China's leading B2B travel platform. Ideal for properties targeting travel agents, tour operators, and wholesalers globally.",
-    icon: "/lovable-uploads/524270f8-c22d-41b4-8acd-a5f302d9b08d.png",
-    categories: ["B2B", "Asia", "Distribution", "OTA"]
-  },
-  {
-    id: "27",
-    name: "Hoterip",
-    description: "A leading travel platform in Southeast Asia. Ideal for properties targeting Indonesian travelers and regional markets.",
-    icon: "https://storage.googleapis.com/your-bucket/hoterip-icon.png",
-    categories: ["Asia", "Regional", "OTA"]
-  },
-  {
-    id: "28",
-    name: "Mr & Mrs Smith",
-    description: "A curated platform for luxury and boutique stays. Ideal for properties offering unique, high-end experiences.",
-    icon: "/images/integrations/mrandmrssmith.svg",
-    categories: ["Luxury", "Global", "OTA"]
-  },
-  {
-    id: "29",
-    name: "Hotel Tonight",
-    description: "Attract last-minute travelers seeking great deals. Ideal for properties targeting spontaneous, mobile-first bookings.",
-    icon: "/images/integrations/hoteltonight.svg",
-    categories: ["OTA", "Global"]
-  },
-  {
-    id: "30",
-    name: "Bookeasy",
-    description: "Australia's leading tourism destination management platform. Ideal for properties targeting local and regional travelers.",
-    icon: "/lovable-uploads/592fc0e3-4382-414f-a873-fe6397751604.png",
-    categories: ["Australia", "Distribution", "OTA"]
-  },
+
+  
   {
     id: "31",
     name: "Hyperguest",
@@ -2398,4 +2358,46 @@ export const integrations: Integration[] = [
     icon: "https://storage.googleapis.com/your-bucket/bcompany-icon.png",
     categories: ["OTA"]
   }
+    {
+    id: "213",
+    name: "Tablet Michelin",
+    description: "Connect with Tablet Hotels to showcase your property on a curated platform for boutique and luxury stays. Ideal for properties offering unique experiences and aiming to attract high-end travelers.",
+    icon: "https://storage.googleapis.com/your-bucket/tablet-icon.png",
+    categories: ["Luxury", "Global", "OTA"]
+  },
+  {
+    id: "214",
+    name: "Didatravel",
+    description: "China's leading B2B travel platform. Ideal for properties targeting travel agents, tour operators, and wholesalers globally.",
+    icon: "/lovable-uploads/524270f8-c22d-41b4-8acd-a5f302d9b08d.png",
+    categories: ["B2B", "Asia", "Distribution", "OTA"]
+  },
+  {
+    id: "215",
+    name: "Hoterip",
+    description: "A leading travel platform in Southeast Asia. Ideal for properties targeting Indonesian travelers and regional markets.",
+    icon: "https://storage.googleapis.com/your-bucket/hoterip-icon.png",
+    categories: ["Asia", "Regional", "OTA"]
+  },
+  {
+    id: "216",
+    name: "Mr & Mrs Smith",
+    description: "A curated platform for luxury and boutique stays. Ideal for properties offering unique, high-end experiences.",
+    icon: "/images/integrations/mrandmrssmith.svg",
+    categories: ["Luxury", "Global", "OTA"]
+  },
+  {
+    id: "217",
+    name: "Hotel Tonight",
+    description: "Attract last-minute travelers seeking great deals. Ideal for properties targeting spontaneous, mobile-first bookings.",
+    icon: "/images/integrations/hoteltonight.svg",
+    categories: ["OTA", "Global"]
+  },
+    {
+    id: "218",
+    name: "Bookeasy",
+    description: "Australia's leading tourism destination management platform. Ideal for properties targeting local and regional travelers.",
+    icon: "/lovable-uploads/592fc0e3-4382-414f-a873-fe6397751604.png",
+    categories: ["Australia", "Distribution", "OTA"]
+  },
 ];
