@@ -22,8 +22,7 @@ const Integrations = () => {
 
   const filteredIntegrations = useMemo(() => {
     return integrations.filter(integration => {
-      const matchesSearch = integration.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                          integration.description.toLowerCase().includes(searchTerm.toLowerCase());
+      const matchesSearch = integration.name.toLowerCase().includes(searchTerm.toLowerCase());
       
       const matchesCategories = selectedCategories.length === 0 || 
                                selectedCategories.some(cat => integration.categories.includes(cat));
