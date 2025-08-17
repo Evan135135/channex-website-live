@@ -2453,4 +2453,26 @@ export const integrations: Integration[] = [
       "Automated guest check-in/check-out"
     ]
   },
+  {
+    id: "222",
+    name: "MiniHotelman",
+    description: "Affordable all-in-one cloud-based hotel management system for Indian hoteliers. Integrates PMS, POS, channel manager, and revenue management in one platform.",
+    icon: "/lovable-uploads/minihotelman-icon.png",
+    categories: ["PMS", "Asia", "Regional"],
+    slug: "minihotelman",
+    website: "https://minihotelman.com",
+    longDescription: "MiniHotelman is an affordable, comprehensive hotel management solution designed specifically for Indian hoteliers. This cloud-based platform integrates Property Management System (PMS), Point of Sale (POS), Channel Manager, and Revenue Management tools into one unified solution. With a focus on cost-effectiveness and user-friendly design, MiniHotelman makes advanced hotel management accessible to properties of all sizes, from budget hotels to boutique establishments.",
+    features: [
+      "All-in-one integrated PMS, POS, and channel manager",
+      "Cloud-based system accessible from anywhere",
+      "Revenue management and dynamic pricing",
+      "WhatsApp integration for guest communication",
+      "User-friendly interface with minimal training required",
+      "Free customizations for specific hotel needs",
+      "24/7 customer support",
+      "Cost-effective pricing for budget hotels",
+      "Real-time reporting and analytics",
+      "Multi-property management support"
+    ]
+  },
 ];
