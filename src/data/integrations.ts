@@ -2,7 +2,7 @@ import { Integration } from "@/types/integration";
 
 export const integrations: Integration[] = [
   {
-    id: "181",
+    id: "1",
     name: "Booking Factory",
     description: "A modern PMS designed for small to medium-sized accommodations, offering tools to manage bookings, automate operations, and optimize revenue. Features include channel management, direct booking tools, and guest communication, all in one easy-to-use platform.",
     icon: "https://storage.googleapis.com/your-bucket/bookingfactory-icon.png",
@@ -87,7 +87,7 @@ export const integrations: Integration[] = [
     }
   },
   {
-    id: "182",
+    id: "2",
     name: "Abode",
     description: "A flexible PMS tailored for vacation rentals and small accommodations, offering tools for booking management, automation, and guest communication. Ideal for properties seeking simplicity and efficiency in operations.",
     icon: "https://storage.googleapis.com/your-bucket/abode-icon.png",
@@ -166,7 +166,7 @@ export const integrations: Integration[] = [
     }
   },
   {
-    id: "183",
+    id: "3",
     name: "Make.com",
     description: "A versatile automation platform that connects your PMS with various apps and services to create custom workflows. Ideal for streamlining operations, automating tasks, and improving efficiency.",
     icon: "https://storage.googleapis.com/your-bucket/make-icon.png",
@@ -245,7 +245,7 @@ export const integrations: Integration[] = [
     }
   },
   {
-    id: "184",
+    id: "4",
     name: "Front Desk Master",
     description: "A robust PMS for hostels, hotels, and small accommodations, offering features like channel management, automation, and reporting. Ideal for properties seeking an all-in-one, user-friendly platform.",
     icon: "https://storage.googleapis.com/your-bucket/frontdeskmaster-icon.png",
@@ -325,7 +325,7 @@ export const integrations: Integration[] = [
     }
   },
   {
-    id: "185",
+    id: "5",
     name: "Omnihotelier",
     description: "Integrate your PMS with Omnihotelier to streamline bookings, optimize revenue, and enhance guest management. Ideal for properties seeking comprehensive hospitality solutions.",
     icon: "https://storage.googleapis.com/your-bucket/omnihotelier-icon.png",
@@ -404,49 +404,49 @@ export const integrations: Integration[] = [
     }
   },
   {
-    id: "166",
+    id: "6",
     name: "Turbosuite",
     description: "Connect your PMS with Turbosuite to leverage advanced pricing and revenue optimization tools. Ideal for properties seeking to maximize profitability and streamline operations.",
     icon: "https://storage.googleapis.com/your-bucket/turbosuite-icon.png",
     categories: ["RMS"]
   },
   {
-    id: "1",
+    id: "7",
     name: "Hotelnetwork",
     description: "Connect your PMS with HotelNetwork to expand your reach through its distribution channels. Ideal for properties seeking greater visibility and diverse booking sources.",
     icon: "https://storage.googleapis.com/your-bucket/hotelnetwork-icon.png",
     categories: ["Distribution", "OTA"]
   },
   {
-    id: "2",
+    id: "8",
     name: "PriceTravel",
     description: "Reach travelers across Latin America. Ideal for properties targeting regional tourists and travel agencies.",
     icon: "https://storage.googleapis.com/your-bucket/pricetravel-icon.png",
     categories: ["Regional", "OTA", "Latin America"]
   },
   {
-    id: "3",
+    id: "9",
     name: "Getaroom",
     description: "Streamline bookings and expand your reach to global travelers. Ideal for properties seeking increased visibility through diverse distribution channels.",
     icon: "https://storage.googleapis.com/your-bucket/getaroom-icon.png",
     categories: ["Global", "OTA", "Distribution"]
   },
   {
-    id: "4",
+    id: "10",
     name: "Szallas",
     description: "Connect with Hungary's leading travel platform. Ideal for properties targeting travelers in Central and Eastern Europe.",
     icon: "https://storage.googleapis.com/your-bucket/szallas-icon.png",
     categories: ["Regional", "Europe", "OTA"]
   },
   {
-    id: "5",
+    id: "11",
     name: "Roombeast",
     description: "Ideal for properties aiming to simplify operations and boost visibility in the Latam market.",
     icon: "https://storage.googleapis.com/your-bucket/roombeast-icon.png",
     categories: ["Regional", "Latin America", "OTA"]
   },
   {
-    id: "6",
+    id: "12",
     name: "Hostelworld",
     description: "For Hostels & Budget Stays. Ideal for properties seeking global travellers and social, budget-conscious guests.",
     icon: "/images/integrations/hostelworld.png",
@@ -530,7 +530,7 @@ export const integrations: Integration[] = [
     }
   },
   {
-    id: "7",
+    id: "13",
     name: "Airbnb",
     description: "Sync your PMS with Airbnb to manage bookings, rates, and availability effortlessly. Perfect for short-term rentals and unique stays.",
     icon: "/lovable-uploads/ef8baabd-373a-4a4d-a9ea-52d10cb360b6.png",
@@ -608,7 +608,7 @@ export const integrations: Integration[] = [
     }
   },
   {
-    id: "8",
+    id: "14",
     name: "Agoda",
     description: "Easily connect your PMS with Agoda to manage bookings, rates, and availability. Ideal for properties focused on travellers in the Asia-Pacific and beyond.",
     icon: "/src/assets/agoda-logo.png",
@@ -693,14 +693,14 @@ export const integrations: Integration[] = [
     }
   },
   {
-    id: "9",
+    id: "15",
     name: "Hotelbeds",
     description: "Link your PMS with Hotelbeds to access a global B2B travel network. Perfect for properties seeking partnerships with travel agents and tour operators.",
     icon: "/images/integrations/hotelbeds.svg",
     categories: ["B2B", "Global", "Distribution", "OTA"]
   },
   {
-    id: "10",
+    id: "16",
     name: "Trip.com",
     description: "Attract travellers from Asia and beyond. Ideal for properties seeking a global audience with a focus on Asian markets.",
     icon: "/images/integrations/tripcom.svg",
@@ -785,21 +785,21 @@ export const integrations: Integration[] = [
     }
   },
   {
-    id: "11",
+    id: "17",
     name: "Despegar",
     description: "Latin America's leading travel platform. Ideal for properties targeting travellers across the region.",
     icon: "/lovable-uploads/5497aac5-58cb-4673-9dc0-3513cb38f1a0.png",
     categories: ["Latin America", "Regional", "OTA"]
   },
   {
-    id: "12",
+    id: "18",
     name: "Traveloka",
     description: "Reach travellers across Southeast Asia. Ideal for properties targeting this fast-growing regional market.",
     icon: "/images/integrations/traveloka.png",
     categories: ["Asia", "Regional", "OTA"]
   },
   {
-    id: "13",
+    id: "19",
     name: "VRBO",
     description: "Manage vacation rental bookings seamlessly. Perfect for properties offering unique stays and family-friendly accommodations.",
     icon: "/images/integrations/vrbo.svg",
@@ -884,49 +884,49 @@ export const integrations: Integration[] = [
     }
   },
   {
-    id: "14",
+    id: "20",
     name: "Google Hotels & Vacation Rentals",
     description: "Showcase your property directly in search results. Ideal for hotels and vacation rentals seeking increased visibility and direct bookings.",
     icon: "/images/integrations/google.svg",
     categories: ["Vacation Rentals", "Distribution", "OTA"]
   },
   {
-    id: "15",
+    id: "21",
     name: "Tiket",
     description: "Reach travellers across Indonesia and beyond. Perfect for properties targeting Southeast Asian markets.",
     icon: "https://storage.googleapis.com/your-bucket/tiket-icon.png",
     categories: ["Asia", "Regional", "OTA"]
   },
   {
-    id: "16",
+    id: "22",
     name: "MG Bedbank",
     description: "Access Southeast Asia's leading B2B travel distribution network. Ideal for properties seeking connections with travel agents and wholesalers.",
     icon: "https://storage.googleapis.com/your-bucket/mgbedbank-icon.png",
     categories: ["B2B", "Asia", "Distribution", "OTA"]
   },
   {
-    id: "17",
+    id: "23",
     name: "HRS",
     description: "Streamline bookings for business travelers and corporate clients. Ideal for properties targeting the corporate travel market.",
     icon: "/images/integrations/hrs.png",
     categories: ["Corporate", "Global", "B2B", "OTA"]
   },
   {
-    id: "18",
+    id: "24",
     name: "Hipcamp",
     description: "Ideal for campsites, glamping, and unique nature-focused properties.",
     icon: "/images/integrations/hipcamp.png",
     categories: ["Outdoor", "Vacation Rentals", "OTA"]
   },
   {
-    id: "19",
+    id: "25",
     name: "TravelgateX",
     description: "Access a global marketplace of travel distributors. Ideal for properties seeking broad B2B connectivity and increased distribution.",
     icon: "https://storage.googleapis.com/your-bucket/travelgatex-icon.png",
     categories: ["B2B", "Global", "Distribution", "OTA"]
   },
   {
-    id: "20",
+    id: "26",
     name: "Hopper",
     description: "Connect with Hopper to reach a mobile-first audience seeking personalised travel deals. Ideal for properties targeting tech-savvy, price-conscious travellers.",
     icon: "https://storage.googleapis.com/your-bucket/hopper-icon.png",
