@@ -947,28 +947,28 @@ export const integrations: Integration[] = [
     categories: ["Budget", "Global", "OTA"]
   },
   {
-    id: "23",
+    id: "25",
     name: "MakeMyTrip",
     description: "India's leading travel platform. Perfect for properties targeting travellers across India and beyond.",
     icon: "https://storage.googleapis.com/your-bucket/makemytrip-icon.png",
     categories: ["Asia", "Regional", "OTA"]
   },
   {
-    id: "24",
+    id: "26",
     name: "Roibos",
     description: "A robust B2B travel platform. Ideal for properties seeking connections with tour operators, travel agents, and wholesalers worldwide.",
     icon: "https://storage.googleapis.com/your-bucket/roibos-icon.png",
     categories: ["B2B", "Global", "Distribution", "OTA"]
   },
   {
-    id: "25",
+    id: "27",
     name: "Tablet Michelin",
     description: "Connect with Tablet Hotels to showcase your property on a curated platform for boutique and luxury stays. Ideal for properties offering unique experiences and aiming to attract high-end travelers.",
     icon: "https://storage.googleapis.com/your-bucket/tablet-icon.png",
     categories: ["Luxury", "Global", "OTA"]
   },
   {
-    id: "26",
+    id: "28",
     name: "Didatravel",
     description: "China's leading B2B travel platform. Ideal for properties targeting travel agents, tour operators, and wholesalers globally.",
     icon: "/lovable-uploads/524270f8-c22d-41b4-8acd-a5f302d9b08d.png",
