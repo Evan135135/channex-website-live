@@ -2357,7 +2357,7 @@ export const integrations: Integration[] = [
     description: "Pitchup.com is a leading online booking platform specializing in outdoor accommodations such as campsites, glamping sites, and caravan parks.",
     icon: "https://storage.googleapis.com/your-bucket/bcompany-icon.png",
     categories: ["OTA"]
-  }
+  },
     {
     id: "213",
     name: "Tablet Michelin",
