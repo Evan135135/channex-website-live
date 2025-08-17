@@ -2002,7 +2002,7 @@ export const integrations: Integration[] = [
     id: "151",
     name: "StellarStay",
     description: "A comprehensive property management system designed for vacation rentals and short-term accommodations, offering booking management, guest communication, and operational tools.",
-    icon: "https://storage.googleapis.com/your-bucket/stellarstay-icon.png",
+    icon: "/lovable-uploads/4eb781f9-6627-406e-8ea6-0942d3c2f485.png",
     categories: ["PMS"],
     website: "https://www.stellarstay.com/"
   },
