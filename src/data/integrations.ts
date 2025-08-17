@@ -2049,63 +2049,63 @@ export const integrations: Integration[] = [
     categories: ["PMS"]
   },
   {
-    id: "157",
+    id: "158",
     name: "Rentware",
     description: "A property management and rental platform offering solutions for booking management, guest communication, and payment processing.",
     icon: "https://storage.googleapis.com/your-bucket/rentware-icon.png",
     categories: ["PMS"]
   },
   {
-    id: "158",
+    id: "159",
     name: "TodoAlojamiento",
     description: "A property management and booking platform designed for accommodations, offering tools for reservation management, guest services, and operational optimization.",
     icon: "https://storage.googleapis.com/your-bucket/todoalojamiento-icon.png",
     categories: ["PMS"]
   },
   {
-    id: "159",
+    id: "160",
     name: "Hosroom",
     description: "A property management system offering solutions for booking management, guest communication, and operational efficiency.",
     icon: "https://storage.googleapis.com/your-bucket/hosroom-icon.png",
     categories: ["PMS"]
   },
   {
-    id: "160",
+    id: "161",
     name: "Twik PMS",
     description: "A cloud-based property management system offering tools for booking management, guest services, and operational efficiency.",
     icon: "https://storage.googleapis.com/your-bucket/twikpms-icon.png",
     categories: ["PMS"]
   },
   {
-    id: "161",
+    id: "162",
     name: "JoodBooking",
     description: "A property management and booking platform designed for small to medium-sized accommodations, offering features like reservation management, guest communication, and payment processing.",
     icon: "https://storage.googleapis.com/your-bucket/joodbooking-icon.png",
     categories: ["PMS"]
   },
   {
-    id: "162",
+    id: "163",
     name: "TrivSmart",
     description: "A property management system designed to streamline hotel operations, offering tools for booking management, guest communication, and revenue optimization.",
     icon: "https://storage.googleapis.com/your-bucket/trivsmart-icon.png",
     categories: ["PMS"]
   },
   {
-    id: "163",
+    id: "164",
     name: "HelloHosty",
     description: "A property management and automation platform designed for vacation rental owners and managers, offering tools for booking management, guest communication, and operations automation.",
     icon: "https://storage.googleapis.com/your-bucket/hellohosty-icon.png",
     categories: ["PMS", "Vacation Rentals"]
   },
   {
-    id: "164",
+    id: "165",
     name: "Appartman.hu",
     description: "A property management platform focused on vacation rentals and apartments, offering tools for booking management, guest communication, and operational efficiency. Ideal for property owners in Hungary.",
     icon: "https://storage.googleapis.com/your-bucket/appartmanhu-icon.png",
     categories: ["PMS", "Vacation Rentals"]
   },
   {
-    id: "165",
+    id: "166",
     name: "Hububb",
     description: "A property management platform offering solutions for booking management, guest services, and operational efficiency. Ideal for small to medium-sized hotels, vacation rentals.",
     icon: "https://storage.googleapis.com/your-bucket/hububb-icon.png",
