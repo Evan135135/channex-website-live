@@ -2405,7 +2405,7 @@ export const integrations: Integration[] = [
     name: "HomeinLeonidio",
     description: "A specialized accommodation platform for unique stays in Leonidio, Greece. Connect with travelers seeking authentic local experiences in this charming climbing destination.",
     icon: "/lovable-uploads/homeinleonidio-icon.png",
-    categories: ["Regional", "Vacation Rentals", "Europe"],
+    categories: ["Regional", "Vacation Rentals", "Europe", "PMS"],
     slug: "homeinleonidio",
     website: "https://homeinleonidio.com"
   },
