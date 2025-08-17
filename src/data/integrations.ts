@@ -2431,4 +2431,26 @@ export const integrations: Integration[] = [
       "Up to 90-day free trial period"
     ]
   },
+  {
+    id: "221",
+    name: "RunHotel",
+    description: "Modern cloud-based hotel management system designed for independent hotels and small chains. Streamlines operations with booking management, channel distribution, and guest communication tools.",
+    icon: "/lovable-uploads/runhotel-icon.png",
+    categories: ["PMS", "Distribution", "Global"],
+    slug: "runhotel",
+    website: "https://runhotel.io",
+    longDescription: "RunHotel is a comprehensive cloud-based Property Management System designed specifically for independent hotels and small hotel chains. The platform combines modern technology with intuitive design to streamline hotel operations, from booking management to guest services. With integrated channel management, revenue optimization, and guest communication tools, RunHotel helps properties maximize efficiency and profitability.",
+    features: [
+      "Cloud-based property management system",
+      "Integrated channel manager and booking engine",
+      "Real-time availability and rate management",
+      "Guest communication and messaging tools",
+      "Revenue management and reporting",
+      "Housekeeping and maintenance coordination",
+      "Mobile-responsive interface",
+      "Multi-property management support",
+      "Payment processing integration",
+      "Automated guest check-in/check-out"
+    ]
+  },
 ];
