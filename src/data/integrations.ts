@@ -2409,4 +2409,26 @@ export const integrations: Integration[] = [
     slug: "homeinleonidio",
     website: "https://homeinleonidio.com"
   },
+  {
+    id: "220",
+    name: "Rentzz",
+    description: "Romanian property management platform for rental properties. Automates rental contracts, payments, collections, and utility management with mobile app support.",
+    icon: "/lovable-uploads/rentzz-icon.png",
+    categories: ["PMS", "Regional", "Europe"],
+    slug: "rentzz",
+    website: "https://rentzz.app",
+    longDescription: "Rentzz is a comprehensive property management platform designed specifically for rental property owners in Romania. The platform automates the entire rental process from contract creation to utility bill management, helping landlords save time and streamline operations. With features like automatic bill collection, meter reading submissions, and real-time property performance monitoring, Rentzz makes rental property management effortless.",
+    features: [
+      "Automated rental contract generation",
+      "Utility bill management and distribution",
+      "Automatic meter reading submissions",
+      "Real-time notifications for tenants and landlords",
+      "Mobile application for on-the-go management",
+      "Property performance dashboard",
+      "Revenue and expense tracking",
+      "Tenant communication tools",
+      "Multi-property management support",
+      "Up to 90-day free trial period"
+    ]
+  },
 ];
