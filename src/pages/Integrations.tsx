@@ -27,6 +27,18 @@ const Integrations = () => {
       const matchesCategories = selectedCategories.length === 0 || 
                                selectedCategories.some(cat => integration.categories.includes(cat));
       
+      // Debug logging for Didatravel
+      if (integration.name === "Didatravel") {
+        console.log("Didatravel debug:", {
+          name: integration.name,
+          searchTerm,
+          matchesSearch,
+          selectedCategories,
+          matchesCategories,
+          finalResult: matchesSearch && matchesCategories
+        });
+      }
+      
       return matchesSearch && matchesCategories;
     }).sort((a, b) => a.name.localeCompare(b.name));
   }, [searchTerm, selectedCategories]);
