@@ -67,16 +67,6 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div className="flex items-start gap-4">
-                  <div className="p-3 bg-primary/10 rounded-lg">
-                    <Phone size={20} className="text-primary" />
-                  </div>
-                  <div className="space-y-1">
-                    <h3 className="font-semibold text-foreground font-inter">Phone Support</h3>
-                    <p className="text-muted-foreground font-inter">+1 (555) 123-4567</p>
-                    <p className="text-sm text-muted-foreground font-inter">Mon-Fri 9AM-6PM PST</p>
-                  </div>
-                </div>
               </div>
 
               <div className="bg-gradient-subtle border border-border/50 rounded-lg p-6 space-y-4">
