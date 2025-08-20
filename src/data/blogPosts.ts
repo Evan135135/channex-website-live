@@ -41,7 +41,6 @@ export const blogPosts: BlogPost[] = [
     slug: "airbnb-los-pricing-channex",
     excerpt: "Channex now supports Airbnb's Length of Stay (LOS) Pricing. Set different rates based on booking length to boost occupancy and optimize revenue.",
     content: `
-      <h2>New Feature: Airbnb LOS Pricing Now Supported</h2>
       <p>We're excited to announce that Channex now supports Airbnb's LOS (Length of Stay) Pricing.</p>
 
       <h3>What is LOS Pricing?</h3>
