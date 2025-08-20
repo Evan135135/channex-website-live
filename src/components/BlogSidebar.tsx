@@ -91,19 +91,6 @@ const BlogSidebar = ({ categories, recentPosts, onCategoryFilter, selectedCatego
         </CardContent>
       </Card>
 
-      {/* Newsletter Signup */}
-      <Card className="bg-gradient-to-br from-primary/5 to-primary/10">
-        <CardHeader>
-          <CardTitle className="text-lg">Stay Updated</CardTitle>
-        </CardHeader>
-        <CardContent className="space-y-3">
-          <p className="text-sm text-muted-foreground">
-            Get the latest insights and updates delivered to your inbox.
-          </p>
-          <Input placeholder="Enter your email" />
-          <Button className="w-full">Subscribe</Button>
-        </CardContent>
-      </Card>
     </div>
   );
 };
