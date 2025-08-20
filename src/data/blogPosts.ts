@@ -87,7 +87,7 @@ export const blogPosts: BlogPost[] = [
     publishDate: "2025-08-20",
     category: blogCategories[3],
     tags: ["Airbnb", "LOS Pricing", "Length of Stay", "Channex", "Feature Update", "BETA"],
-    featuredImage: "/lovable-uploads/578448c6-4f90-414e-bbbd-a0d0d3ee17f2.png",
+    featuredImage: "/lovable-uploads/1c0d9073-b987-4554-b250-cd69e1bdf95a.png",
     readTime: 3,
     metaDescription: "Channex now supports Airbnb's Length of Stay (LOS) Pricing in BETA. Learn how to set different rates based on booking length to boost occupancy and optimize revenue."
   },
