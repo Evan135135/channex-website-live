@@ -36,6 +36,62 @@ export const blogCategories: BlogCategory[] = [
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "airbnb-los-pricing-channex",
+    title: "New Feature: Airbnb LOS Pricing Now Supported",
+    slug: "airbnb-los-pricing-channex",
+    excerpt: "Channex now supports Airbnb's Length of Stay (LOS) Pricing. Set different rates based on booking length to boost occupancy and optimize revenue.",
+    content: `
+      <h2>New Feature: Airbnb LOS Pricing Now Supported</h2>
+      <p>We're excited to announce that Channex now supports Airbnb's LOS (Length of Stay) Pricing.</p>
+
+      <h3>What is LOS Pricing?</h3>
+      <p>LOS pricing allows you to set different rates depending on how many nights a guest stays. Instead of only having a single nightly price, you can reward longer bookings with better rates.</p>
+      
+      <p>For example:</p>
+      <ul>
+        <li>1 night = $200 per night</li>
+        <li>2 nights = $180 per night</li>
+        <li>5 nights = $160 per night</li>
+      </ul>
+      
+      <p>This way, guests see a clear incentive to book longer stays, while you improve occupancy and revenue management.</p>
+
+      <h3>Why Use LOS Pricing?</h3>
+      <ul>
+        <li><strong>Boost occupancy</strong> – encourage longer stays by offering discounts.</li>
+        <li><strong>Increase revenue</strong> – optimize pricing for different stay lengths.</li>
+        <li><strong>Stay competitive</strong> – align with how many professional hosts and hotels already price on Airbnb.</li>
+        <li><strong>Reduce gaps</strong> – longer bookings mean fewer small gaps between reservations.</li>
+      </ul>
+
+      <h3>How It Works in Channex</h3>
+      <p>Once LOS mode is enabled, Channex automatically generates a price matrix for Airbnb using your inventory and rate plans. This matrix matches check-in dates, length of stay, and number of guests to ensure the best offer is always displayed.</p>
+      
+      <p>Availability updates still sync instantly, but pricing sync runs every 6 hours due to the amount of data processed.</p>
+
+      <h3>Getting Started</h3>
+      <p>LOS Pricing is currently in BETA. To enable it on your account:</p>
+      <ol>
+        <li>Contact Channex support to activate LOS mode for your account.</li>
+        <li>Switch your Airbnb channel from rate plan mode to LOS mode.</li>
+        <li>Select the listings and rate plans you'd like to use with LOS pricing.</li>
+      </ol>
+      
+      <p>That's it, your Airbnb listings will now sync with LOS pricing through Channex.</p>
+    `,
+    author: {
+      name: "Channex Team",
+      avatar: "/placeholder.svg",
+      bio: "Actionable distribution tips and product guidance."
+    },
+    publishDate: "2025-08-20",
+    category: blogCategories[3],
+    tags: ["Airbnb", "LOS Pricing", "Length of Stay", "Channex", "Feature Update", "BETA"],
+    featuredImage: "/lovable-uploads/578448c6-4f90-414e-bbbd-a0d0d3ee17f2.png",
+    readTime: 3,
+    metaDescription: "Channex now supports Airbnb's Length of Stay (LOS) Pricing in BETA. Learn how to set different rates based on booking length to boost occupancy and optimize revenue."
+  },
+  {
     id: "non-refundable-airbnb-channex",
     title: "How to Offer a Non-Refundable Discount on Airbnb with Channex",
     slug: "non-refundable-discount-airbnb-channex",
