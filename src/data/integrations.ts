@@ -2475,4 +2475,53 @@ export const integrations: Integration[] = [
       "Multi-property management support"
     ]
   },
+  {
+    id: "booknpay",
+    name: "Booknpay",
+    description: "Booknpay is an all-in-one platform built to boost hotel and villa performance by transforming property websites into powerful direct booking channels. Equipped with a seamless Online Reservation System, it maximizes revenue potential and delivers a smoother booking experience for guests.",
+    icon: "/lovable-uploads/78a66bab-8fd7-464c-a255-301401af8dde.png",
+    categories: ["IBE", "Asia"],
+    slug: "booknpay",
+    longDescription: "Booknpay is an innovative all-in-one platform specifically designed to boost hotel and villa performance by transforming property websites into powerful direct booking channels. With a seamless Online Reservation System at its core, Booknpay maximizes revenue potential while delivering an exceptional booking experience for guests. The platform empowers hospitality businesses to reduce dependency on third-party booking sites and increase direct bookings, ultimately improving profit margins and guest relationships.",
+    features: [
+      "Seamless Online Reservation System",
+      "Direct booking channel transformation",
+      "Revenue optimization tools",
+      "Smooth guest booking experience",
+      "Website integration capabilities",
+      "Performance analytics dashboard",
+      "Mobile-responsive booking interface",
+      "Real-time availability management"
+    ],
+    useCases: [
+      "Hotels looking to increase direct bookings",
+      "Villas seeking better online presence",
+      "Properties wanting to reduce OTA dependency",
+      "Accommodations focusing on revenue optimization",
+      "Hospitality businesses improving guest experience"
+    ],
+    apiCapabilities: [
+      "RESTful API integration",
+      "Real-time booking synchronization",
+      "Website embedding capabilities",
+      "Third-party system integration",
+      "Custom booking flow configuration"
+    ],
+    setupSteps: [
+      "Sign up for Booknpay account",
+      "Configure property details and room types",
+      "Integrate booking system with website",
+      "Set up payment processing",
+      "Customize booking interface design",
+      "Test booking flow and go live"
+    ],
+    website: "https://booknpay.com",
+    integrationFeatures: {
+      dataSync: ["Reservations", "Availability", "Rates"],
+      realTime: true,
+      webhooks: true,
+      bulkOperations: true,
+      customFields: true
+    }
+  },
 ];
