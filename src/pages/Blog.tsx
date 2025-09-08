@@ -13,10 +13,11 @@ const Blog = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const postsPerPage = 6;
 
-  // Filter posts by category
-  const filteredPosts = selectedCategory 
+  // Filter posts by category and sort by date (newest first)
+  const filteredPosts = (selectedCategory 
     ? blogPosts.filter(post => post.category.id === selectedCategory)
-    : blogPosts;
+    : blogPosts)
+    .sort((a, b) => new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime());
 
   // Pagination
   const totalPages = Math.ceil(filteredPosts.length / postsPerPage);
