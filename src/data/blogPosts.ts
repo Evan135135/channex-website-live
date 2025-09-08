@@ -197,7 +197,7 @@ export const blogPosts: BlogPost[] = [
     publishDate: "2025-09-08",
     category: blogCategories[1],
     tags: ["Airbnb", "Channex", "Checkout Instructions", "Guest Management", "Property Management"],
-    featuredImage: "/lovable-uploads/b0db9606-d7ec-478d-b7ed-a312b87a8b05.png",
+    featuredImage: "/lovable-uploads/98fd546a-dcf2-4e99-ab63-2ac38047f1c0.png",
     readTime: 3,
     metaDescription: "Learn how to set up and manage Airbnb checkout instructions with Channex to improve guest experience and streamline property turnovers."
   }
