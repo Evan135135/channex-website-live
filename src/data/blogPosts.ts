@@ -151,7 +151,10 @@ export const blogPosts: BlogPost[] = [
 
       <p>With just a few clicks, you can define exactly what guests need to do before leaving, and Channex syncs those instructions straight to Airbnb.</p>
 
-      <h3>Why Checkout Instructions Matter</h3>
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+
+      <h2>Why Checkout Instructions Matter</h2>
+      
       <ul>
         <li><strong>Better guest experience</strong> – Guests don't have to guess what's expected of them.</li>
         <li><strong>Less cleaning hassle</strong> – Simple tasks like taking out trash or placing towels in one spot speed up turnovers.</li>
@@ -160,10 +163,13 @@ export const blogPosts: BlogPost[] = [
 
       <p>Instead of sending last-minute messages, you can set everything up once in Channex and let it run automatically.</p>
 
-      <h3>How Checkout Tasks Work in Channex</h3>
-      <p>Channex makes it simple. Go to your Channel Settings → Listing → Actions → Checkout Tasks. From there, you'll see a list of common instructions you can turn on or off.</p>
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
 
-      <p>You can:</p>
+      <h2>How Checkout Tasks Work in Channex</h2>
+      
+      <p>Channex makes it simple. Go to your <strong>Channel Settings → Listing → Actions → Checkout Tasks</strong>. From there, you'll see a list of common instructions you can turn on or off.</p>
+
+      <p><strong>You can:</strong></p>
       <ul>
         <li>Ask guests to return keys (and specify where, e.g. "Leave keys at reception")</li>
         <li>Remind them to switch off lights and appliances</li>
@@ -175,7 +181,10 @@ export const blogPosts: BlogPost[] = [
 
       <p>Once saved, these instructions are automatically synced to Airbnb and shown to your guests at checkout.</p>
 
-      <h3>Example: A Simple Checkout Flow</h3>
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+
+      <h2>Example: A Simple Checkout Flow</h2>
+      
       <p>Here's what a typical setup looks like:</p>
       <ol>
         <li>Guests leave the keys at reception.</li>
@@ -184,9 +193,12 @@ export const blogPosts: BlogPost[] = [
         <li>They lock the doors on the way out.</li>
       </ol>
 
-      <p>No confusion. No follow-up messages. Just a smooth checkout.</p>
+      <p><em>No confusion. No follow-up messages. Just a smooth checkout.</em></p>
 
-      <h3>How to Edit Checkout Tasks in Channex</h3>
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+
+      <h2>How to Edit Checkout Tasks in Channex</h2>
+      
       <p>Setting up checkout instructions in Channex is straightforward:</p>
       
       <ol>
@@ -195,15 +207,20 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Check the boxes you are interested in and add custom text for your guest</strong></li>
       </ol>
 
-      <div style="margin: 20px 0;">
-        <img src="/lovable-uploads/72b04c70-76d3-4cfc-825b-3c012770e12e.png" alt="Channex Listings tab showing Actions dropdown with Checkout Tasks option" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
-      </div>
+      <figure style="margin: 2rem 0;">
+        <img src="/lovable-uploads/72b04c70-76d3-4cfc-825b-3c012770e12e.png" alt="Channex Listings tab showing Actions dropdown with Checkout Tasks option" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;" />
+        <figcaption style="text-align: center; margin-top: 0.75rem; color: #64748b; font-size: 0.875rem; font-style: italic;">Navigate to your Airbnb channel settings and select Checkout Tasks from the Actions menu</figcaption>
+      </figure>
 
-      <div style="margin: 20px 0;">
-        <img src="/lovable-uploads/ac556622-4248-4011-a160-c1ec25c6fa79.png" alt="Manage Checkout Tasks interface in Channex with various checkout options" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
-      </div>
+      <figure style="margin: 2rem 0;">
+        <img src="/lovable-uploads/ac556622-4248-4011-a160-c1ec25c6fa79.png" alt="Manage Checkout Tasks interface in Channex with various checkout options" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;" />
+        <figcaption style="text-align: center; margin-top: 0.75rem; color: #64748b; font-size: 0.875rem; font-style: italic;">Configure your checkout tasks with checkboxes and custom instructions for guests</figcaption>
+      </figure>
 
-      <h3>Start Using Checkout Tasks Today</h3>
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+
+      <h2>Start Using Checkout Tasks Today</h2>
+      
       <p>This feature is available now in Channex. Whether you manage one Airbnb or hundreds, it only takes a minute to set up, and your future self (and your cleaning team) will thank you.</p>
     `,
     author: {
