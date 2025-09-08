@@ -138,5 +138,67 @@ export const blogPosts: BlogPost[] = [
     featuredImage: "/lovable-uploads/9395960d-6320-483a-8f62-78c6ce80f67e.png",
     readTime: 4,
     metaDescription: "Learn how to add a non-refundable discount on Airbnb via Channex to boost bookings, reduce cancellations, and secure revenue in a few easy steps."
+  },
+  {
+    id: "airbnb-checkout-instructions-channex",
+    title: "How to Manage Airbnb Checkout Instructions with Channex",
+    slug: "airbnb-checkout-instructions-channex",
+    excerpt: "Clear checkout instructions improve guest experience and save hosts time. Learn how to set up and manage Airbnb checkout tasks directly through Channex.",
+    content: `
+      <p>Clear checkout instructions can make a big difference for both guests and hosts. Guests leave with confidence, and hosts save time (and headaches) by avoiding misunderstandings about keys, trash, or other details.</p>
+
+      <p>Airbnb encourages hosts to provide clear checkout tasks, but managing and updating these instructions can be a hassle—especially across multiple listings. That's why we built Checkout Tasks right into Channex.</p>
+
+      <p>With just a few clicks, you can define exactly what guests need to do before leaving, and Channex syncs those instructions straight to Airbnb.</p>
+
+      <h3>Why Checkout Instructions Matter</h3>
+      <ul>
+        <li><strong>Better guest experience</strong> – Guests don't have to guess what's expected of them.</li>
+        <li><strong>Less cleaning hassle</strong> – Simple tasks like taking out trash or placing towels in one spot speed up turnovers.</li>
+        <li><strong>Peace of mind</strong> – Knowing doors are locked and appliances are off helps prevent damage or safety issues.</li>
+      </ul>
+
+      <p>Instead of sending last-minute messages, you can set everything up once in Channex and let it run automatically.</p>
+
+      <h3>How Checkout Tasks Work in Channex</h3>
+      <p>Channex makes it simple. Go to your Channel Settings → Listing → Actions → Checkout Tasks. From there, you'll see a list of common instructions you can turn on or off.</p>
+
+      <p>You can:</p>
+      <ul>
+        <li>Ask guests to return keys (and specify where, e.g. "Leave keys at reception")</li>
+        <li>Remind them to switch off lights and appliances</li>
+        <li>Request they take out trash</li>
+        <li>Ensure they lock the doors</li>
+        <li>Direct them to place towels in a specific spot</li>
+        <li>Add any custom request you want</li>
+      </ul>
+
+      <p>Once saved, these instructions are automatically synced to Airbnb and shown to your guests at checkout.</p>
+
+      <h3>Example: A Simple Checkout Flow</h3>
+      <p>Here's what a typical setup looks like:</p>
+      <ol>
+        <li>Guests leave the keys at reception.</li>
+        <li>They take out trash to the main bins.</li>
+        <li>They switch off the AC and lights.</li>
+        <li>They lock the doors on the way out.</li>
+      </ol>
+
+      <p>No confusion. No follow-up messages. Just a smooth checkout.</p>
+
+      <h3>Start Using Checkout Tasks Today</h3>
+      <p>This feature is available now in Channex. Whether you manage one Airbnb or hundreds, it only takes a minute to set up, and your future self (and your cleaning team) will thank you.</p>
+    `,
+    author: {
+      name: "Channex Team",
+      avatar: "/placeholder.svg",
+      bio: "Actionable distribution tips and product guidance."
+    },
+    publishDate: "2025-08-15",
+    category: blogCategories[1],
+    tags: ["Airbnb", "Channex", "Checkout Instructions", "Guest Management", "Property Management"],
+    featuredImage: "/placeholder.svg",
+    readTime: 3,
+    metaDescription: "Learn how to set up and manage Airbnb checkout instructions with Channex to improve guest experience and streamline property turnovers."
   }
 ];
