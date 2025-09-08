@@ -186,6 +186,23 @@ export const blogPosts: BlogPost[] = [
 
       <p>No confusion. No follow-up messages. Just a smooth checkout.</p>
 
+      <h3>How to Edit Checkout Tasks in Channex</h3>
+      <p>Setting up checkout instructions in Channex is straightforward:</p>
+      
+      <ol>
+        <li><strong>Edit the Airbnb channel and go to Listings tab</strong></li>
+        <li><strong>Find the listing you want to edit and click Actions > Checkout Tasks</strong></li>
+        <li><strong>Check the boxes you are interested in and add custom text for your guest</strong></li>
+      </ol>
+
+      <div style="margin: 20px 0;">
+        <img src="/lovable-uploads/72b04c70-76d3-4cfc-825b-3c012770e12e.png" alt="Channex Listings tab showing Actions dropdown with Checkout Tasks option" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
+      </div>
+
+      <div style="margin: 20px 0;">
+        <img src="/lovable-uploads/ac556622-4248-4011-a160-c1ec25c6fa79.png" alt="Manage Checkout Tasks interface in Channex with various checkout options" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
+      </div>
+
       <h3>Start Using Checkout Tasks Today</h3>
       <p>This feature is available now in Channex. Whether you manage one Airbnb or hundreds, it only takes a minute to set up, and your future self (and your cleaning team) will thank you.</p>
     `,
