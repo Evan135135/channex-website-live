@@ -153,7 +153,7 @@ export const blogPosts: BlogPost[] = [
 
       <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
 
-      <h2>Why Checkout Instructions Matter</h2>
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Why Checkout Instructions Matter</h2>
       
       <ul>
         <li><strong>Better guest experience</strong> – Guests don't have to guess what's expected of them.</li>
@@ -165,7 +165,7 @@ export const blogPosts: BlogPost[] = [
 
       <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
 
-      <h2>How Checkout Tasks Work in Channex</h2>
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">How Checkout Tasks Work in Channex</h2>
       
       <p>Channex makes it simple. Go to your <strong>Channel Settings → Listing → Actions → Checkout Tasks</strong>. From there, you'll see a list of common instructions you can turn on or off.</p>
 
@@ -183,7 +183,7 @@ export const blogPosts: BlogPost[] = [
 
       <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
 
-      <h2>Example: A Simple Checkout Flow</h2>
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Example: A Simple Checkout Flow</h2>
       
       <p>Here's what a typical setup looks like:</p>
       <ol>
@@ -197,7 +197,7 @@ export const blogPosts: BlogPost[] = [
 
       <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
 
-      <h2>How to Edit Checkout Tasks in Channex</h2>
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">How to Edit Checkout Tasks in Channex</h2>
       
       <p>Setting up checkout instructions in Channex is straightforward:</p>
       
@@ -219,7 +219,7 @@ export const blogPosts: BlogPost[] = [
 
       <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
 
-      <h2>Start Using Checkout Tasks Today</h2>
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Start Using Checkout Tasks Today</h2>
       
       <p>This feature is available now in Channex. Whether you manage one Airbnb or hundreds, it only takes a minute to set up, and your future self (and your cleaning team) will thank you.</p>
     `,
