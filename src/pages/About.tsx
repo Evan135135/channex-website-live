@@ -311,7 +311,7 @@ const About = () => {
                   <ArrowRight size={16} className="ml-2" />
                 </Link>
               </Button>
-              <Button size="lg" variant="outline" className="border-white/20 text-white hover:bg-white/10 font-inter" asChild>
+              <Button size="lg" variant="ghost" className="border border-white/30 bg-white/10 text-white hover:bg-white/20 hover:text-white font-inter" asChild>
                 <Link to="/contact">Schedule a Demo</Link>
               </Button>
             </div>
