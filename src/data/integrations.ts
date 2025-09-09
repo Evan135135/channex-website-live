@@ -2524,4 +2524,73 @@ export const integrations: Integration[] = [
       customFields: true
     }
   },
+  {
+    id: "133",
+    name: "Ministry of Villas",
+    description: "A luxury villa booking platform specializing in exceptional private villas across Asia-Pacific destinations. Offers personalized service and inspires travelers to experience the privacy and luxury of villa stays over traditional hotels.",
+    icon: "/images/integrations/ministryofvillas.svg",
+    categories: ["OTA", "Vacation Rentals", "Asia"],
+    slug: "ministry-of-villas",
+    longDescription: "Ministry of Villas is the quintessential service for travelers seeking luxury villa accommodations across premier destinations including Bali, Thailand, Japan, Philippines, and more. We inspire travelers who would normally book a hotel to experience staying in a private villa, adding a new dimension to their holiday. Our platform makes searching for a villa a pleasure and the booking process painless, connecting guests with exceptional properties while providing villa owners with a premium distribution channel.",
+    features: [
+      "Curated luxury villa portfolio across Asia-Pacific",
+      "Personalized villa matching and recommendation service",
+      "Professional photography and marketing support",
+      "Multi-language customer support",
+      "Secure booking and payment processing",
+      "Guest concierge services",
+      "Villa owner dashboard and management tools",
+      "Partnership with Mastercard Priceless Cities",
+      "Detailed villa descriptions and amenities",
+      "Guest review and rating system"
+    ],
+    useCases: [
+      "Luxury villa owners seeking premium distribution",
+      "High-end vacation rental properties",
+      "Boutique villa collections in Asia-Pacific",
+      "Properties targeting affluent leisure travelers",
+      "Villas offering unique cultural experiences",
+      "Multi-bedroom properties for group bookings",
+      "Villa management companies expanding reach"
+    ],
+    apiCapabilities: [
+      "Property listing and content management",
+      "Real-time availability synchronization",
+      "Booking management and notifications",
+      "Rate and inventory updates",
+      "Guest communication integration",
+      "Photo and media content sync",
+      "Review and rating management"
+    ],
+    setupSteps: [
+      "Submit villa application with property details",
+      "Complete property verification and quality assessment",
+      "Professional photography and content creation",
+      "Set up rate plans and availability calendar",
+      "Configure booking policies and house rules",
+      "Integration with existing PMS or channel manager",
+      "Launch villa listing on platform"
+    ],
+    website: "https://www.ministryofvillas.com",
+    documentation: "https://www.ministryofvillas.com/villa-owners/",
+    supportEmail: "support@ministryofvillas.com",
+    pricing: {
+      model: "Commission-based",
+      details: "Competitive commission structure with no upfront fees. Revenue share model that aligns our success with villa owner profitability.",
+      features: [
+        "No setup or listing fees",
+        "Professional marketing support included",
+        "Performance-based commission structure",
+        "Marketing and promotional opportunities",
+        "Partnership benefits and exclusive programs"
+      ]
+    },
+    integrationFeatures: {
+      dataSync: ["Reservations", "Availability", "Rates", "Property Content", "Guest Reviews"],
+      realTime: true,
+      webhooks: true,
+      bulkOperations: true,
+      customFields: true
+    }
+  }
 ];
