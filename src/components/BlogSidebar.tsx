@@ -2,9 +2,8 @@ import { BlogCategory, BlogPost } from "@/types/blog";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import { Link } from "react-router-dom";
-import { Search, Calendar, User } from "lucide-react";
+import { Calendar, User } from "lucide-react";
 
 interface BlogSidebarProps {
   categories: BlogCategory[];
@@ -16,22 +15,6 @@ interface BlogSidebarProps {
 const BlogSidebar = ({ categories, recentPosts, onCategoryFilter, selectedCategory }: BlogSidebarProps) => {
   return (
     <div className="space-y-6">
-      {/* Search */}
-      <Card>
-        <CardHeader>
-          <CardTitle className="text-lg">Search</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <div className="relative">
-            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-muted-foreground" />
-            <Input 
-              placeholder="Search articles..." 
-              className="pl-10"
-            />
-          </div>
-        </CardContent>
-      </Card>
-
       {/* Categories */}
       <Card>
         <CardHeader>
