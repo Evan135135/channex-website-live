@@ -1,4 +1,5 @@
 import airbnbLogo from "@/assets/airbnb-logo.png";
+import { Link } from "react-router-dom";
 
 const Partners = () => {
   const partners = [
@@ -53,7 +54,9 @@ const Partners = () => {
           
           <div className="pt-8">
             <p className="text-sm text-muted-foreground font-inter">
-              + 50 more OTA connections available
+              <Link to="/integrations" className="hover:text-primary transition-colors duration-300 cursor-pointer">
+                + 50 more OTA connections available
+              </Link>
             </p>
           </div>
         </div>
