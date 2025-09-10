@@ -47,7 +47,7 @@ const Hero = () => {
               <Button 
                 variant="outline" 
                 size="lg" 
-                className="border-primary/20 hover:bg-primary/5 font-inter text-lg px-8 py-6 h-auto"
+                className="border-primary/20 hover:bg-primary/10 hover:text-primary hover:border-primary/40 font-inter text-lg px-8 py-6 h-auto transition-all duration-300"
                 asChild
               >
                 <a href="https://docs.channex.io/" target="_blank" rel="noopener noreferrer">
