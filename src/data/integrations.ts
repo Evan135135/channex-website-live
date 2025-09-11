@@ -955,7 +955,7 @@ export const integrations: Integration[] = [
     id: "30",
     name: "Roibos",
     description: "A robust B2B travel platform. Ideal for properties seeking connections with tour operators, travel agents, and wholesalers worldwide.",
-    icon: "https://storage.googleapis.com/your-bucket/roibos-icon.png",
+    icon: "/lovable-uploads/da970051-848f-499c-a8cc-2c650fae0caf.png",
     categories: ["B2B", "Global", "Distribution", "OTA"]
   },
 
