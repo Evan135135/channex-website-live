@@ -93,8 +93,18 @@ const IntegrationDetail = () => {
         <div className="container mx-auto px-4 lg:px-6">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-start gap-6">
-              <div className="w-20 h-20 bg-muted rounded-xl flex items-center justify-center flex-shrink-0">
-                <div className="w-12 h-12 bg-gradient-primary rounded-lg opacity-80"></div>
+              <div className="w-20 h-20 bg-muted rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden">
+                <img 
+                  src={integration.icon} 
+                  alt={`${integration.name} logo`}
+                  className="w-12 h-12 object-contain"
+                  onError={(e) => {
+                    // Fallback to gradient placeholder on error
+                    e.currentTarget.style.display = 'none';
+                    e.currentTarget.nextElementSibling?.classList.remove('hidden');
+                  }}
+                />
+                <div className="w-12 h-12 bg-gradient-primary rounded-lg opacity-80 hidden"></div>
               </div>
               
               <div className="flex-1">
