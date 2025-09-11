@@ -1,6 +1,80 @@
 import { Integration } from "@/types/integration";
+import agodaLogo from "@/assets/agoda-logo.png";
 
 export const integrations: Integration[] = [
+  {
+    id: "agoda",
+    name: "Agoda",
+    description: "One of Asia's leading OTAs with a strong presence in Southeast Asia and global reach. Agoda offers competitive rates and extensive inventory for leisure and business travelers.",
+    icon: agodaLogo,
+    categories: ["OTA", "Global"],
+    slug: "agoda",
+    longDescription: "Agoda is a premier online travel agency that connects travelers with accommodations worldwide, with a particular strength in the Asian market. As part of Booking Holdings Inc., Agoda provides a platform for hotels, vacation rentals, and unique stays to reach millions of travelers globally. Known for its competitive pricing, extensive inventory, and user-friendly booking experience, Agoda is an essential channel for properties looking to expand their reach in Asia and beyond.",
+    features: [
+      "Global reach with strong Asian market presence",
+      "Competitive commission structure",
+      "Real-time availability and pricing updates",
+      "Mobile-first booking experience",
+      "Multi-language and multi-currency support",
+      "24/7 customer support",
+      "Marketing and promotional opportunities",
+      "Advanced analytics and reporting",
+      "Flexible cancellation policies",
+      "Integration with loyalty programs"
+    ],
+    useCases: [
+      "Hotels targeting Asian markets",
+      "Properties seeking global OTA exposure",
+      "Accommodations wanting competitive rates visibility",
+      "Hotels looking to increase international bookings",
+      "Properties in popular tourist destinations",
+      "Businesses targeting mobile-savvy travelers"
+    ],
+    apiCapabilities: [
+      "Real-time availability and rate synchronization",
+      "Booking management and modifications",
+      "Property and room type configuration",
+      "Guest data and booking details access",
+      "Cancellation and no-show handling",
+      "Marketing content management",
+      "Performance analytics and reporting"
+    ],
+    setupSteps: [
+      "Register as an Agoda partner",
+      "Complete property verification process",
+      "Upload property photos and descriptions",
+      "Set up room types and amenities",
+      "Configure rates and availability calendar",
+      "Connect via Channex API integration",
+      "Test booking flow and synchronization",
+      "Go live and start receiving bookings"
+    ],
+    website: "https://partner.agoda.com",
+    documentation: "https://partner-docs.agoda.com/api",
+    supportedLanguages: ["English", "Thai", "Korean", "Japanese", "Chinese", "Vietnamese", "Bahasa Indonesia"],
+    supportEmail: "partner@agoda.com",
+    setupGuideUrl: "https://partner.agoda.com/partner/getting-started",
+    privacyPolicyUrl: "https://www.agoda.com/info/privacy.html",
+    pricing: {
+      model: "Commission-based per booking",
+      details: "Competitive commission rates with no setup or monthly fees. Commission is only charged on successful bookings.",
+      features: [
+        "No setup or joining fees",
+        "Commission only on confirmed bookings",
+        "Marketing support and promotional opportunities", 
+        "Free partner dashboard and analytics",
+        "24/7 partner support",
+        "Regular payment cycles"
+      ]
+    },
+    integrationFeatures: {
+      dataSync: ["Reservations", "Rates", "Availability", "Property Data", "Guest Information"],
+      realTime: true,
+      webhooks: true,
+      bulkOperations: true,
+      customFields: false
+    }
+  },
   {
     id: "1",
     name: "Booking Factory",
