@@ -927,7 +927,7 @@ export const integrations: Integration[] = [
     id: "26",
     name: "Hopper",
     description: "Connect with Hopper to reach a mobile-first audience seeking personalised travel deals. Ideal for properties targeting tech-savvy, price-conscious travellers.",
-    icon: "https://storage.googleapis.com/your-bucket/hopper-icon.png",
+    icon: "/lovable-uploads/7b05812a-9203-4c34-b995-9a7fcbd64216.png",
     categories: ["OTA", "Global"]
   },
   {
