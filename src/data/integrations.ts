@@ -1,20 +1,22 @@
 import { Integration } from "@/types/integration";
-import agodaLogo from "@/assets/agoda-logo.png";
 
 export const integrations: Integration[] = [
   {
-    id: "agoda",
+    id: "agoda", 
     name: "Agoda",
     description: "One of Asia's leading OTAs with a strong presence in Southeast Asia and global reach. Agoda offers competitive rates and extensive inventory for leisure and business travelers.",
-    icon: agodaLogo,
-    categories: ["OTA", "Global"],
+    icon: "https://upload.wikimedia.org/wikipedia/commons/c/ce/Agoda_transparent_logo.png",
+    categories: ["OTA", "Global", "Asia"],
     slug: "agoda",
     longDescription: "Agoda is a premier online travel agency that connects travelers with accommodations worldwide, with a particular strength in the Asian market. As part of Booking Holdings Inc., Agoda provides a platform for hotels, vacation rentals, and unique stays to reach millions of travelers globally. Known for its competitive pricing, extensive inventory, and user-friendly booking experience, Agoda is an essential channel for properties looking to expand their reach in Asia and beyond.",
     features: [
-      "Global reach with strong Asian market presence",
-      "Competitive commission structure",
-      "Real-time availability and pricing updates",
+      "Dominant presence in Asia-Pacific markets",
+      "Real-time rate and availability management", 
+      "Multi-currency and payment method support",
+      "Local language customer service",
       "Mobile-first booking experience",
+      "Competitive commission structure",
+      "Global reach with strong Asian market presence",
       "Multi-language and multi-currency support",
       "24/7 customer support",
       "Marketing and promotional opportunities",
@@ -24,7 +26,7 @@ export const integrations: Integration[] = [
     ],
     useCases: [
       "Hotels targeting Asian markets",
-      "Properties seeking global OTA exposure",
+      "Properties seeking global OTA exposure", 
       "Accommodations wanting competitive rates visibility",
       "Hotels looking to increase international bookings",
       "Properties in popular tourist destinations",
@@ -33,7 +35,7 @@ export const integrations: Integration[] = [
     apiCapabilities: [
       "Real-time availability and rate synchronization",
       "Booking management and modifications",
-      "Property and room type configuration",
+      "Property and room type configuration", 
       "Guest data and booking details access",
       "Cancellation and no-show handling",
       "Marketing content management",
@@ -42,7 +44,7 @@ export const integrations: Integration[] = [
     setupSteps: [
       "Register as an Agoda partner",
       "Complete property verification process",
-      "Upload property photos and descriptions",
+      "Upload property photos and descriptions", 
       "Set up room types and amenities",
       "Configure rates and availability calendar",
       "Connect via Channex API integration",
@@ -51,9 +53,16 @@ export const integrations: Integration[] = [
     ],
     website: "https://partner.agoda.com",
     documentation: "https://partner-docs.agoda.com/api",
+    screenshots: [
+      "https://storage.googleapis.com/your-bucket/agoda-listing.png",
+      "https://storage.googleapis.com/your-bucket/agoda-mobile.png", 
+      "https://storage.googleapis.com/your-bucket/agoda-partner.png",
+      "https://storage.googleapis.com/your-bucket/agoda-analytics.png"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=agoda-partner-demo",
     supportedLanguages: ["English", "Thai", "Korean", "Japanese", "Chinese", "Vietnamese", "Bahasa Indonesia"],
     supportEmail: "partner@agoda.com",
-    setupGuideUrl: "https://partner.agoda.com/partner/getting-started",
+    setupGuideUrl: "https://partner.agoda.com/partner/getting-started", 
     privacyPolicyUrl: "https://www.agoda.com/info/privacy.html",
     pricing: {
       model: "Commission-based per booking",
@@ -61,8 +70,8 @@ export const integrations: Integration[] = [
       features: [
         "No setup or joining fees",
         "Commission only on confirmed bookings",
-        "Marketing support and promotional opportunities", 
-        "Free partner dashboard and analytics",
+        "Marketing support and promotional opportunities",
+        "Free partner dashboard and analytics", 
         "24/7 partner support",
         "Regular payment cycles"
       ]
@@ -679,91 +688,6 @@ export const integrations: Integration[] = [
       webhooks: true,
       bulkOperations: false,
       customFields: false
-    }
-  },
-  {
-    id: "14",
-    name: "Agoda",
-    description: "Easily connect your PMS with Agoda to manage bookings, rates, and availability. Ideal for properties focused on travellers in the Asia-Pacific and beyond.",
-    icon: "/src/assets/agoda-logo.png",
-    categories: ["Asia", "Global", "OTA"],
-    slug: "agoda",
-    longDescription: "Agoda is Asia's leading online travel platform, serving over 45 million travelers annually across the Asia-Pacific region and beyond. As part of Booking Holdings, Agoda offers unparalleled reach in Asian markets while providing global distribution capabilities. Our integration ensures seamless connectivity to this crucial market, with localized support and market-specific features.",
-    features: [
-      "Dominant presence in Asia-Pacific markets",
-      "Real-time rate and availability management",
-      "Multi-currency and payment method support",
-      "Local language customer service",
-      "Mobile-first booking experience",
-      "Flash sales and promotional tools",
-      "Agoda Homes for alternative accommodations",
-      "Business travel solutions",
-      "Loyalty program integration (PointsMAX)",
-      "Local market insights and analytics",
-      "24/7 multilingual support",
-      "Flexible cancellation policy management"
-    ],
-    useCases: [
-      "Properties targeting Asian travelers",
-      "Hotels in Asia-Pacific destinations",
-      "Accommodations seeking Asian market penetration",
-      "Properties with mobile-savvy guests",
-      "Hotels offering alternative accommodation types",
-      "Businesses targeting younger demographics",
-      "Properties in emerging Asian markets"
-    ],
-    apiCapabilities: [
-      "Agoda Connectivity API",
-      "Real-time inventory and rate synchronization",
-      "Booking management and modifications",
-      "Guest data and preferences handling",
-      "Multi-property portfolio management",
-      "Promotional content and deals management",
-      "Performance analytics and reporting",
-      "Payment and settlement integration"
-    ],
-    setupSteps: [
-      "Apply for Agoda partner account",
-      "Complete property verification process",
-      "Set up property profile with local market focus",
-      "Configure room types and rate structures",
-      "Integrate via Channex connectivity platform",
-      "Optimize content for Asian market preferences",
-      "Set up promotional campaigns and flash sales",
-      "Monitor performance and adjust strategy"
-    ],
-    website: "https://agoda.com",
-    documentation: "https://developers.agoda.com",
-    screenshots: [
-      "https://storage.googleapis.com/your-bucket/agoda-listing.png",
-      "https://storage.googleapis.com/your-bucket/agoda-mobile.png",
-      "https://storage.googleapis.com/your-bucket/agoda-partner.png",
-      "https://storage.googleapis.com/your-bucket/agoda-analytics.png"
-    ],
-    videoUrl: "https://www.youtube.com/watch?v=agoda-asia-integration",
-    supportedLanguages: ["English", "Thai", "Japanese", "Korean", "Chinese (Simplified)", "Chinese (Traditional)", "Bahasa Indonesia", "Vietnamese"],
-    supportEmail: "partnersupport@agoda.com",
-    setupGuideUrl: "https://partners.agoda.com/setup-guide",
-    privacyPolicyUrl: "https://agoda.com/privacy",
-    pricing: {
-      model: "Competitive commission structure",
-      details: "Market-competitive commission rates with no setup fees. Special rates available for properties in strategic markets.",
-      features: [
-        "No joining or setup fees",
-        "Competitive commission rates",
-        "Free marketing exposure in Asia",
-        "Access to flash sale promotions",
-        "PointsMAX loyalty program benefits",
-        "Local market support team",
-        "Free property content optimization"
-      ]
-    },
-    integrationFeatures: {
-      dataSync: ["Bookings", "Rates", "Availability", "Guest Profiles", "Local Preferences", "Mobile Data"],
-      realTime: true,
-      webhooks: true,
-      bulkOperations: true,
-      customFields: true
     }
   },
   {
