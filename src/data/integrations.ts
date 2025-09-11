@@ -964,7 +964,7 @@ export const integrations: Integration[] = [
     id: "31",
     name: "Hyperguest",
     description: "Access a direct, commission-free B2B distribution network. Ideal for properties seeking to optimize margins and connect with travel agents globally.",
-    icon: "https://storage.googleapis.com/your-bucket/hyperguest-icon.png",
+    icon: "/lovable-uploads/da51353c-aaa9-4fa4-ba27-c0c34f952887.png",
     categories: ["B2B", "Global", "Distribution", "OTA"]
   },
   {
