@@ -2476,7 +2476,7 @@ export const integrations: Integration[] = [
     ]
   },
   {
-    id: "booknpay",
+    id: "223",
     name: "Booknpay",
     description: "Booknpay is an all-in-one platform built to boost hotel and villa performance by transforming property websites into powerful direct booking channels. Equipped with a seamless Online Reservation System, it maximizes revenue potential and delivers a smoother booking experience for guests.",
     icon: "/lovable-uploads/78a66bab-8fd7-464c-a255-301401af8dde.png",
@@ -2525,7 +2525,7 @@ export const integrations: Integration[] = [
     }
   },
   {
-    id: "133",
+    id: "224",
     name: "Ministry of Villas",
     description: "A luxury villa booking platform specializing in exceptional private villas across Asia-Pacific destinations. Offers personalized service and inspires travelers to experience the privacy and luxury of villa stays over traditional hotels.",
     icon: "/images/integrations/ministryofvillas.svg",
