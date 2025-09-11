@@ -511,7 +511,7 @@ export const integrations: Integration[] = [
     id: "9",
     name: "Getaroom",
     description: "Streamline bookings and expand your reach to global travelers. Ideal for properties seeking increased visibility through diverse distribution channels.",
-    icon: "https://storage.googleapis.com/your-bucket/getaroom-icon.png",
+    icon: "/images/integrations/getaroom-logo.png",
     categories: ["Global", "OTA", "Distribution"]
   },
   {
