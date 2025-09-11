@@ -941,7 +941,7 @@ export const integrations: Integration[] = [
     id: "28",
     name: "Hostelhop",
     description: "For budget-conscious and social travelers. Ideal for hostels and shared accommodations seeking increased visibility.",
-    icon: "https://storage.googleapis.com/your-bucket/hostelhop-icon.png",
+    icon: "/lovable-uploads/64209784-51e7-4dcd-9fdf-29491a43908f.png",
     categories: ["Budget", "Global", "OTA"]
   },
   {
