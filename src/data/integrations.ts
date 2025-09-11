@@ -948,7 +948,7 @@ export const integrations: Integration[] = [
     id: "29",
     name: "MakeMyTrip",
     description: "India's leading travel platform. Perfect for properties targeting travellers across India and beyond.",
-    icon: "https://storage.googleapis.com/your-bucket/makemytrip-icon.png",
+    icon: "/lovable-uploads/7ad7313e-823b-4d7b-81ef-2c6ff7dde322.png",
     categories: ["Asia", "Regional", "OTA"]
   },
   {
