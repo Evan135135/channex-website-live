@@ -497,7 +497,7 @@ export const integrations: Integration[] = [
     id: "7",
     name: "Hotelnetwork",
     description: "Connect your PMS with HotelNetwork to expand your reach through its distribution channels. Ideal for properties seeking greater visibility and diverse booking sources.",
-    icon: "https://storage.googleapis.com/your-bucket/hotelnetwork-icon.png",
+    icon: "/lovable-uploads/6aba2cfe-3309-4b59-ba28-b19cda8e32e4.png",
     categories: ["Distribution", "OTA"]
   },
   {
