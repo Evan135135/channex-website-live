@@ -899,7 +899,7 @@ export const integrations: Integration[] = [
     id: "22",
     name: "MG Bedbank",
     description: "Access Southeast Asia's leading B2B travel distribution network. Ideal for properties seeking connections with travel agents and wholesalers.",
-    icon: "https://storage.googleapis.com/your-bucket/mgbedbank-icon.png",
+    icon: "/lovable-uploads/mg-bedbank-logo.png",
     categories: ["B2B", "Asia", "Distribution", "OTA"]
   },
   {
