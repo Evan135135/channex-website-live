@@ -2234,7 +2234,7 @@ export const integrations: Integration[] = [
     id: "195",
     name: "Pricelabs",
     description: "PriceLabs is a cloud-based dynamic pricing and revenue management tool designed for the vacation and short-term rental industry. It offers automated, data-driven pricing recommendations.",
-    icon: "https://storage.googleapis.com/your-bucket/bcompany-icon.png",
+    icon: "/lovable-uploads/pricelabs-logo.png",
     categories: ["RMS"]
   },
   {
