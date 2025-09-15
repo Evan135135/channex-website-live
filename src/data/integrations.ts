@@ -504,7 +504,7 @@ export const integrations: Integration[] = [
     id: "8",
     name: "PriceTravel",
     description: "Reach travelers across Latin America. Ideal for properties targeting regional tourists and travel agencies.",
-    icon: "https://storage.googleapis.com/your-bucket/pricetravel-icon.png",
+    icon: "/lovable-uploads/pricetravel-logo.jpg",
     categories: ["Regional", "OTA", "Latin America"]
   },
   {
