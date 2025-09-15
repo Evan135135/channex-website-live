@@ -892,7 +892,7 @@ export const integrations: Integration[] = [
     id: "21",
     name: "Tiket",
     description: "Reach travellers across Indonesia and beyond. Perfect for properties targeting Southeast Asian markets.",
-    icon: "https://storage.googleapis.com/your-bucket/tiket-icon.png",
+    icon: "/lovable-uploads/tiket-logo.webp",
     categories: ["Asia", "Regional", "OTA"]
   },
   {
