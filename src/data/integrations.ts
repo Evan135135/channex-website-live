@@ -917,7 +917,7 @@ export const integrations: Integration[] = [
     categories: ["Outdoor", "Vacation Rentals", "OTA"]
   },
   {
-    id: "25",
+    id: "225",
     name: "eDreams",
     description: "Connect with one of Europe's leading OTAs. Perfect for properties targeting European and global leisure travelers.",
     icon: "/lovable-uploads/edreams-logo.png",
@@ -925,7 +925,7 @@ export const integrations: Integration[] = [
     website: "https://www.edreams.com/"
   },
   {
-    id: "26",
+    id: "25",
     name: "TravelgateX",
     description: "Access a global marketplace of travel distributors. Ideal for properties seeking broad B2B connectivity and increased distribution.",
     icon: "https://storage.googleapis.com/your-bucket/travelgatex-icon.png",
