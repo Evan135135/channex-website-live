@@ -918,6 +918,14 @@ export const integrations: Integration[] = [
   },
   {
     id: "25",
+    name: "eDreams",
+    description: "Connect with one of Europe's leading OTAs. Perfect for properties targeting European and global leisure travelers.",
+    icon: "/lovable-uploads/edreams-logo.png",
+    categories: ["OTA", "Europe", "Global"],
+    website: "https://www.edreams.com/"
+  },
+  {
+    id: "26",
     name: "TravelgateX",
     description: "Access a global marketplace of travel distributors. Ideal for properties seeking broad B2B connectivity and increased distribution.",
     icon: "https://storage.googleapis.com/your-bucket/travelgatex-icon.png",
