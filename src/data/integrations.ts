@@ -2598,5 +2598,72 @@ export const integrations: Integration[] = [
       bulkOperations: true,
       customFields: true
     }
+  },
+  {
+    id: "lodgegate",
+    name: "LodgeGate",
+    description: "Comprehensive hospitality software solution for property management, offering booking management, guest services, and operational tools designed for hotels, resorts, and accommodation providers.",
+    icon: "/lovable-uploads/lodgegate-logo.jpeg",
+    categories: ["PMS"],
+    slug: "lodgegate",
+    longDescription: "LodgeGate is a modern property management system designed specifically for the hospitality industry. Our comprehensive platform provides hotels, resorts, and accommodation providers with powerful tools to manage bookings, streamline operations, and enhance guest experiences. With a focus on user-friendly design and robust functionality, LodgeGate helps properties of all sizes optimize their operations and maximize revenue.",
+    features: [
+      "Comprehensive booking management system",
+      "Real-time availability and rate management",
+      "Guest profile and history tracking",
+      "Automated guest communication workflows",
+      "Housekeeping and maintenance scheduling",
+      "Financial reporting and analytics",
+      "Multi-property management capabilities",
+      "Channel manager integration",
+      "Mobile-responsive interface",
+      "24/7 customer support"
+    ],
+    useCases: [
+      "Hotels seeking comprehensive PMS solutions",
+      "Resorts managing complex operations",
+      "Accommodation providers needing automation",
+      "Properties wanting to streamline check-in/out",
+      "Hotels requiring detailed reporting",
+      "Multi-property operators"
+    ],
+    apiCapabilities: [
+      "RESTful API integration",
+      "Real-time booking synchronization",
+      "Guest data management",
+      "Property configuration management",
+      "Reporting and analytics access",
+      "Third-party system integration",
+      "Automated workflow triggers"
+    ],
+    setupSteps: [
+      "Register for LodgeGate account",
+      "Complete property setup and configuration",
+      "Configure room types and amenities",
+      "Set up rates and availability calendar",
+      "Integrate with existing systems via API",
+      "Train staff on platform usage",
+      "Go live with booking management"
+    ],
+    website: "https://lodgegate.com",
+    supportEmail: "support@lodgegate.com",
+    pricing: {
+      model: "Subscription-based",
+      details: "Flexible pricing based on property size and feature requirements. Contact for custom pricing.",
+      features: [
+        "Scalable pricing options",
+        "No hidden fees",
+        "Free setup and onboarding",
+        "24/7 technical support",
+        "Regular updates included"
+      ]
+    },
+    integrationFeatures: {
+      dataSync: ["Reservations", "Rates", "Availability", "Guest Data", "Property Information"],
+      realTime: true,
+      webhooks: true,
+      bulkOperations: true,
+      customFields: true
+    }
   }
 ];
