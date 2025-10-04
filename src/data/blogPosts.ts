@@ -92,7 +92,7 @@ export const blogPosts: BlogPost[] = [
       avatar: "/placeholder.svg",
       bio: "Tech Entrepreneur. Founder of channex.io, the new secure hotel distribution system."
     },
-    publishDate: "2024-11-22",
+    publishDate: "2025-10-04",
     category: blogCategories[4],
     tags: ["Airbnb", "Review Tags", "Guest Feedback", "Channex", "Property Management", "Reviews API"],
     featuredImage: "/lovable-uploads/airbnb-review-tags-feedback.webp",
