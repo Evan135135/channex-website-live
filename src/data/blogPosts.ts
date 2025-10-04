@@ -36,6 +36,70 @@ export const blogCategories: BlogCategory[] = [
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "airbnb-review-tags-channex",
+    title: "Unlocking the Power of Airbnb Review Tags for Your Property",
+    slug: "airbnb-review-tags-channex",
+    excerpt: "Discover how Airbnb's Review Tags provide detailed guest feedback insights through Channex's Reviews API, helping you improve your property and boost satisfaction.",
+    content: `
+      <p>At Channex.io, we are constantly evolving to bring innovative tools and features that empower property managers and hosts. Our latest addition is the integration of Airbnb's Review Tags through our Reviews API. This powerful new feature enables property managers to gather and leverage more specific feedback from guests, allowing you to enhance your offerings and deliver an exceptional stay experience.</p>
+
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">What Are Airbnb Review Tags?</h2>
+      <p>Airbnb's Review Tags are additional labels that guests and hosts can use when leaving a review. These tags help to surface specific issues or highlight particular aspects of a property. For example, if a guest felt the property had excellent amenities but the check-in process could be improved, the tags provide a structured way to communicate these insights. By categorizing feedback, Review Tags make reviews more actionable and precise.</p>
+
+      <figure style="margin: 2rem 0;">
+        <img src="/lovable-uploads/airbnb-review-tags-rating.webp" alt="Airbnb review tags interface showing rating categories for house rules, communication, and cleanliness" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;" />
+        <figcaption style="text-align: center; margin-top: 0.75rem; color: #64748b; font-size: 0.875rem; font-style: italic;">Example of using tags to leave review for the guest</figcaption>
+      </figure>
+
+      <figure style="margin: 2rem 0;">
+        <img src="/lovable-uploads/airbnb-review-tags-feedback.webp" alt="Airbnb guest feedback showing public and private feedback with positive tags" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;" />
+        <figcaption style="text-align: center; margin-top: 0.75rem; color: #64748b; font-size: 0.875rem; font-style: italic;">Example of guests using tags to leave a listing review</figcaption>
+      </figure>
+
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Why Review Tags Matter for Property Managers</h2>
+      <p>Review Tags go beyond generic feedback by offering detailed insights into the guest experience. Here's how this feature benefits your property:</p>
+
+      <ol>
+        <li><strong>Pinpoint Improvement Areas</strong> – By analyzing tagged categories such as cleanliness, communication, amenities, or location, you can identify and address recurring issues more effectively.</li>
+        <li><strong>Showcase Strengths</strong> – Positive tags can help you highlight your property's strengths, such as a beautiful view, modern facilities, or seamless check-in process. This is invaluable for marketing and building trust with potential guests.</li>
+        <li><strong>Boost Guest Satisfaction</strong> – When guests see their feedback addressed through tangible improvements, it enhances their trust in your management and encourages repeat bookings.</li>
+        <li><strong>Enhance Operational Efficiency</strong> – By categorising and prioritising feedback, you can focus your resources on areas that matter most to guests.</li>
+      </ol>
+
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">How Channex Makes It Easy</h2>
+      <p>Our integration of Airbnb Review Tags into the Channex platform ensures that property managers can easily access and analyze these insights. Here's what you can expect:</p>
+
+      <ul>
+        <li><strong>Centralized Feedback Management</strong> – View all review tags and guest comments in one convenient dashboard.</li>
+        <li><strong>Data-Driven Decisions</strong> – Utilize analytics tools to track trends and patterns in guest feedback over time.</li>
+        <li><strong>Proactive Communication</strong> – Respond to guest reviews with thoughtful replies, addressing specific concerns highlighted by the tags.</li>
+      </ul>
+
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Putting Review Tags to Work</h2>
+      <p>Here are some practical ways to use Review Tags to improve your property:</p>
+
+      <ul>
+        <li><strong>Regular Audits</strong> – Conduct weekly or monthly reviews of tagged feedback to identify trends.</li>
+        <li><strong>Training Opportunities</strong> – Use feedback categories to train staff on specific areas, like improving communication or cleanliness.</li>
+        <li><strong>Tailored Marketing</strong> – Highlight positive tags in your property descriptions to attract more bookings.</li>
+      </ul>
+
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Stay Ahead with Channex</h2>
+      <p>The integration of Airbnb's Review Tags is part of our commitment to help property managers stay ahead in the competitive hospitality landscape. By leveraging this feature, you can turn guest feedback into actionable strategies that enhance your property's reputation and profitability.</p>
+    `,
+    author: {
+      name: "Evan Davies",
+      avatar: "/placeholder.svg",
+      bio: "Tech Entrepreneur. Founder of channex.io, the new secure hotel distribution system."
+    },
+    publishDate: "2024-11-22",
+    category: blogCategories[4],
+    tags: ["Airbnb", "Review Tags", "Guest Feedback", "Channex", "Property Management", "Reviews API"],
+    featuredImage: "/lovable-uploads/airbnb-review-tags-feedback.webp",
+    readTime: 3,
+    metaDescription: "Learn how Airbnb Review Tags through Channex's Reviews API help property managers gather detailed guest feedback to improve operations and boost satisfaction."
+  },
+  {
     id: "airbnb-los-pricing-channex",
     title: "New Feature: Airbnb LOS Pricing Now Supported",
     slug: "airbnb-los-pricing-channex",
