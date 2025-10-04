@@ -95,7 +95,7 @@ export const blogPosts: BlogPost[] = [
     publishDate: "2025-10-04",
     category: blogCategories[4],
     tags: ["Airbnb", "Review Tags", "Guest Feedback", "Channex", "Property Management", "Reviews API"],
-    featuredImage: "/lovable-uploads/airbnb-review-tags-feedback.webp",
+    featuredImage: "/lovable-uploads/review-tags-hero.png",
     readTime: 3,
     metaDescription: "Learn how Airbnb Review Tags through Channex's Reviews API help property managers gather detailed guest feedback to improve operations and boost satisfaction."
   },
