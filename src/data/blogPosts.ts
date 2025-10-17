@@ -36,6 +36,104 @@ export const blogCategories: BlogCategory[] = [
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "staah-su-vs-channex-alternative",
+    title: "Thinking about STAAH SU vs Channex? Let's have the real conversation.",
+    slug: "staah-su-vs-channex-alternative",
+    excerpt: "An honest, founder-to-founder comparison between STAAH SU and Channex. We'll talk about what we do differently, what matters for PMS partners, and how to decide if we're the right fit.",
+    content: `
+      <p>We'll be the first to say it.</p>
+      
+      <p>STAAH SU has been around longer. They have more OTA connections, especially smaller regional ones.</p>
+      
+      <p>Most PMS companies nod and tell us the same thing after that: <em>"That's fine — we only care about the big OTAs anyway."</em></p>
+      
+      <p>That's where the real comparison starts.</p>
+
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Let's talk about what actually matters</h2>
+
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem; color: #334155;">Q: So you don't have 100+ OTAs?</h3>
+      <p>That's true — and deliberate. Over 90% of bookings come from the big five: Booking.com, Expedia, Airbnb, Agoda, and Trip.com. We focus on those first, keep them stable, and certify updates faster. You get reliability and speed, not clutter.</p>
+
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem; color: #334155;">Q: How does your pricing work?</h3>
+      <p>STAAH SU often charges per room or by hotel size. Channex keeps it simple — flat USD $7 per property per month. No hidden tiers, no usage math, no sales calls to change plans.</p>
+
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem; color: #334155;">Q: Are you hotel-facing?</h3>
+      <p>No. Channex exists for PMS companies only. We don't market to hotels, and we never compete with your customers. You stay in control.</p>
+
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem; color: #334155;">Q: What about integration time?</h3>
+      <p>Our API is modern REST + Webhooks. Most PMSs go live in weeks, not months. You get SDKs, full documentation, and a test sandbox. Your developers can move fast — and stay independent.</p>
+
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem; color: #334155;">Q: Is Channex just a channel manager?</h3>
+      <p>Connectivity is our foundation, not our ceiling. We also provide optional modules:</p>
+      <ul>
+        <li><strong>Payment Gateway</strong> – secure PCI pass-through to Stripe and others.</li>
+        <li><strong>RatePanda (coming H1 2026)</strong> – simple AI-based daily auto-pricing.</li>
+      </ul>
+      <p>All under the same API. Add them when you're ready.</p>
+
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">What PMS partners tell us after switching</h2>
+      
+      <blockquote style="border-left: 4px solid #3b82f6; padding-left: 1.5rem; margin: 1.5rem 0; font-style: italic; color: #475569;">
+        <p>"Integration dropped from three months to three weeks."</p>
+        <footer style="font-style: normal; font-size: 0.875rem; color: #64748b; margin-top: 0.5rem;">— CTO, Independent PMS</footer>
+      </blockquote>
+
+      <blockquote style="border-left: 4px solid #3b82f6; padding-left: 1.5rem; margin: 1.5rem 0; font-style: italic; color: #475569;">
+        <p>"We finally control OTA connections ourselves instead of juggling reseller contracts."</p>
+        <footer style="font-style: normal; font-size: 0.875rem; color: #64748b; margin-top: 0.5rem;">— CEO, APAC PMS Partner</footer>
+      </blockquote>
+
+      <p style="font-size: 0.875rem; color: #64748b;">(We'll share full case studies on request.)</p>
+
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Common Questions</h2>
+
+      <h3 style="font-size: 1.25rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #334155;">Do you support local or regional OTAs?</h3>
+      <p>Yes — we're adding them gradually based on partner demand. If a channel matters to your hotels, tell us — we'll prioritize it.</p>
+
+      <h3 style="font-size: 1.25rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #334155;">How hard is migration?</h3>
+      <p>Most PMSs move properties over in 2 weeks or less using our migration toolkit. We help every step of the way.</p>
+
+      <h3 style="font-size: 1.25rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #334155;">Can we test before switching?</h3>
+      <p>Of course — you can use our sandbox environment free while evaluating.</p>
+
+      <h3 style="font-size: 1.25rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #334155;">What's your uptime and support like?</h3>
+      <p>Over 99.9% uptime with real-developer support via email and Slack. No ticket limbo.</p>
+
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Ready to see if it fits?</h2>
+      
+      <p>We're happy to walk through your setup and estimate migration time. Just drop us a line — <a href="mailto:support@channex.io" style="color: #3b82f6; text-decoration: underline;">support@channex.io</a></p>
+      
+      <p><strong>Let's make your connectivity invisible, reliable, and yours.</strong></p>
+    `,
+    author: {
+      name: "Evan Davies",
+      avatar: "/placeholder.svg",
+      bio: "Tech Entrepreneur. Founder of channex.io, the new secure hotel distribution system."
+    },
+    publishDate: "2025-10-17",
+    category: blogCategories[0],
+    tags: ["STAAH SU", "Alternative", "PMS", "Channel Manager", "API", "Integration", "Comparison"],
+    featuredImage: "/lovable-uploads/staah-channex-comparison.png",
+    readTime: 5,
+    metaDescription: "Compare STAAH SU and Channex – modern API-first alternative for PMS connectivity with flat pricing, faster integration, and developer-friendly tools. Contact support@channex.io for a demo."
+  },
+  {
     id: "airbnb-review-tags-channex",
     title: "Unlocking the Power of Airbnb Review Tags for Your Property",
     slug: "airbnb-review-tags-channex",
