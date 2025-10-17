@@ -69,7 +69,7 @@ export const blogPosts: BlogPost[] = [
       <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
 
       <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem; color: #334155;">Q: What about integration time?</h3>
-      <p>Our API is modern REST + Webhooks. Most PMSs go live in weeks, not months. You get SDKs, full documentation, and a test sandbox. Your developers can move fast — and stay independent.</p>
+      <p>Our API is modern REST + Webhooks. Most PMSs go live in weeks, not months. You get full documentation and a test sandbox. Your developers can move fast — and stay independent.</p>
 
       <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
 
