@@ -83,21 +83,6 @@ export const blogPosts: BlogPost[] = [
 
       <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
 
-      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">What PMS partners tell us after switching</h2>
-      
-      <blockquote style="border-left: 4px solid #3b82f6; padding-left: 1.5rem; margin: 1.5rem 0; font-style: italic; color: #475569;">
-        <p>"Integration dropped from three months to three weeks."</p>
-        <footer style="font-style: normal; font-size: 0.875rem; color: #64748b; margin-top: 0.5rem;">— CTO, Independent PMS</footer>
-      </blockquote>
-
-      <blockquote style="border-left: 4px solid #3b82f6; padding-left: 1.5rem; margin: 1.5rem 0; font-style: italic; color: #475569;">
-        <p>"We finally control OTA connections ourselves instead of juggling reseller contracts."</p>
-        <footer style="font-style: normal; font-size: 0.875rem; color: #64748b; margin-top: 0.5rem;">— CEO, APAC PMS Partner</footer>
-      </blockquote>
-
-      <p style="font-size: 0.875rem; color: #64748b;">(We'll share full case studies on request.)</p>
-
-      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
 
       <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Common Questions</h2>
 
