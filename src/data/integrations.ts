@@ -803,7 +803,7 @@ export const integrations: Integration[] = [
     icon: "/images/integrations/vrbo.svg",
     categories: ["Vacation Rentals", "Global", "OTA"],
     slug: "vrbo",
-    longDescription: "VRBO (Vacation Rentals by Owner) is the world's leading vacation rental marketplace, specializing in whole-home rentals for families and groups. As part of Expedia Group, VRBO connects property owners with travelers seeking authentic, home-like experiences. Our integration provides comprehensive tools for managing vacation rental bookings, guest communications, and property optimization across this premium platform.",
+    longDescription: "VRBO (Vacation Rentals by Owner) is the world's leading vacation rental marketplace, specializing in whole-home rentals for families and groups. As part of Expedia Group, VRBO connects property owners with travelers seeking authentic, home-like experiences. Our integration provides comprehensive tools for managing vacation rental bookings and property optimization across this premium platform.",
     features: [
       "Whole-home vacation rental focus",
       "Family and group traveler targeting",
