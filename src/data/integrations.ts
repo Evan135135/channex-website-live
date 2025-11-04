@@ -871,7 +871,7 @@ export const integrations: Integration[] = [
       ]
     },
     integrationFeatures: {
-      dataSync: ["Bookings", "Availability", "Rates", "Guest Data", "Property Details", "Reviews"],
+      dataSync: ["Bookings", "Availability", "Rates", "Guest Data", "Property Details"],
       realTime: true,
       webhooks: true,
       bulkOperations: true,
