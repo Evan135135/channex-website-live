@@ -832,6 +832,7 @@ export const integrations: Integration[] = [
       "Real-time availability and pricing sync",
       "Booking and reservation management",
       "Property content and photo management",
+      "Cancellation and modification handling",
       "Performance analytics and insights",
       "Multi-calendar synchronization"
     ],
