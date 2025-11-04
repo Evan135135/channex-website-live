@@ -831,7 +831,6 @@ export const integrations: Integration[] = [
       "VRBO Partner API integration",
       "Real-time availability and pricing sync",
       "Booking and reservation management",
-      "Performance analytics and insights",
       "Multi-calendar synchronization"
     ],
     setupSteps: [
