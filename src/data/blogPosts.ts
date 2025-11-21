@@ -36,6 +36,160 @@ export const blogCategories: BlogCategory[] = [
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "sandwich-nights-unbookable-dates",
+    title: "Introducing \"Sandwich Nights\": Why Some Dates Become Unbookable Without You Realising",
+    slug: "sandwich-nights-unbookable-dates",
+    excerpt: "Learn why some dates become impossible to book even though you have availability, and how Channex now highlights these \"Sandwich Nights\" automatically.",
+    content: `
+      <p>If you manage availability across multiple OTAs, you've probably seen this situation:</p>
+      
+      <ul>
+        <li>You have 1 room left,</li>
+        <li>That room has a minimum stay of 2 nights,</li>
+        <li>But tomorrow is already sold out.</li>
+      </ul>
+      
+      <p><strong>Result?</strong><br/>
+      Tonight becomes impossible to book — even though you technically still have availability.</p>
+      
+      <p>This is what we're calling <strong>Sandwich Nights</strong> (other systems call it "orphan gaps", "trapped nights", "stranded nights", etc.).<br/>
+      It simply means: a night is unsellable because the stay rule is longer than the space available around it.</p>
+      
+      <p>We've now added a clear visual indicator in Channex to show you exactly when this happens. In the calendar, these dates appear with red stripes, like this:</p>
+      
+      <figure style="margin: 2rem 0;">
+        <img src="/lovable-uploads/sandwich-nights-calendar.png" alt="Channex calendar showing Sandwich Nights with red diagonal stripes" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;" />
+        <figcaption style="text-align: center; margin-top: 0.75rem; color: #64748b; font-size: 0.875rem; font-style: italic;">Red diagonal stripes indicate nights that are available but unbookable due to minimum stay restrictions</figcaption>
+      </figure>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Why this happens (in plain English)</h2>
+      
+      <p>Minimum stays are great when your occupancy is high.<br/>
+      But minimum stays can backfire if you're not watching the gaps.</p>
+      
+      <p>A "Sandwich Night" occurs when:</p>
+      
+      <ol>
+        <li>The room is available tonight,</li>
+        <li>But you don't have enough availability tomorrow to satisfy the min-stay rule.</li>
+      </ol>
+      
+      <p><strong>Example:</strong></p>
+      <ul>
+        <li>Tonight = 1 room left</li>
+        <li>Min stay = 2 nights</li>
+        <li>Tomorrow = 0 rooms</li>
+      </ul>
+      
+      <p>A guest can't book 2 nights…<br/>
+      so the system blocks tonight entirely.<br/>
+      You didn't close it — the restriction did.</p>
+      
+      <p>Many hotels think this is an OTA bug. It's not.<br/>
+      It's just math meets rules.</p>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Why this matters for hotels</h2>
+      
+      <p>Hotels often lose money without realising they've boxed themselves in with restrictions.<br/>
+      A Sandwich Night usually means:</p>
+      
+      <ul>
+        <li>Lost revenue (the night can't be sold at all)</li>
+        <li>Lower occupancy</li>
+        <li>Confusing performance dips ("Why didn't this night sell?")</li>
+      </ul>
+      
+      <p>It's a silent killer because the night looks available… until you test it or a guest tries to book.</p>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">How Channex fixes this</h2>
+      
+      <p>We now highlight these nights automatically on the Rates & Availability screen.</p>
+      
+      <p>You'll see red diagonal stripes across any night that is available but unsellable due to your own restrictions.</p>
+      
+      <p>This does two things:</p>
+      
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #1e293b;">1. It warns you before you lose the night</h3>
+      
+      <p>You can immediately see where you need to lower the minimum stay or adjust restrictions.</p>
+      
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #1e293b;">2. It gives PMSs transparency</h3>
+      
+      <p>Many PMS support teams spend hours explaining "why a night didn't sell."<br/>
+      Now they can just point to the stripes.</p>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">What hotels should do when they see a Sandwich Night</h2>
+      
+      <p>You've got two simple options:</p>
+      
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #1e293b;">Option A — Reduce the minimum stay for that date</h3>
+      
+      <p>If demand is low or you want to fill rooms, this is the realistic option.</p>
+      
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #1e293b;">Option B — Accept the night will remain unsellable</h3>
+      
+      <p>Sometimes hotels purposely keep min stays strict.<br/>
+      But at least now you know the consequence.</p>
+      
+      <p>Either way, the key is visibility.<br/>
+      You can only manage what you can see.</p>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Common mistakes hotels make (and why this feature helps)</h2>
+      
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #1e293b;">1. "We never closed that date — why is it blocked?"</h3>
+      
+      <p>Because the rule blocked it, not you.</p>
+      
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #1e293b;">2. "The PMS shows availability… but Booking.com says sold out."</h3>
+      
+      <p>Correct.<br/>
+      The PMS only shows room count — not whether the stay rule can be satisfied.</p>
+      
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #1e293b;">3. "We don't have any orphan gaps."</h3>
+      
+      <p>Nearly every hotel does.<br/>
+      Nobody checks every date against every combination of restrictions manually.</p>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Summary</h2>
+      
+      <p><strong>Sandwich Nights</strong> = Available room that cannot be booked because of min-stay rules.</p>
+      
+      <p>Channex now highlights these with red stripes so you can immediately see and fix them.</p>
+      
+      <p>This feature helps you:</p>
+      <ul>
+        <li>Avoid accidental unsellable nights</li>
+        <li>Boost occupancy</li>
+        <li>Reduce OTA confusion</li>
+        <li>Save support time</li>
+        <li>Spot gaps caused by your own rules</li>
+      </ul>
+    `,
+    author: {
+      name: "Channex Team",
+      avatar: "/placeholder.svg",
+      bio: "Actionable distribution tips and product guidance."
+    },
+    publishDate: "2025-11-21",
+    category: blogCategories[3],
+    tags: ["Product Updates", "Rate Management", "Revenue Management", "Channex Features", "Minimum Stay"],
+    featuredImage: "/lovable-uploads/sandwich-nights-calendar.png",
+    readTime: 8,
+    metaDescription: "Discover how Channex's new Sandwich Nights feature helps you identify and fix unbookable dates caused by minimum stay restrictions, preventing lost revenue."
+  },
+  {
     id: "staah-su-vs-channex-alternative",
     title: "Thinking about STAAH SU vs Channex? Let's have the real conversation.",
     slug: "staah-su-vs-channex-alternative",
