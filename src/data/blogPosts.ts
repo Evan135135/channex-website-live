@@ -36,6 +36,167 @@ export const blogCategories: BlogCategory[] = [
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "airbnb-listing-quality-dashboard",
+    title: "Introducing the New Airbnb Listing Quality Dashboard in Channex",
+    slug: "airbnb-listing-quality-dashboard",
+    excerpt: "Airbnb has become more demanding about quality metrics. Channex's new dashboard shows your entire performance picture, week-by-week, with metrics that actually matter for ranking and guest conversion.",
+    content: `
+      <p>Airbnb has quietly become more demanding about quality metrics — review scores, listing tags, guest complaints, operational issues, and even tiny details like "hard to find" or "not private."<br/>
+      These signals now directly affect how visible a listing is in search results.</p>
+      
+      <p><strong>But the problem?</strong><br/>
+      Airbnb's own analytics are scattered, vague, and hard to compare over time.</p>
+      
+      <p>So we built something better.</p>
+      
+      <p>Today we're launching the <strong>Airbnb Listing Quality Dashboard</strong> inside Channex: a single screen that shows your entire performance picture, week-by-week, with the metrics that actually matter for ranking and guest conversion.</p>
+      
+      <figure style="margin: 2rem 0;">
+        <img src="/lovable-uploads/airbnb-quality-dashboard.png" alt="Channex Airbnb Listing Quality Dashboard showing review scores, stats, and performance metrics" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;" />
+        <figcaption style="text-align: center; margin-top: 0.75rem; color: #64748b; font-size: 0.875rem; font-style: italic;">The new Airbnb Listing Quality Dashboard in Channex</figcaption>
+      </figure>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">What the Dashboard Actually Does (in plain English)</h2>
+      
+      <p>This isn't just another chart page.<br/>
+      It answers the three questions every Airbnb host has — but Airbnb doesn't tell you directly:</p>
+      
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #1e293b;">1. Am I improving or getting worse?</h3>
+      
+      <p>You see your overall review score and 5-star rate with week-over-week and year-over-year comparisons.</p>
+      
+      <p>If your 5-star rate is drifting down, you'll know before Airbnb punishes you for it.</p>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #1e293b;">2. Which listings are at risk?</h3>
+      
+      <p>Airbnb quietly flags listings internally as:</p>
+      <ul>
+        <li>Good / Excellent</li>
+        <li>Warning</li>
+        <li>At risk of removal</li>
+        <li>Removed</li>
+      </ul>
+      
+      <p>We surface these badges in a simple status widget.</p>
+      
+      <p>No guesswork.<br/>
+      No "why is my listing dropping in search?"</p>
+      
+      <p>If a listing hits "Warning," you see it immediately.</p>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #1e293b;">3. What exactly are guests complaining about?</h3>
+      
+      <p>Airbnb generates tags from guest reviews.<br/>
+      They matter more than most hosts realise.</p>
+      
+      <p>We break them down by category:</p>
+      <ul>
+        <li>Location</li>
+        <li>Check-in</li>
+        <li>Accuracy</li>
+        <li>Communication</li>
+        <li>Cleanliness</li>
+      </ul>
+      
+      <p>Each shows the top positive tags (what guests love)…<br/>
+      and the top negative tags (what hurts your scores).</p>
+      
+      <p><strong>Example:</strong><br/>
+      If "Broken lock on door" appears even a few times, you'll see its exact percentage impact — no digging through reviews manually.</p>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Charts That Mean Something (Not Just Pretty Lines)</h2>
+      
+      <p>We include three core time-series charts:</p>
+      <ol>
+        <li>Average Review Score (Weekly)</li>
+        <li>5-Star Review Rate (Weekly)</li>
+        <li>Category Scores Over Time</li>
+      </ol>
+      
+      <p>Most tools stop at "your score is 4.91."<br/>
+      That's useless.<br/>
+      What matters is: are you trending up or down?</p>
+      
+      <p>This dashboard makes that obvious.</p>
+      
+      <p>If cleanliness drops before high season, you'll catch the pattern early.</p>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Why We Built This (the honest reason)</h2>
+      
+      <p>Airbnb quality scoring has become a black box.<br/>
+      Hosts constantly ask:</p>
+      <ul>
+        <li>"Why am I losing search ranking?"</li>
+        <li>"Why did my listing drop to page 5?"</li>
+        <li>"Why did Airbnb send me a warning email out of nowhere?"</li>
+      </ul>
+      
+      <p>Airbnb gives the data, but in a fragmented, confusing way.</p>
+      
+      <p>Channex already sits in the middle of PMS → Airbnb → OTA data.<br/>
+      So it made sense to clean it up, standardise it, and present it in a way real hosts can use.</p>
+      
+      <p>This dashboard is the result.</p>
+      
+      <figure style="margin: 2rem 0;">
+        <img src="/lovable-uploads/airbnb-quality-dashboard-menu.png" alt="Channex Actions menu showing Performance Dashboard option" style="width: 100%; max-width: 500px; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;" />
+        <figcaption style="text-align: center; margin-top: 0.75rem; color: #64748b; font-size: 0.875rem; font-style: italic;">Access the Performance Dashboard from the Actions menu</figcaption>
+      </figure>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Who This Feature Is For</h2>
+      
+      <ul>
+        <li>Individual hosts wanting to maintain high visibility</li>
+        <li>Property managers with 10, 50, or 200+ listings</li>
+        <li>PMS companies who want to give their customers more value</li>
+        <li>Revenue managers who use Channex to monitor performance</li>
+        <li>Anyone who hates digging through Airbnb's clunky interface</li>
+      </ul>
+      
+      <p>If you handle multiple Airbnb listings, this is the first tool that makes quality performance actually understandable.</p>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Final Thoughts</h2>
+      
+      <p>Airbnb is pushing listings harder than ever based on quality, reliability, and consistency.</p>
+      
+      <p>This dashboard helps you:</p>
+      <ul>
+        <li>Spot issues before Airbnb does</li>
+        <li>Improve review scores intentionally</li>
+        <li>Understand why your ranking changes</li>
+        <li>Get ahead of negative tags</li>
+        <li>Stay in "Good / Excellent" status</li>
+      </ul>
+      
+      <p>It's simple, clear, and practical — exactly what most hosts need.</p>
+    `,
+    author: {
+      name: "Channex Team",
+      avatar: "/placeholder.svg",
+      bio: "Actionable distribution tips and product guidance."
+    },
+    publishDate: "2025-11-21",
+    category: blogCategories[3],
+    tags: ["Product Updates", "Airbnb", "Quality Metrics", "Performance Dashboard", "Review Management"],
+    featuredImage: "/lovable-uploads/airbnb-quality-dashboard.png",
+    readTime: 7,
+    metaDescription: "Discover Channex's new Airbnb Listing Quality Dashboard: track review scores, quality status, and guest feedback tags in one place to improve search ranking and visibility."
+  },
+  {
     id: "sandwich-nights-unbookable-dates",
     title: "Introducing \"Sandwich Nights\": Why Some Dates Become Unbookable Without You Realising",
     slug: "sandwich-nights-unbookable-dates",
