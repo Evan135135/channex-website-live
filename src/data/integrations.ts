@@ -2661,5 +2661,76 @@ export const integrations: Integration[] = [
       bulkOperations: true,
       customFields: true
     }
+  },
+  {
+    id: "alaric",
+    name: "Alaric",
+    description: "Modern Internet Booking Engine (IBE) solution that enables hotels and accommodation providers to accept direct bookings through their website with seamless integration and user-friendly interface.",
+    icon: "/images/integrations/alaric.png",
+    categories: ["IBE"],
+    slug: "alaric",
+    longDescription: "Alaric is a cutting-edge Internet Booking Engine designed to empower hotels and accommodation providers with direct booking capabilities. With a focus on conversion optimization, seamless user experience, and powerful integration features, Alaric helps properties reduce OTA dependency and increase direct revenue. The platform offers customizable booking flows, dynamic pricing, and comprehensive analytics to maximize booking conversion rates.",
+    features: [
+      "Customizable booking widget for websites",
+      "Real-time availability and pricing",
+      "Mobile-optimized booking experience",
+      "Multi-language and multi-currency support",
+      "Secure payment processing",
+      "Dynamic pricing and rate management",
+      "Promotional code and discount management",
+      "Conversion-optimized booking flow",
+      "Email confirmation and communication",
+      "Integration with major PMSs",
+      "Analytics and booking insights",
+      "Easy website integration"
+    ],
+    useCases: [
+      "Hotels wanting to increase direct bookings",
+      "Properties reducing OTA commission costs",
+      "Accommodations seeking booking engine flexibility",
+      "Hotels requiring customizable booking flows",
+      "Properties targeting mobile bookers",
+      "Businesses wanting better conversion rates"
+    ],
+    apiCapabilities: [
+      "Real-time availability synchronization",
+      "Booking creation and management",
+      "Rate and inventory updates",
+      "Guest information capture",
+      "Payment processing integration",
+      "PMS system integration",
+      "Analytics and reporting API",
+      "Webhook notifications"
+    ],
+    setupSteps: [
+      "Register for Alaric account",
+      "Configure property details and settings",
+      "Set up room types and rate plans",
+      "Customize booking widget design",
+      "Integrate payment gateway",
+      "Connect to PMS via Channex",
+      "Embed booking engine on website",
+      "Test booking flow and go live"
+    ],
+    website: "https://alaric.id/",
+    supportEmail: "support@alaric.id",
+    pricing: {
+      model: "Commission or Subscription-based",
+      details: "Flexible pricing options available. Contact for detailed pricing information.",
+      features: [
+        "No setup fees",
+        "Scalable pricing options",
+        "Free trial available",
+        "Dedicated support",
+        "Regular feature updates"
+      ]
+    },
+    integrationFeatures: {
+      dataSync: ["Bookings", "Rates", "Availability", "Guest Data"],
+      realTime: true,
+      webhooks: true,
+      bulkOperations: false,
+      customFields: true
+    }
   }
 ];
