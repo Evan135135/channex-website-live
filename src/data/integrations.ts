@@ -2732,5 +2732,81 @@ export const integrations: Integration[] = [
       bulkOperations: false,
       customFields: true
     }
+  },
+  {
+    id: "lsi-software",
+    name: "LSI Software",
+    description: "Hotel Cloud by LSI Software is a comprehensive cloud-based Property Management System designed for hotels, resorts, and accommodation providers. Offers complete hotel management with integrated modules for front office, housekeeping, revenue management, and guest services.",
+    icon: "/images/integrations/lsi-software.svg",
+    categories: ["PMS"],
+    slug: "lsi-software",
+    longDescription: "LSI Software provides Hotel Cloud, a modern cloud-based Property Management System that streamlines hotel operations from front desk to back office. With over 30 years of experience in hospitality technology, LSI Software delivers robust solutions for independent hotels, hotel chains, and resort properties. Hotel Cloud offers real-time synchronization, intuitive interface, and comprehensive features for managing reservations, guest services, housekeeping, revenue optimization, and reporting.",
+    features: [
+      "Cloud-based PMS accessible from anywhere",
+      "Real-time reservation management",
+      "Front desk and check-in/check-out operations",
+      "Housekeeping and maintenance management",
+      "Revenue management and dynamic pricing",
+      "Guest profile and CRM capabilities",
+      "Multi-property management support",
+      "Channel manager integration",
+      "Payment processing and invoicing",
+      "Comprehensive reporting and analytics",
+      "Mobile-friendly interface",
+      "Rate and inventory management",
+      "Group bookings and allocation",
+      "Night audit automation",
+      "Multi-language support"
+    ],
+    useCases: [
+      "Independent hotels seeking modern PMS",
+      "Hotel chains requiring multi-property management",
+      "Resorts needing comprehensive operations management",
+      "Properties upgrading from legacy systems",
+      "Hotels wanting cloud-based accessibility",
+      "Accommodations requiring integrated channel management"
+    ],
+    apiCapabilities: [
+      "Real-time reservation synchronization",
+      "Rate and availability updates",
+      "Guest data management",
+      "Booking modifications and cancellations",
+      "Room type and inventory management",
+      "Channel manager connectivity",
+      "Payment gateway integration",
+      "Reporting and analytics API",
+      "Webhook notifications for booking events"
+    ],
+    setupSteps: [
+      "Contact LSI Software for account setup",
+      "Configure property and room types",
+      "Import existing guest and reservation data",
+      "Set up rate plans and pricing",
+      "Configure payment processing",
+      "Connect to channel manager via Channex",
+      "Train staff on system usage",
+      "Go live with ongoing support"
+    ],
+    website: "https://lsisoftware.pl/",
+    supportEmail: "support@lsisoftware.pl",
+    pricing: {
+      model: "Subscription-based",
+      details: "Monthly or annual subscription plans based on property size and features required. Contact LSI Software for custom pricing.",
+      features: [
+        "Scalable pricing based on property size",
+        "No long-term contracts",
+        "Includes training and onboarding",
+        "24/7 technical support",
+        "Regular software updates included",
+        "Cloud hosting and maintenance included"
+      ]
+    },
+    integrationFeatures: {
+      dataSync: ["Reservations", "Rates", "Availability", "Guest Profiles", "Invoices"],
+      realTime: true,
+      webhooks: true,
+      bulkOperations: true,
+      customFields: true
+    }
   }
 ];
