@@ -2866,7 +2866,7 @@ export const integrations: Integration[] = [
     videoUrl: "https://www.youtube.com/watch?v=stripe-overview",
     supportedLanguages: ["English", "Spanish", "French", "German", "Italian", "Portuguese", "Japanese", "Chinese"],
     supportEmail: "support@stripe.com",
-    setupGuideUrl: "https://stripe.com/docs/payments/quickstart",
+    setupGuideUrl: "https://docs.channex.io/api-v.1-documentation/stripe-tokenization-app",
     privacyPolicyUrl: "https://stripe.com/privacy",
     pricing: {
       model: "Transaction-based pricing",
