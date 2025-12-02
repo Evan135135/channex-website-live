@@ -1,5 +1,5 @@
 import { useParams, Link, Navigate } from "react-router-dom";
-import { ArrowLeft, ExternalLink, CheckCircle, Code, Users, Zap, Play, Globe, Mail, FileText, Shield, DollarSign, RefreshCw, Clock, Webhook, Database } from "lucide-react";
+import { ArrowLeft, ExternalLink, CheckCircle, Code, Users, Zap, Globe, Mail, FileText, Shield, DollarSign } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -137,10 +137,9 @@ const IntegrationDetail = () => {
             {/* Main Content Area */}
             <div className="lg:col-span-3">
               <Tabs value={activeTab} onValueChange={setActiveTab} className="space-y-6">
-                <TabsList className="grid w-full grid-cols-4">
+                <TabsList className="grid w-full grid-cols-3">
                   <TabsTrigger value="overview">Overview</TabsTrigger>
                   <TabsTrigger value="features">Features</TabsTrigger>
-                  <TabsTrigger value="integration">Integration</TabsTrigger>
                   <TabsTrigger value="pricing">Pricing</TabsTrigger>
                 </TabsList>
 
@@ -217,79 +216,6 @@ const IntegrationDetail = () => {
                     </Card>}
                 </TabsContent>
 
-                {/* Integration Tab */}
-                <TabsContent value="integration" className="space-y-6">
-                  {/* Technical Capabilities */}
-                  {integration.apiCapabilities && integration.apiCapabilities.length > 0 && <Card>
-                      <CardHeader>
-                        <CardTitle className="flex items-center gap-2">
-                          <Code className="text-primary" size={20} />
-                          Technical Capabilities
-                        </CardTitle>
-                      </CardHeader>
-                      <CardContent>
-                        <div className="space-y-3">
-                          {integration.apiCapabilities.map((capability, index) => <div key={index} className="flex items-start gap-3 p-3 border border-border/50 rounded-lg">
-                              <CheckCircle size={16} className="text-primary mt-0.5 flex-shrink-0" />
-                              <span className="text-sm">{capability}</span>
-                            </div>)}
-                        </div>
-                      </CardContent>
-                    </Card>}
-
-                  {/* Integration Features */}
-                  {integration.integrationFeatures && <Card>
-                      <CardHeader>
-                        <CardTitle className="flex items-center gap-2">
-                          <RefreshCw className="text-primary" size={20} />
-                          Integration Features
-                        </CardTitle>
-                      </CardHeader>
-                      <CardContent>
-                        <div className="grid md:grid-cols-2 gap-6">
-                          <div className="space-y-4">
-                            <div className="flex items-center gap-3">
-                              <Clock className="text-primary" size={18} />
-                              <span className="font-medium">Real-time Sync</span>
-                              <Badge variant={integration.integrationFeatures.realTime ? "default" : "secondary"}>
-                                {integration.integrationFeatures.realTime ? "Yes" : "No"}
-                              </Badge>
-                            </div>
-                            <div className="flex items-center gap-3">
-                              <Webhook className="text-primary" size={18} />
-                              <span className="font-medium">Webhooks</span>
-                              <Badge variant={integration.integrationFeatures.webhooks ? "default" : "secondary"}>
-                                {integration.integrationFeatures.webhooks ? "Supported" : "Not supported"}
-                              </Badge>
-                            </div>
-                          </div>
-                          <div className="space-y-4">
-                            <div className="flex items-center gap-3">
-                              <Database className="text-primary" size={18} />
-                              <span className="font-medium">Bulk Operations</span>
-                              <Badge variant={integration.integrationFeatures.bulkOperations ? "default" : "secondary"}>
-                                {integration.integrationFeatures.bulkOperations ? "Yes" : "No"}
-                              </Badge>
-                            </div>
-                            <div className="flex items-center gap-3">
-                              <Code className="text-primary" size={18} />
-                              <span className="font-medium">Custom Fields</span>
-                              <Badge variant={integration.integrationFeatures.customFields ? "default" : "secondary"}>
-                                {integration.integrationFeatures.customFields ? "Supported" : "Standard only"}
-                              </Badge>
-                            </div>
-                          </div>
-                        </div>
-
-                        {integration.integrationFeatures.dataSync && integration.integrationFeatures.dataSync.length > 0 && <div className="mt-6">
-                            <h4 className="font-medium text-foreground mb-3">Data Synchronization</h4>
-                            <div className="flex flex-wrap gap-2">
-                              {integration.integrationFeatures.dataSync.map((sync, index) => <Badge key={index} variant="outline">{sync}</Badge>)}
-                            </div>
-                          </div>}
-                      </CardContent>
-                    </Card>}
-                </TabsContent>
 
                 {/* Pricing Tab */}
                 <TabsContent value="pricing" className="space-y-6">
