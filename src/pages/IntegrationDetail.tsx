@@ -193,27 +193,6 @@ const IntegrationDetail = () => {
                       </CardContent>
                     </Card>}
 
-                  {/* Setup Steps */}
-                  {integration.setupSteps && integration.setupSteps.length > 0 && <Card>
-                      <CardHeader>
-                        <CardTitle>Getting Started</CardTitle>
-                        <CardDescription>
-                          Follow these steps to integrate {integration.name} with your PMS
-                        </CardDescription>
-                      </CardHeader>
-                      <CardContent>
-                        <div className="space-y-4">
-                          {integration.setupSteps.map((step, index) => <div key={index} className="flex items-start gap-4">
-                              <div className="w-8 h-8 bg-primary/10 text-primary rounded-full flex items-center justify-center text-sm font-medium flex-shrink-0">
-                                {index + 1}
-                              </div>
-                              <div className="flex-1 pt-1">
-                                <span className="text-sm">{step}</span>
-                              </div>
-                            </div>)}
-                        </div>
-                      </CardContent>
-                    </Card>}
                 </TabsContent>
 
 
