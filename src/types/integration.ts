@@ -45,5 +45,6 @@ export const categories = [
   "Latin America",
   "RMS",
   "IBE",
-  "PMS"
+  "PMS",
+  "Payment Gateway"
 ];
