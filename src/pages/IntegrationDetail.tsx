@@ -10,23 +10,20 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Seo from "@/components/Seo";
 import { useEffect, useState } from "react";
-
-const HIDDEN_CATEGORIES = new Set(["Regional","Budget","Luxury","Corporate","API"]);
-
+const HIDDEN_CATEGORIES = new Set(["Regional", "Budget", "Luxury", "Corporate", "API"]);
 const IntegrationDetail = () => {
-  const { slug } = useParams<{ slug: string }>();
+  const {
+    slug
+  } = useParams<{
+    slug: string;
+  }>();
   const [activeTab, setActiveTab] = useState("overview");
-  
+
   // Find integration by slug or fallback to id for existing integrations
-  const integration = integrations.find(
-    (int) => int.slug === slug || int.id === slug
-  );
-
-
+  const integration = integrations.find(int => int.slug === slug || int.id === slug);
   if (!integration) {
     return <Navigate to="/integrations" replace />;
   }
-
   const getCategoryColor = (category: string) => {
     const colorMap: Record<string, string> = {
       "OTA": "bg-primary/10 text-primary border-primary/20",
@@ -36,35 +33,33 @@ const IntegrationDetail = () => {
       "B2B": "bg-purple-100 text-purple-700 border-purple-200",
       "API": "bg-blue-100 text-blue-700 border-blue-200",
       "RMS": "bg-pink-100 text-pink-700 border-pink-200",
-      "IBE": "bg-indigo-100 text-indigo-700 border-indigo-200",
+      "IBE": "bg-indigo-100 text-indigo-700 border-indigo-200"
     };
     return colorMap[category] || "bg-muted text-muted-foreground border-border";
   };
-
-  const relatedIntegrations = integrations
-    .filter((int) => 
-      int.id !== integration.id && 
-      int.categories.some((cat) => integration.categories.includes(cat))
-    )
-    .slice(0, 3);
-
-  return (
-    <div className="min-h-screen bg-background">
+  const relatedIntegrations = integrations.filter(int => int.id !== integration.id && int.categories.some(cat => integration.categories.includes(cat))).slice(0, 3);
+  return <div className="min-h-screen bg-background">
       <Header />
-      <Seo
-        title={`${integration.name} Integration | Channex`}
-        description={integration.longDescription || integration.description}
-        canonical={`/integrations/${integration.slug || integration.id}`}
-        structuredData={[{
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://channex.io/" },
-            { "@type": "ListItem", "position": 2, "name": "Integrations", "item": "https://channex.io/integrations" },
-            { "@type": "ListItem", "position": 3, "name": integration.name, "item": `https://channex.io/integrations/${integration.slug || integration.id}` }
-          ]
-        }]}
-      />
+      <Seo title={`${integration.name} Integration | Channex`} description={integration.longDescription || integration.description} canonical={`/integrations/${integration.slug || integration.id}`} structuredData={[{
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://channex.io/"
+      }, {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Integrations",
+        "item": "https://channex.io/integrations"
+      }, {
+        "@type": "ListItem",
+        "position": 3,
+        "name": integration.name,
+        "item": `https://channex.io/integrations/${integration.slug || integration.id}`
+      }]
+    }]} />
       
       {/* Breadcrumb and Back Navigation */}
       <section className="pt-24 pb-8 border-b border-border/50">
@@ -94,16 +89,11 @@ const IntegrationDetail = () => {
           <div className="max-w-4xl mx-auto">
             <div className="flex items-start gap-6">
               <div className="w-20 h-20 bg-muted rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden">
-                <img 
-                  src={integration.icon} 
-                  alt={`${integration.name} logo`}
-                  className="w-12 h-12 object-contain"
-                  onError={(e) => {
-                    // Fallback to gradient placeholder on error
-                    e.currentTarget.style.display = 'none';
-                    e.currentTarget.nextElementSibling?.classList.remove('hidden');
-                  }}
-                />
+                <img src={integration.icon} alt={`${integration.name} logo`} className="w-12 h-12 object-contain" onError={e => {
+                // Fallback to gradient placeholder on error
+                e.currentTarget.style.display = 'none';
+                e.currentTarget.nextElementSibling?.classList.remove('hidden');
+              }} />
                 <div className="w-12 h-12 bg-gradient-primary rounded-lg opacity-80 hidden"></div>
               </div>
               
@@ -117,31 +107,21 @@ const IntegrationDetail = () => {
                 </p>
                 
                 <div className="flex flex-wrap gap-2 mb-6">
-                  {integration.categories
-                    .filter((c) => !HIDDEN_CATEGORIES.has(c))
-                    .map((category) => (
-                      <Badge 
-                        key={category} 
-                        variant="outline" 
-                        className={getCategoryColor(category)}
-                      >
+                  {integration.categories.filter(c => !HIDDEN_CATEGORIES.has(c)).map(category => <Badge key={category} variant="outline" className={getCategoryColor(category)}>
                         {category}
-                      </Badge>
-                    ))}
+                      </Badge>)}
                 </div>
                 
                 <div className="flex flex-wrap gap-4">
                   <Button className="bg-gradient-primary hover:shadow-primary transition-all duration-300" asChild>
-                    <Link to="/start-integration">Start Integration</Link>
+                    
                   </Button>
-                  {integration.website && (
-                    <Button variant="outline" asChild>
+                  {integration.website && <Button variant="outline" asChild>
                       <a href={integration.website} target="_blank" rel="noopener noreferrer">
                         Visit Website
                         <ExternalLink size={16} className="ml-2" />
                       </a>
-                    </Button>
-                  )}
+                    </Button>}
                 </div>
               </div>
             </div>
@@ -179,30 +159,25 @@ const IntegrationDetail = () => {
                       </p>
                       
                       {/* Use Cases */}
-                      {integration.useCases && integration.useCases.length > 0 && (
-                        <div className="mt-6">
+                      {integration.useCases && integration.useCases.length > 0 && <div className="mt-6">
                           <h4 className="font-semibold text-foreground mb-4 flex items-center gap-2">
                             <Users size={16} className="text-primary" />
                             Ideal For
                           </h4>
                           <div className="space-y-3">
-                            {integration.useCases.map((useCase, index) => (
-                              <div key={index} className="flex items-start gap-3">
+                            {integration.useCases.map((useCase, index) => <div key={index} className="flex items-start gap-3">
                                 <CheckCircle size={16} className="text-primary mt-0.5 flex-shrink-0" />
                                 <span className="text-sm">{useCase}</span>
-                              </div>
-                            ))}
+                              </div>)}
                           </div>
-                        </div>
-                      )}
+                        </div>}
                     </CardContent>
                   </Card>
                 </TabsContent>
 
                 {/* Features Tab */}
                 <TabsContent value="features" className="space-y-6">
-                  {integration.features && integration.features.length > 0 && (
-                    <Card>
+                  {integration.features && integration.features.length > 0 && <Card>
                       <CardHeader>
                         <CardTitle className="flex items-center gap-2">
                           <Zap className="text-primary" size={20} />
@@ -211,20 +186,16 @@ const IntegrationDetail = () => {
                       </CardHeader>
                       <CardContent>
                         <div className="grid md:grid-cols-2 gap-4">
-                          {integration.features.map((feature, index) => (
-                            <div key={index} className="flex items-start gap-3 p-3 bg-muted/30 rounded-lg">
+                          {integration.features.map((feature, index) => <div key={index} className="flex items-start gap-3 p-3 bg-muted/30 rounded-lg">
                               <CheckCircle size={16} className="text-primary mt-0.5 flex-shrink-0" />
                               <span className="text-sm">{feature}</span>
-                            </div>
-                          ))}
+                            </div>)}
                         </div>
                       </CardContent>
-                    </Card>
-                  )}
+                    </Card>}
 
                   {/* Setup Steps */}
-                  {integration.setupSteps && integration.setupSteps.length > 0 && (
-                    <Card>
+                  {integration.setupSteps && integration.setupSteps.length > 0 && <Card>
                       <CardHeader>
                         <CardTitle>Getting Started</CardTitle>
                         <CardDescription>
@@ -233,27 +204,23 @@ const IntegrationDetail = () => {
                       </CardHeader>
                       <CardContent>
                         <div className="space-y-4">
-                          {integration.setupSteps.map((step, index) => (
-                            <div key={index} className="flex items-start gap-4">
+                          {integration.setupSteps.map((step, index) => <div key={index} className="flex items-start gap-4">
                               <div className="w-8 h-8 bg-primary/10 text-primary rounded-full flex items-center justify-center text-sm font-medium flex-shrink-0">
                                 {index + 1}
                               </div>
                               <div className="flex-1 pt-1">
                                 <span className="text-sm">{step}</span>
                               </div>
-                            </div>
-                          ))}
+                            </div>)}
                         </div>
                       </CardContent>
-                    </Card>
-                  )}
+                    </Card>}
                 </TabsContent>
 
                 {/* Integration Tab */}
                 <TabsContent value="integration" className="space-y-6">
                   {/* Technical Capabilities */}
-                  {integration.apiCapabilities && integration.apiCapabilities.length > 0 && (
-                    <Card>
+                  {integration.apiCapabilities && integration.apiCapabilities.length > 0 && <Card>
                       <CardHeader>
                         <CardTitle className="flex items-center gap-2">
                           <Code className="text-primary" size={20} />
@@ -262,20 +229,16 @@ const IntegrationDetail = () => {
                       </CardHeader>
                       <CardContent>
                         <div className="space-y-3">
-                          {integration.apiCapabilities.map((capability, index) => (
-                            <div key={index} className="flex items-start gap-3 p-3 border border-border/50 rounded-lg">
+                          {integration.apiCapabilities.map((capability, index) => <div key={index} className="flex items-start gap-3 p-3 border border-border/50 rounded-lg">
                               <CheckCircle size={16} className="text-primary mt-0.5 flex-shrink-0" />
                               <span className="text-sm">{capability}</span>
-                            </div>
-                          ))}
+                            </div>)}
                         </div>
                       </CardContent>
-                    </Card>
-                  )}
+                    </Card>}
 
                   {/* Integration Features */}
-                  {integration.integrationFeatures && (
-                    <Card>
+                  {integration.integrationFeatures && <Card>
                       <CardHeader>
                         <CardTitle className="flex items-center gap-2">
                           <RefreshCw className="text-primary" size={20} />
@@ -318,25 +281,19 @@ const IntegrationDetail = () => {
                           </div>
                         </div>
 
-                        {integration.integrationFeatures.dataSync && integration.integrationFeatures.dataSync.length > 0 && (
-                          <div className="mt-6">
+                        {integration.integrationFeatures.dataSync && integration.integrationFeatures.dataSync.length > 0 && <div className="mt-6">
                             <h4 className="font-medium text-foreground mb-3">Data Synchronization</h4>
                             <div className="flex flex-wrap gap-2">
-                              {integration.integrationFeatures.dataSync.map((sync, index) => (
-                                <Badge key={index} variant="outline">{sync}</Badge>
-                              ))}
+                              {integration.integrationFeatures.dataSync.map((sync, index) => <Badge key={index} variant="outline">{sync}</Badge>)}
                             </div>
-                          </div>
-                        )}
+                          </div>}
                       </CardContent>
-                    </Card>
-                  )}
+                    </Card>}
                 </TabsContent>
 
                 {/* Pricing Tab */}
                 <TabsContent value="pricing" className="space-y-6">
-                  {integration.pricing ? (
-                    <Card>
+                  {integration.pricing ? <Card>
                       <CardHeader>
                         <CardTitle className="flex items-center gap-2">
                           <DollarSign className="text-primary" size={20} />
@@ -353,24 +310,18 @@ const IntegrationDetail = () => {
                             <h4 className="font-medium text-foreground mb-2">Details</h4>
                             <p className="text-muted-foreground">{integration.pricing.details}</p>
                           </div>
-                          {integration.pricing.features && integration.pricing.features.length > 0 && (
-                            <div>
+                          {integration.pricing.features && integration.pricing.features.length > 0 && <div>
                               <h4 className="font-medium text-foreground mb-3">What's Included</h4>
                               <div className="space-y-2">
-                                {integration.pricing.features.map((feature, index) => (
-                                  <div key={index} className="flex items-start gap-3">
+                                {integration.pricing.features.map((feature, index) => <div key={index} className="flex items-start gap-3">
                                     <CheckCircle size={16} className="text-primary mt-0.5 flex-shrink-0" />
                                     <span className="text-sm">{feature}</span>
-                                  </div>
-                                ))}
+                                  </div>)}
                               </div>
-                            </div>
-                          )}
+                            </div>}
                         </div>
                       </CardContent>
-                    </Card>
-                  ) : (
-                    <Card>
+                    </Card> : <Card>
                       <CardContent className="p-8 text-center">
                         <DollarSign className="w-12 h-12 text-muted-foreground mx-auto mb-4" />
                         <h3 className="text-lg font-semibold text-foreground mb-2">
@@ -383,8 +334,7 @@ const IntegrationDetail = () => {
                           <Link to="/contact">Get Pricing</Link>
                         </Button>
                       </CardContent>
-                    </Card>
-                  )}
+                    </Card>}
                 </TabsContent>
               </Tabs>
             </div>
@@ -399,24 +349,15 @@ const IntegrationDetail = () => {
                 </CardHeader>
                 <CardContent>
                   <div className="flex flex-wrap gap-2">
-                    {integration.categories
-                      .filter((c) => !HIDDEN_CATEGORIES.has(c))
-                      .map((category) => (
-                        <Badge 
-                          key={category} 
-                          variant="outline" 
-                          className={getCategoryColor(category)}
-                        >
+                    {integration.categories.filter(c => !HIDDEN_CATEGORIES.has(c)).map(category => <Badge key={category} variant="outline" className={getCategoryColor(category)}>
                           {category}
-                        </Badge>
-                      ))}
+                        </Badge>)}
                   </div>
                 </CardContent>
               </Card>
 
               {/* Supported Languages */}
-              {integration.supportedLanguages && integration.supportedLanguages.length > 0 && (
-                <Card>
+              {integration.supportedLanguages && integration.supportedLanguages.length > 0 && <Card>
                   <CardHeader>
                     <CardTitle className="text-lg flex items-center gap-2">
                       <Globe size={18} className="text-primary" />
@@ -439,8 +380,7 @@ const IntegrationDetail = () => {
                       </div>
                     </div>
                   </CardContent>
-                </Card>
-              )}
+                </Card>}
 
               {/* Important Links */}
               <Card>
@@ -448,46 +388,36 @@ const IntegrationDetail = () => {
                   <CardTitle className="text-lg">Important Links</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-3">
-                  {integration.website && (
-                    <Button variant="ghost" className="w-full justify-start" asChild>
+                  {integration.website && <Button variant="ghost" className="w-full justify-start" asChild>
                       <a href={integration.website} target="_blank" rel="noopener noreferrer">
                         <ExternalLink size={16} className="mr-2" />
                         App website
                       </a>
-                    </Button>
-                  )}
-                  {integration.supportEmail && (
-                    <Button variant="ghost" className="w-full justify-start" asChild>
+                    </Button>}
+                  {integration.supportEmail && <Button variant="ghost" className="w-full justify-start" asChild>
                       <a href={`mailto:${integration.supportEmail}`}>
                         <Mail size={16} className="mr-2" />
                         Support
                       </a>
-                    </Button>
-                  )}
-                  {integration.setupGuideUrl && (
-                    <Button variant="ghost" className="w-full justify-start" asChild>
+                    </Button>}
+                  {integration.setupGuideUrl && <Button variant="ghost" className="w-full justify-start" asChild>
                       <a href={integration.setupGuideUrl} target="_blank" rel="noopener noreferrer">
                         <FileText size={16} className="mr-2" />
                         Setup guide
                       </a>
-                    </Button>
-                  )}
-                  {integration.privacyPolicyUrl && (
-                    <Button variant="ghost" className="w-full justify-start" asChild>
+                    </Button>}
+                  {integration.privacyPolicyUrl && <Button variant="ghost" className="w-full justify-start" asChild>
                       <a href={integration.privacyPolicyUrl} target="_blank" rel="noopener noreferrer">
                         <Shield size={16} className="mr-2" />
                         Privacy policy
                       </a>
-                    </Button>
-                  )}
-                  {integration.documentation && (
-                    <Button variant="ghost" className="w-full justify-start" asChild>
+                    </Button>}
+                  {integration.documentation && <Button variant="ghost" className="w-full justify-start" asChild>
                       <a href={integration.documentation} target="_blank" rel="noopener noreferrer">
                         <Code size={16} className="mr-2" />
                         Documentation
                       </a>
-                    </Button>
-                  )}
+                    </Button>}
                 </CardContent>
               </Card>
             </div>
@@ -496,8 +426,7 @@ const IntegrationDetail = () => {
       </section>
 
       {/* Related Integrations */}
-      {relatedIntegrations.length > 0 && (
-        <section className="py-12 border-t border-border/50">
+      {relatedIntegrations.length > 0 && <section className="py-12 border-t border-border/50">
           <div className="container mx-auto px-4 lg:px-6">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-2xl font-semibold text-foreground font-inter mb-8">
@@ -505,8 +434,7 @@ const IntegrationDetail = () => {
               </h2>
               
               <div className="grid md:grid-cols-3 gap-6">
-                {relatedIntegrations.map((relatedInt) => (
-                  <Card key={relatedInt.id} className="group hover:shadow-primary transition-all duration-300">
+                {relatedIntegrations.map(relatedInt => <Card key={relatedInt.id} className="group hover:shadow-primary transition-all duration-300">
                     <CardHeader>
                       <div className="flex items-start gap-3">
                         <div className="w-12 h-12 bg-muted rounded-lg flex items-center justify-center flex-shrink-0">
@@ -531,17 +459,13 @@ const IntegrationDetail = () => {
                         </Link>
                       </Button>
                     </CardContent>
-                  </Card>
-                ))}
+                  </Card>)}
               </div>
             </div>
           </div>
-        </section>
-      )}
+        </section>}
 
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default IntegrationDetail;
