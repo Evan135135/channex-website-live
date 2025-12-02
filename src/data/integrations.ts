@@ -2028,7 +2028,7 @@ export const integrations: Integration[] = [
     id: "160",
     name: "Hosroom",
     description: "A property management system offering solutions for booking management, guest communication, and operational efficiency.",
-    icon: "https://storage.googleapis.com/your-bucket/hosroom-icon.png",
+    icon: "/images/integrations/hosroom.png",
     categories: ["PMS"]
   },
   {
