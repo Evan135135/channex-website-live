@@ -2808,5 +2808,85 @@ export const integrations: Integration[] = [
       bulkOperations: true,
       customFields: true
     }
+  },
+  {
+    id: "stripe",
+    name: "Stripe",
+    description: "The leading online payment processing platform for internet businesses. Stripe provides a complete payments infrastructure with powerful APIs, fraud prevention, and global reach for seamless guest transactions.",
+    icon: "/images/integrations/stripe.png",
+    categories: ["Payment Gateway"],
+    slug: "stripe",
+    longDescription: "Stripe is the world's most powerful and flexible payment platform, trusted by millions of businesses from startups to Fortune 500 companies. Built for developers and designed for ease of use, Stripe handles billions of dollars in transactions annually. With Channex integration, properties can seamlessly process payments, manage subscriptions, handle refunds, and automate financial workflows while providing guests with a secure, frictionless payment experience.",
+    features: [
+      "Secure payment processing with PCI compliance",
+      "Support for 135+ currencies worldwide",
+      "Credit card, debit card, and digital wallet acceptance",
+      "Automated fraud detection and prevention",
+      "Subscription and recurring billing management",
+      "Instant payouts and flexible settlement",
+      "Customizable checkout experiences",
+      "Real-time transaction monitoring and reporting",
+      "Refund and dispute management",
+      "3D Secure authentication support",
+      "Mobile-optimized payment flows",
+      "Multi-currency pricing and conversion"
+    ],
+    useCases: [
+      "Hotels processing online payments and deposits",
+      "Properties accepting international guest payments",
+      "Vacation rentals collecting security deposits",
+      "Accommodation providers with recurring charges",
+      "Properties needing automated payment reconciliation",
+      "Businesses requiring multi-currency support",
+      "Hotels managing refunds and chargebacks efficiently"
+    ],
+    apiCapabilities: [
+      "Payment Intent API for secure transactions",
+      "Customer management and saved payment methods",
+      "Webhook events for real-time notifications",
+      "Subscription and invoice management",
+      "Refund and dispute handling",
+      "Balance and payout reporting",
+      "Connect platform for marketplace payments",
+      "Radar fraud prevention integration"
+    ],
+    setupSteps: [
+      "Create a Stripe account at stripe.com",
+      "Complete business verification and KYC requirements",
+      "Obtain API keys from Stripe Dashboard",
+      "Configure payment methods and currencies",
+      "Connect Stripe to Channex via integration settings",
+      "Set up webhook endpoints for payment events",
+      "Test transactions in sandbox environment",
+      "Go live and start processing payments"
+    ],
+    website: "https://stripe.com",
+    documentation: "https://stripe.com/docs/api",
+    screenshots: [],
+    videoUrl: "https://www.youtube.com/watch?v=stripe-overview",
+    supportedLanguages: ["English", "Spanish", "French", "German", "Italian", "Portuguese", "Japanese", "Chinese"],
+    supportEmail: "support@stripe.com",
+    setupGuideUrl: "https://stripe.com/docs/payments/quickstart",
+    privacyPolicyUrl: "https://stripe.com/privacy",
+    pricing: {
+      model: "Transaction-based pricing",
+      details: "Pay only when you process payments. Standard rate is 2.9% + $0.30 per successful transaction. Volume discounts available for high-volume businesses.",
+      features: [
+        "No setup or monthly fees",
+        "Pay per transaction only",
+        "Volume discounts available",
+        "No hidden charges or minimums",
+        "Free fraud protection with Radar",
+        "All payment methods included",
+        "24/7 support for all users"
+      ]
+    },
+    integrationFeatures: {
+      dataSync: ["Payments", "Refunds", "Customers", "Invoices", "Subscriptions"],
+      realTime: true,
+      webhooks: true,
+      bulkOperations: true,
+      customFields: false
+    }
   }
 ];
