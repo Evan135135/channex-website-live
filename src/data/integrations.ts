@@ -2888,5 +2888,12 @@ export const integrations: Integration[] = [
       bulkOperations: true,
       customFields: false
     }
+  },
+  {
+    id: "hotelrez",
+    name: "HotelREZ",
+    description: "A global hotel representation company connecting independent hotels and small chains with travel agents, corporate buyers, and GDS networks worldwide.",
+    icon: "/images/integrations/hotelrez.jpg",
+    categories: ["OTA", "Distribution", "Global"]
   }
 ];
