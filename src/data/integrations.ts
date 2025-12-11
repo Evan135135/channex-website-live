@@ -2892,7 +2892,7 @@ export const integrations: Integration[] = [
   {
     id: "hotelrez",
     name: "HotelREZ",
-    description: "A global hotel representation company connecting independent hotels and small chains with travel agents, corporate buyers, and GDS networks worldwide.",
+    description: "A global hotel representation company connecting independent hotels and small chains with travel agents, corporate buyers, and GDS networks worldwide.\nA global hotel representation company increasing revenue with GDS, RFPs, Direct Booking tools and unlocking global demand and marketing power.",
     icon: "/images/integrations/hotelrez.jpg",
     categories: ["OTA", "Distribution", "Global"]
   }
