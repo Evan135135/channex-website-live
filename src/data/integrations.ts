@@ -2937,5 +2937,32 @@ export const integrations: Integration[] = [
       "Hotels wanting to improve guest experience through instant responses"
     ],
     website: "https://www.wespeak.pro/"
+  },
+  {
+    id: "levart",
+    name: "Levart",
+    description: "Australian hospitality software provider offering intelligent booking engine technology, channel management, and website solutions to increase direct bookings.",
+    icon: "https://www.levart.com.au/wp-content/uploads/2021/05/Direct-Bookings-Dark-Blue.svg",
+    categories: ["IBE"],
+    slug: "levart",
+    longDescription: "Levart provides superior software solutions for the hospitality industry, helping properties grow direct bookings, easily manage online distribution, and optimize overall profitability with intelligent technology solutions. Their suite includes an intelligent booking engine, channel manager, and website solutions, all backed by a dedicated Client Success Team.",
+    features: [
+      "Intelligent booking engine technology",
+      "Channel management integration",
+      "Website solutions for hotels",
+      "Automated systems for efficiency",
+      "Direct booking optimization tools",
+      "Dedicated Client Success Team support",
+      "Complete control over your business",
+      "Time-saving automated workflows"
+    ],
+    useCases: [
+      "Hotels looking to increase direct bookings",
+      "Properties wanting efficient automated systems",
+      "Hotels seeking complete control over their online distribution",
+      "Properties in Australia and surrounding regions",
+      "Hotels wanting dedicated support and client success management"
+    ],
+    website: "https://www.levart.com.au/"
   }
 ];
