@@ -2910,5 +2910,32 @@ export const integrations: Integration[] = [
       "Direct Hotel Bookings Products Suite - We strengthen your direct room revenue through conversion led design, supported by live RateDisplay Widgets, metasearch visibility and continuous digital marketing.",
       "Direct Consumer Marketing via Best Loved Hotels - We showcase your property to an engaged audience of high-value travellers through our lifestyle brand."
     ]
+  },
+  {
+    id: "wespeak",
+    name: "WeSpeak",
+    description: "AI-powered conversational assistant for hotels that increases direct bookings through 24/7 personalized guest interactions via WhatsApp.",
+    icon: "https://static.wixstatic.com/media/714745_cc95c7f8e7c94a2ab835761be0b915ba~mv2.png",
+    categories: ["IBE"],
+    slug: "wespeak",
+    longDescription: "WeSpeak is an AI-powered conversational assistant designed specifically for hotels. Trusted by over 500 hotels across 20 countries, WeSpeak helps properties increase direct bookings by engaging with guests 24/7 through personalized interactions, primarily via WhatsApp. The platform reduces operational time for hotel staff by up to 90% while improving guest satisfaction with instant, professional responses in multiple languages.",
+    features: [
+      "AI conversational assistant available 24/7",
+      "WhatsApp integration for guest communication",
+      "Multi-language support for global reach",
+      "Instant response to guest inquiries",
+      "Personalized guest interactions",
+      "Humanized and friendly communication tone",
+      "Reduces staff response time by up to 90%",
+      "Increases direct booking conversion"
+    ],
+    useCases: [
+      "Hotels looking to increase direct bookings",
+      "Properties wanting 24/7 guest communication",
+      "Hotels seeking to reduce staff workload on inquiries",
+      "Properties targeting international guests with multi-language support",
+      "Hotels wanting to improve guest experience through instant responses"
+    ],
+    website: "https://www.wespeak.pro/"
   }
 ];
