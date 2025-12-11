@@ -2892,8 +2892,8 @@ export const integrations: Integration[] = [
   {
     id: "hotelrez",
     name: "HotelREZ",
-    description: "A global hotel representation company connecting independent hotels and small chains with travel agents, corporate buyers, and GDS networks worldwide.\nA global hotel representation company increasing revenue with GDS, RFPs, Direct Booking tools and unlocking global demand and marketing power.",
-    longDescription: "A global hotel representation company connecting independent hotels and small chains with travel agents, corporate buyers, and GDS networks worldwide. HotelREZ increases revenue with GDS, RFPs, Direct Booking tools and unlocks global demand and marketing power.",
+    description: "A global hotel representation company connecting independent hotels and small chains with travel agents, corporate buyers, and GDS networks worldwide.",
+    longDescription: "Interface your PMS to our SynXIS CRS for GDS, IDS, OTAs connectivity and Direct Hotel Booking Solutions with demand partnerships, global reach, marketing, account management, support and best in class systems – more business at an attractive cost of sale. Unlock chain-level reach without sacrificing independence. HotelREZ, seamlessly integrated with your Channex PMS, connects you to the most powerful commercial network for independent hotels worldwide. Gain Global Preferred Status and access chain-level deals across GDS (750k agencies), OTAs, corporate RFPs, consortia, TMCs, and direct channels. HotelREZ drives higher-margin business and sustainable growth for independent and small hotel groups. As a Global Partner of Hospitality Solutions (formerly Sabre Hospitality), we use SynXis as our CRS \"pipe\", but the real value goes far beyond connectivity. We help you win more profitable business, not simply additional room nights.",
     icon: "/images/integrations/hotelrez.jpg",
     categories: ["OTA", "Distribution", "Global"],
     features: [
@@ -2902,10 +2902,13 @@ export const integrations: Integration[] = [
       "Proactive account management - Named commercial managers drive opportunities, enrol your hotel into global programmes, and support RFP performance, campaign ideas and performance insights, not just technical support."
     ],
     useCases: [
-      "Independent hotels seeking chain-level reach",
-      "Small hotel chains looking for global distribution",
-      "Properties wanting to unlock global demand and marketing power",
-      "Hotels focused on securing higher margins that stick"
+      "Global Platinum & Tier 1 Preferred GDS Connectivity under HO Chain Code - We connect your hotel to more than 750,000+ travel agents worldwide, unlocking visibility across corporate, leisure and consortia markets.",
+      "Global Preferred Partnerships Across Key Channels - We secure priority Tier 1 and Platinum placement across more than 100+ OTAs, TMCs, consortia and luxury specialists.",
+      "Chain-Level OTA Commercial Agreements - We leverage our buying power to negotiate chain-wide programmes and rate agreements that attract premium travellers.",
+      "60 Global Offices Driving Corporate RFP and TMC Programme Access - We manage the full RFP lifecycle, positioning your property for high-value corporate and niche segment production.",
+      "Worldwide Network for Global Sales Representation - We actively promote your hotel through our network of 60 international Agency sales offices.",
+      "Direct Hotel Bookings Products Suite - We strengthen your direct room revenue through conversion led design, supported by live RateDisplay Widgets, metasearch visibility and continuous digital marketing.",
+      "Direct Consumer Marketing via Best Loved Hotels - We showcase your property to an engaged audience of high-value travellers through our lifestyle brand."
     ]
   }
 ];
