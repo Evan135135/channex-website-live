@@ -2897,12 +2897,9 @@ export const integrations: Integration[] = [
     icon: "/images/integrations/hotelrez.jpg",
     categories: ["OTA", "Distribution", "Global"],
     features: [
-      "Incremental demand, not rebadging - Focus on delivering new volume and a stronger channel mix rather than simply moving existing bookings from one pipe to another",
-      "Margin-focused economics - Smarter OTA deals, stronger direct share and optimised GDS costs to drive a healthier P&L over time",
-      "Proactive account management - Named commercial managers drive opportunities, enrol your hotel into global programmes, and support RFP performance",
-      "Campaign ideas and performance insights",
-      "Chain level reach and reporting with independent flexibility",
-      "Capital light structure valued by owners, private equity investors and developers"
+      "Incremental demand, not rebadging - At HotelREZ our aim is to focus your Channex property on delivering new volume and a stronger channel mix rather than simply moving existing bookings from one pipe to another.",
+      "Margin-focused economics - Our model prioritises profitability. Smarter OTA deals, stronger direct share and optimised GDS costs all contribute to drive a healthier P&L over time securing higher margins that sticks.",
+      "Proactive account management - Named commercial managers drive opportunities, enrol your hotel into global programmes, and support RFP performance, campaign ideas and performance insights, not just technical support."
     ],
     useCases: [
       "Independent hotels seeking chain-level reach",
