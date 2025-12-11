@@ -2893,7 +2893,22 @@ export const integrations: Integration[] = [
     id: "hotelrez",
     name: "HotelREZ",
     description: "A global hotel representation company connecting independent hotels and small chains with travel agents, corporate buyers, and GDS networks worldwide.\nA global hotel representation company increasing revenue with GDS, RFPs, Direct Booking tools and unlocking global demand and marketing power.",
+    longDescription: "A global hotel representation company connecting independent hotels and small chains with travel agents, corporate buyers, and GDS networks worldwide. HotelREZ increases revenue with GDS, RFPs, Direct Booking tools and unlocks global demand and marketing power.",
     icon: "/images/integrations/hotelrez.jpg",
-    categories: ["OTA", "Distribution", "Global"]
+    categories: ["OTA", "Distribution", "Global"],
+    features: [
+      "Incremental demand, not rebadging - Focus on delivering new volume and a stronger channel mix rather than simply moving existing bookings from one pipe to another",
+      "Margin-focused economics - Smarter OTA deals, stronger direct share and optimised GDS costs to drive a healthier P&L over time",
+      "Proactive account management - Named commercial managers drive opportunities, enrol your hotel into global programmes, and support RFP performance",
+      "Campaign ideas and performance insights",
+      "Chain level reach and reporting with independent flexibility",
+      "Capital light structure valued by owners, private equity investors and developers"
+    ],
+    useCases: [
+      "Independent hotels seeking chain-level reach",
+      "Small hotel chains looking for global distribution",
+      "Properties wanting to unlock global demand and marketing power",
+      "Hotels focused on securing higher margins that stick"
+    ]
   }
 ];
