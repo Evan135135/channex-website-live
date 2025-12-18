@@ -2964,5 +2964,32 @@ export const integrations: Integration[] = [
       "Hotels wanting dedicated support and client success management"
     ],
     website: "https://www.levart.com.au/"
+  },
+  {
+    id: "mangobeds",
+    name: "MangoBeds",
+    description: "Modern PMS + booking platform that helps hotel teams manage reservations, availability, rates, guest communication, and payments all in one place.",
+    icon: "/images/integrations/mangobeds.svg",
+    categories: ["PMS"],
+    slug: "mangobeds",
+    longDescription: "MangoBeds is a modern PMS + booking platform that helps your team manage everything in one place: reservations, availability, rates, guest communication, and payments. It's easy to set up, automates the busy work, and keeps calendars in sync to avoid double bookings. Designed for efficiency, MangoBeds streamlines daily operations so hotel staff can focus on delivering great guest experiences instead of juggling multiple systems.",
+    features: [
+      "All-in-one reservation management",
+      "Real-time availability and rate control",
+      "Integrated guest communication tools",
+      "Payment processing built-in",
+      "Calendar synchronization to prevent double bookings",
+      "Easy setup and onboarding",
+      "Automated workflows for busy work",
+      "Centralized property management dashboard"
+    ],
+    useCases: [
+      "Hotels looking for a modern all-in-one PMS solution",
+      "Properties wanting to automate repetitive tasks",
+      "Hotels needing real-time calendar sync across channels",
+      "Teams seeking centralized guest communication",
+      "Properties wanting integrated payment processing"
+    ],
+    website: "https://www.mangobeds.com"
   }
 ];
