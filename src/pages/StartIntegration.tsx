@@ -363,7 +363,7 @@ const StartIntegration = () => {
                       <Button 
                         variant="link" 
                         className="p-0 h-auto text-green-600 dark:text-green-400 font-inter"
-                        onClick={() => window.open('https://docs.channex.io/certification', '_blank')}
+                        onClick={() => window.open('https://docs.channex.io/api-v.1-documentation/pms-certification-tests', '_blank')}
                       >
                         Certification Test Guide <ArrowRight className="h-4 w-4 ml-1" />
                       </Button>
