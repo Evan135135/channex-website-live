@@ -2991,5 +2991,32 @@ export const integrations: Integration[] = [
       "Properties wanting integrated payment processing"
     ],
     website: "https://www.mangobeds.com"
+  },
+  {
+    id: "hightide",
+    name: "HighTide",
+    description: "Simple but flexible reservation management software designed for surf camps, yoga retreats, adventure lodges, and unique tour operators.",
+    icon: "/images/integrations/hightide_logo.webp",
+    categories: ["PMS"],
+    slug: "hightide",
+    longDescription: "HighTide is a cloud-based booking software specifically built for unique businesses like surf camps, retreats, and tour operators. It simplifies reservation management by providing a flexible calendar, automated guest communication, and an integrated online store. HighTide helps small businesses streamline their operations, reduce manual work, and increase bookings through a user-friendly platform that adapts to their specific needs.",
+    features: [
+      "Flexible reservation management calendar",
+      "Integrated online store for services and tours",
+      "Automated guest communication and emails",
+      "Linked availability for complex bookings",
+      "Real-time booking tracking and organization",
+      "Simple setup and intuitive interface",
+      "Support for multiple languages and currencies",
+      "Secure payment processing integrations"
+    ],
+    useCases: [
+      "Surf camps and yoga retreats seeking flexible booking tools",
+      "Tour operators wanting to sell services online",
+      "Adventure lodges managing unique accommodations",
+      "Small businesses looking to automate guest communication",
+      "Properties needing linked availability for packages"
+    ],
+    website: "https://www.hightide.io/"
   }
 ];
