@@ -59,10 +59,13 @@
     <script type="text/javascript">
       // Handle GitHub Pages SPA routing
       (function() {
-        var redirect = sessionStorage.redirect;
-        delete sessionStorage.redirect;
-        if (redirect && redirect !== location.href) {
-          history.replaceState(null, null, redirect);
+        var redirectPath = sessionStorage.getItem('redirectPath');
+        if (redirectPath) {
+          sessionStorage.removeItem('redirectPath');
+          // Only restore if we're at /index.html
+          if (window.location.pathname === '/index.html') {
+            window.history.replaceState(null, null, redirectPath);
+          }
         }
       })();
     </script>

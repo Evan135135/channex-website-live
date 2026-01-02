@@ -2,17 +2,19 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Redirecting...</title>
     <script type="text/javascript">
-      // Store the path for later retrieval
-      var pathSegmentsToKeep = 1;
-      var l = window.location;
-      l.replace(
-        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-        '/index.html?p=' + l.pathname.slice(0, l.pathname.lastIndexOf('/') + 1).slice(pathSegmentsToKeep).replace(/&/g, '~and~') +
-        (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-        l.hash
-      );
+      // Get the path that was requested
+      var path = window.location.pathname;
+      var search = window.location.search;
+      var hash = window.location.hash;
+      
+      // Store the full path for React Router to handle
+      sessionStorage.setItem('redirectPath', path + search + hash);
+      
+      // Redirect to index.html
+      window.location.replace('/index.html');
     </script>
   </head>
   <body>
