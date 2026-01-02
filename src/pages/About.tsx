@@ -3,77 +3,105 @@ import { Button } from "@/components/ui/button";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Seo from "@/components/Seo";
-import { Code2, Users, Globe, Target, Award, ArrowRight, Building, Calendar, MapPin } from "lucide-react";
+import { Code2, Users, Globe, Target, Award, ArrowRight, Building, Calendar, MapPin, Zap, Shield, Lightbulb, Handshake } from "lucide-react";
 import { Link } from "react-router-dom";
+
 const About = () => {
   const stats = [{
     number: "50+",
     label: "OTA Partners",
-    icon: Globe
+    icon: Globe,
+    description: "Connected to the world's leading booking platforms"
   }, {
     number: "99.9%",
     label: "Uptime SLA",
-    icon: Award
+    icon: Shield,
+    description: "Enterprise-grade reliability you can depend on"
   }, {
     number: "200+",
     label: "PMS Integrations",
-    icon: Building
+    icon: Building,
+    description: "Seamless connectivity across all major systems"
   }, {
     number: "2019",
     label: "Founded",
-    icon: Calendar
+    icon: Calendar,
+    description: "Built by hospitality tech veterans"
   }];
+
   const values = [{
     icon: Code2,
     title: "Developer First",
-    description: "We build APIs that developers love to work with. Clean, well-documented, and reliable."
+    description: "We build APIs that developers love to work with. Clean, well-documented, and reliable.",
+    color: "from-blue-500/20 to-blue-600/20"
   }, {
-    icon: Users,
+    icon: Handshake,
     title: "Partnership Focused",
-    description: "We're not here to replace PMS systems - we're here to make them more powerful through seamless OTA connectivity."
+    description: "We're not here to replace PMS systems - we're here to make them more powerful through seamless OTA connectivity.",
+    color: "from-purple-500/20 to-purple-600/20"
   }, {
     icon: Target,
     title: "White Label by Design",
-    description: "Your brand stays front and center. We remain invisible while powering your connections behind the scenes."
+    description: "Your brand stays front and center. We remain invisible while powering your connections behind the scenes.",
+    color: "from-pink-500/20 to-pink-600/20"
   }, {
-    icon: Globe,
+    icon: Zap,
     title: "Global Scale",
-    description: "From boutique hotels to enterprise chains, our infrastructure scales to meet any demand worldwide."
+    description: "From boutique hotels to enterprise chains, our infrastructure scales to meet any demand worldwide.",
+    color: "from-amber-500/20 to-amber-600/20"
   }];
+
   const teamMembers = [{
     name: "Evan Davies",
     role: "CEO & Co-Founder",
-    bio: "Former Hotelier with 10+ years in hospitality tech."
+    bio: "Former Hotelier with 10+ years in hospitality tech.",
+    image: "/lovable-uploads/578448c6-4f90-414e-bbbd-a0d0d3ee17f2.png"
   }, {
     name: "Andrew Yudin",
     role: "CTO & Co-Founder",
-    bio: "API architecture expert who's built scalable systems for millions of bookings."
+    bio: "API architecture expert who's built scalable systems for millions of bookings.",
+    image: "/lovable-uploads/c4fc7035-fd21-4f38-a290-7b8ae1bb38f9.png"
   }, {
     name: "Andrew Mamotko",
     role: "Senior Developer",
-    bio: "15 years experience building enterprise integrations and scalable solutions."
+    bio: "15 years experience building enterprise integrations and scalable solutions.",
+    image: "/lovable-uploads/2bba953c-5623-4d9e-9fd9-fd30a724a83a.png"
   }, {
     name: "Andrew Sokolov",
     role: "Senior Developer",
-    bio: "Over 15 years experience in Front End development and secure system design."
+    bio: "Over 15 years experience in Front End development and secure system design.",
+    image: "/lovable-uploads/0a736d36-ed1f-4265-b5e6-c267de944708.png"
   }, {
     name: "Dawwalee Davies (Tikky)",
     role: "Co-Founder",
-    bio: "Deep knowledge of the hotel industry."
+    bio: "Deep knowledge of the hotel industry.",
+    image: "/lovable-uploads/b27de44c-9399-4ca2-aa2e-9d7990932c5a.png"
   }, {
     name: "Paloma Sanchez",
     role: "Head of Partnerships",
-    bio: "Over 15 years experience in sales and partnerships in hotel technology."
+    bio: "Over 15 years experience in sales and partnerships in hotel technology.",
+    image: "/lovable-uploads/72ae10b3-884b-4f73-8f5a-1d2acb353b9d.png"
   }, {
     name: "Dmitry Krakosevich",
     role: "Senior Developer",
-    bio: "Deep experience in integrations with PMS and OTA."
+    bio: "Deep experience in integrations with PMS and OTA.",
+    image: "/lovable-uploads/c1982ae2-6167-4942-8ed6-7d753e056b5e.png"
   }, {
     name: "Sergey Kurmaev",
     role: "Senior DevOps",
-    bio: "Automating pipelines, scaling infrastructure, and championing reliability across cloud platforms."
+    bio: "Automating pipelines, scaling infrastructure, and championing reliability across cloud platforms.",
+    image: "/lovable-uploads/f5dcca07-0e62-4c9f-8548-d08cee857114.png"
   }];
-  return <div className="min-h-screen bg-background font-inter">
+
+  const milestones = [
+    { year: "2019", title: "Founded", description: "Channex launched with a mission to simplify OTA connectivity" },
+    { year: "2020", title: "First 10 Integrations", description: "Rapidly expanded OTA partner network" },
+    { year: "2022", title: "Enterprise Scale", description: "Reached 200+ PMS integrations and 99.9% uptime" },
+    { year: "2024", title: "Global Leader", description: "Trusted by hundreds of PMS providers worldwide" }
+  ];
+
+  return (
+    <div className="min-h-screen bg-background font-inter">
       <Seo
         title="About Channex | White-label Channel Manager API for PMS"
         description="Learn about Channex, the white-label channel manager API helping PMS systems connect to OTAs like Booking.com, Airbnb, and Expedia."
@@ -81,102 +109,130 @@ const About = () => {
       />
       <Header />
       
-      {/* Hero Section */}
-      <section className="pt-32 pb-20 bg-gradient-hero relative overflow-hidden">
+      {/* Hero Section - Enhanced */}
+      <section className="pt-32 pb-24 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 relative overflow-hidden">
+        {/* Animated background elements */}
+        <div className="absolute top-0 left-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
+        <div className="absolute bottom-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl translate-x-1/2 translate-y-1/2"></div>
+        
         <div className="container mx-auto px-4 lg:px-6 relative z-10">
           <div className="text-center space-y-8 max-w-4xl mx-auto">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 rounded-full text-sm font-medium text-white">
-              <Users size={16} />
-              About Channex
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full text-sm font-medium text-primary border border-primary/20">
+              <Lightbulb size={16} />
+              Our Story
             </div>
             
-            <h1 className="text-5xl lg:text-7xl font-bold text-white font-inter leading-tight drop-shadow-lg">
+            <h1 className="text-5xl lg:text-7xl font-bold text-white font-inter leading-tight">
               Connecting the
-              <span className="bg-gradient-primary bg-clip-text text-transparent"> Hospitality</span>
+              <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent"> Hospitality</span>
               <br />Ecosystem
             </h1>
             
-            <p className="text-xl text-white font-inter max-w-2xl mx-auto leading-relaxed drop-shadow-md">
-              We're on a mission to make OTA connectivity seamless for every Property Management System, 
-              enabling hotels to focus on what they do best - creating amazing guest experiences.
+            <p className="text-xl text-slate-300 font-inter max-w-2xl mx-auto leading-relaxed">
+              We're on a mission to make OTA connectivity seamless for every Property Management System, enabling hotels to focus on what they do best — creating amazing guest experiences.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="py-20 bg-gradient-subtle">
+      {/* Enhanced Stats Section */}
+      <section className="py-24 bg-background">
         <div className="container mx-auto px-4 lg:px-6">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-            {stats.map((stat, index) => <Card key={stat.label} className="text-center border-border/50 bg-card/50 backdrop-blur-sm animate-fade-in" style={{
-            animationDelay: `${index * 0.1}s`
-          }}>
-                <CardContent className="p-6 space-y-4">
-                  <div className="p-3 bg-primary/10 rounded-lg w-fit mx-auto">
-                    <stat.icon size={24} className="text-primary" />
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
+            {stats.map((stat, index) => (
+              <Card 
+                key={stat.label} 
+                className="border border-border/50 bg-card/50 backdrop-blur-sm hover:border-primary/30 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10 group"
+              >
+                <CardContent className="p-8 space-y-4">
+                  <div className="p-4 bg-gradient-to-br from-primary/20 to-primary/10 rounded-xl w-fit group-hover:scale-110 transition-transform duration-300">
+                    <stat.icon size={28} className="text-primary" />
                   </div>
-                  <div className="text-3xl font-bold text-foreground">{stat.number}</div>
-                  <div className="text-muted-foreground">{stat.label}</div>
+                  <div>
+                    <div className="text-4xl font-bold text-foreground">{stat.number}</div>
+                    <div className="text-sm text-muted-foreground font-medium mt-1">{stat.label}</div>
+                    <p className="text-xs text-muted-foreground/70 mt-2">{stat.description}</p>
+                  </div>
                 </CardContent>
-              </Card>)}
+              </Card>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* Mission Section */}
-      <section className="py-20">
+      {/* Mission Section - Redesigned */}
+      <section className="py-24 bg-gradient-to-b from-background to-slate-900/20">
         <div className="container mx-auto px-4 lg:px-6">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              <h2 className="text-4xl lg:text-5xl font-bold text-foreground font-inter">
-                Our Mission
-              </h2>
-              <p className="text-xl text-muted-foreground font-inter leading-relaxed">
-                The hospitality industry should be about creating great guest experiences — not struggling with technical integrations. 
-                We believe Property Management System providers should focus on what they do best: building powerful, user-friendly PMS platforms.
-              </p>
-              <p className="text-lg text-muted-foreground font-inter leading-relaxed">
-                That's why we created Channex: the invisible infrastructure that connects your PMS to the world's 
-                leading booking platforms. We handle the complexity of OTA integrations, so you can deliver seamless connectivity without the hassle.
-              </p>
-              <Button className="bg-gradient-primary hover:shadow-primary transition-all duration-300 font-inter" asChild>
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div className="space-y-8">
+              <div className="space-y-4">
+                <div className="inline-flex items-center gap-2 px-3 py-1 bg-primary/10 rounded-full text-sm font-medium text-primary border border-primary/20">
+                  Our Mission
+                </div>
+                <h2 className="text-4xl lg:text-5xl font-bold text-foreground font-inter leading-tight">
+                  Simplifying Hospitality Tech
+                </h2>
+              </div>
+              
+              <div className="space-y-6">
+                <p className="text-lg text-muted-foreground font-inter leading-relaxed">
+                  The hospitality industry should be about creating great guest experiences — not struggling with technical integrations. We believe Property Management System providers should focus on what they do best: building powerful, user-friendly PMS platforms.
+                </p>
+                <p className="text-lg text-muted-foreground font-inter leading-relaxed">
+                  That's why we created Channex: the invisible infrastructure that connects your PMS to the world's leading booking platforms. We handle the complexity of OTA integrations, so you can deliver seamless connectivity without the hassle.
+                </p>
+              </div>
+              
+              <Button className="bg-gradient-primary hover:shadow-lg hover:shadow-primary/50 transition-all duration-300 font-inter w-fit" asChild>
                 <a href="https://docs.channex.io/" target="_blank" rel="noopener noreferrer">
-                  Learn About Our API
+                  Explore Our API
                   <ArrowRight size={16} className="ml-2" />
                 </a>
               </Button>
             </div>
             
             <div className="space-y-6">
-              <div className="bg-card/80 backdrop-blur-sm border border-border/50 rounded-2xl p-8 shadow-elegant">
-                <div className="flex items-center gap-3 mb-4">
-                  <MapPin size={20} className="text-primary" />
-                  <span className="font-semibold text-foreground">Founded in London</span>
+              <div className="bg-gradient-to-br from-blue-500/10 to-blue-600/5 border border-blue-500/20 rounded-2xl p-8 hover:border-blue-500/40 transition-all duration-300">
+                <div className="flex items-start gap-4">
+                  <div className="p-3 bg-blue-500/20 rounded-lg flex-shrink-0">
+                    <MapPin size={24} className="text-blue-400" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-foreground text-lg mb-2">Founded in London</h3>
+                    <p className="text-muted-foreground leading-relaxed">
+                      Born from the frustration of complex hotel tech integrations, Channex was founded by former PMS engineers who understood the pain points firsthand.
+                    </p>
+                  </div>
                 </div>
-                <p className="text-muted-foreground leading-relaxed">Born from the frustration of complex hotel tech integrations, Channex was founded by former PMS engineers who understood the pain points firsthand.</p>
               </div>
               
-              <div className="bg-card/80 backdrop-blur-sm border border-border/50 rounded-2xl p-8 shadow-elegant">
-                <div className="flex items-center gap-3 mb-4">
-                  <Target size={20} className="text-primary" />
-                  <span className="font-semibold text-foreground">Developer-Centric Approach</span>
+              <div className="bg-gradient-to-br from-purple-500/10 to-purple-600/5 border border-purple-500/20 rounded-2xl p-8 hover:border-purple-500/40 transition-all duration-300">
+                <div className="flex items-start gap-4">
+                  <div className="p-3 bg-purple-500/20 rounded-lg flex-shrink-0">
+                    <Target size={24} className="text-purple-400" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-foreground text-lg mb-2">Developer-Centric Approach</h3>
+                    <p className="text-muted-foreground leading-relaxed">
+                      Every decision we make is viewed through the lens of developer experience. If it's not simple, fast, and reliable, it doesn't ship.
+                    </p>
+                  </div>
                 </div>
-                <p className="text-muted-foreground leading-relaxed">
-                  Every decision we make is viewed through the lens of developer experience. 
-                  If it's not simple, fast, and reliable, it doesn't ship.
-                </p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Values Section */}
-      <section className="py-20 bg-gradient-subtle">
+      {/* Values Section - Enhanced Grid */}
+      <section className="py-24 bg-background">
         <div className="container mx-auto px-4 lg:px-6">
-          <div className="text-center space-y-6 mb-16">
+          <div className="text-center space-y-6 mb-20">
+            <div className="inline-flex items-center gap-2 px-3 py-1 bg-primary/10 rounded-full text-sm font-medium text-primary border border-primary/20">
+              Core Values
+            </div>
             <h2 className="text-4xl lg:text-5xl font-bold text-foreground font-inter">
-              Our Values
+              What We Stand For
             </h2>
             <p className="text-xl text-muted-foreground font-inter max-w-2xl mx-auto">
               The principles that guide everything we build and every partnership we form.
@@ -184,142 +240,158 @@ const About = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            {values.map((value, index) => <Card key={value.title} className="border-border/50 hover:border-primary/20 transition-all duration-300 hover:shadow-primary bg-card/50 backdrop-blur-sm animate-fade-in" style={{
-            animationDelay: `${index * 0.1}s`
-          }}>
-                <CardContent className="p-8 space-y-4">
-                  <div className="p-3 bg-primary/10 rounded-lg w-fit">
-                    <value.icon size={24} className="text-primary" />
+            {values.map((value, index) => (
+              <Card 
+                key={value.title} 
+                className="border border-border/50 hover:border-primary/30 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10 bg-card/50 backdrop-blur-sm group overflow-hidden"
+              >
+                <div className={`absolute inset-0 bg-gradient-to-br ${value.color} opacity-0 group-hover:opacity-100 transition-opacity duration-300`}></div>
+                <CardContent className="p-8 space-y-6 relative z-10">
+                  <div className="p-4 bg-primary/10 rounded-xl w-fit group-hover:scale-110 transition-transform duration-300">
+                    <value.icon size={28} className="text-primary" />
                   </div>
                   
-                  <h3 className="text-2xl font-semibold text-foreground font-inter">
-                    {value.title}
-                  </h3>
-                  
-                  <p className="text-muted-foreground font-inter leading-relaxed">
-                    {value.description}
-                  </p>
+                  <div>
+                    <h3 className="text-2xl font-semibold text-foreground font-inter mb-3">
+                      {value.title}
+                    </h3>
+                    
+                    <p className="text-muted-foreground font-inter leading-relaxed">
+                      {value.description}
+                    </p>
+                  </div>
                 </CardContent>
-              </Card>)}
+              </Card>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* Team Section */}
-      <section className="py-20">
+      {/* Timeline Section */}
+      <section className="py-24 bg-gradient-to-b from-slate-900/20 to-background">
         <div className="container mx-auto px-4 lg:px-6">
-          <div className="text-center space-y-6 mb-16">
+          <div className="text-center space-y-6 mb-20">
+            <div className="inline-flex items-center gap-2 px-3 py-1 bg-primary/10 rounded-full text-sm font-medium text-primary border border-primary/20">
+              Our Journey
+            </div>
             <h2 className="text-4xl lg:text-5xl font-bold text-foreground font-inter">
+              Milestones & Growth
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {milestones.map((milestone, index) => (
+              <div key={milestone.year} className="relative">
+                <Card className="border border-border/50 hover:border-primary/30 transition-all duration-300 h-full bg-card/50 backdrop-blur-sm">
+                  <CardContent className="p-8 space-y-4">
+                    <div className="flex items-baseline gap-2">
+                      <span className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
+                        {milestone.year}
+                      </span>
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-semibold text-foreground mb-2">{milestone.title}</h3>
+                      <p className="text-sm text-muted-foreground">{milestone.description}</p>
+                    </div>
+                  </CardContent>
+                </Card>
+                {index < milestones.length - 1 && (
+                  <div className="hidden lg:block absolute top-1/2 -right-3 w-6 h-0.5 bg-gradient-to-r from-primary/50 to-transparent"></div>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Team Section - Enhanced */}
+      <section className="py-24 bg-background">
+        <div className="container mx-auto px-4 lg:px-6">
+          <div className="text-center space-y-6 mb-20">
+            <div className="inline-flex items-center gap-2 px-3 py-1 bg-primary/10 rounded-full text-sm font-medium text-primary border border-primary/20">
               Meet the Team
+            </div>
+            <h2 className="text-4xl lg:text-5xl font-bold text-foreground font-inter">
+              Industry Veterans & Innovators
             </h2>
             <p className="text-xl text-muted-foreground font-inter max-w-2xl mx-auto">
-              Industry veterans who've been in your shoes and understand the challenges you face.
+              We've been in your shoes and understand the challenges you face. Our team brings decades of combined experience in hospitality tech.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {teamMembers.map((member, index) => <Card key={member.name} className="text-center border-border/50 hover:border-primary/20 transition-all duration-300 hover:shadow-primary bg-card/50 backdrop-blur-sm animate-fade-in" style={{
-            animationDelay: `${index * 0.1}s`
-          }}>
+            {teamMembers.map((member, index) => (
+              <Card 
+                key={member.name} 
+                className="border border-border/50 hover:border-primary/30 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10 bg-card/50 backdrop-blur-sm overflow-hidden group"
+              >
                 <CardContent className="p-6 space-y-4">
-                  {member.name === "Evan Davies" ? (
-                    <img 
-                      src="/lovable-uploads/578448c6-4f90-414e-bbbd-a0d0d3ee17f2.png" 
-                      alt="Evan Davies"
-                      className="w-20 h-20 rounded-full mx-auto object-cover"
-                    />
-                  ) : member.name === "Andrew Yudin" ? (
-                    <img 
-                      src="/lovable-uploads/c4fc7035-fd21-4f38-a290-7b8ae1bb38f9.png" 
-                      alt="Andrew Yudin"
-                      className="w-20 h-20 rounded-full mx-auto object-cover"
-                    />
-                  ) : member.name === "Andrew Mamotko" ? (
-                    <img 
-                      src="/lovable-uploads/2bba953c-5623-4d9e-9fd9-fd30a724a83a.png" 
-                      alt="Andrew Mamotko"
-                      className="w-20 h-20 rounded-full mx-auto object-cover"
-                    />
-                  ) : member.name === "Andrew Sokolov" ? (
-                    <img 
-                      src="/lovable-uploads/0a736d36-ed1f-4265-b5e6-c267de944708.png" 
-                      alt="Andrew Sokolov"
-                      className="w-20 h-20 rounded-full mx-auto object-cover"
-                    />
-                  ) : member.name === "Dawwalee Davies (Tikky)" ? (
-                    <img 
-                      src="/lovable-uploads/b27de44c-9399-4ca2-aa2e-9d7990932c5a.png" 
-                      alt="Dawwalee Davies (Tikky)"
-                      className="w-20 h-20 rounded-full mx-auto object-cover"
-                    />
-                  ) : member.name === "Paloma Sanchez" ? (
-                    <img 
-                      src="/lovable-uploads/72ae10b3-884b-4f73-8f5a-1d2acb353b9d.png" 
-                      alt="Paloma Sanchez"
-                      className="w-20 h-20 rounded-full mx-auto object-cover"
-                    />
-                  ) : member.name === "Dmitry Krakosevich" ? (
-                    <img 
-                      src="/lovable-uploads/c1982ae2-6167-4942-8ed6-7d753e056b5e.png" 
-                      alt="Dmitry Krakosevich"
-                      className="w-20 h-20 rounded-full mx-auto object-cover"
-                    />
-                  ) : member.name === "Sergey Kurmaev" ? (
-                    <img 
-                      src="/lovable-uploads/f5dcca07-0e62-4c9f-8548-d08cee857114.png" 
-                      alt="Sergey Kurmaev"
-                      className="w-20 h-20 rounded-full mx-auto object-cover"
-                    />
-                  ) : (
-                    <div className="w-20 h-20 bg-gradient-primary rounded-full flex items-center justify-center mx-auto">
-                      <span className="text-white font-bold text-2xl">
-                        {member.name.split(' ').map(n => n[0]).join('')}
-                      </span>
-                    </div>
-                  )}
+                  <div className="relative overflow-hidden rounded-xl">
+                    {member.image ? (
+                      <img 
+                        src={member.image} 
+                        alt={member.name}
+                        className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
+                      />
+                    ) : (
+                      <div className="w-full h-48 bg-gradient-to-br from-primary to-primary/50 flex items-center justify-center">
+                        <span className="text-white font-bold text-4xl">
+                          {member.name.split(' ').map(n => n[0]).join('')}
+                        </span>
+                      </div>
+                    )}
+                  </div>
                   
-                  <div>
-                    <h3 className="text-xl font-semibold text-foreground font-inter">
+                  <div className="space-y-2">
+                    <h3 className="text-lg font-semibold text-foreground font-inter">
                       {member.name}
                     </h3>
-                    <p className="text-primary font-medium">{member.role}</p>
+                    <p className="text-primary font-medium text-sm">{member.role}</p>
                   </div>
                   
                   <p className="text-sm text-muted-foreground font-inter leading-relaxed">
                     {member.bio}
                   </p>
                 </CardContent>
-              </Card>)}
+              </Card>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* Call to Action */}
-      <section className="py-20 bg-gradient-subtle">
+      {/* Call to Action - Enhanced */}
+      <section className="py-24 bg-gradient-to-b from-background to-slate-900/20">
         <div className="container mx-auto px-4 lg:px-6">
-          <div className="bg-gradient-primary rounded-2xl p-12 text-center text-white shadow-glow">
-            <h2 className="text-4xl lg:text-5xl font-bold font-inter mb-6">
-              Ready to Partner With Us?
-            </h2>
-            <p className="text-xl text-white/90 font-inter mb-8 max-w-2xl mx-auto">
-              Join the growing community of PMS providers who trust Channex to power their OTA connectivity.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" variant="secondary" className="font-inter" asChild>
-                <Link to="/start-integration">
-                  Start Integration
-                  <ArrowRight size={16} className="ml-2" />
-                </Link>
-              </Button>
-              <Button size="lg" variant="ghost" className="border border-white/30 bg-white/10 text-white hover:bg-white/20 hover:text-white font-inter" asChild>
-                <Link to="/contact">Schedule a Demo</Link>
-              </Button>
+          <div className="bg-gradient-to-r from-primary via-primary/80 to-primary/60 rounded-3xl p-12 lg:p-20 text-center text-white shadow-2xl shadow-primary/20 relative overflow-hidden">
+            {/* Animated background */}
+            <div className="absolute top-0 right-0 w-96 h-96 bg-white/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
+            
+            <div className="relative z-10 space-y-8">
+              <h2 className="text-4xl lg:text-5xl font-bold font-inter leading-tight">
+                Ready to Transform Your OTA Connectivity?
+              </h2>
+              <p className="text-xl text-white/90 font-inter max-w-2xl mx-auto leading-relaxed">
+                Join hundreds of PMS providers who trust Channex to power their channel management and drive revenue growth.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
+                <Button size="lg" variant="secondary" className="font-inter hover:shadow-lg" asChild>
+                  <Link to="/start-integration">
+                    Start Integration
+                    <ArrowRight size={16} className="ml-2" />
+                  </Link>
+                </Button>
+                <Button size="lg" variant="ghost" className="border border-white/30 bg-white/10 text-white hover:bg-white/20 hover:text-white font-inter hover:shadow-lg" asChild>
+                  <Link to="/contact">Schedule a Demo</Link>
+                </Button>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       <Footer />
-    </div>;
+    </div>
+  );
 };
+
 export default About;
