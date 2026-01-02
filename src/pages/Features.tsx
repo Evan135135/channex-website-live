@@ -21,7 +21,10 @@ import {
   FileText,
   Webhook,
   Users,
-  Eye
+  Eye,
+  Lightbulb,
+  Rocket,
+  TrendingUp
 } from "lucide-react";
 
 const Features = () => {
@@ -30,37 +33,43 @@ const Features = () => {
       icon: Smartphone,
       title: "White Label Channel Manager",
       description: "Seamlessly integrates into PMS platforms with your brand, your experience — Channex stays invisible. Fast to implement via API or iFrame widget.",
-      highlight: "Your Brand"
+      highlight: "Your Brand",
+      color: "from-blue-500/20 to-blue-600/20"
     },
     {
       icon: Zap,
       title: "Real-Time OTA Connectivity",
       description: "Certified connections with Booking.com, Expedia, Airbnb, Agoda, and more. Instant updates for availability, rates, and restrictions with automatic reservation import & sync.",
-      highlight: "Instant Updates"
+      highlight: "Instant Updates",
+      color: "from-amber-500/20 to-amber-600/20"
     },
     {
       icon: Code2,
       title: "Powerful API for Developers",
       description: "Fully documented REST API built for fast, scalable integrations with modern authentication, API keys, and granular access control.",
-      highlight: "Developer First"
+      highlight: "Developer First",
+      color: "from-purple-500/20 to-purple-600/20"
     },
     {
       icon: BarChart3,
       title: "High Reliability & Speed",
       description: "Built with performance in mind featuring low-latency updates to OTAs and scales seamlessly with your PMS growth.",
-      highlight: "99.9% Uptime"
+      highlight: "99.9% Uptime",
+      color: "from-green-500/20 to-green-600/20"
     },
     {
       icon: Users,
       title: "Multi-Property & Group Support",
       description: "Manage multiple properties from a single integration. Scalable for PMS systems with enterprise hotel groups.",
-      highlight: "Enterprise Ready"
+      highlight: "Enterprise Ready",
+      color: "from-pink-500/20 to-pink-600/20"
     },
     {
       icon: Eye,
       title: "Full Logs for OTA and PMS",
       description: "See all logs of what was sent to each channel and what the PMS sent to Channex. Find which API call changed availability or prices easily.",
-      highlight: "Complete Visibility"
+      highlight: "Complete Visibility",
+      color: "from-cyan-500/20 to-cyan-600/20"
     }
   ];
 
@@ -114,6 +123,12 @@ const Features = () => {
     "Booking.com", "Expedia", "Airbnb", "Agoda", "Hotels.com", "Trip.com"
   ];
 
+  const benefits = [
+    { icon: Rocket, title: "Fast Implementation", description: "Get up and running in days, not months" },
+    { icon: TrendingUp, title: "Revenue Growth", description: "Increase bookings through expanded distribution" },
+    { icon: CheckCircle, title: "Reduced Complexity", description: "We handle OTA integrations, you focus on PMS" }
+  ];
+
   return (
     <div className="min-h-screen bg-background font-inter">
       <Seo
@@ -145,49 +160,75 @@ const Features = () => {
       />
       <Header />
       
-      {/* Hero Section */}
-      <section className="pt-32 pb-20 bg-gradient-hero relative overflow-hidden">
+      {/* Hero Section - Enhanced */}
+      <section className="pt-32 pb-24 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 relative overflow-hidden">
+        {/* Animated background elements */}
+        <div className="absolute top-0 left-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
+        <div className="absolute bottom-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl translate-x-1/2 translate-y-1/2"></div>
+        
         <div className="container mx-auto px-4 lg:px-6 relative z-10">
           <div className="text-center space-y-8 max-w-4xl mx-auto">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full text-sm font-medium text-primary">
-              <Code2 size={16} />
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full text-sm font-medium text-primary border border-primary/20">
+              <Lightbulb size={16} />
               Complete Feature Overview
             </div>
             
-            <h1 className="text-5xl lg:text-7xl font-bold text-white font-inter leading-tight drop-shadow-lg">
+            <h1 className="text-5xl lg:text-7xl font-bold text-white font-inter leading-tight">
               The Invisible
-              <span className="bg-gradient-primary bg-clip-text text-transparent"> Advantage</span>
+              <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent"> Advantage</span>
               <br />for PMS Providers
             </h1>
             
-            <p className="text-xl text-white font-inter max-w-2xl mx-auto leading-relaxed drop-shadow-md">
-              Everything you need to connect your Property Management System to the world's leading booking platforms - while keeping your brand front and center.
+            <p className="text-xl text-slate-300 font-inter max-w-2xl mx-auto leading-relaxed">
+              Everything you need to connect your Property Management System to the world's leading booking platforms — while keeping your brand front and center.
             </p>
 
-            <div className="flex flex-wrap justify-center gap-6 pt-8">
+            <div className="grid grid-cols-3 gap-6 pt-8 max-w-2xl mx-auto">
               <div className="text-center">
-                <div className="text-3xl font-bold text-white drop-shadow-lg">99.9%</div>
-                <div className="text-white/90 drop-shadow-md">Uptime SLA</div>
+                <div className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">99.9%</div>
+                <div className="text-slate-300 text-sm mt-1">Uptime SLA</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-white drop-shadow-lg">&lt;100ms</div>
-                <div className="text-white/90 drop-shadow-md">Response Time</div>
+                <div className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">&lt;100ms</div>
+                <div className="text-slate-300 text-sm mt-1">Response Time</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-white drop-shadow-lg">50+</div>
-                <div className="text-white/90 drop-shadow-md">OTA Partners</div>
+                <div className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">50+</div>
+                <div className="text-slate-300 text-sm mt-1">OTA Partners</div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Core Features */}
-      <section className="py-20 bg-gradient-subtle">
+      {/* Benefits Section */}
+      <section className="py-24 bg-background">
         <div className="container mx-auto px-4 lg:px-6">
-          <div className="text-center space-y-6 mb-16">
+          <div className="grid md:grid-cols-3 gap-8">
+            {benefits.map((benefit, index) => (
+              <Card key={benefit.title} className="border border-border/50 bg-card/50 backdrop-blur-sm hover:border-primary/30 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10">
+                <CardContent className="p-8 space-y-4">
+                  <div className="p-4 bg-gradient-to-br from-primary/20 to-primary/10 rounded-xl w-fit">
+                    <benefit.icon size={28} className="text-primary" />
+                  </div>
+                  <h3 className="text-xl font-semibold text-foreground">{benefit.title}</h3>
+                  <p className="text-muted-foreground">{benefit.description}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Core Features - Enhanced */}
+      <section className="py-24 bg-gradient-to-b from-slate-900/20 to-background">
+        <div className="container mx-auto px-4 lg:px-6">
+          <div className="text-center space-y-6 mb-20">
+            <div className="inline-flex items-center gap-2 px-3 py-1 bg-primary/10 rounded-full text-sm font-medium text-primary border border-primary/20">
+              Core Capabilities
+            </div>
             <h2 className="text-4xl lg:text-5xl font-bold text-foreground font-inter">
-              Core Features
+              Powerful Features Built for Scale
             </h2>
             <p className="text-xl text-muted-foreground font-inter max-w-2xl mx-auto">
               The foundation of our channel manager API designed specifically for PMS providers.
@@ -198,26 +239,28 @@ const Features = () => {
             {coreFeatures.map((feature, index) => (
               <Card 
                 key={feature.title}
-                className="group border-border/50 hover:border-primary/20 transition-all duration-300 hover:shadow-primary bg-card/50 backdrop-blur-sm animate-fade-in"
-                style={{ animationDelay: `${index * 0.1}s` }}
+                className="group border border-border/50 hover:border-primary/30 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10 bg-card/50 backdrop-blur-sm overflow-hidden"
               >
-                <CardContent className="p-6 space-y-4">
+                <div className={`absolute inset-0 bg-gradient-to-br ${feature.color} opacity-0 group-hover:opacity-100 transition-opacity duration-300`}></div>
+                <CardContent className="p-8 space-y-6 relative z-10">
                   <div className="flex items-start justify-between">
-                    <div className="p-3 bg-primary/10 rounded-lg group-hover:bg-primary/20 transition-colors">
-                      <feature.icon size={24} className="text-primary" />
+                    <div className="p-4 bg-primary/10 rounded-xl group-hover:scale-110 transition-transform duration-300">
+                      <feature.icon size={28} className="text-primary" />
                     </div>
                     <Badge variant="secondary" className="text-xs">
                       {feature.highlight}
                     </Badge>
                   </div>
                   
-                  <h3 className="text-xl font-semibold text-foreground font-inter">
-                    {feature.title}
-                  </h3>
-                  
-                  <p className="text-muted-foreground font-inter leading-relaxed">
-                    {feature.description}
-                  </p>
+                  <div>
+                    <h3 className="text-xl font-semibold text-foreground font-inter mb-2">
+                      {feature.title}
+                    </h3>
+                    
+                    <p className="text-muted-foreground font-inter leading-relaxed">
+                      {feature.description}
+                    </p>
+                  </div>
                 </CardContent>
               </Card>
             ))}
@@ -226,9 +269,12 @@ const Features = () => {
       </section>
 
       {/* Advanced Integrations */}
-      <section className="py-20">
+      <section className="py-24 bg-background">
         <div className="container mx-auto px-4 lg:px-6">
-          <div className="text-center space-y-6 mb-16">
+          <div className="text-center space-y-6 mb-20">
+            <div className="inline-flex items-center gap-2 px-3 py-1 bg-primary/10 rounded-full text-sm font-medium text-primary border border-primary/20">
+              Advanced Options
+            </div>
             <h2 className="text-4xl lg:text-5xl font-bold text-foreground font-inter">
               Advanced Integrations
             </h2>
@@ -238,28 +284,30 @@ const Features = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {advancedFeatures.map((feature, index) => (
+            {advancedFeatures.map((feature) => (
               <Card 
                 key={feature.title}
-                className="border-border/50 hover:border-primary/20 transition-all duration-300 hover:shadow-primary bg-card/50 backdrop-blur-sm"
+                className="border border-border/50 hover:border-primary/30 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10 bg-card/50 backdrop-blur-sm"
               >
-                <CardContent className="p-8 space-y-4">
+                <CardContent className="p-8 space-y-6">
                   <div className="flex items-start justify-between">
-                    <div className="p-3 bg-primary/10 rounded-lg">
-                      <feature.icon size={24} className="text-primary" />
+                    <div className="p-4 bg-primary/10 rounded-xl">
+                      <feature.icon size={28} className="text-primary" />
                     </div>
                     <Badge variant="outline" className="text-xs">
                       {feature.badge}
                     </Badge>
                   </div>
                   
-                  <h3 className="text-2xl font-semibold text-foreground font-inter">
-                    {feature.title}
-                  </h3>
-                  
-                  <p className="text-muted-foreground font-inter leading-relaxed">
-                    {feature.description}
-                  </p>
+                  <div>
+                    <h3 className="text-2xl font-semibold text-foreground font-inter mb-2">
+                      {feature.title}
+                    </h3>
+                    
+                    <p className="text-muted-foreground font-inter leading-relaxed">
+                      {feature.description}
+                    </p>
+                  </div>
                 </CardContent>
               </Card>
             ))}
@@ -268,9 +316,12 @@ const Features = () => {
       </section>
 
       {/* Security & Compliance */}
-      <section className="py-20 bg-gradient-subtle">
+      <section className="py-24 bg-gradient-to-b from-slate-900/20 to-background">
         <div className="container mx-auto px-4 lg:px-6">
-          <div className="text-center space-y-6 mb-16">
+          <div className="text-center space-y-6 mb-20">
+            <div className="inline-flex items-center gap-2 px-3 py-1 bg-primary/10 rounded-full text-sm font-medium text-primary border border-primary/20">
+              Enterprise Grade
+            </div>
             <h2 className="text-4xl lg:text-5xl font-bold text-foreground font-inter">
               Security & Compliance
             </h2>
@@ -280,23 +331,25 @@ const Features = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {securityFeatures.map((feature, index) => (
+            {securityFeatures.map((feature) => (
               <Card 
                 key={feature.title}
-                className="border-border/50 hover:border-primary/20 transition-all duration-300 hover:shadow-primary bg-card/50 backdrop-blur-sm"
+                className="border border-border/50 hover:border-primary/30 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10 bg-card/50 backdrop-blur-sm"
               >
-                <CardContent className="p-8 space-y-4">
-                  <div className="p-3 bg-primary/10 rounded-lg w-fit">
-                    <feature.icon size={24} className="text-primary" />
+                <CardContent className="p-8 space-y-6">
+                  <div className="p-4 bg-primary/10 rounded-xl w-fit">
+                    <feature.icon size={28} className="text-primary" />
                   </div>
                   
-                  <h3 className="text-2xl font-semibold text-foreground font-inter">
-                    {feature.title}
-                  </h3>
-                  
-                  <p className="text-muted-foreground font-inter leading-relaxed">
-                    {feature.description}
-                  </p>
+                  <div>
+                    <h3 className="text-2xl font-semibold text-foreground font-inter mb-2">
+                      {feature.title}
+                    </h3>
+                    
+                    <p className="text-muted-foreground font-inter leading-relaxed">
+                      {feature.description}
+                    </p>
+                  </div>
                 </CardContent>
               </Card>
             ))}
@@ -305,9 +358,12 @@ const Features = () => {
       </section>
 
       {/* Developer Tools */}
-      <section className="py-20">
+      <section className="py-24 bg-background">
         <div className="container mx-auto px-4 lg:px-6">
-          <div className="text-center space-y-6 mb-16">
+          <div className="text-center space-y-6 mb-20">
+            <div className="inline-flex items-center gap-2 px-3 py-1 bg-primary/10 rounded-full text-sm font-medium text-primary border border-primary/20">
+              Developer Experience
+            </div>
             <h2 className="text-4xl lg:text-5xl font-bold text-foreground font-inter">
               Developer-Friendly Tools
             </h2>
@@ -317,23 +373,25 @@ const Features = () => {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {developerTools.map((tool, index) => (
+            {developerTools.map((tool) => (
               <Card 
                 key={tool.title}
-                className="border-border/50 hover:border-primary/20 transition-all duration-300 hover:shadow-primary bg-card/50 backdrop-blur-sm text-center"
+                className="border border-border/50 hover:border-primary/30 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10 bg-card/50 backdrop-blur-sm text-center group"
               >
-                <CardContent className="p-6 space-y-4">
-                  <div className="p-3 bg-primary/10 rounded-lg w-fit mx-auto">
-                    <tool.icon size={24} className="text-primary" />
+                <CardContent className="p-8 space-y-6">
+                  <div className="p-4 bg-primary/10 rounded-xl w-fit mx-auto group-hover:scale-110 transition-transform duration-300">
+                    <tool.icon size={28} className="text-primary" />
                   </div>
                   
-                  <h3 className="text-xl font-semibold text-foreground font-inter">
-                    {tool.title}
-                  </h3>
-                  
-                  <p className="text-muted-foreground font-inter leading-relaxed">
-                    {tool.description}
-                  </p>
+                  <div>
+                    <h3 className="text-xl font-semibold text-foreground font-inter mb-2">
+                      {tool.title}
+                    </h3>
+                    
+                    <p className="text-muted-foreground font-inter leading-relaxed">
+                      {tool.description}
+                    </p>
+                  </div>
                 </CardContent>
               </Card>
             ))}
@@ -342,9 +400,12 @@ const Features = () => {
       </section>
 
       {/* Global Distribution & OTA Logos */}
-      <section className="py-20 bg-gradient-subtle">
+      <section className="py-24 bg-gradient-to-b from-slate-900/20 to-background">
         <div className="container mx-auto px-4 lg:px-6">
-          <div className="text-center space-y-6 mb-16">
+          <div className="text-center space-y-6 mb-20">
+            <div className="inline-flex items-center gap-2 px-3 py-1 bg-primary/10 rounded-full text-sm font-medium text-primary border border-primary/20">
+              Global Reach
+            </div>
             <h2 className="text-4xl lg:text-5xl font-bold text-foreground font-inter">
               Global Distribution
             </h2>
@@ -353,45 +414,50 @@ const Features = () => {
             </p>
           </div>
 
-          <div className="bg-card/80 backdrop-blur-sm border border-border/50 rounded-2xl p-8 shadow-elegant">
-            <h3 className="text-2xl font-bold text-center text-foreground font-inter mb-8">
+          <div className="bg-card/80 backdrop-blur-sm border border-border/50 rounded-2xl p-12 shadow-elegant hover:border-primary/30 transition-all duration-300">
+            <h3 className="text-2xl font-bold text-center text-foreground font-inter mb-12">
               Certified OTA Partners
             </h3>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 items-center justify-items-center">
-              {otaLogos.map((ota, index) => (
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 items-center justify-items-center mb-8">
+              {otaLogos.map((ota) => (
                 <div 
                   key={ota} 
-                  className="text-center p-4 bg-background/50 rounded-lg border border-border/30 hover:border-primary/20 transition-colors w-full"
+                  className="text-center p-4 bg-background/50 rounded-lg border border-border/30 hover:border-primary/30 hover:bg-primary/5 transition-all w-full group"
                 >
-                  <div className="text-lg font-semibold text-foreground">{ota}</div>
+                  <div className="text-lg font-semibold text-foreground group-hover:text-primary transition-colors">{ota}</div>
                 </div>
               ))}
             </div>
-            <p className="text-center text-muted-foreground mt-6">
-              And 40+ more regional and niche booking platforms
+            <p className="text-center text-muted-foreground">
+              <span className="font-semibold">And 40+ more</span> regional and niche booking platforms
             </p>
           </div>
         </div>
       </section>
 
-      {/* Call to Action */}
-      <section className="py-20">
+      {/* Call to Action - Enhanced */}
+      <section className="py-24 bg-background">
         <div className="container mx-auto px-4 lg:px-6">
-          <div className="bg-gradient-primary rounded-2xl p-12 text-center text-white shadow-glow">
-            <h2 className="text-4xl lg:text-5xl font-bold font-inter mb-6">
-              Ready to Get Started?
-            </h2>
-            <p className="text-xl text-white/90 font-inter mb-8 max-w-2xl mx-auto">
-              Join hundreds of PMS providers who trust Channex to power their OTA connectivity.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" variant="secondary" className="font-inter" onClick={() => window.open('https://docs.channex.io/', '_blank')}>
-                View the API
-                <ArrowRight size={16} className="ml-2" />
-              </Button>
-              <Button size="lg" variant="outline" className="border-primary/20 text-primary hover:bg-primary/10 font-inter" asChild>
-                <Link to="/contact">Talk to Sales</Link>
-              </Button>
+          <div className="bg-gradient-to-r from-primary via-primary/80 to-primary/60 rounded-3xl p-12 lg:p-20 text-center text-white shadow-2xl shadow-primary/20 relative overflow-hidden">
+            {/* Animated background */}
+            <div className="absolute top-0 right-0 w-96 h-96 bg-white/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
+            
+            <div className="relative z-10 space-y-8">
+              <h2 className="text-4xl lg:text-5xl font-bold font-inter leading-tight">
+                Ready to Get Started?
+              </h2>
+              <p className="text-xl text-white/90 font-inter max-w-2xl mx-auto leading-relaxed">
+                Join hundreds of PMS providers who trust Channex to power their OTA connectivity and drive revenue growth.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
+                <Button size="lg" variant="secondary" className="font-inter hover:shadow-lg" onClick={() => window.open('https://docs.channex.io/', '_blank')}>
+                  View the API
+                  <ArrowRight size={16} className="ml-2" />
+                </Button>
+                <Button size="lg" variant="ghost" className="border border-white/30 bg-white/10 text-white hover:bg-white/20 hover:text-white font-inter hover:shadow-lg" asChild>
+                  <Link to="/contact">Talk to Sales</Link>
+                </Button>
+              </div>
             </div>
           </div>
         </div>
