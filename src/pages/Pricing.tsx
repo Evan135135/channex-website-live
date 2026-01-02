@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "react-router-dom";
-import { Check, CreditCard, Shield, RefreshCw, X } from "lucide-react";
+import { Check, CreditCard, Shield, RefreshCw, X, ArrowRight } from "lucide-react";
 
 const Pricing = () => {
   const plans = [
@@ -251,6 +251,20 @@ const Pricing = () => {
                 </table>
               </div>
             </div>
+          </div>
+
+          {/* Comparison Section */}
+          <div className="text-center mb-16 p-8 bg-primary/5 rounded-lg border border-primary/20">
+            <h2 className="text-2xl font-bold text-foreground mb-4 font-inter">Comparing Channel Managers?</h2>
+            <p className="text-muted-foreground font-inter mb-6">
+              See how Channex compares to other solutions like SiteMinder
+            </p>
+            <Button size="sm" variant="outline" asChild>
+              <Link to="/comparison/siteminder">
+                View Comparison
+                <ArrowRight size={16} className="ml-2" />
+              </Link>
+            </Button>
           </div>
 
           {/* OTA Section */}
