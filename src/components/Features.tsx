@@ -145,7 +145,7 @@ const Features = () => {
                   </Button>
                 </a>
                 <a href="https://staging.channex.io/" target="_blank" rel="noopener noreferrer">
-                  <Button variant="outline" className="border-slate-600 text-white hover:bg-slate-800 font-inter w-full sm:w-auto">
+                  <Button variant="outline" className="border-slate-600 bg-slate-800 text-white hover:bg-slate-700 font-inter w-full sm:w-auto">
                     Try Sandbox
                   </Button>
                 </a>
