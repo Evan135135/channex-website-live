@@ -38,7 +38,7 @@ const Partners = () => {
             {partners.map((partner, index) => (
               <div 
                 key={partner.name}
-                className="flex items-center justify-center p-6 grayscale hover:grayscale-0 transition-all duration-300 hover:scale-105"
+                className="flex items-center justify-center p-6 grayscale transition-all duration-300 hover:scale-105"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <img 
@@ -46,7 +46,7 @@ const Partners = () => {
                   alt={`${partner.name} logo`}
                   loading="lazy"
                   decoding="async"
-                  className="max-h-12 w-auto opacity-60 hover:opacity-100 transition-opacity duration-300"
+                  className="h-10 w-auto object-contain opacity-50 transition-opacity duration-300"
                 />
               </div>
             ))}
