@@ -367,7 +367,6 @@ export const blogPosts: BlogPost[] = [
       <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
 
       <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Quick Comparison</h2>
-
       <div style="overflow-x: auto; margin: 2rem 0;">
         <table style="width: 100%; border-collapse: collapse; border: 1px solid #e2e8f0; background: white; border-radius: 8px;">
           <thead>
