@@ -23,7 +23,13 @@ import {
 } from "lucide-react";
 
 const ComparisonSiteMinder = () => {
-  const comparisonData = [
+  const comparisonData: Array<{
+    category: string;
+    channex: string;
+    siteminder: string;
+    channexWins: boolean;
+    bothHaveFeature?: boolean;
+  }> = [
     {
       category: "Pricing Model",
       channex: "Transparent, usage-based pricing with no setup fees",
@@ -106,7 +112,8 @@ const ComparisonSiteMinder = () => {
       category: "Compliance",
       channex: "GDPR, PCI DSS compliant with activity logs and audit trails",
       siteminder: "GDPR, PCI DSS, PSD2 SCA compliant",
-      channexWins: false
+      channexWins: false,
+      bothHaveFeature: true
     },
     {
       category: "Support",
@@ -346,7 +353,7 @@ const ComparisonSiteMinder = () => {
                     <td className="py-4 px-6 font-medium text-foreground">{item.category}</td>
                     <td className="py-4 px-6 text-center">
                       <div className="flex items-center justify-center gap-2">
-                        {item.channexWins ? (
+                        {item.bothHaveFeature || item.channexWins ? (
                           <>
                             <Check className="text-green-500" size={20} />
                             <span className="text-sm text-muted-foreground hidden sm:inline">{item.channex}</span>
@@ -362,7 +369,7 @@ const ComparisonSiteMinder = () => {
                     </td>
                     <td className="py-4 px-6 text-center">
                       <div className="flex items-center justify-center gap-2">
-                        {!item.channexWins ? (
+                        {item.bothHaveFeature || !item.channexWins ? (
                           <>
                             <Check className="text-green-500" size={20} />
                             <span className="text-sm text-muted-foreground hidden sm:inline">{item.siteminder}</span>
