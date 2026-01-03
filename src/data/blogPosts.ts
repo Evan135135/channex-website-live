@@ -502,7 +502,6 @@ export const blogPosts: BlogPost[] = [
         <ul style="margin-left: 1.5rem; color: #475569;">
           <li>We don't sell to hotels</li>
           <li>No hotel marketing from us</li>
-          <li>Revenue share options available</li>
           <li>Your market stays yours</li>
         </ul>
       </div>
