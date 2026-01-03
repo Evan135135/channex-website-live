@@ -356,13 +356,11 @@ export const blogPosts: BlogPost[] = [
     slug: "staah-su-vs-channex-alternative",
     excerpt: "Detailed comparison of STAAH SU and Channex channel managers. Compare pricing, API integration, OTA connections, and features to find the best fit for your PMS.",
     content: `
-      <p>We'll be the first to say it.</p>
+      <p>Look, STAAH SU has been around longer than us. They've got more OTA connections—especially the smaller regional ones.</p>
       
-      <p>STAAH SU has been around longer. They have more OTA connections, especially smaller regional ones.</p>
+      <p>When we mention this to PMS companies, most of them say the same thing: "That's fine. We really only care about the big OTAs anyway."</p>
       
-      <p>Most PMS companies nod and tell us the same thing after that: <em>"That's fine — we only care about the big OTAs anyway."</em></p>
-      
-      <p>That's where the real comparison starts.</p>
+      <p>Fair enough. So let's compare what actually matters.</p>
 
       <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
 
@@ -418,121 +416,119 @@ export const blogPosts: BlogPost[] = [
 
       <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
 
-      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Let's talk about what actually matters</h2>
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">The stuff people actually ask about</h2>
 
-      <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem; color: #334155;">Q: So you don't have 100+ OTAs?</h3>
-      <p>That's true — and deliberate. Over 90% of bookings come from the big five: Booking.com, Expedia, Airbnb, Agoda, and Trip.com. We focus on those first, keep them stable, and certify updates faster. You get reliability and speed, not clutter.</p>
-
-      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
-
-      <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem; color: #334155;">Q: How does your pricing work?</h3>
-      <p>STAAH SU often charges per room or by hotel size. Channex keeps it simple — flat USD $7 per property per month. No hidden tiers, no usage math, no sales calls to change plans.</p>
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem; color: #334155;">So you don't have 100+ OTAs?</h3>
+      <p>Nope. And that's on purpose. About 90% of bookings come from five channels: Booking.com, Expedia, Airbnb, Agoda, and Trip.com. We focus on keeping those rock-solid and certifying updates quickly. Less clutter, more reliability.</p>
 
       <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
 
-      <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem; color: #334155;">Q: Are you hotel-facing?</h3>
-      <p>No. Channex exists for PMS companies only. We don't market to hotels, and we never compete with your customers. You stay in control.</p>
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem; color: #334155;">How does pricing work?</h3>
+      <p>STAAH SU usually charges based on room count or hotel size. We charge $7 per property per month. That's it. No tiers, no usage calculations, no calling sales to change your plan.</p>
 
       <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
 
-      <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem; color: #334155;">Q: What about integration time?</h3>
-      <p>Our API is modern REST + Webhooks. Most PMSs go live in weeks, not months. You get full documentation and a test sandbox. Your developers can move fast — and stay independent.</p>
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem; color: #334155;">Do you sell directly to hotels?</h3>
+      <p>No. We only work with PMS companies. We don't market to hotels, and we'll never compete with your customers. You control the relationship.</p>
 
       <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
 
-      <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem; color: #334155;">Q: Is Channex just a channel manager?</h3>
-      <p>Connectivity is our foundation, not our ceiling. We also provide optional modules:</p>
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem; color: #334155;">How long does integration take?</h3>
+      <p>We use modern REST APIs and webhooks. Most PMS companies go live in a few weeks instead of months. Full docs, test sandbox, no hand-holding required.</p>
+
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem; color: #334155;">Is it just channel management?</h3>
+      <p>Mostly, but we've got a couple other things if you need them:</p>
       <ul>
-        <li><strong>Payment Gateway</strong> – secure PCI pass-through to Stripe and others.</li>
-        <li><strong>RatePanda (coming H1 2026)</strong> – simple AI-based daily auto-pricing.</li>
+        <li><strong>Payment Gateway</strong> – PCI-compliant pass-through to Stripe and others</li>
+        <li><strong>RatePanda</strong> (launching H1 2026) – AI-based daily pricing</li>
       </ul>
-      <p>All under the same API. Add them when you're ready.</p>
+      <p>Same API, add them whenever.</p>
 
       <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
 
 
-      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Common Questions</h2>
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Other questions we get</h2>
 
-      <h3 style="font-size: 1.25rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #334155;">Do you support local or regional OTAs?</h3>
-      <p>Yes — we're adding them gradually based on partner demand. If a channel matters to your hotels, tell us — we'll prioritize it.</p>
+      <h3 style="font-size: 1.25rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #334155;">What about regional OTAs?</h3>
+      <p>We add them based on what partners actually need. If a channel matters to your hotels, let us know and we'll bump it up the list.</p>
 
-      <h3 style="font-size: 1.25rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #334155;">How hard is migration?</h3>
-      <p>Most PMSs move properties over in 2 weeks or less using our migration toolkit. We help every step of the way.</p>
+      <h3 style="font-size: 1.25rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #334155;">Is migration a pain?</h3>
+      <p>Usually takes about 2 weeks with our migration toolkit. We'll help you through it.</p>
 
-      <h3 style="font-size: 1.25rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #334155;">Can we test before switching?</h3>
-      <p>Of course — you can use our sandbox environment free while evaluating.</p>
+      <h3 style="font-size: 1.25rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #334155;">Can we test it first?</h3>
+      <p>Yeah, sandbox is free. Use it as long as you need.</p>
 
-      <h3 style="font-size: 1.25rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #334155;">What's your uptime and support like?</h3>
-      <p>Over 99.9% uptime with real-developer support via email and Slack. No ticket limbo.</p>
+      <h3 style="font-size: 1.25rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #334155;">What's support like?</h3>
+      <p>99.9% uptime. Real developers on email and Slack. No ticket queues.</p>
 
       <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
 
-      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Why PMS Providers Choose Channex Over STAAH</h2>
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Why some PMS companies pick us</h2>
 
       <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #1e293b;">1. Developer-First API</h3>
+        <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #1e293b;">Modern API</h3>
         <ul style="margin-left: 1.5rem; color: #475569;">
-          <li>Modern REST architecture vs legacy SOAP</li>
+          <li>REST instead of SOAP</li>
           <li>Webhooks for real-time updates</li>
-          <li>Comprehensive documentation with code examples</li>
-          <li>Active developer community on Slack</li>
+          <li>Actual documentation with examples</li>
+          <li>Slack channel with other devs</li>
         </ul>
       </div>
 
       <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #1e293b;">2. Transparent Pricing</h3>
+        <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #1e293b;">Simple pricing</h3>
         <ul style="margin-left: 1.5rem; color: #475569;">
-          <li>No hidden fees or per-room charges</li>
-          <li>Predictable costs as you scale</li>
-          <li>No contract lock-ins</li>
-          <li>Simple flat rate: <a href="/pricing" style="color: #3b82f6; text-decoration: underline;">$7 per property per month</a></li>
+          <li>No hidden fees</li>
+          <li>Costs don't balloon as you grow</li>
+          <li>No contracts</li>
+          <li><a href="/pricing" style="color: #3b82f6; text-decoration: underline;">$7 per property per month</a></li>
         </ul>
       </div>
 
       <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #1e293b;">3. True White-Label</h3>
+        <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #1e293b;">Actually white-label</h3>
         <ul style="margin-left: 1.5rem; color: #475569;">
-          <li>Your brand, not ours</li>
-          <li>No "Powered by Channex" badges</li>
-          <li>Custom domain support</li>
-          <li>Complete control of the customer relationship</li>
+          <li>Your brand everywhere</li>
+          <li>No "Powered by" badges</li>
+          <li>Custom domains</li>
+          <li>You own the customer relationship</li>
         </ul>
       </div>
 
       <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #1e293b;">4. PMS-Only Focus</h3>
+        <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #1e293b;">We're not your competitor</h3>
         <ul style="margin-left: 1.5rem; color: #475569;">
-          <li>We never compete with your customers</li>
-          <li>No direct hotel marketing</li>
-          <li>Partner revenue share opportunities</li>
-          <li>You stay in control of your market</li>
+          <li>We don't sell to hotels</li>
+          <li>No hotel marketing from us</li>
+          <li>Revenue share options available</li>
+          <li>Your market stays yours</li>
         </ul>
       </div>
 
       <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
 
-      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Ready to Compare for Your PMS?</h2>
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Want to dig deeper?</h2>
       
-      <p style="font-size: 1.125rem; color: #475569; margin-bottom: 2rem;">Get a personalized comparison showing migration timeline, cost analysis, and API integration walkthrough for your specific PMS setup.</p>
+      <p style="font-size: 1.125rem; color: #475569; margin-bottom: 2rem;">We can walk you through migration timeline, costs, and how the API works for your specific setup.</p>
 
       <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin: 2rem 0;">
-        <a href="/contact" style="display: inline-block; background: #3b82f6; color: white; padding: 0.875rem 1.75rem; border-radius: 8px; text-decoration: none; font-weight: 600; box-shadow: 0 4px 6px rgba(59, 130, 246, 0.3); transition: all 0.2s;">Schedule 15-Min Demo</a>
-        <a href="https://docs.channex.io/" target="_blank" style="display: inline-block; background: white; color: #3b82f6; padding: 0.875rem 1.75rem; border-radius: 8px; text-decoration: none; font-weight: 600; border: 2px solid #3b82f6; transition: all 0.2s;">View API Docs</a>
-        <a href="https://staging.channex.io/" target="_blank" style="display: inline-block; background: white; color: #3b82f6; padding: 0.875rem 1.75rem; border-radius: 8px; text-decoration: none; font-weight: 600; border: 2px solid #3b82f6; transition: all 0.2s;">Try Sandbox Free</a>
+        <a href="/contact" style="display: inline-block; background: #3b82f6; color: white; padding: 0.875rem 1.75rem; border-radius: 8px; text-decoration: none; font-weight: 600; box-shadow: 0 4px 6px rgba(59, 130, 246, 0.3); transition: all 0.2s;">Book a 15-min call</a>
+        <a href="https://docs.channex.io/" target="_blank" style="display: inline-block; background: white; color: #3b82f6; padding: 0.875rem 1.75rem; border-radius: 8px; text-decoration: none; font-weight: 600; border: 2px solid #3b82f6; transition: all 0.2s;">Check the docs</a>
+        <a href="https://staging.channex.io/" target="_blank" style="display: inline-block; background: white; color: #3b82f6; padding: 0.875rem 1.75rem; border-radius: 8px; text-decoration: none; font-weight: 600; border: 2px solid #3b82f6; transition: all 0.2s;">Try the sandbox</a>
       </div>
 
-      <p style="color: #64748b; margin-top: 1.5rem;">Or email us directly: <a href="mailto:support@channex.io" style="color: #3b82f6; text-decoration: underline; font-weight: 600;">support@channex.io</a></p>
-      
-      <p style="margin-top: 2rem;"><strong>Let's make your connectivity invisible, reliable, and yours.</strong></p>
+      <p style="color: #64748b; margin-top: 1.5rem;">Or just email: <a href="mailto:support@channex.io" style="color: #3b82f6; text-decoration: underline; font-weight: 600;">support@channex.io</a></p>
 
       <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
 
-      <h2 style="font-size: 1.5rem; font-weight: 600; margin-bottom: 1rem; color: #1e293b;">Related Resources</h2>
+      <h2 style="font-size: 1.5rem; font-weight: 600; margin-bottom: 1rem; color: #1e293b;">More comparisons</h2>
       <ul style="list-style: none; padding: 0;">
-        <li style="margin-bottom: 0.5rem;">→ <a href="/comparison/siteminder" style="color: #3b82f6; text-decoration: underline;">Channex vs SiteMinder: Full Comparison</a></li>
-        <li style="margin-bottom: 0.5rem;">→ <a href="/features" style="color: #3b82f6; text-decoration: underline;">Channex Features for PMS Providers</a></li>
-        <li style="margin-bottom: 0.5rem;">→ <a href="https://docs.channex.io/" target="_blank" style="color: #3b82f6; text-decoration: underline;">API Documentation</a></li>
-        <li style="margin-bottom: 0.5rem;">→ <a href="/pricing" style="color: #3b82f6; text-decoration: underline;">Transparent Pricing</a></li>
+        <li style="margin-bottom: 0.5rem;">→ <a href="/comparison/siteminder" style="color: #3b82f6; text-decoration: underline;">Channex vs SiteMinder</a></li>
+        <li style="margin-bottom: 0.5rem;">→ <a href="/features" style="color: #3b82f6; text-decoration: underline;">All features</a></li>
+        <li style="margin-bottom: 0.5rem;">→ <a href="https://docs.channex.io/" target="_blank" style="color: #3b82f6; text-decoration: underline;">API docs</a></li>
+        <li style="margin-bottom: 0.5rem;">→ <a href="/pricing" style="color: #3b82f6; text-decoration: underline;">Pricing</a></li>
       </ul>
     `,
     author: {
