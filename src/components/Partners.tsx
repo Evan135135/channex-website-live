@@ -1,24 +1,11 @@
-import airbnbLogo from "@/assets/airbnb-logo.png";
 import { Link } from "react-router-dom";
 
 const Partners = () => {
   const partners = [
-    {
-      name: "Booking.com",
-      logo: "https://cdn.prod.website-files.com/5feef9d9acad0185ffea8445/5ff5c9b59aa1ba29e0358d65_booking%20logo.svg"
-    },
-    {
-      name: "Expedia",
-      logo: "/images/integrations/expedia.svg"
-    },
-    {
-      name: "Airbnb",
-      logo: airbnbLogo
-    },
-    {
-      name: "Hostelworld",
-      logo: "/images/integrations/hostelworld.png"
-    }
+    { name: "Booking.com" },
+    { name: "Expedia" },
+    { name: "Airbnb" },
+    { name: "Hostelworld" }
   ];
 
   return (
@@ -38,16 +25,12 @@ const Partners = () => {
             {partners.map((partner, index) => (
               <div 
                 key={partner.name}
-                className="flex items-center justify-center p-6 grayscale transition-all duration-300 hover:scale-105"
+                className="flex items-center justify-center p-6 transition-all duration-300 hover:scale-105"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <img 
-                  src={partner.logo} 
-                  alt={`${partner.name} logo`}
-                  loading="lazy"
-                  decoding="async"
-                  className="h-10 w-auto object-contain opacity-50 transition-opacity duration-300"
-                />
+                <span className="text-2xl font-bold text-muted-foreground/40 hover:text-muted-foreground/60 transition-colors duration-300 font-inter">
+                  {partner.name}
+                </span>
               </div>
             ))}
           </div>
