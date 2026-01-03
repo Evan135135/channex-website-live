@@ -106,7 +106,7 @@ const ComparisonSiteMinder = () => {
       category: "Compliance",
       channex: "GDPR, PCI DSS compliant with activity logs and audit trails",
       siteminder: "GDPR, PCI DSS, PSD2 SCA compliant",
-      channexWins: true
+      channexWins: false
     },
     {
       category: "Support",
