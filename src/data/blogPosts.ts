@@ -544,7 +544,7 @@ export const blogPosts: BlogPost[] = [
     publishDate: "2026-01-03",
     category: blogCategories[0],
     tags: ["STAAH SU", "Alternative", "PMS", "Channel Manager", "API", "Integration", "Comparison"],
-    featuredImage: "/lovable-uploads/staah-channex-comparison.png",
+    featuredImage: "/lovable-uploads/staah-channex-comparison-new.png",
     readTime: 5,
     metaDescription: "STAAH SU vs Channex comparison: Compare pricing ($7/property vs per-room), API integration (2-4 weeks vs 2-3 months), OTA connections, and white-label features for PMS providers."
   },
