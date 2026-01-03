@@ -6,91 +6,116 @@ import {
   Shield, 
   Globe, 
   BarChart3, 
-  Smartphone,
-  ArrowRight
+  Palette,
+  ArrowRight,
+  DollarSign,
+  Users
 } from "lucide-react";
 
 const Features = () => {
   const features = [
     {
       icon: Code2,
-      title: "Developer-First API",
-      description: "Simple, feature-packed REST API with comprehensive documentation. No more CSV mapping or bulky XML files.",
-      highlight: "JSON-based"
+      title: "Modern REST API",
+      description: "JSON-based REST API with webhooks. No CSV mapping or XML files. Full documentation and test sandbox included.",
+      highlight: "REST + Webhooks",
+      gradient: "from-blue-500 to-cyan-500"
     },
     {
       icon: Zap,
-      title: "Lightning Fast",
-      description: "Sub-100ms response times with 99.9% uptime SLA. Built for scale with global CDN infrastructure.",
-      highlight: "<100ms response"
+      title: "Fast Integration",
+      description: "Most PMS companies go live in 2-4 weeks. Sub-100ms response times with 99.9% uptime SLA.",
+      highlight: "2-4 weeks",
+      gradient: "from-purple-500 to-pink-500"
+    },
+    {
+      icon: DollarSign,
+      title: "Transparent Pricing",
+      description: "$7 per property per month. No hidden fees, no per-room charges, no setup costs. Scale predictably.",
+      highlight: "$7/property",
+      gradient: "from-green-500 to-emerald-500"
+    },
+    {
+      icon: Palette,
+      title: "Full White-Label",
+      description: "Your brand everywhere. No 'Powered by' badges. Custom domains supported. You own the relationship.",
+      highlight: "Your brand",
+      gradient: "from-orange-500 to-red-500"
+    },
+    {
+      icon: Globe,
+      title: "50+ OTA Connections",
+      description: "Connect to Booking.com, Airbnb, Expedia, Agoda, Trip.com, and 50+ more booking platforms worldwide.",
+      highlight: "50+ OTAs",
+      gradient: "from-indigo-500 to-purple-500"
+    },
+    {
+      icon: Users,
+      title: "PMS-Only Focus",
+      description: "We only work with PMS providers. We never market to hotels or compete with your customers.",
+      highlight: "B2B only",
+      gradient: "from-teal-500 to-cyan-500"
     },
     {
       icon: Shield,
       title: "Enterprise Security",
-      description: "Channex follows industry-standard security practices to help keep your PMS platform and customers protected.",
-      highlight: "PCI Compliant"
-    },
-    {
-      icon: Globe,
-      title: "Global Coverage",
-      description: "Connect to 50+ OTAs worldwide including regional and niche booking platforms.",
-      highlight: "50+ OTAs"
+      description: "GDPR and PCI DSS compliant. Activity logs and audit trails. Industry-standard security practices.",
+      highlight: "GDPR + PCI DSS",
+      gradient: "from-slate-500 to-gray-600"
     },
     {
       icon: BarChart3,
       title: "Real-time Analytics",
-      description: "Monitor channel errors, booking performance, and channel health with detailed dashboards.",
-      highlight: "Live metrics"
-    },
-    {
-      icon: Smartphone,
-      title: "White Label Ready",
-      description: "An API that lets you build the entire experience directly into your own UI.",
-      highlight: "Your brand"
+      description: "Monitor channel errors, booking performance, and system health with detailed dashboards and alerts.",
+      highlight: "Live metrics",
+      gradient: "from-amber-500 to-orange-500"
     }
   ];
 
   return (
-    <section id="features" className="py-20 bg-gradient-subtle">
+    <section id="features" className="py-24 bg-background">
       <div className="container mx-auto px-4 lg:px-6">
+        {/* Section header */}
         <div className="text-center space-y-6 mb-16">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full text-sm font-medium text-primary">
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full text-sm font-medium text-primary border border-primary/20">
             <Code2 size={16} />
-            Developer Experience
+            Built for PMS Providers
           </div>
           
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground font-inter">
-            Built for
-            <span className="bg-gradient-primary bg-clip-text text-transparent"> Modern PMS</span>
+            Everything you need to
+            <span className="bg-gradient-primary bg-clip-text text-transparent"> connect your PMS</span>
           </h2>
           
-          <p className="text-xl text-muted-foreground font-inter max-w-2xl mx-auto">
-            Everything you need to connect your Property Management System to the world's leading booking platforms.
+          <p className="text-xl text-muted-foreground font-inter max-w-3xl mx-auto leading-relaxed">
+            A complete channel manager API designed for Property Management Systems. Modern, reliable, and developer-friendly.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        {/* Features grid */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           {features.map((feature, index) => (
             <Card 
               key={feature.title}
-              className="group border-border/50 hover:border-primary/20 transition-all duration-300 hover:shadow-primary bg-card/50 backdrop-blur-sm animate-fade-in"
-              style={{ animationDelay: `${index * 0.1}s` }}
+              className="group border-border/50 hover:border-primary/30 transition-all duration-300 hover:shadow-lg bg-card/50 backdrop-blur-sm animate-fade-in overflow-hidden relative"
+              style={{ animationDelay: `${index * 0.05}s` }}
             >
-              <CardContent className="p-6 space-y-4">
+              <div className={`absolute inset-0 bg-gradient-to-br ${feature.gradient} opacity-0 group-hover:opacity-5 transition-opacity duration-300`}></div>
+              <CardContent className="p-6 space-y-4 relative">
                 <div className="flex items-start justify-between">
-                  <div className="p-3 bg-primary/10 rounded-lg group-hover:bg-primary/20 transition-colors">
-                    <feature.icon size={24} className="text-primary" />
+                  <div className={`p-3 bg-gradient-to-br ${feature.gradient} rounded-lg group-hover:scale-110 transition-transform duration-300`}>
+                    <feature.icon size={24} className="text-white" />
                   </div>
-                  <span className="text-xs font-medium text-primary bg-primary/10 px-2 py-1 rounded font-inter">
+                  <span className="text-xs font-medium text-primary bg-primary/10 px-2 py-1 rounded font-inter border border-primary/20">
                     {feature.highlight}
                   </span>
                 </div>
                 
-                <h3 className="text-xl font-semibold text-foreground font-inter">
+                <h3 className="text-lg font-semibold text-foreground font-inter">
                   {feature.title}
                 </h3>
                 
-                <p className="text-muted-foreground font-inter leading-relaxed">
+                <p className="text-sm text-muted-foreground font-inter leading-relaxed">
                   {feature.description}
                 </p>
               </CardContent>
@@ -99,24 +124,35 @@ const Features = () => {
         </div>
 
         {/* Code Example Section */}
-        <div className="bg-card/80 backdrop-blur-sm border border-border/50 rounded-2xl p-8 shadow-elegant">
-          <div className="grid lg:grid-cols-2 gap-8 items-center">
+        <div className="bg-gradient-to-br from-slate-900 to-slate-800 border border-slate-700 rounded-2xl p-8 lg:p-12 shadow-2xl">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <h3 className="text-2xl font-bold text-foreground font-inter">
-                Get started in minutes
+              <div className="inline-flex items-center gap-2 px-3 py-1 bg-primary/20 rounded-full text-sm font-medium text-primary">
+                <Code2 size={14} />
+                Developer Experience
+              </div>
+              <h3 className="text-3xl lg:text-4xl font-bold text-white font-inter">
+                Start integrating in minutes
               </h3>
-              <p className="text-muted-foreground font-inter leading-relaxed">
-                Our REST API is designed for developers, by developers. Start integrating with just a few lines of code.
+              <p className="text-slate-300 font-inter leading-relaxed text-lg">
+                Our REST API is designed for developers, by developers. Clean endpoints, comprehensive docs, and a test sandbox to get you started quickly.
               </p>
-              <a href="https://docs.channex.io/" target="_blank" rel="noopener noreferrer">
-                <Button className="bg-gradient-primary hover:shadow-primary transition-all duration-300 font-inter">
-                  View Full Documentation
-                  <ArrowRight size={16} className="ml-2" />
-                </Button>
-              </a>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <a href="https://docs.channex.io/" target="_blank" rel="noopener noreferrer">
+                  <Button className="bg-gradient-primary hover:shadow-primary transition-all duration-300 font-inter w-full sm:w-auto">
+                    View Documentation
+                    <ArrowRight size={16} className="ml-2" />
+                  </Button>
+                </a>
+                <a href="https://staging.channex.io/" target="_blank" rel="noopener noreferrer">
+                  <Button variant="outline" className="border-slate-600 text-white hover:bg-slate-800 font-inter w-full sm:w-auto">
+                    Try Sandbox
+                  </Button>
+                </a>
+              </div>
             </div>
             
-            <div className="bg-slate-900 rounded-lg p-6 overflow-hidden">
+            <div className="bg-slate-950 rounded-xl p-6 overflow-hidden border border-slate-700">
               <div className="flex items-center gap-2 mb-4">
                 <div className="w-3 h-3 bg-red-500 rounded-full"></div>
                 <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
