@@ -209,11 +209,11 @@ const getCategoryColor = (category: string) => {
                 >
                   <CardHeader className={viewMode === "list" ? "pb-3" : ""}>
                     <div className="flex items-start gap-3">
-                      <div className="w-12 h-12 bg-muted rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden">
+                      <div className="w-20 h-20 bg-muted rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden">
                         <img 
                           src={integration.icon} 
                           alt={`${integration.name} logo`}
-                          className="w-8 h-8 object-contain"
+                          className="w-16 h-16 object-contain"
                           onError={(e) => {
                             // Fallback to gradient placeholder on error
                             e.currentTarget.style.display = 'none';
