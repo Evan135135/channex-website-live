@@ -150,6 +150,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://channex.io/integrations/check24</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://channex.io/integrations/abode</loc>
     <lastmod>2026-01-02</lastmod>
     <changefreq>monthly</changefreq>

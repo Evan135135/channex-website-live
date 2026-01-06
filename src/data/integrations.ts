@@ -3096,5 +3096,83 @@ export const integrations: Integration[] = [
       bulkOperations: true,
       customFields: false
     }
+  },
+  {
+    id: "check24",
+    name: "Check24",
+    description: "Germany's leading comparison and booking platform for travel, hotels, and accommodations, connecting millions of German-speaking travelers with properties worldwide.",
+    icon: "https://www.check24.de/favicon.ico",
+    categories: ["OTA", "Europe", "Germany"],
+    slug: "check24",
+    longDescription: "Check24 is Germany's largest online comparison portal and one of Europe's leading travel booking platforms. With over 15 million customers and a dominant presence in German-speaking markets (Germany, Austria, Switzerland), Check24 provides hotels and accommodations with direct access to high-value European travelers. Known for its comprehensive comparison features and trusted brand reputation, Check24 is essential for properties targeting the lucrative German travel market.",
+    features: [
+      "Access to 15+ million German customers",
+      "Real-time rate and availability management",
+      "Multi-currency support (EUR, CHF)",
+      "Instant booking confirmation",
+      "Strong brand recognition in DACH region",
+      "Integrated customer reviews and ratings",
+      "Competitive rate comparison visibility",
+      "Marketing and promotional opportunities",
+      "German-language customer support",
+      "Advanced analytics and reporting tools",
+      "Flexible cancellation policy management",
+      "Check24 loyalty program integration"
+    ],
+    useCases: [
+      "Hotels targeting German-speaking travelers",
+      "Properties in popular European destinations",
+      "Accommodations seeking high-value guests",
+      "Hotels wanting exposure in DACH markets",
+      "Properties competing on price and value",
+      "Businesses targeting comparison shoppers"
+    ],
+    apiCapabilities: [
+      "Real-time availability and rate synchronization",
+      "Booking management and modifications",
+      "Property and room type configuration",
+      "Guest data and booking details access",
+      "Cancellation and refund handling",
+      "Marketing content and photo management",
+      "Performance analytics and reporting",
+      "Multi-language content support"
+    ],
+    setupSteps: [
+      "Register as a Check24 hotel partner",
+      "Complete property verification and documentation",
+      "Upload high-quality property photos and descriptions",
+      "Configure room types, rates, and policies",
+      "Set up availability calendar",
+      "Connect via Channex API integration",
+      "Test booking flow and data synchronization",
+      "Go live and start receiving bookings"
+    ],
+    website: "https://www.check24.de",
+    documentation: "https://partner.check24.de/",
+    screenshots: [],
+    videoUrl: "",
+    supportedLanguages: ["German", "English"],
+    supportEmail: "partner@check24.de",
+    setupGuideUrl: "https://partner.check24.de/getting-started",
+    privacyPolicyUrl: "https://www.check24.de/unternehmen/datenschutz/",
+    pricing: {
+      model: "Commission-based per booking",
+      details: "Competitive commission rates for the German market with no upfront costs. Commission is only charged on confirmed bookings.",
+      features: [
+        "No setup or monthly fees",
+        "Commission only on successful bookings",
+        "Access to marketing campaigns and promotions",
+        "Free partner dashboard and analytics",
+        "Dedicated German-speaking partner support",
+        "Regular payment cycles"
+      ]
+    },
+    integrationFeatures: {
+      dataSync: ["Reservations", "Rates", "Availability", "Property Data", "Guest Information"],
+      realTime: true,
+      webhooks: true,
+      bulkOperations: true,
+      customFields: false
+    }
   }
 ];
