@@ -3018,5 +3018,83 @@ export const integrations: Integration[] = [
       "Properties needing linked availability for packages"
     ],
     website: "https://www.hightide.io/"
+  },
+  {
+    id: "klook",
+    name: "Klook",
+    description: "Leading travel activities and services booking platform in Asia-Pacific, connecting millions of travelers with unique experiences, tours, and accommodations.",
+    icon: "https://res.klook.com/image/upload/v1596005079/blog/platform/favicon.ico",
+    categories: ["OTA", "Global", "Asia", "Activities"],
+    slug: "klook",
+    longDescription: "Klook is Asia-Pacific's leading travel activities and services booking platform, offering travelers instant booking and confirmation for tours, attractions, transportation, and accommodations. With over 400,000 activities across 1,000+ destinations worldwide, Klook has become the go-to platform for travelers seeking unique experiences. Our integration enables properties to tap into Klook's massive user base of experience-seeking travelers, particularly strong in Asian markets.",
+    features: [
+      "Access to millions of Asian travelers",
+      "Real-time rate and availability management",
+      "Multi-currency support (20+ currencies)",
+      "Instant booking confirmation",
+      "Mobile-first platform with high conversion rates",
+      "Integrated with activities and experiences",
+      "Strong presence in Asia-Pacific markets",
+      "Marketing and promotional opportunities",
+      "24/7 customer support in multiple languages",
+      "Advanced analytics and reporting tools",
+      "Flexible cancellation policy management",
+      "Klook Credits and loyalty program integration"
+    ],
+    useCases: [
+      "Hotels targeting Asian travelers",
+      "Properties near popular attractions and activities",
+      "Accommodations seeking experience-driven guests",
+      "Hotels in tourist destinations",
+      "Properties wanting to reach mobile-savvy travelers",
+      "Businesses targeting millennials and Gen Z travelers"
+    ],
+    apiCapabilities: [
+      "Real-time availability and rate synchronization",
+      "Booking management and modifications",
+      "Property and room type configuration",
+      "Guest data and booking details access",
+      "Cancellation and refund handling",
+      "Marketing content and photo management",
+      "Performance analytics and reporting",
+      "Multi-language content support"
+    ],
+    setupSteps: [
+      "Register as a Klook accommodation partner",
+      "Complete property verification and documentation",
+      "Upload high-quality property photos and descriptions",
+      "Configure room types, rates, and policies",
+      "Set up availability calendar",
+      "Connect via Channex API integration",
+      "Test booking flow and data synchronization",
+      "Go live and start receiving bookings"
+    ],
+    website: "https://www.klook.com",
+    documentation: "https://partner.klook.com/",
+    screenshots: [],
+    videoUrl: "",
+    supportedLanguages: ["English", "Chinese (Simplified)", "Chinese (Traditional)", "Japanese", "Korean", "Thai", "Vietnamese", "Bahasa Indonesia", "Bahasa Malaysia"],
+    supportEmail: "partner@klook.com",
+    setupGuideUrl: "https://partner.klook.com/getting-started",
+    privacyPolicyUrl: "https://www.klook.com/privacy/",
+    pricing: {
+      model: "Commission-based per booking",
+      details: "Competitive commission rates with no upfront costs. Commission is only charged on confirmed bookings.",
+      features: [
+        "No setup or monthly fees",
+        "Commission only on successful bookings",
+        "Access to marketing campaigns and promotions",
+        "Free partner dashboard and analytics",
+        "Dedicated partner support team",
+        "Regular payment cycles"
+      ]
+    },
+    integrationFeatures: {
+      dataSync: ["Reservations", "Rates", "Availability", "Property Data", "Guest Information"],
+      realTime: true,
+      webhooks: true,
+      bulkOperations: true,
+      customFields: false
+    }
   }
 ];
