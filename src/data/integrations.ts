@@ -793,7 +793,7 @@ export const integrations: Integration[] = [
     id: "18",
     name: "Traveloka",
     description: "Reach travellers across Southeast Asia. Ideal for properties targeting this fast-growing regional market.",
-    icon: "/images/integrations/traveloka.png",
+    icon: "/lovable-uploads/traveloka-logo.png",
     categories: ["Asia", "Regional", "OTA"]
   },
   {
@@ -902,14 +902,14 @@ export const integrations: Integration[] = [
     id: "23",
     name: "HRS",
     description: "Streamline bookings for business travelers and corporate clients. Ideal for properties targeting the corporate travel market.",
-    icon: "/images/integrations/hrs.png",
+    icon: "/lovable-uploads/hrs-logo.png",
     categories: ["Corporate", "Global", "B2B", "OTA"]
   },
   {
     id: "24",
     name: "Hipcamp",
     description: "Ideal for campsites, glamping, and unique nature-focused properties.",
-    icon: "/images/integrations/hipcamp.png",
+    icon: "/lovable-uploads/hipcamp-logo.png",
     categories: ["Outdoor", "Vacation Rentals", "OTA"]
   },
   {
@@ -2385,14 +2385,14 @@ export const integrations: Integration[] = [
     id: "216",
     name: "Mr & Mrs Smith",
     description: "A curated platform for luxury and boutique stays. Ideal for properties offering unique, high-end experiences.",
-    icon: "/images/integrations/mrandmrssmith.svg",
+    icon: "/lovable-uploads/mrandmrssmith-logo.jpg",
     categories: ["Luxury", "Global", "OTA"]
   },
   {
     id: "217",
     name: "Hotel Tonight",
     description: "Attract last-minute travelers seeking great deals. Ideal for properties targeting spontaneous, mobile-first bookings.",
-    icon: "/images/integrations/hoteltonight.svg",
+    icon: "/lovable-uploads/hoteltonight-logo.png",
     categories: ["OTA", "Global"]
   },
      {
@@ -2530,7 +2530,7 @@ export const integrations: Integration[] = [
     id: "224",
     name: "Ministry of Villas",
     description: "A luxury villa booking platform specializing in exceptional private villas across Asia-Pacific destinations. Offers personalized service and inspires travelers to experience the privacy and luxury of villa stays over traditional hotels.",
-    icon: "/images/integrations/ministryofvillas.svg",
+    icon: "/lovable-uploads/ministryofvillas-logo.png",
     categories: ["OTA", "Vacation Rentals", "Asia"],
     slug: "ministry-of-villas",
     longDescription: "Ministry of Villas is the quintessential service for travelers seeking luxury villa accommodations across premier destinations including Bali, Thailand, Japan, Philippines, and more. We inspire travelers who would normally book a hotel to experience staying in a private villa, adding a new dimension to their holiday. Our platform makes searching for a villa a pleasure and the booking process painless, connecting guests with exceptional properties while providing villa owners with a premium distribution channel.",
@@ -2894,7 +2894,7 @@ export const integrations: Integration[] = [
     name: "HotelREZ",
     description: "A global hotel representation company increasing revenue with GDS, RFPs, Direct Booking tools and unlocking global demand and marketing power.",
     longDescription: "Interface your PMS to our SynXIS CRS for GDS, IDS, OTAs connectivity and Direct Hotel Booking Solutions with demand partnerships, global reach, marketing, account management, support and best in class systems – more business at an attractive cost of sale. Unlock chain-level reach without sacrificing independence. HotelREZ, seamlessly integrated with your Channex PMS, connects you to the most powerful commercial network for independent hotels worldwide. Gain Global Preferred Status and access chain-level deals across GDS (750k agencies), OTAs, corporate RFPs, consortia, TMCs, and direct channels. HotelREZ drives higher-margin business and sustainable growth for independent and small hotel groups. As a Global Partner of Hospitality Solutions (formerly Sabre Hospitality), we use SynXis as our CRS \"pipe\", but the real value goes far beyond connectivity. We help you win more profitable business, not simply additional room nights.",
-    icon: "/images/integrations/hotelrez.jpg",
+    icon: "/lovable-uploads/hotelrez-logo.png",
     categories: ["OTA", "Distribution", "Global"],
     features: [
       "Incremental demand, not rebadging - At HotelREZ our aim is to focus your Channex property on delivering new volume and a stronger channel mix rather than simply moving existing bookings from one pipe to another.",
@@ -3101,7 +3101,7 @@ export const integrations: Integration[] = [
     id: "check24",
     name: "Check24",
     description: "Germany's leading comparison and booking platform for travel, hotels, and accommodations, connecting millions of German-speaking travelers with properties worldwide.",
-    icon: "https://www.check24.de/favicon.ico",
+    icon: "/lovable-uploads/check24-logo.png",
     categories: ["OTA", "Europe", "Germany"],
     slug: "check24",
     longDescription: "Check24 is Germany's largest online comparison portal and one of Europe's leading travel booking platforms. With over 15 million customers and a dominant presence in German-speaking markets (Germany, Austria, Switzerland), Check24 provides hotels and accommodations with direct access to high-value European travelers. Known for its comprehensive comparison features and trusted brand reputation, Check24 is essential for properties targeting the lucrative German travel market.",
