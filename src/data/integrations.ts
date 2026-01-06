@@ -3023,7 +3023,7 @@ export const integrations: Integration[] = [
     id: "klook",
     name: "Klook",
     description: "Leading travel activities and services booking platform in Asia-Pacific, connecting millions of travelers with unique experiences, tours, and accommodations.",
-    icon: "https://res.klook.com/image/upload/v1596005079/blog/platform/favicon.ico",
+    icon: "/lovable-uploads/klook-logo.png",
     categories: ["OTA", "Global", "Asia", "Activities"],
     slug: "klook",
     longDescription: "Klook is Asia-Pacific's leading travel activities and services booking platform, offering travelers instant booking and confirmation for tours, attractions, transportation, and accommodations. With over 400,000 activities across 1,000+ destinations worldwide, Klook has become the go-to platform for travelers seeking unique experiences. Our integration enables properties to tap into Klook's massive user base of experience-seeking travelers, particularly strong in Asian markets.",
