@@ -999,7 +999,7 @@ export const integrations: Integration[] = [
     id: "34",
     name: "Mitchell Corp",
     description: "Ideal for properties targeting domestic and international travelers exploring New Zealand.",
-    icon: "https://storage.googleapis.com/your-bucket/mitchell-icon.png",
+    icon: "/lovable-uploads/mitchell-logo.jpeg",
     categories: ["Regional", "Australia", "OTA"]
   },
   {
