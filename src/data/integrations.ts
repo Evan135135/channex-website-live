@@ -2364,7 +2364,7 @@ export const integrations: Integration[] = [
     id: "213",
     name: "Tablet Michelin",
     description: "Connect with Tablet Hotels to showcase your property on a curated platform for boutique and luxury stays. Ideal for properties offering unique experiences and aiming to attract high-end travelers.",
-    icon: "https://storage.googleapis.com/your-bucket/tablet-icon.png",
+    icon: "/lovable-uploads/tablet-michelin-logo.png",
     categories: ["Luxury", "Global", "OTA"]
   },
   {
