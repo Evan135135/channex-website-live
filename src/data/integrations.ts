@@ -1062,7 +1062,7 @@ export const integrations: Integration[] = [
     id: "43",
     name: "Moverii",
     description: "Ideal for properties seeking a user-friendly solution to streamline operations and enhance guest experiences.",
-    icon: "https://storage.googleapis.com/your-bucket/moverii-icon.png",
+    icon: "/lovable-uploads/moverii-logo.png",
     categories: ["OTA"]
   },
   {
