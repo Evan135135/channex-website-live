@@ -121,7 +121,7 @@ export const blogPosts: BlogPost[] = [
     publishDate: "2026-01-08",
     category: blogCategories[3],
     tags: ["Product Updates", "Airbnb", "New Listing", "Promotion", "Discounts", "Channel Management"],
-    featuredImage: "/lovable-uploads/airbnb-promo-available.png",
+    featuredImage: "/lovable-uploads/airbnb-new-listing-promo-header.png",
     readTime: 4,
     metaDescription: "Manage Airbnb's New Listing Promotion directly from Channex. Get your first 3 bookings 20% faster with a 20% discount for new properties."
   },
