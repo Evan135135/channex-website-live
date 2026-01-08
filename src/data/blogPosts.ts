@@ -36,6 +36,96 @@ export const blogCategories: BlogCategory[] = [
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "airbnb-new-listing-promotion",
+    title: "Boost Your New Properties: Introducing the Airbnb New Listing Promotion Feature",
+    slug: "airbnb-new-listing-promotion",
+    excerpt: "Launching a new property can be a challenge. Channex now lets you manage Airbnb's New Listing Promotion directly from your dashboard, helping you get those crucial first 3 bookings 20% faster.",
+    content: `
+      <p>Launching a new property can be a challenge. In the crowded Airbnb marketplace, getting those first few bookings is critical for building the momentum and reviews needed to climb the search rankings.</p>
+      
+      <p>To help our users gain an immediate edge, Channex is excited to announce our latest feature: <strong>The Airbnb New Listing Promotion Management</strong>.</p>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">What is the New Listing Promotion?</h2>
+      
+      <p>Airbnb's "New Listing Promotion" allows hosts to offer a 20% discount for the first three bookings on a brand-new listing. Properties that use this promotion typically get their first bookings <strong>20% faster</strong>, helping you reach that crucial "3-review" milestone where your star rating becomes visible to the public.</p>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Control Everything from Channex</h2>
+      
+      <p>You no longer need to log into the Airbnb extranet to manage these promotions. We've integrated this logic directly into the Channex Listing tab.</p>
+      
+      <p>Now, you can see at a glance:</p>
+      <ul>
+        <li><strong>Eligibility:</strong> If a listing is eligible for the promotion (less than 3 bookings), you'll see it marked as "Available."</li>
+        <li><strong>Active Status:</strong> If the promotion is currently live, the status will show as "Running."</li>
+        <li><strong>Quick Actions:</strong> You can easily Disable an active promotion or enable an available one with just a couple of clicks.</li>
+      </ul>
+      
+      <figure style="margin: 2rem 0;">
+        <img src="/lovable-uploads/airbnb-promo-available.png" alt="Channex Listing tab showing New Listing Promo Available status" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;" />
+        <figcaption style="text-align: center; margin-top: 0.75rem; color: #64748b; font-size: 0.875rem; font-style: italic;">New Listing Promo showing as "Available" for eligible listings</figcaption>
+      </figure>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 2rem 0; border: 1px solid #e2e8f0;">
+        <thead>
+          <tr style="background-color: #f8fafc;">
+            <th style="padding: 1rem; text-align: left; border-bottom: 2px solid #e2e8f0; font-weight: 600;">Feature</th>
+            <th style="padding: 1rem; text-align: left; border-bottom: 2px solid #e2e8f0; font-weight: 600;">How it helps you</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 1rem; border-bottom: 1px solid #e2e8f0;"><strong>Visibility</strong></td>
+            <td style="padding: 1rem; border-bottom: 1px solid #e2e8f0;">Listings with this promotion get a special badge on Airbnb, making them stand out.</td>
+          </tr>
+          <tr>
+            <td style="padding: 1rem; border-bottom: 1px solid #e2e8f0;"><strong>Efficiency</strong></td>
+            <td style="padding: 1rem; border-bottom: 1px solid #e2e8f0;">Manage all your promotions across multiple properties from one single Channex screen.</td>
+          </tr>
+          <tr>
+            <td style="padding: 1rem; border-bottom: 1px solid #e2e8f0;"><strong>Momentum</strong></td>
+            <td style="padding: 1rem; border-bottom: 1px solid #e2e8f0;">Secure those first 3 reviews faster to establish trust with future guests.</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <figure style="margin: 2rem 0;">
+        <img src="/lovable-uploads/airbnb-promo-disable.png" alt="Channex showing option to disable running New Listing Promo" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;" />
+        <figcaption style="text-align: center; margin-top: 0.75rem; color: #64748b; font-size: 0.875rem; font-style: italic;">Easily disable a running promotion with one click</figcaption>
+      </figure>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">How to use it</h2>
+      
+      <p>Simply navigate to your <strong>Channel Settings</strong> and select the <strong>Listing</strong> tab. Next to your eligible listings, you will see the new "New Listing Promo" status.</p>
+      
+      <p><strong>Tip:</strong> We recommend enabling this for every new listing the moment it goes live to maximise your initial exposure during Airbnb's "new listing" boost period.</p>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Ready to boost your occupancy?</h2>
+      
+      <p>Log in to your Channex account today to see which of your listings are eligible for a 20% boost!</p>
+      
+      <p>This feature is available now for all Channex users with Airbnb connections.</p>
+    `,
+    author: {
+      name: "Channex Team",
+      avatar: "/placeholder.svg",
+      bio: "Actionable distribution tips and product guidance."
+    },
+    publishDate: "2026-01-08",
+    category: blogCategories[3],
+    tags: ["Product Updates", "Airbnb", "New Listing", "Promotion", "Discounts", "Channel Management"],
+    featuredImage: "/lovable-uploads/airbnb-promo-available.png",
+    readTime: 4,
+    metaDescription: "Manage Airbnb's New Listing Promotion directly from Channex. Get your first 3 bookings 20% faster with a 20% discount for new properties."
+  },
+  {
     id: "airbnb-listing-quality-dashboard",
     title: "Introducing the New Airbnb Listing Quality Dashboard in Channex",
     slug: "airbnb-listing-quality-dashboard",
