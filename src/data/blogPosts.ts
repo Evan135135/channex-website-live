@@ -36,6 +36,87 @@ export const blogCategories: BlogCategory[] = [
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "monitoring-trip-issues-performance-dashboard",
+    title: "Improving Hosting Quality by Monitoring Trip Issues in the Performance Dashboard",
+    slug: "monitoring-trip-issues-performance-dashboard",
+    excerpt: "On Airbnb, hosting quality is evaluated not only on overall review scores, but on recurring trip issues and patterns over time. Our Performance Dashboard now surfaces trip-issue insights to help you identify problems early.",
+    content: `
+      <p>On Airbnb, hosting quality is evaluated not only on overall review scores, but on recurring trip issues and patterns over time. Identifying these issues early is essential to maintaining listing visibility and avoiding performance warnings.</p>
+      
+      <p>To support this, trip-issue insights are surfaced directly inside our <strong>Performance Dashboard</strong>, allowing partners and hosts to monitor quality signals in one place.</p>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Turning Reviews Into Actionable Signals</h2>
+      
+      <p>Rather than relying on manual review checks, the dashboard aggregates guest feedback into clear, structured metrics, including:</p>
+      <ul>
+        <li><strong>Average review score and 5-star rate</strong></li>
+        <li><strong>Week-over-week and year-over-year trends</strong></li>
+        <li><strong>Classification of negative feedback into trip-issue categories</strong></li>
+      </ul>
+      
+      <p>This makes it easier to detect early signs of quality degradation, even when overall ratings remain high.</p>
+      
+      <figure style="margin: 2rem 0;">
+        <img src="/lovable-uploads/trip-issues-dashboard.png" alt="Channex Hosting Quality Dashboard showing review scores, listing status, and top negative tags" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;" />
+        <figcaption style="text-align: center; margin-top: 0.75rem; color: #64748b; font-size: 0.875rem; font-style: italic;">Performance Dashboard showing trip issues and quality metrics</figcaption>
+      </figure>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Tracking Common Trip Issues</h2>
+      
+      <p>Guest feedback is automatically grouped into the most common issue types, such as:</p>
+      <ul>
+        <li>Slow response times</li>
+        <li>Excessive or unclear house rules</li>
+        <li>Access or lock-related problems</li>
+      </ul>
+      
+      <p>Each issue is tracked by frequency, helping partners understand which problems occur most often and where corrective action will have the greatest impact.</p>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Linking Trip Issues to Listing Risk</h2>
+      
+      <p>Trip issues are also mapped to listing quality status indicators, including:</p>
+      <ul>
+        <li><strong style="color: #10b981;">Listings in good standing</strong></li>
+        <li><strong style="color: #f59e0b;">Listings requiring education or attention</strong></li>
+        <li><strong style="color: #ef4444;">Listings at risk of warning or removal</strong></li>
+      </ul>
+      
+      <p>This allows proactive intervention before issues escalate into formal Airbnb enforcement actions.</p>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Supporting Proactive Quality Management</h2>
+      
+      <p>By surfacing trip issues alongside review trends and listing status, the Performance Dashboard enables partners to:</p>
+      <ul>
+        <li>Identify recurring problems early</li>
+        <li>Prioritize operational fixes</li>
+        <li>Support hosts in maintaining Airbnb quality standards</li>
+      </ul>
+      
+      <p>This approach helps ensure consistent guest experiences and long-term listing health.</p>
+      
+      <p><strong>The Performance Dashboard is available now for all Channex users with Airbnb connections.</strong></p>
+    `,
+    author: {
+      name: "Channex Team",
+      avatar: "/placeholder.svg",
+      bio: "Actionable distribution tips and product guidance."
+    },
+    publishDate: "2026-01-09",
+    category: blogCategories[3],
+    tags: ["Product Updates", "Airbnb", "Quality Management", "Performance Dashboard", "Trip Issues", "Review Analytics"],
+    featuredImage: "/lovable-uploads/trip-issues-header.jpg",
+    readTime: 5,
+    metaDescription: "Monitor Airbnb trip issues and quality signals in Channex's Performance Dashboard. Identify recurring problems early and maintain listing visibility with actionable insights."
+  },
+  {
     id: "airbnb-new-listing-promotion",
     title: "Boost Your New Properties: Introducing the Airbnb New Listing Promotion Feature",
     slug: "airbnb-new-listing-promotion",
