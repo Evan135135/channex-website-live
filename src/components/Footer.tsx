@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Github, Twitter, Linkedin, Mail } from "lucide-react";
+import { Linkedin, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return <footer className="bg-slate-900 text-white">
@@ -17,18 +17,24 @@ const Footer = () => {
               The leading white-label channel manager API for Property Management Systems worldwide.
             </p>
             <div className="flex space-x-4">
-              <Button variant="ghost" size="sm" className="text-slate-400 hover:text-white p-2">
-                <Twitter size={18} />
-              </Button>
-              <Button variant="ghost" size="sm" className="text-slate-400 hover:text-white p-2">
-                <Linkedin size={18} />
-              </Button>
-              <Button variant="ghost" size="sm" className="text-slate-400 hover:text-white p-2">
-                <Github size={18} />
-              </Button>
-              <Button variant="ghost" size="sm" className="text-slate-400 hover:text-white p-2">
-                <Mail size={18} />
-              </Button>
+              <a 
+                href="https://www.linkedin.com/company/channex-io/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                aria-label="Follow us on LinkedIn"
+              >
+                <Button variant="ghost" size="sm" className="text-slate-400 hover:text-white p-2">
+                  <Linkedin size={18} />
+                </Button>
+              </a>
+              <a 
+                href="mailto:hello@channex.io"
+                aria-label="Email us"
+              >
+                <Button variant="ghost" size="sm" className="text-slate-400 hover:text-white p-2">
+                  <Mail size={18} />
+                </Button>
+              </a>
             </div>
           </div>
 
