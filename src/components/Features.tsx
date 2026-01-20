@@ -31,8 +31,8 @@ const Features = () => {
     {
       icon: DollarSign,
       title: "Transparent Pricing",
-      description: "$7 per property per month. No hidden fees, no per-room charges, no setup costs. Scale predictably.",
-      highlight: "$7/property",
+      description: "Affordable per-property pricing. No hidden fees, no per-room charges, no setup costs. Scale predictably.",
+      highlight: "Low fees",
       gradient: "from-green-500 to-emerald-500"
     },
     {

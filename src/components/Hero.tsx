@@ -41,7 +41,7 @@ const Hero = () => {
                 <div className="flex items-center justify-center w-5 h-5 rounded-full bg-primary/20">
                   <Check size={14} className="text-primary" />
                 </div>
-                <span className="text-lg font-inter">$7/property/month flat rate</span>
+                <span className="text-lg font-inter">Low fee per property</span>
               </div>
               <div className="flex items-center gap-3 text-foreground">
                 <div className="flex items-center justify-center w-5 h-5 rounded-full bg-primary/20">
