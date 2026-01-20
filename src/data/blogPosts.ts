@@ -554,7 +554,7 @@ export const blogPosts: BlogPost[] = [
             <tr style="border-bottom: 1px solid #e2e8f0; background: #f8fafc;">
               <td style="padding: 1rem; font-weight: 500;">Pricing Model</td>
               <td style="padding: 1rem; text-align: center;">Per room/hotel size</td>
-              <td style="padding: 1rem; text-align: center; color: #059669; font-weight: 600;">$7/property/month</td>
+              <td style="padding: 1rem; text-align: center; color: #059669; font-weight: 600;">Low per-property fee</td>
             </tr>
             <tr style="border-bottom: 1px solid #e2e8f0;">
               <td style="padding: 1rem; font-weight: 500;">Target Audience</td>
@@ -595,7 +595,7 @@ export const blogPosts: BlogPost[] = [
       <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
 
       <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem; color: #334155;">How does pricing work?</h3>
-      <p>STAAH SU usually charges based on room count or hotel size. We charge $7 per property per month. That's it. No tiers, no usage calculations, no calling sales to change your plan.</p>
+      <p>STAAH SU usually charges based on room count or hotel size. We charge a low flat fee per property. That's it. No tiers, no usage calculations, no calling sales to change your plan.</p>
 
       <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
 
@@ -654,7 +654,7 @@ export const blogPosts: BlogPost[] = [
           <li>No hidden fees</li>
           <li>Costs don't balloon as you grow</li>
           <li>No contracts</li>
-          <li><a href="/pricing" style="color: #3b82f6; text-decoration: underline;">$7 per property per month</a></li>
+          <li><a href="/pricing" style="color: #3b82f6; text-decoration: underline;">Low per-property pricing</a></li>
         </ul>
       </div>
 
@@ -711,7 +711,7 @@ export const blogPosts: BlogPost[] = [
     tags: ["STAAH SU", "Alternative", "PMS", "Channel Manager", "API", "Integration", "Comparison"],
     featuredImage: "/lovable-uploads/staah-channex-comparison-v2.png",
     readTime: 5,
-    metaDescription: "STAAH SU vs Channex comparison: Compare pricing ($7/property vs per-room), API integration (2-4 weeks vs 2-3 months), OTA connections, and white-label features for PMS providers."
+    metaDescription: "STAAH SU vs Channex comparison: Compare pricing (per-property vs per-room), API integration (2-4 weeks vs 2-3 months), OTA connections, and white-label features for PMS providers."
   },
   {
     id: "airbnb-review-tags-channex",
