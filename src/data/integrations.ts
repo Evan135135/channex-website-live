@@ -2014,8 +2014,10 @@ export const integrations: Integration[] = [
     id: "158",
     name: "Rentware",
     description: "A property management and rental platform offering solutions for booking management, guest communication, and payment processing.",
-    icon: "https://storage.googleapis.com/your-bucket/rentware-icon.png",
-    categories: ["PMS"]
+    icon: "/lovable-uploads/rentware-logo.png",
+    categories: ["PMS"],
+    tags: ["Vacation Rental", "Global"],
+    website: "https://rentware.com/en/"
   },
   {
     id: "159",
