@@ -2015,8 +2015,7 @@ export const integrations: Integration[] = [
     name: "Rentware",
     description: "A property management and rental platform offering solutions for booking management, guest communication, and payment processing.",
     icon: "/lovable-uploads/rentware-logo.png",
-    categories: ["PMS"],
-    tags: ["Vacation Rental", "Global"],
+    categories: ["PMS", "Vacation Rentals", "Global"],
     website: "https://rentware.com/en/"
   },
   {
