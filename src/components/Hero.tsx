@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Code, Zap, Check } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-const heroImage = "https://cdn.prod.website-files.com/5feef9d9acad0185ffea8445/6005701164ecb7076b1f7cc5_Channex%20Header%20Illustration.png";
+const heroImage = "/channex-og-image.png";
 
 const Hero = () => {
   const navigate = useNavigate();
