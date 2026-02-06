@@ -3459,9 +3459,9 @@ export const integrations: Integration[] = [
   },
   {
     id: "zuzu",
-    name: "Zuzu",
-    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
-    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    name: "Zuzu Hospitality",
+    description: "All-in-one hospitality platform combining human expertise and advanced technology to help independent hotels thrive across Southeast Asia and India with smart pricing, revenue management, and distribution.",
+    icon: "/lovable-uploads/zuzu-logo.webp",
     categories: ["PMS", "Asia Pacific"],
     slug: "zuzu",
     website: "https://zuzuhospitality.com/"
