@@ -3176,4 +3176,682 @@ export const integrations: Integration[] = [
       customFields: false
     }
   }
+,
+
+  {
+    id: "nuzul",
+    name: "Nuzul",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Middle East"],
+    slug: "nuzul",
+    website: "https://www.nuzul.com/"
+  },
+  {
+    id: "vhp--part-of-sindata",
+    name: "VHP ( Part of Sindata)",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Asia Pacific"],
+    slug: "vhp--part-of-sindata",
+    website: "https://sindata.net/"
+  },
+  {
+    id: "minihotelman",
+    name: "Minihotelman",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Asia Pacific"],
+    slug: "minihotelman",
+    website: "https://www.minihotelman.com/"
+  },
+  {
+    id: "lejuezgroup-proxy-to-opera",
+    name: "Lejuezgroup (Proxy to Opera)",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Americas"],
+    slug: "lejuezgroup-proxy-to-opera",
+    website: "https://lejuezgroup.com/"
+  },
+  {
+    id: "cropsly",
+    name: "Cropsly",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Asia Pacific"],
+    slug: "cropsly",
+    website: "https://runhotel.io/"
+  },
+  {
+    id: "rentzz",
+    name: "Rentzz",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Europe"],
+    slug: "rentzz",
+    website: "https://rentzz.app/"
+  },
+  {
+    id: "homeinleonidio",
+    name: "Homeinleonidio",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Europe"],
+    slug: "homeinleonidio",
+    website: "https://homeinleonidio.com/"
+  },
+  {
+    id: "stellarstay",
+    name: "Stellarstay",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Americas"],
+    slug: "stellarstay",
+    website: "https://www.stellarstay.com/"
+  },
+  {
+    id: "pumapro",
+    name: "Pumapro",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Asia Pacific"],
+    slug: "pumapro",
+    website: "https://pumapro.com.au/"
+  },
+  {
+    id: "easyrev",
+    name: "Easyrev",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Americas"],
+    slug: "easyrev",
+    website: "https://easyrev.com.br/"
+  },
+  {
+    id: "baras",
+    name: "Baras",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Middle East"],
+    slug: "baras",
+    website: "https://barasglobal.com"
+  },
+  {
+    id: "rabt",
+    name: "Rabt",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Middle East"],
+    slug: "rabt",
+    website: "https://www.rabt.solutions/en/home"
+  },
+  {
+    id: "tranquiloh",
+    name: "Tranquiloh",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Americas"],
+    slug: "tranquiloh",
+    website: "https://www.tranquiloh.tech"
+  },
+  {
+    id: "fortravel",
+    name: "Fortravel",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Europe"],
+    slug: "fortravel",
+    website: "https://forhotel.eu/en"
+  },
+  {
+    id: "semantic",
+    name: "Semantic",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Europe"],
+    slug: "semantic",
+    website: "https://semantic.gr/"
+  },
+  {
+    id: "spylanditalia",
+    name: "Spylanditalia",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Europe"],
+    slug: "spylanditalia",
+    website: "https://keymate.it/"
+  },
+  {
+    id: "develab",
+    name: "Develab",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Asia Pacific"],
+    slug: "develab",
+    website: "https://develab.io/"
+  },
+  {
+    id: "trvmglobal",
+    name: "Trvmglobal",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Asia Pacific"],
+    slug: "trvmglobal",
+    website: "https://www.trvmglobal.com/"
+  },
+  {
+    id: "bluejay",
+    name: "BlueJay",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Asia Pacific"],
+    slug: "bluejay",
+    website: "https://bluejaypos.vn/"
+  },
+  {
+    id: "tunn3lcom",
+    name: "tunn3l.com",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Europe"],
+    slug: "tunn3lcom",
+    website: "https://www.tunn3l.com"
+  },
+  {
+    id: "etg",
+    name: "Etg",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Europe"],
+    slug: "etg",
+    website: "https://pms.etg.al/"
+  },
+  {
+    id: "iroom",
+    name: "iroom",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Middle East"],
+    slug: "iroom",
+    website: "https://iroom.ai/"
+  },
+  {
+    id: "taskbeast",
+    name: "Taskbeast",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Europe"],
+    slug: "taskbeast",
+    website: "https://www.taskbeast.ai/"
+  },
+  {
+    id: "altezza",
+    name: "Altezza",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS"],
+    slug: "altezza",
+    website: "https://altezzatravel.com/"
+  },
+  {
+    id: "viatoratech",
+    name: "Viatoratech",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Middle East"],
+    slug: "viatoratech",
+    website: "https://viatoratech.com/"
+  },
+  {
+    id: "rukiyation",
+    name: "Rukiyation",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Asia Pacific"],
+    slug: "rukiyation",
+    website: "https://rukiyezara.com/"
+  },
+  {
+    id: "digistay",
+    name: "Digistay",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Asia Pacific"],
+    slug: "digistay",
+    website: "https://digistay.ai/"
+  },
+  {
+    id: "fortran-house",
+    name: "Fortran House",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Africa"],
+    slug: "fortran-house",
+    website: "https://fortranhouse.com/"
+  },
+  {
+    id: "art2fly",
+    name: "Art2fly",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Americas"],
+    slug: "art2fly",
+    website: "https://www.art2travel.com/"
+  },
+  {
+    id: "abouthotelier",
+    name: "abouthotelier",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Europe"],
+    slug: "abouthotelier",
+    website: "https://abouthotelier.com"
+  },
+  {
+    id: "heyandes",
+    name: "Heyandes",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Americas"],
+    slug: "heyandes",
+    website: "https://www.heyandes.com/"
+  },
+  {
+    id: "zuzu",
+    name: "Zuzu",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Asia Pacific"],
+    slug: "zuzu",
+    website: "https://zuzuhospitality.com/"
+  },
+  {
+    id: "cohosting",
+    name: "Cohosting",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Americas"],
+    slug: "cohosting",
+    website: "https://cohosting.com/"
+  },
+  {
+    id: "frontdesk-tech-ltda",
+    name: "Frontdesk Tech LTDA",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Americas"],
+    slug: "frontdesk-tech-ltda",
+    website: "https://frontdesktech.com/"
+  },
+  {
+    id: "joodlab",
+    name: "Joodlab",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Middle East"],
+    slug: "joodlab",
+    website: "https://www.joodlab.com/"
+  },
+  {
+    id: "lsisoftware",
+    name: "Lsisoftware",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Europe"],
+    slug: "lsisoftware",
+    website: "https://www.lsisoftware.pl/"
+  },
+  {
+    id: "arealy",
+    name: "Arealy",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Europe"],
+    slug: "arealy",
+    website: "https://www.area.ly/"
+  },
+  {
+    id: "tuzgle",
+    name: "Tuzgle",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Americas"],
+    slug: "tuzgle",
+    website: "https://tuzgle-it.com/"
+  },
+  {
+    id: "amiqa",
+    name: "Amiqa",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Europe"],
+    slug: "amiqa",
+    website: "https://amiqa.io/"
+  },
+  {
+    id: "homeit",
+    name: "Homeit",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Europe"],
+    slug: "homeit",
+    website: "https://homeit.io/"
+  },
+  {
+    id: "hospify",
+    name: "Hospify",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS"],
+    slug: "hospify",
+    website: "https://hospify.app/"
+  },
+  {
+    id: "xlayertechnologies",
+    name: "Xlayertechnologies",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Asia Pacific"],
+    slug: "xlayertechnologies",
+    website: "https://xlayertechnologies.com"
+  },
+  {
+    id: "mettle-tec",
+    name: "Mettle Tec",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Asia Pacific"],
+    slug: "mettle-tec",
+    website: "https://mettletech.co/"
+  },
+  {
+    id: "cico-technologies-llc",
+    name: "CICO Technologies LLC",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Asia Pacific"],
+    slug: "cico-technologies-llc",
+    website: "https://www.cicogroup.com/"
+  },
+  {
+    id: "aron-cloud",
+    name: "Aron Cloud",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Europe"],
+    slug: "aron-cloud",
+    website: "https://www.arhon.ch/"
+  },
+  {
+    id: "gopaddi",
+    name: "Gopaddi",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Africa"],
+    slug: "gopaddi",
+    website: "https://www.gopaddi.com/en"
+  },
+  {
+    id: "sentineltech",
+    name: "SentinelTech",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Asia Pacific"],
+    slug: "sentineltech",
+    website: "https://www.sentineltech.com/"
+  },
+  {
+    id: "digital-solusindo",
+    name: "Digital Solusindo",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Asia Pacific"],
+    slug: "digital-solusindo",
+    website: "https://www.digitalsolusindo.id/"
+  },
+  {
+    id: "uno-hotelsde",
+    name: "uno-hotels.de",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Europe"],
+    slug: "uno-hotelsde",
+    website: "https://uno-hotels.de/"
+  },
+  {
+    id: "raumschmidede",
+    name: "raumschmide.de",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Europe"],
+    slug: "raumschmidede",
+    website: "https://www.raumschmiede.de"
+  },
+  {
+    id: "visitorappco",
+    name: "visitorapp.co",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Europe"],
+    slug: "visitorappco",
+    website: "https://www.visitorapp.co/"
+  },
+  {
+    id: "hostmesa",
+    name: "hostme.sa",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Middle East"],
+    slug: "hostmesa",
+    website: "https://hostme.sa/en/home-page/"
+  },
+  {
+    id: "hightide",
+    name: "hightide",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Europe"],
+    slug: "hightide",
+    website: "https://www.hightide.io/"
+  },
+  {
+    id: "sooninn",
+    name: "Sooninn",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Asia Pacific"],
+    slug: "sooninn",
+    website: "https://www.sooninn.com.tw/"
+  },
+  {
+    id: "biloki",
+    name: "biloki",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Europe"],
+    slug: "biloki",
+    website: "https://www.biloki.fr/"
+  },
+  {
+    id: "atflow",
+    name: "atflow",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Europe"],
+    slug: "atflow",
+    website: "https://atflow.fi/"
+  },
+  {
+    id: "lodgix",
+    name: "lodgix",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Americas"],
+    slug: "lodgix",
+    website: "https://www.lodgix.com/"
+  },
+  {
+    id: "servos",
+    name: "servos",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Europe"],
+    slug: "servos",
+    website: "https://servos.dk/"
+  },
+  {
+    id: "support@imobiznetsinc",
+    name: "support@imobiznets.inc",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Americas"],
+    slug: "support@imobiznetsinc",
+    website: "https://imobiznets.inc/"
+  },
+  {
+    id: "o-sócio-hoteleiro",
+    name: "O Sócio Hoteleiro",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Americas"],
+    slug: "o-sócio-hoteleiro",
+    website: "https://osociohoteleiro.com.br/"
+  },
+  {
+    id: "lodge-easy-srl",
+    name: "Lodge Easy SRL",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Europe"],
+    slug: "lodge-easy-srl",
+    website: "https://lodgeasy.it/en/"
+  },
+  {
+    id: "guestbox-inc",
+    name: "GuestBox Inc.",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Americas"],
+    slug: "guestbox-inc",
+    website: "https://guestbox.tv/"
+  },
+  {
+    id: "taskyinn",
+    name: "Taskyinn",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Middle East"],
+    slug: "taskyinn",
+    website: "https://www.taskyinn.com/"
+  },
+  {
+    id: "muntadaacom",
+    name: "MUNTADAACOM",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Middle East"],
+    slug: "muntadaacom",
+    website: "https://www.muntadaa.com/"
+  },
+  {
+    id: "stayntouch",
+    name: "Stayntouch",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Americas"],
+    slug: "stayntouch",
+    website: "https://www.stayntouch.com/"
+  },
+  {
+    id: "sahab-tech",
+    name: "Sahab-Tech",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Middle East"],
+    slug: "sahab-tech",
+    website: "https://sahabhotels.com/"
+  },
+  {
+    id: "rjourney",
+    name: "RJourney",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Americas"],
+    slug: "rjourney",
+    website: "https://rjourney.com/"
+  },
+  {
+    id: "hotels-task",
+    name: "Hotels Task",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Middle East"],
+    slug: "hotels-task",
+    website: "https://hotelstask.com"
+  },
+  {
+    id: "turbosuite",
+    name: "Turbosuite",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Europe"],
+    slug: "turbosuite",
+    website: "https://turbosuite.com/en/"
+  },
+  {
+    id: "resarva-software-&-technology",
+    name: "Resarva Software & Technology",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Middle East"],
+    slug: "resarva-software-&-technology",
+    website: "https://resarva.com/"
+  },
+  {
+    id: "resboxcom",
+    name: "resbox.com",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Middle East"],
+    slug: "resboxcom",
+    website: "https://resbox.com"
+  },
+  {
+    id: "symple-host",
+    name: "Symple Host",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Asia Pacific"],
+    slug: "symple-host",
+    website: "https://www.symplehost.ai/"
+  },
+  {
+    id: "rushd",
+    name: "Rushd",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Middle East"],
+    slug: "rushd",
+    website: "https://rushd.tech"
+  },
+  {
+    id: "sedgeosio",
+    name: "sedgeos.io",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Asia Pacific"],
+    slug: "sedgeosio",
+    website: "https://sedgeos.io/"
+  },
+  {
+    id: "zzzzebracom",
+    name: "ZZZzebra.com",
+    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["PMS", "Africa"],
+    slug: "zzzzebracom",
+    website: "https://zzzzebra.com/"
+  },
+
 ];
