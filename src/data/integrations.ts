@@ -3748,8 +3748,8 @@ export const integrations: Integration[] = [
   {
     id: "stayntouch",
     name: "Stayntouch",
-    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
-    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    description: "Cloud-native, full-featured hotel property management system trusted by leading independent hotels, hotel chains, and management companies worldwide. Offers multi-property management, mobile check-in, automated upselling, and seamless integrations.",
+    icon: "/lovable-uploads/stayntouch-logo.jpeg",
     categories: ["PMS", "Americas"],
     slug: "stayntouch",
     website: "https://www.stayntouch.com/"
