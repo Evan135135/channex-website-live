@@ -36,6 +36,99 @@ export const blogCategories: BlogCategory[] = [
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "maximize-revenue-basic-discounts",
+    title: "Maximize Revenue with Basic Discounts: Early Bird & Last-Minute Strategies",
+    slug: "maximize-revenue-basic-discounts",
+    excerpt: "Strategic discounts can significantly influence booking patterns and boost your bottom line. Learn how to implement Early Bird and Last-Minute discounts in Channex to attract planners and spontaneous travelers alike.",
+    content: `
+      <p>In the competitive hospitality industry, a dynamic pricing strategy is essential for maximizing revenue and ensuring high occupancy rates. Static pricing can lead to missed opportunities, either by turning away budget-conscious travelers during low-demand periods or by leaving money on the table during peak seasons. Strategic discounts, when implemented correctly, can significantly influence booking patterns, attract a wider range of guests, and ultimately boost your bottom line. Among the most effective promotional tactics are <strong>Early Bird</strong> and <strong>Last-Minute</strong> discounts, two powerful tools available directly within the Channex platform.</p>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">The Strategic Advantage of Timed Discounts</h2>
+      
+      <p>Understanding the psychology behind different booking behaviors is key to a successful pricing strategy. Some travelers plan their trips months in advance, seeking to secure the best deals and ensure availability. Others thrive on spontaneity, making decisions on a whim and looking for attractive last-minute offers. By catering to both of these segments, you can create a more resilient and profitable booking curve.</p>
+      
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin: 1.5rem 0 1rem; color: #334155;">The Power of Planning: Early Bird Discounts</h3>
+      
+      <p>An <strong>Early Bird discount</strong> incentivizes guests to book their stays far in advance. By offering a percentage off for bookings made a certain number of days before arrival, you can secure guaranteed revenue early, improve your cash flow, and gain a clearer picture of future occupancy. This foresight allows for more effective resource management, staffing allocation, and marketing campaign planning. Securing these advance bookings at a slight discount is often preferable to the uncertainty of filling rooms closer to the date.</p>
+      
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin: 1.5rem 0 1rem; color: #334155;">The Thrill of Spontaneity: Last-Minute Discounts</h3>
+      
+      <p>On the other end of the spectrum, a <strong>Last-Minute discount</strong> helps you sell perishable inventory that would otherwise remain empty. As the check-in date approaches, every unoccupied room represents lost potential revenue. By offering a compelling discount for bookings made within a few days of arrival, you can attract flexible travelers, spontaneous weekenders, and bargain hunters. This strategy helps you maximize occupancy, even during slower periods, and can introduce your property to a new segment of customers who might become loyal patrons.</p>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">How to Activate Basic Discounts in Channex</h2>
+      
+      <p>Channex makes it simple to implement these powerful discount strategies directly from your dashboard. Here is a step-by-step guide to setting up both Early Bird and Last-Minute discounts for your properties.</p>
+      
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin: 1.5rem 0 1rem; color: #334155;">Step 1: Navigate to Price Settings</h3>
+      
+      <p>First, go to the <strong>Edit Channel</strong> screen for the relevant OTA, such as Airbnb. Select the <strong>Listing</strong> tab to see all your properties. Find the property you wish to update and click on the <strong>Actions</strong> dropdown menu. From there, select <strong>Price settings</strong>.</p>
+      
+      <figure style="margin: 2rem 0;">
+        <img src="/lovable-uploads/blog-discounts-step1.png" alt="Navigating to Price Settings in Channex" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;" />
+        <figcaption style="text-align: center; margin-top: 0.75rem; color: #64748b; font-size: 0.875rem; font-style: italic;">Navigate to Price Settings from the Listing tab</figcaption>
+      </figure>
+      
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin: 1.5rem 0 1rem; color: #334155;">Step 2: Add a Discount Rule</h3>
+      
+      <p>In the <strong>Price Settings</strong> window, you will see an overview of your current pricing structure. To add a new promotion, click on the <strong>Add discount rule</strong> link located under the "Length of stay discounts" section.</p>
+      
+      <figure style="margin: 2rem 0;">
+        <img src="/lovable-uploads/blog-discounts-step2.png" alt="Adding a discount rule in Channex" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;" />
+        <figcaption style="text-align: center; margin-top: 0.75rem; color: #64748b; font-size: 0.875rem; font-style: italic;">Click "Add discount rule" to create a new promotion</figcaption>
+      </figure>
+      
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin: 1.5rem 0 1rem; color: #334155;">Step 3: Choose Your Discount Type</h3>
+      
+      <p>A dropdown menu will appear with three options. Select <strong>Booking ahead</strong> to create an Early Bird discount or <strong>Last-minute</strong> to create a last-minute offer.</p>
+      
+      <figure style="margin: 2rem 0;">
+        <img src="/lovable-uploads/blog-discounts-step3.png" alt="Selecting the discount type" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;" />
+        <figcaption style="text-align: center; margin-top: 0.75rem; color: #64748b; font-size: 0.875rem; font-style: italic;">Choose between Booking ahead, Last-minute, or Long-term stay discounts</figcaption>
+      </figure>
+      
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin: 1.5rem 0 1rem; color: #334155;">Step 4: Configure the Discount Parameters</h3>
+      
+      <p>Now, you can define the specific conditions for your discount. For an <strong>Early Bird (Booking ahead)</strong> discount, specify the minimum number of days in advance a guest must book to qualify and the percentage discount they will receive. For example, you could offer a 10% discount for bookings made 56 days or more in advance.</p>
+      
+      <figure style="margin: 2rem 0;">
+        <img src="/lovable-uploads/blog-discounts-step4.png" alt="Configuring an Early Bird discount" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;" />
+        <figcaption style="text-align: center; margin-top: 0.75rem; color: #64748b; font-size: 0.875rem; font-style: italic;">Set the booking window (56 days ahead) and discount percentage (10%)</figcaption>
+      </figure>
+      
+      <p>For a <strong>Last-Minute</strong> discount, set the timeframe within which the discount applies (e.g., bookings made within 6 days of arrival) and the corresponding percentage discount.</p>
+      
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin: 1.5rem 0 1rem; color: #334155;">Step 5: Review Your Active Discounts</h3>
+      
+      <p>Once configured, your new discount rules will be clearly displayed in the Price Settings window. You can add multiple rules to create a comprehensive pricing strategy that rewards both early planners and spontaneous travelers. Review the settings to ensure they align with your revenue goals.</p>
+      
+      <figure style="margin: 2rem 0;">
+        <img src="/lovable-uploads/blog-discounts-step5.png" alt="Reviewing active Early Bird and Last-Minute discounts" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;" />
+        <figcaption style="text-align: center; margin-top: 0.75rem; color: #64748b; font-size: 0.875rem; font-style: italic;">Both Early Bird (56 days, 10%) and Last-Minute (6 days, 15%) discounts active</figcaption>
+      </figure>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Conclusion</h2>
+      
+      <p>By leveraging Early Bird and Last-Minute discounts, you can move beyond static pricing and adopt a more dynamic, responsive strategy. These simple yet powerful tools, easily accessible in Channex, allow you to influence booking behavior, optimize occupancy, and ultimately drive more revenue. Take a few moments today to implement these discounts and start turning booking patterns into profits.</p>
+    `,
+    author: {
+      name: "Channex Team",
+      avatar: "/placeholder.svg",
+      bio: "Actionable distribution tips and product guidance."
+    },
+    publishDate: "2026-02-12",
+    category: blogCategories[4],
+    tags: ["Best Practices", "Pricing Strategy", "Revenue Management", "Discounts", "Early Bird", "Last-Minute", "Dynamic Pricing"],
+    featuredImage: "/lovable-uploads/blog-basic-discounts-header.png",
+    readTime: 6,
+    metaDescription: "Learn how to maximize revenue with Early Bird and Last-Minute discounts in Channex. Step-by-step guide to implementing strategic pricing that attracts both planners and spontaneous travelers."
+  },
+  {
     id: "monitoring-trip-issues-performance-dashboard",
     title: "Improving Hosting Quality by Monitoring Trip Issues in the Performance Dashboard",
     slug: "monitoring-trip-issues-performance-dashboard",
