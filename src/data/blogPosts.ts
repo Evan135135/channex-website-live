@@ -36,6 +36,91 @@ export const blogCategories: BlogCategory[] = [
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "airbnb-notifications-channex-dashboard",
+    title: "Stay Ahead of Issues: Introducing Real-Time Airbnb Notifications in Channex",
+    slug: "airbnb-notifications-channex-dashboard",
+    excerpt: "Never miss critical Airbnb alerts again. Channex now displays real-time Airbnb notifications directly in your dashboard, from quality warnings to account updates, with one-click access to resolve issues.",
+    content: `
+      <p>Managing a successful Airbnb portfolio requires constant vigilance. From listing quality warnings to urgent account updates, staying on top of Airbnb's requirements is crucial for maintaining visibility, avoiding penalties, and ensuring uninterrupted payouts. Constantly switching between your channel manager and the Airbnb extranet to check for these critical alerts is inefficient and can lead to missed information.</p>
+      
+      <p>To solve this, Channex has integrated <strong>real-time Airbnb Notifications</strong> directly into your dashboard. Now, you can receive and act on critical alerts from Airbnb without ever leaving the Channex ecosystem, allowing you to manage your operations more effectively and proactively.</p>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Centralize Your Alerts, Streamline Your Workflow</h2>
+      
+      <p>The new Airbnb Notifications feature pulls important, actionable alerts directly from Airbnb and displays them in your <strong>Live Feed Events</strong>. This isn't just about bookings or messages; it's about the health of your account and listings. By bringing these notifications into a single, centralized view, we empower property managers to address issues faster and more efficiently.</p>
+      
+      <p>When you receive a notification, you can see the alert type, the property it relates to, and a summary of the required action. Best of all, <strong>clicking the notification takes you directly to the relevant page in the Airbnb extranet</strong>, eliminating the need to manually search for the issue.</p>
+      
+      <figure style="margin: 2rem 0;">
+        <img src="/lovable-uploads/blog-notifications-feed.png" alt="Channex Live Feed Events showing various Airbnb Notifications" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;" />
+        <figcaption style="text-align: center; margin-top: 0.75rem; color: #64748b; font-size: 0.875rem; font-style: italic;">Live Feed Events displaying real-time Airbnb notifications</figcaption>
+      </figure>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Key Notification Types & Why They Matter</h2>
+      
+      <p>This integration covers a wide range of alerts that are vital for smooth operations. Here are some of the key notifications you will now see in your Channex dashboard:</p>
+      
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin: 1.5rem 0 1rem; color: #334155;">1. Account & Payout Notifications</h3>
+      
+      <p>These alerts relate to essential account information that could impact your ability to get paid. Acting on them quickly is critical. Examples include prompts to update your account details or add US tax information, both necessary steps for processing payouts and keeping your account active.</p>
+      
+      <figure style="margin: 2rem 0;">
+        <img src="/lovable-uploads/blog-notifications-account.png" alt="Examples of account-related notifications for tax info and details updates" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;" />
+        <figcaption style="text-align: center; margin-top: 0.75rem; color: #64748b; font-size: 0.875rem; font-style: italic;">Account-related notifications requiring immediate attention</figcaption>
+      </figure>
+      
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin: 1.5rem 0 1rem; color: #334155;">2. Listing Quality & Performance Warnings</h3>
+      
+      <p>Airbnb closely monitors listing performance. These notifications give you an early warning about potential problems, allowing you to take corrective action before a listing is suspended. You may receive quality notifications warning about potential suspension due to quality standards, alerts to take action on specific listing issues, or account-level warnings about issues across multiple listings that could affect your payouts if not addressed.</p>
+      
+      <figure style="margin: 2rem 0;">
+        <img src="/lovable-uploads/blog-notifications-quality.png" alt="Examples of quality and issue-related notifications" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;" />
+        <figcaption style="text-align: center; margin-top: 0.75rem; color: #64748b; font-size: 0.875rem; font-style: italic;">Quality warnings and listing issue notifications</figcaption>
+      </figure>
+      
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin: 1.5rem 0 1rem; color: #334155;">3. Listing Status Changes</h3>
+      
+      <p>Stay informed about changes to your listings' visibility on Airbnb. For example, you will receive confirmation when a previously suspended or deactivated listing is reactivated and visible to guests again.</p>
+      
+      <figure style="margin: 2rem 0;">
+        <img src="/lovable-uploads/blog-notifications-reactivation.png" alt="Example of a Listing Reactivation notification" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;" />
+        <figcaption style="text-align: center; margin-top: 0.75rem; color: #64748b; font-size: 0.875rem; font-style: italic;">Listing reactivation confirmation notification</figcaption>
+      </figure>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">How to Use the Airbnb Notifications Filter</h2>
+      
+      <p>Your Live Feed contains many different event types. To focus solely on these important Airbnb alerts, simply use the <strong>Filter</strong> dropdown on the Live Feed Events page and select <strong>"Airbnb Notification"</strong>. This will hide all other events, giving you a clear, actionable list of items that require your attention.</p>
+      
+      <figure style="margin: 2rem 0;">
+        <img src="/lovable-uploads/blog-notifications-filter.png" alt="Filtering the Live Feed to show only Airbnb Notifications" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;" />
+        <figcaption style="text-align: center; margin-top: 0.75rem; color: #64748b; font-size: 0.875rem; font-style: italic;">Use the filter dropdown to view only Airbnb notifications</figcaption>
+      </figure>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Conclusion</h2>
+      
+      <p>By integrating Airbnb Notifications directly into the Channex dashboard, we are giving you the tools to be more proactive, efficient, and informed. Centralizing these critical alerts saves you time, reduces the risk of missed information, and helps you maintain a healthy, profitable portfolio on Airbnb. This feature is now live for all Channex users with an Airbnb connection.</p>
+    `,
+    author: {
+      name: "Channex Team",
+      avatar: "/placeholder.svg",
+      bio: "Actionable distribution tips and product guidance."
+    },
+    publishDate: "2026-02-12",
+    category: blogCategories[3],
+    tags: ["Product Updates", "Airbnb", "Notifications", "Live Feed", "Quality Management", "Account Management"],
+    featuredImage: "/lovable-uploads/blog-airbnb-notifications-header.png",
+    readTime: 5,
+    metaDescription: "Stay ahead of Airbnb issues with real-time notifications in Channex. Get alerts for quality warnings, account updates, and listing changes with direct links to resolve them in the Airbnb extranet."
+  },
+  {
     id: "maximize-revenue-basic-discounts",
     title: "Maximize Revenue with Basic Discounts: Early Bird & Last-Minute Strategies",
     slug: "maximize-revenue-basic-discounts",
