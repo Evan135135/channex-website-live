@@ -15,13 +15,7 @@
 
     <!-- Hide static SEO content until React hydrates -->
     <style>
-      #root > h1,
-      #root > p,
-      #root > h2,
-      #root > ul {
-        position: absolute;
-        left: -9999px;
-      }
+      .seo-content { opacity: 0; position: absolute; pointer-events: none; }
     </style>
 
     <meta property="og:title" content="Channel Manager API for PMS Systems | Channex White Label Solution" />
@@ -85,17 +79,19 @@
   <body>
     <div id="root">
       <!-- SEO content for crawlers - will be replaced by React -->
-      <h1>White-Label Channel Manager API for PMS Systems</h1>
-      <p>Connect your Property Management System to Booking.com, Airbnb, Expedia, and 50+ OTAs with Channex's modern REST API. White-label solution with 99.9% uptime SLA and sub-100ms response times.</p>
-      <p>Modern REST API with JSON-based integration. No CSV mapping or XML files required. Fast integration in 2-4 weeks with comprehensive documentation and test sandbox.</p>
-      <h2>Key Features</h2>
-      <ul>
-        <li>Connect to 50+ OTAs including Booking.com, Airbnb, and Expedia</li>
-        <li>99.9% uptime SLA with sub-100ms response times</li>
-        <li>Full white-label solution for PMS providers</li>
-        <li>Transparent per-property pricing</li>
-        <li>GDPR and PCI DSS compliant</li>
-      </ul>
+      <div class="seo-content">
+        <h1>White-Label Channel Manager API for PMS Systems</h1>
+        <p>Connect your Property Management System to Booking.com, Airbnb, Expedia, and 50+ OTAs with Channex's modern REST API. White-label solution with 99.9% uptime SLA and sub-100ms response times.</p>
+        <p>Modern REST API with JSON-based integration. No CSV mapping or XML files required. Fast integration in 2-4 weeks with comprehensive documentation and test sandbox.</p>
+        <h2>Key Features</h2>
+        <ul>
+          <li>Connect to 50+ OTAs including Booking.com, Airbnb, and Expedia</li>
+          <li>99.9% uptime SLA with sub-100ms response times</li>
+          <li>Full white-label solution for PMS providers</li>
+          <li>Transparent per-property pricing</li>
+          <li>GDPR and PCI DSS compliant</li>
+        </ul>
+      </div>
     </div>
     <script>
       window.intercomSettings = {
