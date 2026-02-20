@@ -15,7 +15,13 @@
 
     <!-- Hide static SEO content until React hydrates -->
     <style>
-      #root > * { visibility: hidden; }
+      #root > h1,
+      #root > p,
+      #root > h2,
+      #root > ul {
+        position: absolute;
+        left: -9999px;
+      }
     </style>
 
     <meta property="og:title" content="Channel Manager API for PMS Systems | Channex White Label Solution" />
