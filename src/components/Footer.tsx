@@ -66,9 +66,7 @@ const Footer = () => {
             <h3 className="font-semibold text-lg font-inter">Support</h3>
             <ul className="space-y-2 text-slate-400">
               <li><a href="https://help.channex.io/en/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors font-inter">Help Center</a></li>
-              
-              
-              
+              <li><a href="/llms.txt" className="hover:text-white transition-colors font-inter">LLMs.txt</a></li>
             </ul>
           </div>
         </div>
