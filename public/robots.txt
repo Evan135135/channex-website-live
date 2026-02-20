@@ -14,3 +14,6 @@ User-agent: *
 Allow: /
 
 Sitemap: https://channex.io/sitemap.xml
+
+# AI crawlers
+LLMs: https://channex.io/llms.txt
