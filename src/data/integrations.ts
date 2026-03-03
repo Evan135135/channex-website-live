@@ -3881,15 +3881,6 @@ export const integrations: Integration[] = [
     website: "https://balimmo.fr/"
   },
   {
-    id: "saladsoft",
-    name: "SaladSoft",
-    description: "Property management software solution providing channel connectivity and reservation management for hospitality businesses.",
-    icon: "/lovable-uploads/pms-saladsoft.png",
-    categories: ["PMS"],
-    slug: "saladsoft",
-    website: "https://saladsoft.com/"
-  },
-  {
     id: "nowistay",
     name: "nowistay",
     description: "AI co-host and digital welcome book for vacation rentals that automates guest communication and team management, helping property managers save time, boost review scores, and increase occupancy.",
@@ -3906,15 +3897,6 @@ export const integrations: Integration[] = [
     categories: ["PMS", "Hotels", "Europe"],
     slug: "checkedinn",
     website: "https://checked-inn.de/"
-  },
-  {
-    id: "groupeaci",
-    name: "Groupe ACI",
-    description: "Hospitality technology group providing property management and channel connectivity solutions for accommodation providers.",
-    icon: "/lovable-uploads/pms-groupeaci.png",
-    categories: ["PMS"],
-    slug: "groupeaci",
-    website: "https://groupeaci.com/"
   },
   {
     id: "mcontigo",
