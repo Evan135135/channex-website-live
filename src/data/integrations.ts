@@ -3835,7 +3835,7 @@ export const integrations: Integration[] = [
     slug: "sedgeosio",
     website: "https://sedgeos.io/"
   },
-  {
+   {
     id: "zzzzebracom",
     name: "ZZZzebra.com",
     description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
@@ -3844,5 +3844,94 @@ export const integrations: Integration[] = [
     slug: "zzzzebracom",
     website: "https://zzzzebra.com/"
   },
-
+  {
+    id: "kassavo",
+    name: "Kassavo",
+    description: "Intelligent short-stay property management platform combining technology and specialized teams to automate reservations, cleaning, and pricing — helping hosts increase income with minimal effort.",
+    icon: "/lovable-uploads/pms-kassavo.png",
+    categories: ["PMS", "Vacation Rentals"],
+    slug: "kassavo",
+    website: "https://kassavo.com/"
+  },
+  {
+    id: "hotelbee",
+    name: "HotelBee",
+    description: "Comprehensive cloud-based hotel management software that streamlines day-to-day operations and provides valuable business insights for hotels, B&Bs, hostels, and resorts worldwide.",
+    icon: "/lovable-uploads/pms-hotelbee.png",
+    categories: ["PMS", "Hotels"],
+    slug: "hotelbee",
+    website: "https://hotelbee.co/"
+  },
+  {
+    id: "mrhewbuc",
+    name: "Mr. Hewbuc",
+    description: "Custom Salesforce-integrated solutions provider offering powerful integrations, intelligent automation, and AI-enhanced services for hospitality and property management businesses.",
+    icon: "/lovable-uploads/pms-mrhewbuc.png",
+    categories: ["PMS"],
+    slug: "mrhewbuc",
+    website: "https://mrhewbuc.com/"
+  },
+  {
+    id: "balimmo",
+    name: "Balimmo",
+    description: "Full-service villa investment and rental management platform in Bali, handling legal, construction, and rental operations for property investors seeking high-yield returns.",
+    icon: "/lovable-uploads/pms-balimmo.png",
+    categories: ["PMS", "Vacation Rentals", "Asia Pacific"],
+    slug: "balimmo",
+    website: "https://balimmo.fr/"
+  },
+  {
+    id: "saladsoft",
+    name: "SaladSoft",
+    description: "Property management software solution providing channel connectivity and reservation management for hospitality businesses.",
+    icon: "/lovable-uploads/pms-saladsoft.png",
+    categories: ["PMS"],
+    slug: "saladsoft",
+    website: "https://saladsoft.com/"
+  },
+  {
+    id: "nowistay",
+    name: "nowistay",
+    description: "AI co-host and digital welcome book for vacation rentals that automates guest communication and team management, helping property managers save time, boost review scores, and increase occupancy.",
+    icon: "/lovable-uploads/pms-nowistay.png",
+    categories: ["PMS", "Vacation Rentals"],
+    slug: "nowistay",
+    website: "https://nowistay.com/"
+  },
+  {
+    id: "checkedinn",
+    name: "CheckedInn",
+    description: "Intelligent hotel PMS solution for Germany offering intuitive management of master data, reporting, staff scheduling, reservations, and occupancy planning.",
+    icon: "/lovable-uploads/pms-checkedinn.ico",
+    categories: ["PMS", "Hotels", "Europe"],
+    slug: "checkedinn",
+    website: "https://checked-inn.de/"
+  },
+  {
+    id: "groupeaci",
+    name: "Groupe ACI",
+    description: "Hospitality technology group providing property management and channel connectivity solutions for accommodation providers.",
+    icon: "/lovable-uploads/pms-groupeaci.png",
+    categories: ["PMS"],
+    slug: "groupeaci",
+    website: "https://groupeaci.com/"
+  },
+  {
+    id: "mcontigo",
+    name: "MContigo",
+    description: "Digital development and technology company building web, mobile, and app solutions for property management and hospitality businesses.",
+    icon: "/lovable-uploads/pms-mcontigo.png",
+    categories: ["PMS"],
+    slug: "mcontigo",
+    website: "https://mcontigo.com/"
+  },
+  {
+    id: "guthuegle",
+    name: "Gut Hügle",
+    description: "Family-friendly adventure farm and holiday destination near Lake Constance, Germany, offering holiday apartments, restaurant, spa, and event facilities.",
+    icon: "/lovable-uploads/pms-kassavo.png",
+    categories: ["PMS", "Europe"],
+    slug: "guthuegle",
+    website: "https://guthuegle.de/"
+  },
 ];
