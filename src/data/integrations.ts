@@ -3916,4 +3916,13 @@ export const integrations: Integration[] = [
     slug: "guthuegle",
     website: "https://guthuegle.de/"
   },
+  {
+    id: "bedandbreakfastitaly",
+    name: "Bed-and-Breakfast.it",
+    description: "Italy's leading B&B booking portal connecting travellers with thousands of bed and breakfasts, guesthouses, and small accommodations across Italy. One of the most visited Italian travel platforms for independent accommodation.",
+    icon: "/lovable-uploads/ota-bedandbreakfast-it.png",
+    categories: ["OTA", "Europe"],
+    slug: "bedandbreakfastitaly",
+    website: "https://www.bed-and-breakfast.it/"
+  },
 ];
