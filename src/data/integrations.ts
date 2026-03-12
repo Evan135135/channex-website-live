@@ -3925,4 +3925,13 @@ export const integrations: Integration[] = [
     slug: "bedandbreakfastitaly",
     website: "https://www.bed-and-breakfast.it/"
   },
+  {
+    id: "world2meet",
+    name: "World2Meet (W2M)",
+    description: "One of Europe's leading travel companies and tour operators, part of the Iberostar Group. W2M connects hotels and accommodation providers with a vast network of European travellers through its B2B and B2C distribution channels, specialising in sun and beach, city breaks, and holiday packages.",
+    icon: "/lovable-uploads/ota-world2meet.jpeg",
+    categories: ["OTA", "Europe"],
+    slug: "world2meet",
+    website: "https://www.w2m.travel/"
+  },
 ];
