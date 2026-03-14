@@ -15,6 +15,7 @@ import StartIntegration from "./pages/StartIntegration";
 import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
 import ComparisonSiteMinder from "./pages/ComparisonSiteMinder";
+import PricingCalculator from "./pages/PricingCalculator";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -40,6 +41,7 @@ const App = () => (
           <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="/comparison/siteminder" element={<ComparisonSiteMinder />} />
           <Route path="/policy" element={<Policy />} />
+          <Route path="/pricing-calculator" element={<PricingCalculator />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
