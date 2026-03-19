@@ -36,6 +36,63 @@ export const blogCategories: BlogCategory[] = [
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "airbnb-weekly-monthly-discounts",
+    title: "Boost Bookings with Weekly & Monthly Discounts on Airbnb",
+    slug: "airbnb-weekly-monthly-discounts",
+    excerpt: "Attract longer stays and increase revenue by setting up weekly and monthly length-of-stay discounts on Airbnb directly from Channex. Learn how in a few simple steps.",
+    content: `
+      <p>Attracting longer stays is a powerful strategy for increasing occupancy, stabilizing revenue, and reducing the operational costs associated with frequent guest turnover. One of the most effective ways to encourage these bookings on Airbnb is by offering weekly and monthly length-of-stay (LOS) discounts. With Channex, setting up these promotions is simple and can significantly enhance your listing's appeal.</p>
+
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">The Strategic Advantage of Long-Stay Discounts</h2>
+
+      <p>Offering discounts for longer bookings makes your property more attractive to specific traveler segments — from families on week-long holidays to digital nomads and corporate clients seeking monthly accommodations. This strategy not only helps fill your calendar but also minimizes gaps in occupancy and reduces the effort spent on cleanings and check-ins.</p>
+
+      <p><strong>Weekly Discounts (7+ nights)</strong> are perfect for capturing the standard holiday-goer, ensuring your property is competitively priced for week-long stays. <strong>Monthly Discounts (28–30+ nights)</strong> are ideal for attracting high-value guests looking for temporary housing, providing you with a consistent and predictable income stream.</p>
+
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">How to Set Up Weekly &amp; Monthly Discounts in Channex</h2>
+
+      <p>You can configure these discounts directly from your Airbnb channel settings within Channex. Follow these simple steps to get started.</p>
+
+      <h3 style="font-size: 1.375rem; font-weight: 600; margin: 1.5rem 0 0.75rem; color: #1e293b;">Step 1: Navigate to Pricing Settings</h3>
+      <p>Open your Airbnb channel in Channex. Go to the <strong>Listing</strong> tab, find the desired property, click the <strong>Actions</strong> menu, and select <strong>Pricing Settings</strong>.</p>
+
+      <h3 style="font-size: 1.375rem; font-weight: 600; margin: 1.5rem 0 0.75rem; color: #1e293b;">Step 2: Add Length of Stay Discount Rules</h3>
+      <p>In the Pricing Settings modal, scroll down to the <strong>Length of stay discounts</strong> section. Click <strong>Add discount rule</strong> and select <strong>Long-term stay</strong>. A new rule line will appear where you can configure the minimum nights and discount percentage.</p>
+
+      <h3 style="font-size: 1.375rem; font-weight: 600; margin: 1.5rem 0 0.75rem; color: #1e293b;">Step 3: Configure Your Discounts</h3>
+      <p>Set up your two discount tiers as shown below. For a <strong>weekly discount</strong>, set the condition to <code>&ge; 7 days</code> and enter your desired percentage (e.g., 5%). For a <strong>monthly discount</strong>, add a second rule with <code>&ge; 30 days</code> and a higher percentage (e.g., 10%) to reward longer commitments.</p>
+
+      <figure style="margin: 2rem 0;">
+        <img src="/lovable-uploads/blog-airbnb-weekly-monthly-discounts-screenshot.png" alt="Channex Pricing Settings showing weekly (7+ days, 5%) and monthly (30+ days, 10%) long-term stay discounts" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;" />
+        <figcaption style="text-align: center; margin-top: 0.75rem; color: #64748b; font-size: 0.875rem; font-style: italic;">Weekly (7+ nights, 5% off) and monthly (30+ nights, 10% off) discount rules configured in Channex Pricing Settings</figcaption>
+      </figure>
+
+      <h3 style="font-size: 1.375rem; font-weight: 600; margin: 1.5rem 0 0.75rem; color: #1e293b;">Step 4: Save Your Changes</h3>
+      <p>Once you are satisfied with the discount rules, click the <strong>Save</strong> button at the bottom of the modal. Channex will automatically sync these new pricing rules to your Airbnb listing.</p>
+
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Start Attracting Longer Stays Today</h2>
+
+      <p>By implementing weekly and monthly discounts, you make your listings more competitive, attract longer and more stable bookings, and ultimately maximize your revenue potential on Airbnb. It is a simple change that can deliver significant results — and with Channex, it takes less than a minute to set up.</p>
+    `,
+    author: {
+      name: "Channex Team",
+      avatar: "/placeholder.svg",
+      bio: "Actionable distribution tips and product guidance."
+    },
+    publishDate: "2026-03-19",
+    category: blogCategories[4],
+    tags: ["Airbnb", "Discounts", "Revenue Management", "Long-Stay", "Channex"],
+    featuredImage: "/lovable-uploads/blog-airbnb-weekly-monthly-discounts-header.png",
+    readTime: 4,
+    metaDescription: "Learn how to set up weekly and monthly length-of-stay discounts on Airbnb using Channex to attract longer bookings and increase revenue."
+  },
+  {
     id: "airbnb-notifications-channex-dashboard",
     title: "Stay Ahead of Issues: Introducing Real-Time Airbnb Notifications in Channex",
     slug: "airbnb-notifications-channex-dashboard",
