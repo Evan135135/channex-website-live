@@ -3934,4 +3934,13 @@ export const integrations: Integration[] = [
     slug: "world2meet",
     website: "https://www.w2m.travel/"
   },
+  {
+    id: "uibsplatform",
+    name: "UIBS | hospitality. platform",
+    description: "Microsoft Azure-certified CRS, Booking Engine, CRM, CMS, and core PMS delivering seamless, fully-branded website guest experiences and a unified single-source-of-truth platform for hoteliers and vacation rentals. Connects to Channex to keep availability, rates, inventory, and reservations accurate across all channels.",
+    icon: "/lovable-uploads/pms-uibs.svg",
+    categories: ["PMS", "IBE", "Europe", "Global"],
+    slug: "uibsplatform",
+    website: "https://hospitality.uibs.net"
+  },
 ];
