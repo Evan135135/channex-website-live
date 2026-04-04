@@ -3943,4 +3943,454 @@ export const integrations: Integration[] = [
     slug: "uibsplatform",
     website: "https://hospitality.uibs.net"
   },
+  {
+    id: "gatein",
+    name: "GateIn",
+    description: "UAE-based property management and hospitality technology platform providing hotels and accommodation providers with tools for reservations, guest management, and operations. Serving the Middle East hospitality market.",
+    icon: "/lovable-uploads/pms-gatein.png",
+    categories: ["PMS", "Middle East"],
+    slug: "gatein",
+    website: "https://gatein.ae/en"
+  },
+  {
+    id: "transitor",
+    name: "Transitor (Comers)",
+    description: "Swedish hospitality management system by Comers, offering property management, booking, and guest communication tools for accommodation providers across Scandinavia and Europe.",
+    icon: "/lovable-uploads/pms-transitor.png",
+    categories: ["PMS", "Europe"],
+    slug: "transitor",
+    website: "https://comers.se"
+  },
+  {
+    id: "roamhome",
+    name: "Roamhome",
+    description: "India-based property management platform designed for vacation rentals, homestays, and boutique accommodations. Provides booking management, channel connectivity, and guest experience tools for the Indian hospitality market.",
+    icon: "/lovable-uploads/pms-roamhome.webp",
+    categories: ["PMS", "Asia"],
+    slug: "roamhome",
+    website: "https://www.roamhome.in/"
+  },
+  {
+    id: "hostomat",
+    name: "Hostomat",
+    description: "Cloud-based hospitality management software for hotels, guesthouses, and serviced apartments. Provides front desk operations, reservation management, and reporting tools to streamline property operations.",
+    icon: "/lovable-uploads/pms-hostomat.ico",
+    categories: ["PMS", "Asia"],
+    slug: "hostomat",
+    website: "https://www.hostomat.io/"
+  },
+  {
+    id: "sitemarq",
+    name: "Sitemarq",
+    description: "UK-based property management and booking solution for independent hotels and accommodation providers. Offers website booking engines, channel management integration, and guest management tools.",
+    icon: "/lovable-uploads/pms-sitemarq.svg",
+    categories: ["PMS", "Europe"],
+    slug: "sitemarq",
+    website: "https://sitemarq.com/"
+  },
+  {
+    id: "mantavillas",
+    name: "Mantavillas",
+    description: "Bali-based villa and luxury accommodation management platform serving the Indonesian hospitality market. Provides property management, booking, and guest services for villas and boutique properties.",
+    icon: "/lovable-uploads/pms-mantavillas.webp",
+    categories: ["PMS", "Asia"],
+    slug: "mantavillas",
+    website: "https://mantavillas.com/"
+  },
+  {
+    id: "hostopus",
+    name: "HOSTOPUS",
+    description: "Turkey-based property management system for hotels, hostels, and vacation rentals. Offers reservation management, front desk operations, and reporting tools designed for the Turkish and regional hospitality market.",
+    icon: "/lovable-uploads/pms-hostopus.ico",
+    categories: ["PMS", "Europe", "Middle East"],
+    slug: "hostopus",
+    website: "https://www.hostopus.co/"
+  },
+  {
+    id: "eurocompetence",
+    name: "EURO COMPETENCE (Sforhet)",
+    description: "Morocco-based hospitality technology provider offering hotel management software and digital solutions for accommodation providers across North Africa and the Middle East.",
+    icon: "/lovable-uploads/pms-eurocompetence.webp",
+    categories: ["PMS", "Africa", "Middle East"],
+    slug: "eurocompetence",
+    website: "https://sforhet.ma/"
+  },
+  {
+    id: "hotelnative",
+    name: "Hotel Native",
+    description: "AI-powered hotel management platform from Costa Rica offering smart property management, guest communication, and revenue optimisation tools for independent hotels and boutique properties in Latin America and beyond.",
+    icon: "/lovable-uploads/pms-hotelnative.ico",
+    categories: ["PMS", "Americas"],
+    slug: "hotelnative",
+    website: "https://hellonative.ai"
+  },
+  {
+    id: "emonsite",
+    name: "E-monsite",
+    description: "French website builder and digital platform that includes accommodation booking and reservation management tools for small hotels, guesthouses, and B&Bs. Widely used by independent accommodation providers in France.",
+    icon: "/lovable-uploads/pms-emonsite.png",
+    categories: ["PMS", "IBE", "Europe"],
+    slug: "emonsite",
+    website: "https://www.e-monsite.com"
+  },
+  {
+    id: "hotelpalais",
+    name: "Hotel Palais d'Orient",
+    description: "Moroccan boutique hotel and riad management platform providing reservation management and guest services for traditional Moroccan accommodations and heritage properties.",
+    icon: "/lovable-uploads/pms-hotelpalais.webp",
+    categories: ["PMS", "Africa"],
+    slug: "hotelpalais",
+    website: "https://hotelpalaisdorient.com/"
+  },
+  {
+    id: "4roomsworldwide",
+    name: "4Rooms Worldwide",
+    description: "Spain-based global property management and distribution technology for hotels and accommodation providers. Offers multi-property management, booking engine, and channel distribution tools with a focus on international markets.",
+    icon: "/lovable-uploads/pms-4roomsworldwide.webp",
+    categories: ["PMS", "IBE", "Europe", "Global"],
+    slug: "4roomsworldwide",
+    website: "https://4rooms.tech/"
+  },
+  {
+    id: "alsolutions",
+    name: "AL Solutions",
+    description: "Italian technology company providing custom software solutions for the hospitality sector, including property management systems, booking engines, and digital tools for hotels and accommodation providers across Italy.",
+    icon: "/lovable-uploads/pms-alsolutionsdiarzilliluca.png",
+    categories: ["PMS", "Europe"],
+    slug: "alsolutions",
+    website: "https://www.alsolutions.it"
+  },
+  {
+    id: "apar1ments",
+    name: "Apar1Ments Living",
+    description: "Austria-based serviced apartment and short-term rental management platform. Provides property management, booking, and guest experience tools for urban apartment operators and corporate housing providers.",
+    icon: "/lovable-uploads/pms-apar1mentsliving.jpg",
+    categories: ["PMS", "Europe"],
+    slug: "apar1ments",
+    website: "https://apar1ments.com"
+  },
+  {
+    id: "apartx",
+    name: "Apartx",
+    description: "Kazakhstan-based property management platform for apartment rentals and short-term accommodations. Provides booking management, guest communication, and operational tools for Central Asian property managers.",
+    icon: "/lovable-uploads/pms-apartx.ico",
+    categories: ["PMS", "Asia"],
+    slug: "apartx",
+    website: "https://apartx.co"
+  },
+  {
+    id: "sisreservas",
+    name: "Sisreservas",
+    description: "Brazilian hotel management and reservation system providing PMS, booking engine, and channel management tools for hotels and pousadas across Brazil. One of Brazil's established hospitality technology solutions.",
+    icon: "/lovable-uploads/pms-sisreservas.png",
+    categories: ["PMS", "IBE", "Americas"],
+    slug: "sisreservas",
+    website: "https://www.sisreservas.com.br/"
+  },
+  {
+    id: "bluesquareai",
+    name: "BlueSquareAI",
+    description: "Albania-based AI-powered property management platform for hotels and vacation rentals. Leverages artificial intelligence for smart pricing, booking optimisation, and guest management automation.",
+    icon: "/lovable-uploads/pms-bluesquareai.png",
+    categories: ["PMS", "Europe"],
+    slug: "bluesquareai",
+    website: "https://bluesquareai.com/"
+  },
+  {
+    id: "bookingfwi",
+    name: "Booking FWI",
+    description: "Caribbean-based online booking and property management platform serving hotels and accommodations in the French West Indies (FWI). Provides reservation management and distribution tools for Caribbean hospitality providers.",
+    icon: "/lovable-uploads/pms-bookingfwi.png",
+    categories: ["PMS", "IBE", "Americas"],
+    slug: "bookingfwi",
+    website: "https://demo.bookingfwi.com/"
+  },
+  {
+    id: "hotelgest",
+    name: "HotelGest",
+    description: "Spain-based hotel management software providing PMS, front desk, and reservation tools for independent hotels and small chains across Spain and Latin America. Designed for ease of use and operational efficiency.",
+    icon: "/lovable-uploads/pms-hotelgest.webp",
+    categories: ["PMS", "Europe", "Americas"],
+    slug: "hotelgest",
+    website: "https://hotelgest.com"
+  },
+  {
+    id: "cozzyid",
+    name: "Cozzy.id",
+    description: "Indonesia-based property management platform for hotels, villas, and guesthouses. Provides reservation management, booking engine, and operational tools tailored for the Indonesian hospitality and tourism market.",
+    icon: "/lovable-uploads/pms-cozzyid.jpg",
+    categories: ["PMS", "Asia"],
+    slug: "cozzyid",
+    website: "https://cozzy.id/"
+  },
+  {
+    id: "cruwzo",
+    name: "Cruwzo",
+    description: "Germany-based property management and hospitality software solution for hotels and accommodation providers. Offers streamlined front desk operations, reservation management, and reporting for European properties.",
+    icon: "/lovable-uploads/pms-emonsite.png",
+    categories: ["PMS", "Europe"],
+    slug: "cruwzo",
+    website: "https://www.cruwzo.com/"
+  },
+  {
+    id: "deverso",
+    name: "Deverso Srl",
+    description: "Italian hospitality technology company developing property management and booking solutions for hotels, resorts, and accommodation providers across Italy. Offers integrated PMS and distribution tools.",
+    icon: "/lovable-uploads/pms-emonsite.png",
+    categories: ["PMS", "Europe"],
+    slug: "deverso",
+    website: "https://deverso.it"
+  },
+  {
+    id: "elev8suite",
+    name: "Elev8",
+    description: "Switzerland-based hotel management suite providing comprehensive PMS, booking engine, and revenue management tools for independent hotels and boutique properties across Europe.",
+    icon: "/lovable-uploads/pms-elev8.ico",
+    categories: ["PMS", "Europe"],
+    slug: "elev8suite",
+    website: "https://www.elev8-suite.com/"
+  },
+  {
+    id: "thefinner",
+    name: "The Finner",
+    description: "India-based hospitality management platform providing property management, booking, and guest experience tools for hotels, resorts, and vacation rentals across India and South Asia.",
+    icon: "/lovable-uploads/pms-roamhome.webp",
+    categories: ["PMS", "Asia"],
+    slug: "thefinner",
+    website: "https://thefinner.com"
+  },
+  {
+    id: "hostiq",
+    name: "Hostiq",
+    description: "Ukraine-based property management system for hotels, hostels, and apartment rentals. Provides front desk management, online booking, and channel connectivity tools for Eastern European accommodation providers.",
+    icon: "/lovable-uploads/pms-hostiq.svg",
+    categories: ["PMS", "Europe"],
+    slug: "hostiq",
+    website: "https://hostiq.ua/eng/"
+  },
+  {
+    id: "hotelitech",
+    name: "Hotelitech",
+    description: "Brazilian hospitality technology company offering PMS, booking engine, and channel management solutions for hotels and pousadas across Brazil. Focused on simplifying hotel operations for independent properties.",
+    icon: "/lovable-uploads/pms-hotelitech.png",
+    categories: ["PMS", "Americas"],
+    slug: "hotelitech",
+    website: "https://hotelitech.com.br"
+  },
+  {
+    id: "innetltda",
+    name: "INNET LTDA",
+    description: "Brazilian technology company providing hotel management software and digital solutions for hospitality providers. Offers PMS, booking tools, and operational systems for hotels and accommodation businesses in Brazil.",
+    icon: "/lovable-uploads/pms-innetltda.ico",
+    categories: ["PMS", "Americas"],
+    slug: "innetltda",
+    website: "https://innet.com.br/"
+  },
+  {
+    id: "instantbb",
+    name: "INSTANT B&B",
+    description: "Italian B&B and short-term rental management platform by e-instant.it. Provides property management, online booking, and guest communication tools for bed and breakfasts and vacation rentals across Italy.",
+    icon: "/lovable-uploads/pms-instantbb.webp",
+    categories: ["PMS", "Europe"],
+    slug: "instantbb",
+    website: "https://e-instant.it"
+  },
+  {
+    id: "jetquid",
+    name: "Jet Quid",
+    description: "India-based hospitality management platform offering property management, booking engine, and revenue tools for hotels and resorts. Designed to help Indian hoteliers streamline operations and increase direct bookings.",
+    icon: "/lovable-uploads/pms-jetquid.png",
+    categories: ["PMS", "Asia"],
+    slug: "jetquid",
+    website: "https://jetquid.com/"
+  },
+  {
+    id: "easyconcierge",
+    name: "Easy Concierge",
+    description: "French property management and concierge software for vacation rentals, apartments, and boutique hotels. Provides booking management, guest communication, and operational tools for French accommodation providers.",
+    icon: "/lovable-uploads/pms-easyconcierge.png",
+    categories: ["PMS", "Europe"],
+    slug: "easyconcierge",
+    website: "https://easy-concierge.fr"
+  },
+  {
+    id: "mediatarget",
+    name: "Media Target",
+    description: "French digital agency and hospitality technology provider offering website development, booking solutions, and digital marketing tools for hotels and accommodation businesses in France.",
+    icon: "/lovable-uploads/pms-emonsite.png",
+    categories: ["PMS", "IBE", "Europe"],
+    slug: "mediatarget",
+    website: "https://mediatarget.fr"
+  },
+  {
+    id: "msool",
+    name: "Msool",
+    description: "Saudi Arabia-based property management platform for hotels and short-term rentals. Provides reservation management, booking engine, and operational tools tailored for the Saudi Arabian and Gulf hospitality market.",
+    icon: "/lovable-uploads/pms-gatein.png",
+    categories: ["PMS", "Middle East"],
+    slug: "msool",
+    website: "https://msool.io"
+  },
+  {
+    id: "mykratisi",
+    name: "MyKratisi",
+    description: "Greece-based property management and booking platform for hotels, villas, and vacation rentals. Offers reservation management, channel connectivity, and guest tools designed for the Greek tourism and hospitality market.",
+    icon: "/lovable-uploads/pms-mykratisi.png",
+    categories: ["PMS", "Europe"],
+    slug: "mykratisi",
+    website: "https://mykratisi.gr"
+  },
+  {
+    id: "novaestate",
+    name: "Nova Estate (NovaSuite)",
+    description: "Singapore-based property management platform providing PMS, booking engine, and operational tools for hotels and serviced apartments. NovaSuite serves the Asia-Pacific hospitality market with cloud-based management solutions.",
+    icon: "/lovable-uploads/pms-novaestate.ico",
+    categories: ["PMS", "Asia"],
+    slug: "novaestate",
+    website: "https://www.novasuite.app/"
+  },
+  {
+    id: "opentravelone",
+    name: "OpenTravel One",
+    description: "US-based hospitality technology platform leveraging OpenTravel standards for hotel distribution and connectivity. Provides API-based integration tools for property management systems and online travel agencies.",
+    icon: "/lovable-uploads/pms-opentravelone.png",
+    categories: ["PMS", "Global"],
+    slug: "opentravelone",
+    website: "https://opentravel.org/"
+  },
+  {
+    id: "hobostays",
+    name: "Hobo Stays",
+    description: "India-based accommodation management platform for budget hotels, hostels, and guesthouses. Provides reservation management, booking tools, and operational systems for affordable accommodation providers across India.",
+    icon: "/lovable-uploads/pms-roamhome.webp",
+    categories: ["PMS", "Asia"],
+    slug: "hobostays",
+    website: "https://hobostays.in/"
+  },
+  {
+    id: "raixertech",
+    name: "Raixer Tech",
+    description: "Spain-based smart access and property management technology company. Provides digital key, access control, and property management solutions for hotels, vacation rentals, and serviced apartments.",
+    icon: "/lovable-uploads/pms-raixertechsl.png",
+    categories: ["PMS", "Europe"],
+    slug: "raixertech",
+    website: "https://www.raixer.com"
+  },
+  {
+    id: "resavenue",
+    name: "ResAvenue",
+    description: "India-based hotel reservation and distribution platform providing central reservation system (CRS), booking engine, and channel management tools for hotels across India and South Asia. One of India's established hotel technology providers.",
+    icon: "/lovable-uploads/pms-roamhome.webp",
+    categories: ["PMS", "IBE", "Asia"],
+    slug: "resavenue",
+    website: "https://www.resavenue.com/"
+  },
+  {
+    id: "revbotid",
+    name: "Revbot.id",
+    description: "Indonesia-based AI-powered revenue management and property management platform for hotels and villas. Uses intelligent automation to optimise pricing, distribution, and operations for Indonesian accommodation providers.",
+    icon: "/lovable-uploads/pms-revbotid.png",
+    categories: ["PMS", "Asia"],
+    slug: "revbotid",
+    website: "https://revbot.id/"
+  },
+  {
+    id: "hotelier101",
+    name: "Hotelier 101",
+    description: "Turkey-based hotel management platform providing PMS, booking engine, and operational tools for independent hotels and small chains. Designed for the Turkish hospitality market with multi-language support.",
+    icon: "/lovable-uploads/pms-hostomat.ico",
+    categories: ["PMS", "Europe", "Middle East"],
+    slug: "hotelier101",
+    website: "https://hotelier101.com"
+  },
+  {
+    id: "scovietnam",
+    name: "SCO Vietnam",
+    description: "Vietnam-based hospitality technology company providing property management and booking solutions for hotels and resorts across Vietnam and Southeast Asia. Offers localised tools for the Vietnamese tourism market.",
+    icon: "/lovable-uploads/pms-scovietnam.webp",
+    categories: ["PMS", "Asia"],
+    slug: "scovietnam",
+    website: "https://scovietnam.com"
+  },
+  {
+    id: "sirromsolutions",
+    name: "Sirrom Solutions",
+    description: "Netherlands-based hospitality technology company providing property management and booking solutions for hotels and accommodation providers across the Benelux region and Europe.",
+    icon: "/lovable-uploads/pms-sitemarq.svg",
+    categories: ["PMS", "Europe"],
+    slug: "sirromsolutions",
+    website: "https://sirrom.io"
+  },
+  {
+    id: "stayfleximmo",
+    name: "STAYFLEX IMMO",
+    description: "France-based property management platform for short-term rentals and vacation properties. Provides booking management, guest communication, and operational tools for French property managers and vacation rental owners.",
+    icon: "/lovable-uploads/pms-stayfleximmo.png",
+    categories: ["PMS", "Europe"],
+    slug: "stayfleximmo",
+    website: "https://www.stayflex-immo.com/"
+  },
+  {
+    id: "strabiliare",
+    name: "Strabiliare",
+    description: "Italian property management company and software provider for vacation rentals and boutique accommodations. Offers reservation management, booking tools, and guest experience solutions for Italian properties.",
+    icon: "/lovable-uploads/pms-strabiliaresrlsunipersonale.png",
+    categories: ["PMS", "Europe"],
+    slug: "strabiliare",
+    website: "https://strabiliare.it/"
+  },
+  {
+    id: "suitespotproperties",
+    name: "SuiteSpot Properties",
+    description: "Canada-based property management platform for hotels and serviced apartments. SuiteSpot provides operations management, maintenance tracking, and guest experience tools for hospitality providers in North America.",
+    icon: "/lovable-uploads/pms-suitespot.png",
+    categories: ["PMS", "Americas"],
+    slug: "suitespotproperties",
+    website: "https://www.suitespot.ai/"
+  },
+  {
+    id: "threenorthclean",
+    name: "Three North Clean",
+    description: "Canada-based property management and cleaning operations platform for vacation rentals and short-term accommodations. Provides operational management, housekeeping scheduling, and property maintenance tools.",
+    icon: "/lovable-uploads/pms-threenorthcleaninc.ico",
+    categories: ["PMS", "Americas"],
+    slug: "threenorthclean",
+    website: "https://threenorthclean.com/"
+  },
+  {
+    id: "uabiluma",
+    name: "UAB Iluma (J14A)",
+    description: "Lithuania-based hospitality technology company providing property management and booking solutions for hotels and accommodation providers across the Baltic states and Northern Europe.",
+    icon: "/lovable-uploads/pms-sitemarq.svg",
+    categories: ["PMS", "Europe"],
+    slug: "uabiluma",
+    website: "https://www.j14a.co/"
+  },
+  {
+    id: "ydea",
+    name: "Ydea",
+    description: "Peru-based hospitality management platform built on Odoo, providing property management, booking, and operational tools for hotels and accommodation providers across Peru and Latin America.",
+    icon: "/lovable-uploads/pms-ydea.webp",
+    categories: ["PMS", "Americas"],
+    slug: "ydea",
+    website: "https://ydea-aqp-eirl.odoo.com/"
+  },
+  {
+    id: "maiahost",
+    name: "Maia Host",
+    description: "France-based property management platform for vacation rentals and short-term accommodations. Provides automated booking management, guest communication, and operational tools for French property managers.",
+    icon: "/lovable-uploads/pms-maiahost.svg",
+    categories: ["PMS", "Europe"],
+    slug: "maiahost",
+    website: "https://www.maia-host.com/"
+  },
+  {
+    id: "orclaus",
+    name: "Orclaus",
+    description: "Spain-based hospitality technology company providing property management and booking solutions for hotels and vacation rentals. Offers integrated PMS and distribution tools for Spanish and European accommodation providers.",
+    icon: "/lovable-uploads/pms-raixertechsl.png",
+    categories: ["PMS", "Europe"],
+    slug: "orclaus",
+    website: "https://orclaus.com"
+  },
 ];
