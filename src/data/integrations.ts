@@ -4393,4 +4393,40 @@ export const integrations: Integration[] = [
     slug: "orclaus",
     website: "https://orclaus.com"
   },
+  {
+    id: "bedrockresidencies",
+    name: "Bedrock Residencies",
+    description: "Nigeria-based premium apart-hotel operator providing fully serviced short-let apartments in Lagos. Bedrock Residencies offers a seamless guest experience with modern amenities, integrated booking management, and a mobile app for direct reservations.",
+    icon: "/lovable-uploads/pms-bedrockresidencies.webp",
+    categories: ["PMS", "Africa"],
+    slug: "bedrockresidencies",
+    website: "https://bedrockresidencies.com"
+  },
+  {
+    id: "luxeshine",
+    name: "Luxeshine",
+    description: "USA-based hospitality management platform providing property management and booking solutions for hotels and accommodation providers. Luxeshine offers streamlined operations, reservation management, and guest experience tools for the North American market.",
+    icon: "/lovable-uploads/pms-sitemarq.svg",
+    categories: ["PMS", "Americas"],
+    slug: "luxeshine",
+    website: "https://luxeshine.com"
+  },
+  {
+    id: "ribat",
+    name: "Ribat",
+    description: "Egypt-based property management system providing hotel management and booking solutions for accommodation providers across Egypt and the Middle East. Ribat offers reservation management, front desk operations, and distribution tools for hospitality businesses.",
+    icon: "/lovable-uploads/pms-sitemarq.svg",
+    categories: ["PMS", "Middle East & Africa"],
+    slug: "ribat",
+    website: "https://ribat.io"
+  },
+  {
+    id: "hautrip",
+    name: "Hautrip",
+    description: "South Korea-based accommodation platform and property management system providing booking and reservation management for hotels, guesthouses, and short-term rentals across South Korea and the Asia-Pacific region.",
+    icon: "/lovable-uploads/pms-hautrip.png",
+    categories: ["PMS", "Asia Pacific"],
+    slug: "hautrip",
+    website: "https://hautrip.com"
+  },
 ];
