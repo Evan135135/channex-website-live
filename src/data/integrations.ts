@@ -4429,4 +4429,31 @@ export const integrations: Integration[] = [
     slug: "hautrip",
     website: "https://hautrip.com"
   },
+  {
+    id: "vayada",
+    name: "Vayada",
+    description: "Germany-based hospitality platform connecting hotels with content creators and influencers. Vayada provides property management and marketing tools that help hotels leverage creator partnerships for authentic promotion and direct bookings.",
+    icon: "/lovable-uploads/pms-vayada.png",
+    categories: ["PMS", "Europe"],
+    slug: "vayada",
+    website: "https://vayada.com"
+  },
+  {
+    id: "nissiaholidays",
+    name: "Nissiaholidays",
+    description: "Greece-based villa and holiday rental management platform specializing in luxury accommodations across the Greek islands. Nissiaholidays provides booking management, guest services, and property operations for premium vacation rentals in Greece.",
+    icon: "/lovable-uploads/pms-nissiaholidays.png",
+    categories: ["PMS", "Europe"],
+    slug: "nissiaholidays",
+    website: "https://www.nissiaholidays.com"
+  },
+  {
+    id: "hubnb",
+    name: "Hubnb",
+    description: "Brazil-based property management platform for short-term rentals and vacation accommodations. Hubnb provides booking management, channel distribution, and operational tools for property managers and hosts across Brazil and Latin America.",
+    icon: "/lovable-uploads/pms-sitemarq.svg",
+    categories: ["PMS", "Americas"],
+    slug: "hubnb",
+    website: "https://hubnb.com.br"
+  },
 ];
