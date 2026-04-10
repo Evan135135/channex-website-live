@@ -4456,4 +4456,40 @@ export const integrations: Integration[] = [
     slug: "hubnb",
     website: "https://hubnb.com.br"
   },
+  {
+    id: "gustavopms",
+    name: "Gustavo PMS",
+    description: "Property management system providing hotel and accommodation operators with tools for reservations, front desk operations, and channel management. Gustavo PMS helps hospitality businesses streamline their daily operations and distribution.",
+    icon: "/lovable-uploads/pms-sitemarq.svg",
+    categories: ["PMS"],
+    slug: "gustavopms",
+    website: "https://gustavopms.com"
+  },
+  {
+    id: "booksuite",
+    name: "Booksuite",
+    description: "Brazil-based hotel e-commerce platform providing website creation, property management, and booking engine solutions. Booksuite helps hotels and accommodations in Brazil grow their direct bookings and manage their online presence.",
+    icon: "/lovable-uploads/pms-booksuite.png",
+    categories: ["PMS", "Americas"],
+    slug: "booksuite",
+    website: "https://www.booksuite.io"
+  },
+  {
+    id: "plubox",
+    name: "PluBox",
+    description: "Ukraine-based property management system specializing in daily and short-term rental management. PluBox provides booking management, channel distribution, and operational tools for vacation rental hosts and property managers.",
+    icon: "/lovable-uploads/pms-plubox.svg",
+    categories: ["PMS", "Europe"],
+    slug: "plubox",
+    website: "https://plubox.com"
+  },
+  {
+    id: "ecommerceloka",
+    name: "Ecommerceloka",
+    description: "Indonesia-based hotel online sales optimization platform providing channel management and distribution solutions. Ecommerceloka helps hotels across Indonesia maximize their online revenue through major booking channels including Booking.com, Traveloka, and Tiket.com.",
+    icon: "/lovable-uploads/pms-ecommerceloka.png",
+    categories: ["PMS", "Asia Pacific"],
+    slug: "ecommerceloka",
+    website: "https://ecommerceloka.com"
+  },
 ];
