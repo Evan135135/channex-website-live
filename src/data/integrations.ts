@@ -4492,4 +4492,13 @@ export const integrations: Integration[] = [
     slug: "ecommerceloka",
     website: "https://ecommerceloka.com"
   },
+  {
+    id: "ctoutvert",
+    name: "Ctoutvert / Secureholiday",
+    description: "France-based online booking and distribution platform specializing in outdoor accommodation, camping, and holiday parks. Ctoutvert operates the Secureholiday Platform, providing campsite and holiday park operators with online reservation management, channel distribution, and CRM tools across Europe.",
+    icon: "/lovable-uploads/ota-ctoutvert.png",
+    categories: ["OTA", "Europe"],
+    slug: "ctoutvert",
+    website: "https://www.ctoutvert.com/fr"
+  },
 ];
