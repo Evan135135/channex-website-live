@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "react-router-dom";
-import { Check, CreditCard, Shield, RefreshCw, X, ArrowRight } from "lucide-react";
+import { Check, CreditCard, Shield, RefreshCw, X, ArrowRight, Building2, Home, MessageSquare, Star } from "lucide-react";
 
 const Pricing = () => {
   const plans = [
@@ -123,6 +123,80 @@ const Pricing = () => {
             ))}
           </div>
 
+          {/* White Label Pricing Breakdown */}
+          <div className="mb-20">
+            <div className="text-center mb-10">
+              <h2 className="text-3xl font-bold text-foreground font-inter mb-3">White Label Pricing</h2>
+              <p className="text-muted-foreground font-inter max-w-2xl mx-auto">
+                Transparent per-property pricing for PMS providers and tech partners. The monthly platform fee covers your subscription — you only pay per active connected property on top.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+              {/* Channel Manager Card */}
+              <Card className="border-primary/30 shadow-md">
+                <CardHeader className="pb-4">
+                  <div className="flex items-center gap-3 mb-2">
+                    <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
+                      <RefreshCw className="h-5 w-5 text-primary" />
+                    </div>
+                    <h3 className="text-xl font-bold text-foreground font-inter">Channel Manager</h3>
+                  </div>
+                  <p className="text-sm text-muted-foreground font-inter">Per active connected property, billed monthly</p>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <div className="flex items-center justify-between p-4 bg-muted/40 rounded-lg">
+                    <div className="flex items-center gap-3">
+                      <Building2 className="h-5 w-5 text-primary" />
+                      <span className="font-medium text-foreground font-inter">Hotels</span>
+                    </div>
+                    <span className="text-2xl font-bold text-primary font-inter">$7<span className="text-sm font-normal text-muted-foreground"> / property</span></span>
+                  </div>
+                  <div className="flex items-center justify-between p-4 bg-muted/40 rounded-lg">
+                    <div className="flex items-center gap-3">
+                      <Home className="h-5 w-5 text-primary" />
+                      <span className="font-medium text-foreground font-inter">Vacation Rentals</span>
+                    </div>
+                    <span className="text-2xl font-bold text-primary font-inter">$0.50<span className="text-sm font-normal text-muted-foreground"> / unit</span></span>
+                  </div>
+                </CardContent>
+              </Card>
+
+              {/* Chat & Reviews Add-on Card */}
+              <Card className="border-primary/30 shadow-md">
+                <CardHeader className="pb-4">
+                  <div className="flex items-center gap-3 mb-2">
+                    <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
+                      <MessageSquare className="h-5 w-5 text-primary" />
+                    </div>
+                    <h3 className="text-xl font-bold text-foreground font-inter">Chat &amp; Reviews</h3>
+                  </div>
+                  <p className="text-sm text-muted-foreground font-inter">Optional add-on — messaging and review management per property</p>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <div className="flex items-center justify-between p-4 bg-muted/40 rounded-lg">
+                    <div className="flex items-center gap-3">
+                      <Building2 className="h-5 w-5 text-primary" />
+                      <span className="font-medium text-foreground font-inter">Hotels</span>
+                    </div>
+                    <span className="text-2xl font-bold text-primary font-inter">$7<span className="text-sm font-normal text-muted-foreground"> / property</span></span>
+                  </div>
+                  <div className="flex items-center justify-between p-4 bg-muted/40 rounded-lg">
+                    <div className="flex items-center gap-3">
+                      <Home className="h-5 w-5 text-primary" />
+                      <span className="font-medium text-foreground font-inter">Vacation Rentals</span>
+                    </div>
+                    <span className="text-2xl font-bold text-primary font-inter">$0.50<span className="text-sm font-normal text-muted-foreground"> / unit</span></span>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+
+            <p className="text-center text-sm text-muted-foreground mt-6 font-inter">
+              * Only properties with at least one active channel connection are billed. The $130/month platform fee applies in addition to per-property charges.
+            </p>
+          </div>
+
           {/* Feature Comparison Table */}
           <div className="mb-20">
             <h2 className="text-3xl font-bold text-center text-foreground mb-12 font-inter">
@@ -141,8 +215,8 @@ const Pricing = () => {
                 </thead>
                 <tbody>
                   {[
-                    { feature: "Hotels Fee (Per Property)", standard: "$50", whitelabel: "Contact", enterprise: "Contact" },
-                    { feature: "Vacation Rental Fee (Per unit)", standard: "$4", whitelabel: "Contact", enterprise: "Contact" },
+                    { feature: "Hotels Fee (Per Property)", standard: "$50", whitelabel: "$7", enterprise: "Contact" },
+                    { feature: "Vacation Rental Fee (Per unit)", standard: "$4", whitelabel: "$0.50", enterprise: "Contact" },
                     { feature: "Dashboard", standard: "✓", whitelabel: "✓", enterprise: "✓" },
                     { feature: "PMS Integration", standard: "✓", whitelabel: "✓", enterprise: "✓" },
                     { feature: "API Access", standard: "✗", whitelabel: "✓", enterprise: "✓" },
@@ -150,7 +224,8 @@ const Pricing = () => {
                     { feature: "Support via Chat & Email", standard: "✓", whitelabel: "✓", enterprise: "✓" },
                     { feature: "Unlimited Users", standard: "✓", whitelabel: "✓", enterprise: "✓" },
                     { feature: "Onboarding & Training", standard: "✓", whitelabel: "✓", enterprise: "✓" },
-                    { feature: "Messaging & Reviews App", standard: "Included", whitelabel: "Contact", enterprise: "✓" },
+                    { feature: "Messaging & Reviews App (Hotels)", standard: "Included", whitelabel: "$7 / property", enterprise: "✓" },
+                    { feature: "Messaging & Reviews App (VR)", standard: "Included", whitelabel: "$0.50 / unit", enterprise: "✓" },
                     { feature: "Channel and Mapping API", standard: "✗", whitelabel: "✓", enterprise: "✓" },
                     { feature: "Custom Billing", standard: "✗", whitelabel: "✗", enterprise: "✓" }
                   ].map((row, index) => (
@@ -171,7 +246,7 @@ const Pricing = () => {
                         ) : row.whitelabel === "✗" ? (
                           <span className="text-muted-foreground">—</span>
                         ) : (
-                          row.whitelabel
+                          <span className="font-semibold text-foreground">{row.whitelabel}</span>
                         )}
                       </td>
                       <td className="p-6 text-center text-muted-foreground font-inter">
@@ -221,28 +296,22 @@ const Pricing = () => {
                         <td className="p-6 text-center text-muted-foreground font-inter">
                           {row.standard === "✓" ? (
                             <Check className="h-5 w-5 text-primary mx-auto" />
-                          ) : row.standard === "✗" ? (
-                            <span className="text-muted-foreground">—</span>
                           ) : (
-                            row.standard
+                            <span className="text-muted-foreground">—</span>
                           )}
                         </td>
                         <td className="p-6 text-center text-muted-foreground font-inter">
                           {row.whitelabel === "✓" ? (
                             <Check className="h-5 w-5 text-primary mx-auto" />
-                          ) : row.whitelabel === "✗" ? (
-                            <span className="text-muted-foreground">—</span>
                           ) : (
-                            row.whitelabel
+                            <span className="text-muted-foreground">—</span>
                           )}
                         </td>
                         <td className="p-6 text-center text-muted-foreground font-inter">
                           {row.enterprise === "✓" ? (
                             <Check className="h-5 w-5 text-primary mx-auto" />
-                          ) : row.enterprise === "✗" ? (
-                            <span className="text-muted-foreground">—</span>
                           ) : (
-                            row.enterprise
+                            <span className="text-muted-foreground">—</span>
                           )}
                         </td>
                       </tr>
