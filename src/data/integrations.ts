@@ -4510,4 +4510,202 @@ export const integrations: Integration[] = [
     slug: "resonline",
     website: "https://www.resonline.com"
   },
+  {
+    id: "oomsi",
+    name: "Oomsi",
+    description: "Smart vacation rental management platform providing tools to reduce stress and fill calendars. Oomsi helps short-term rental operators streamline operations with automated messaging, pricing, and channel distribution.",
+    icon: "/lovable-uploads/pms-oomsi.svg",
+    categories: ["PMS", "Vacation Rental", "North America"],
+    slug: "oomsi",
+    website: "https://oomsi.com"
+  },
+  {
+    id: "navthan",
+    name: "Navthan",
+    description: "Australian property management system provider offering hospitality technology solutions for accommodation operators.",
+    icon: "/lovable-uploads/pms-placeholder.png",
+    categories: ["PMS", "Asia Pacific"],
+    slug: "navthan",
+    website: ""
+  },
+  {
+    id: "luppa",
+    name: "Luppa",
+    description: "Argentine all-in-one management platform for hospitality businesses including hotels and accommodation providers. Luppa offers inventory management, sales tracking, and statistics for property operators.",
+    icon: "/lovable-uploads/pms-luppa.png",
+    categories: ["PMS", "Latin America"],
+    slug: "luppa",
+    website: "https://luppa.net.ar"
+  },
+  {
+    id: "azurecorporate",
+    name: "Azure Corporate LLC",
+    description: "Vacation rental management company specializing in property management solutions for short-term rental operators. Azure Corporate provides personalized services to maximize investment returns for property owners.",
+    icon: "/lovable-uploads/pms-azurecorporate.png",
+    categories: ["PMS", "Vacation Rental", "North America"],
+    slug: "azurecorporate",
+    website: "https://azurerd.com"
+  },
+  {
+    id: "desata",
+    name: "Desata",
+    description: "Spanish SaaS technology company creating specialized applications and tailored solutions to automate hospitality and business niche processes, combining technology, AI, and business strategy.",
+    icon: "/lovable-uploads/pms-placeholder.png",
+    categories: ["PMS", "Europe"],
+    slug: "desata",
+    website: ""
+  },
+  {
+    id: "varaamokki",
+    name: "Varaamokki",
+    description: "Finnish holiday accommodation booking and management platform built on Apaleo, specializing in cabin and cottage rentals across Lapland and other Finnish destinations.",
+    icon: "/lovable-uploads/pms-varaamokki.png",
+    categories: ["PMS", "Europe"],
+    slug: "varaamokki",
+    website: "https://www.varaamokki.com"
+  },
+  {
+    id: "stellartourism",
+    name: "Stellar Tourism Innovations",
+    description: "German hospitality technology company offering automated digital check-in, guest registration, and tourist tax solutions for vacation rentals and hotels, simplifying property management and boosting revenue.",
+    icon: "/lovable-uploads/pms-stellartourism.png",
+    categories: ["PMS", "Europe"],
+    slug: "stellartourism",
+    website: "https://stellar-trust.com"
+  },
+  {
+    id: "norrkallan",
+    name: "Norrkällan",
+    description: "Swedish hospitality and retreat provider located in Vännäs, Norrland, offering hotel rooms, conference packages, and wellness retreats inspired by the nature of northern Sweden.",
+    icon: "/lovable-uploads/pms-norrkallan.png",
+    categories: ["PMS", "Europe"],
+    slug: "norrkallan",
+    website: "https://norrkallan.se"
+  },
+  {
+    id: "terrahospedagem",
+    name: "Terra Hospedagem",
+    description: "Brazilian hospitality management system provider offering property management solutions for hotels and accommodation operators in Brazil.",
+    icon: "/lovable-uploads/pms-placeholder.png",
+    categories: ["PMS", "Latin America"],
+    slug: "terrahospedagem",
+    website: ""
+  },
+  {
+    id: "macpms",
+    name: "MAC PMS",
+    description: "Intelligent hotel management platform from Vietnam providing smart property management solutions for modern hospitality operators.",
+    icon: "/lovable-uploads/pms-macpms.png",
+    categories: ["PMS", "Asia Pacific"],
+    slug: "macpms",
+    website: "https://www.macpms.com"
+  },
+  {
+    id: "home2share",
+    name: "Home2share",
+    description: "Fast-growing German company in the serviced apartment industry, specializing in fully managed short- and long-term rental solutions for property owners and operators.",
+    icon: "/lovable-uploads/pms-home2share.svg",
+    categories: ["PMS", "Europe"],
+    slug: "home2share",
+    website: "https://home2share.de"
+  },
+  {
+    id: "rentdari",
+    name: "Rentdari",
+    description: "Property management platform helping rental operators manage their properties across channels including Airbnb, with tools for contracts, concierge services, and revenue tracking.",
+    icon: "/lovable-uploads/pms-rentdari.png",
+    categories: ["PMS", "Europe"],
+    slug: "rentdari",
+    website: "https://rentdari.com"
+  },
+  {
+    id: "zerotoone",
+    name: "ZeroToOne",
+    description: "Korean property management system provider offering hospitality technology solutions for accommodation operators.",
+    icon: "/lovable-uploads/pms-placeholder.png",
+    categories: ["PMS", "Asia Pacific"],
+    slug: "zerotoone",
+    website: "https://ztoone.kr"
+  },
+  {
+    id: "haxa",
+    name: "Haxa",
+    description: "Icelandic property management system provider offering hospitality technology solutions for accommodation operators in Iceland.",
+    icon: "/lovable-uploads/pms-placeholder.png",
+    categories: ["PMS", "Europe"],
+    slug: "haxa",
+    website: "https://haxa.is"
+  },
+  {
+    id: "roamkaro",
+    name: "Roamkaro",
+    description: "Indian hospitality technology company providing property management and booking solutions for accommodation operators across India.",
+    icon: "/lovable-uploads/pms-roamkaro.png",
+    categories: ["PMS", "Asia Pacific"],
+    slug: "roamkaro",
+    website: "https://www.roamkaro.in"
+  },
+  {
+    id: "roomnix",
+    name: "Roomnix",
+    description: "Turkish property management system helping hotels, hostels, villas, apartments, and camping/RV parks run smoothly with an intuitive calendar, fast check-in, online bookings, and effortless billing.",
+    icon: "/lovable-uploads/pms-roomnix.png",
+    categories: ["PMS", "Europe", "Middle East"],
+    slug: "roomnix",
+    website: "https://roomnix.com"
+  },
+  {
+    id: "yallahost",
+    name: "Yallahost",
+    description: "SaaS property management platform helping operators manage their rental properties with ease. Yallahost provides an intuitive PMS for short-term rental and hotel management.",
+    icon: "/lovable-uploads/pms-yallahost.png",
+    categories: ["PMS", "Middle East", "Africa"],
+    slug: "yallahost",
+    website: "https://yallahost.io"
+  },
+  {
+    id: "dixome",
+    name: "DIXOME",
+    description: "Spanish technology company providing digital solutions and services for hospitality and accommodation businesses.",
+    icon: "/lovable-uploads/pms-placeholder.png",
+    categories: ["PMS", "Europe"],
+    slug: "dixome",
+    website: ""
+  },
+  {
+    id: "innexo",
+    name: "innexo",
+    description: "AI-driven hotel operations platform transforming hospitality management with smart pricing, housekeeping optimization, and revenue management tools for modern hotels.",
+    icon: "/lovable-uploads/pms-innexo.png",
+    categories: ["PMS", "North America"],
+    slug: "innexo",
+    website: "https://innexo.com"
+  },
+  {
+    id: "simplyresa",
+    name: "Simply-resa",
+    description: "French all-in-one reservation management solution providing a native Channel Manager for hotels, spas, thalassotherapy centres, and wellness properties across France, Belgium, and Switzerland.",
+    icon: "/lovable-uploads/pms-simplyresa.png",
+    categories: ["PMS", "Europe"],
+    slug: "simplyresa",
+    website: "https://simply-resa.fr"
+  },
+  {
+    id: "zyzsolution",
+    name: "zyz solution",
+    description: "Italian technology company designing and developing customized CRM and management systems for hospitality businesses, offering intelligent automation and IT infrastructure solutions.",
+    icon: "/lovable-uploads/pms-placeholder.png",
+    categories: ["PMS", "Europe"],
+    slug: "zyzsolution",
+    website: "https://zyzsolution.it"
+  },
+  {
+    id: "naverpms",
+    name: "Naver PMS",
+    description: "Korean property management system provider offering hotel and accommodation management solutions for hospitality operators.",
+    icon: "/lovable-uploads/pms-placeholder.png",
+    categories: ["PMS", "Asia Pacific"],
+    slug: "naverpms",
+    website: ""
+  },
 ];

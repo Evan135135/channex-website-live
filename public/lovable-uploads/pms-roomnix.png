@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Language" content="en">
+  <meta property="og:title" content="Free Hotel Management Software | Roomnix PMS">
+  <meta property="og:description" content="Roomnix is a cloud PMS for hotels, hostels, apartments/villas and camping sites. Manage rooms, beds, units or pitches with calendar, check-in, booking engine and billing.">
+  <meta property="og:image" content="https://roomnix.com/og-image.jpg">
+  <meta property="og:url" content="https://roomnix.com/">
+  <meta property="og:locale" content="en-US">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="tr_TR">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta property="og:locale:alternate" content="el_GR">
+  <meta property="og:locale:alternate" content="it_IT">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="pt_PT">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:site_name" content="Roomnix">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:site" content="@roomnix">
+  <meta name="twitter:title" content="Free Hotel Management Software | Roomnix PMS">
+  <meta name="twitter:description" content="Roomnix is a cloud PMS for hotels, hostels, apartments/villas and camping sites. Manage rooms, beds, units or pitches with calendar, check-in, booking engine and billing.">
+  <meta name="twitter:image" content="https://roomnix.com/og-image.jpg">
+
+  <title>Free Hotel Management Software | Roomnix PMS</title>
+  <meta name="description" content="Roomnix is a cloud PMS for hotels, hostels, apartments/villas and camping sites. Manage rooms, beds, units or pitches with calendar, check-in, booking engine and billing.">
+
+  <link rel="canonical" href="https://roomnix.com/" />
+  <link rel="alternate" hreflang="x-default" href="https://roomnix.com/" />
+      <link rel="alternate" hreflang="en" href="https://roomnix.com/" />
+      <link rel="alternate" hreflang="tr" href="https://roomnix.com/tr/" />
+      <link rel="alternate" hreflang="de" href="https://roomnix.com/de/" />
+      <link rel="alternate" hreflang="ru" href="https://roomnix.com/ru/" />
+      <link rel="alternate" hreflang="el" href="https://roomnix.com/el/" />
+      <link rel="alternate" hreflang="it" href="https://roomnix.com/it/" />
+      <link rel="alternate" hreflang="es" href="https://roomnix.com/es/" />
+      <link rel="alternate" hreflang="fr" href="https://roomnix.com/fr/" />
+      <link rel="alternate" hreflang="pt" href="https://roomnix.com/pt/" />
+  
+  <link rel="preload" as="image" href="/images/dashboard.webp" type="image/webp">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icon-css/css/flag-icon.min.css">
+  <link rel="stylesheet" href="/index.css">
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"SoftwareApplication","name":"Roomnix","applicationCategory":"BusinessApplication","operatingSystem":"Web","description":"Roomnix is a cloud PMS for hotels, hostels, apartments/villas and camping sites. Manage rooms, beds, units or pitches with calendar, check-in, booking engine and billing.","inLanguage":"en-US","url":"https://roomnix.com/","image":"https://roomnix.com/og-image.jpg","offers":[{"@type":"Offer","name":"Standard Plan","availability":"https://schema.org/InStock","url":"https://roomnix.com/#pricing","category":"subscription","description":"Free PMS in most countries. In some regions pricing depends on room count."},{"@type":"Offer","name":"Booking Engine Commission","availability":"https://schema.org/InStock","url":"https://roomnix.com/#pricing","description":"Commission-based pricing applies only to bookings created through the Roomnix Booking Engine."},{"@type":"Offer","name":"Pro Plan (Channel Manager)","availability":"https://schema.org/InStock","url":"https://roomnix.com/#pricing","description":"Includes Channel Manager with Booking.com, Airbnb, and Expedia sync. Pricing depends on room count and billing cycle."}],"publisher":{"@type":"Organization","name":"Roomnix"}}  </script>
+
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","inLanguage":"en-US","mainEntity":[{"@type":"Question","name":"💻 Is Roomnix cloud-based?","acceptedAnswer":{"@type":"Answer","text":"Yes, Roomnix is 100% cloud-based. No installation required - just log in and manage your property from anywhere."}},{"@type":"Question","name":"🔐 Is my property data secure?","acceptedAnswer":{"@type":"Answer","text":"Absolutely. We use encrypted data storage and follow best practices to ensure all hotel and guest data is secure and GDPR/KVKK-compliant."}},{"@type":"Question","name":"🔁 Can I migrate from my current system without losing data?","acceptedAnswer":{"@type":"Answer","text":"Yes. We provide full migration assistance and securely transfer your rooms, bookings, rates and customer records. No downtime or data loss - we handle everything for you."}},{"@type":"Question","name":"🎁 Is there a free trial or demo?","acceptedAnswer":{"@type":"Answer","text":"Yes! You can try Roomnix immediately via our live demo. We also offer a one-year free pilot program for qualified hotels, with no credit card required."}},{"@type":"Question","name":"🛠️ What kind of support does Roomnix offer?","acceptedAnswer":{"@type":"Answer","text":"Our support team is available 7 days a week via WhatsApp, email and live assistance. We also provide onboarding support and training resources."}},{"@type":"Question","name":"🏕️ Does Roomnix support only hotels?","acceptedAnswer":{"@type":"Answer","text":"No. Roomnix supports hotels, hostels, villas, apartments, camping sites, glamping resorts, and caravan/RV parks. You can manage rooms, beds, units, or pitches depending on your property type."}}]}</script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q7D772M13G"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Q7D772M13G');
+  </script>
+</head>
+<body>
+
+<div class="position-absolute top-0 start-0 end-0 p-3">
+  <div class="container-fluid d-flex justify-content-between align-items-center flex-wrap gap-2">
+
+    <!-- LEFT SIDE -->
+    <div class="d-flex align-items-center gap-2 flex-wrap">
+
+      <!-- Logo -->
+      <a href="/" class="rn-brand me-2">
+        Room<span class="rn-brand-accent">nix</span>
+      </a>
+
+      <!-- Products Dropdown -->
+      <div class="dropdown">
+        <button class="btn btn-outline-secondary btn-sm dropdown-toggle" type="button" id="productsDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+          Products        </button>
+
+        <ul class="dropdown-menu p-1 small border-0 shadow" aria-labelledby="productsDropdown" style="min-width: 260px;">
+          <li><span class="dropdown-header px-2 py-1 text-muted" style="font-size:.7rem;text-transform:uppercase;letter-spacing:.05em;">Core Platform</span></li>
+          <li>
+            <a class="dropdown-item" href="/hotel-pms-software">
+              Hotel PMS Software            </a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="/hotel-booking-engine">
+              Hotel Booking Engine            </a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="/channel-manager">
+              Channel Manager            </a>
+          </li>
+          <li><hr class="dropdown-divider"></li>
+          <li><span class="dropdown-header px-2 py-1 text-muted" style="font-size:.7rem;text-transform:uppercase;letter-spacing:.05em;">Add-ons &amp; Integrations</span></li>
+          <li>
+            <a class="dropdown-item" href="/hotel-website-builder">
+              Hotel Website Builder            </a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="/hotel-guest-wifi-hotspot">
+              Guest WiFi Hotspot            </a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="/e-invoice-module">
+              E-Invoice Module            </a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="/kbs-integration">
+              KBS Integration            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="d-flex align-items-center gap-2 flex-wrap">
+
+      <!-- Phone (Turkey only) -->
+      
+      <!-- Language Dropdown -->
+      <div class="dropdown">
+        <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="language-select" data-bs-toggle="dropdown" aria-expanded="false">
+          <span class='flag-icon flag-icon-gb'></span>          EN        </button>
+
+        <ul class="dropdown-menu dropdown-menu-end p-1 small bg-secondary text-white border-0" aria-labelledby="language-select" style="min-width: 160px;">
+          <li>
+              <a class='dropdown-item small fw-bold text-warning lang-switch' data-lang='en' href='/'>
+                <span class='flag-icon flag-icon-gb me-1'></span>
+                <strong>EN</strong> – English
+              </a>
+            </li><li>
+              <a class='dropdown-item small text-white lang-switch' data-lang='tr' href='/tr/'>
+                <span class='flag-icon flag-icon-tr me-1'></span>
+                <strong>TR</strong> – Türkçe
+              </a>
+            </li><li>
+              <a class='dropdown-item small text-white lang-switch' data-lang='de' href='/de/'>
+                <span class='flag-icon flag-icon-de me-1'></span>
+                <strong>DE</strong> – Deutsch
+              </a>
+            </li><li>
+              <a class='dropdown-item small text-white lang-switch' data-lang='ru' href='/ru/'>
+                <span class='flag-icon flag-icon-ru me-1'></span>
+                <strong>RU</strong> – Русский
+              </a>
+            </li><li>
+              <a class='dropdown-item small text-white lang-switch' data-lang='el' href='/el/'>
+                <span class='flag-icon flag-icon-gr me-1'></span>
+                <strong>EL</strong> – Ελληνικά
+              </a>
+            </li><li>
+              <a class='dropdown-item small text-white lang-switch' data-lang='it' href='/it/'>
+                <span class='flag-icon flag-icon-it me-1'></span>
+                <strong>IT</strong> – Italiano
+              </a>
+            </li><li>
+              <a class='dropdown-item small text-white lang-switch' data-lang='es' href='/es/'>
+                <span class='flag-icon flag-icon-es me-1'></span>
+                <strong>ES</strong> – Español
+              </a>
+            </li><li>
+              <a class='dropdown-item small text-white lang-switch' data-lang='fr' href='/fr/'>
+                <span class='flag-icon flag-icon-fr me-1'></span>
+                <strong>FR</strong> – Français
+              </a>
+            </li><li>
+              <a class='dropdown-item small text-white lang-switch' data-lang='pt' href='/pt/'>
+                <span class='flag-icon flag-icon-pt me-1'></span>
+                <strong>PT</strong> – Português
+              </a>
+            </li>        </ul>
+      </div>
+
+      <!-- Go to App Button -->
+      <a
+        href="https://app.roomnix.com"
+        class="btn btn-secondary btn-sm"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Go to APP      </a>
+    </div>
+
+  </div>
+</div>
+
+<!-- Hero Section -->
+<section id="hero" class="hero airbnb-hero">
+  <div class="container hero-flex">
+
+    <!-- LEFT SIDE -->
+    <div class="hero-content">
+      <h1 class="hero-title">
+        The simplest way to manage your property.      </h1>
+
+      <p class="hero-subtitle">
+        Roomnix helps hotels, hostels, villas & apartments, and camping/RV parks run smoothly with an intuitive calendar, fast check-in, online bookings, and effortless billing.      </p>
+
+      <p class="visually-hidden">
+        Roomnix is a cloud property management system for hotels, hostels, apartments and camping sites.      </p>
+
+      <div id="demo" class="hero-buttons">
+        <a href="https://app.roomnix.com/index.php?demo=1"
+          class="btn btn-primary btn-lg hero-main-btn"
+          target="_blank"
+          rel="noopener noreferrer">
+          Try Live Demo        </a>
+
+        <a href="#features" class="btn btn-outline-secondary btn-lg hero-secondary-btn">
+          See Features        </a>
+      </div>
+    </div>
+
+    <!-- RIGHT SIDE (Image) -->
+    <div class="hero-image-wrapper">
+      <img
+        src="/images/dashboard.webp"
+        alt="Roomnix PMS dashboard screenshot"
+        class="hero-image"
+        width="1200"
+        height="750"
+        decoding="async"
+        fetchpriority="high">
+    </div>
+  </div>
+</section>
+
+<!-- Channel Logos / Trust Strip -->
+<section id="trustChannels" class="trust-channels py-4 pb-5">
+  <div class="container">
+    <!-- Logo row -->
+    <div class="d-flex flex-column flex-md-row align-items-center justify-content-between gap-3 mb-3">
+      <div class="trust-channels-text small text-muted fw-semibold text-uppercase">
+        Channel partners      </div>
+
+      <div class="trust-channels-logos d-flex align-items-center flex-wrap gap-3">
+        <div class="channel-logo-pill">
+          <img src="/images/channel-logos/booking.svg" alt="Booking.com" class="channel-logo-img">
+        </div>
+        <div class="channel-logo-pill">
+          <img src="/images/channel-logos/airbnb.svg" alt="Airbnb" class="channel-logo-img">
+        </div>
+        <div class="channel-logo-pill">
+          <img src="/images/channel-logos/expedia.svg" alt="Expedia" class="channel-logo-img">
+        </div>
+        <div class="channel-logo-pill">
+          <img src="/images/channel-logos/google-hotel-ads.svg" alt="Google Hotel Ads" class="channel-logo-img">
+        </div>
+        <div class="channel-logo-pill">
+          <img src="/images/channel-logos/agoda.svg" alt="Agoda" class="channel-logo-img">
+        </div>
+        <div class="channel-logo-pill">
+          <img src="/images/channel-logos/tripadvisor.svg" alt="TripAdvisor" class="channel-logo-img">
+        </div>
+        <!-- +50 more badge -->
+        <div class="channel-logo-pill d-flex align-items-center justify-content-center px-3" style="min-width:80px;background:var(--bs-primary,#0d6efd);border-color:transparent;">
+          <span class="fw-bold text-white" style="font-size:.85rem;white-space:nowrap;">+50 more</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Channel Manager explanation -->
+    <div class="row g-3 mt-2 text-center">
+      <div class="col-6 col-md-3">
+        <div class="d-flex flex-column align-items-center gap-2 p-3 rounded-3" style="background:rgba(13,110,253,.05);">
+          <span style="font-size:1.4rem;">🔄</span>
+          <div class="fw-semibold small">Real-Time Sync</div>
+          <div class="text-muted" style="font-size:.78rem;">Availability and rates update instantly across all OTAs — no double bookings.</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="d-flex flex-column align-items-center gap-2 p-3 rounded-3" style="background:rgba(13,110,253,.05);">
+          <span style="font-size:1.4rem;">📊</span>
+          <div class="fw-semibold small">One Dashboard</div>
+          <div class="text-muted" style="font-size:.78rem;">Manage all your channels from a single calendar. No more logging into each OTA separately.</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="d-flex flex-column align-items-center gap-2 p-3 rounded-3" style="background:rgba(13,110,253,.05);">
+          <span style="font-size:1.4rem;">💰</span>
+          <div class="fw-semibold small">Dynamic Pricing</div>
+          <div class="text-muted" style="font-size:.78rem;">Set rate rules once. Roomnix pushes the right price to every channel automatically.</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="d-flex flex-column align-items-center gap-2 p-3 rounded-3" style="background:rgba(13,110,253,.05);">
+          <span style="font-size:1.4rem;">⚡</span>
+          <div class="fw-semibold small">Instant Setup</div>
+          <div class="text-muted" style="font-size:.78rem;">Connect your first OTA in minutes. No technical skills required.</div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-3">
+      <a href="/channel-manager" class="btn btn-sm btn-outline-primary">Learn more about Channel Manager →</a>
+    </div>
+  </div>
+</section>
+
+<!-- Feature Section -->
+<section id="features" class="features airbnb-features py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="badge rounded-pill text-bg-light mb-2">
+        What you get with Roomnix      </span>
+      <h2 class="fw-bold mb-2">Features</h2>
+      <p class="text-muted mb-0">Everything you need to manage your hotel effortlessly.</p>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="feature-card">
+          <div class="feature-icon calendar">
+            <i class="bi bi-calendar3"></i>
+          </div>
+          <div>
+            <h5 class="feature-title">Booking Calendar</h5>
+            <p class="feature-desc mb-0">Interactive drag-and-drop calendar to manage reservations with ease.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="feature-card">
+          <div class="feature-icon booking">
+            <i class="bi bi-cart-check"></i>
+          </div>
+          <div>
+            <h5 class="feature-title">Booking Engine</h5>
+            <p class="feature-desc mb-0">Let guests book rooms directly from your website, with real-time availability.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="feature-card">
+          <div class="feature-icon billing">
+            <i class="bi bi-credit-card"></i>
+          </div>
+          <div>
+            <h5 class="feature-title">Billing & Payments</h5>
+            <p class="feature-desc mb-0">Create folios, record cash/card/transfer payments, and keep totals clear in one place.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="feature-card">
+          <div class="feature-icon channel">
+            <i class="bi bi-arrow-repeat"></i>
+          </div>
+          <div>
+            <h5 class="feature-title">
+              Channel Manager            </h5>
+            <p class="feature-desc mb-0">Sync inventory and rates across OTAs like Booking.com, Airbnb, and Expedia.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="feature-card">
+          <div class="feature-icon rates">
+            <i class="bi bi-graph-up-arrow"></i>
+          </div>
+          <div>
+            <h5 class="feature-title">Rate Management</h5>
+            <p class="feature-desc mb-0">Flexible pricing and availability tools.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="feature-card">
+          <div class="feature-icon users">
+            <i class="bi bi-person-gear"></i>
+          </div>
+          <div>
+            <h5 class="feature-title">User Roles</h5>
+            <p class="feature-desc mb-0">Customizable access levels for staff and admins.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="feature-card">
+          <div class="feature-icon website">
+            <i class="bi bi-window"></i>
+          </div>
+          <div>
+            <h5 class="feature-title">Website Builder</h5>
+            <p class="feature-desc mb-0">
+              Create a hotel website in minutes - publish on a free Roomnix subdomain or connect your own domain.            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="painPoints" class="pain-points py-5">
+  <div class="container text-center">
+    <span class="badge rounded-pill text-bg-light mb-2">
+      Why properties choose Roomnix    </span>
+
+    <h2 class="fw-bold mb-2">We solve real property management problems</h2>
+    <p class="text-muted mb-5">Focus on operations - let Roomnix handle the rest.</p>
+
+    <div class="row g-4">
+              <div class="col-md-3 col-sm-6">
+          <div class="pain-card h-100">
+            <i class="bi bi-check-circle-fill text-success mb-2"></i>
+            <p class="fw-semibold">Stop overbookings</p>
+          </div>
+        </div>
+              <div class="col-md-3 col-sm-6">
+          <div class="pain-card h-100">
+            <i class="bi bi-check-circle-fill text-success mb-2"></i>
+            <p class="fw-semibold">Easy drag & drop planning</p>
+          </div>
+        </div>
+              <div class="col-md-3 col-sm-6">
+          <div class="pain-card h-100">
+            <i class="bi bi-check-circle-fill text-success mb-2"></i>
+            <p class="fw-semibold">Faster check-in process</p>
+          </div>
+        </div>
+              <div class="col-md-3 col-sm-6">
+          <div class="pain-card h-100">
+            <i class="bi bi-check-circle-fill text-success mb-2"></i>
+            <p class="fw-semibold">Fewer operational mistakes</p>
+          </div>
+        </div>
+              <div class="col-md-3 col-sm-6">
+          <div class="pain-card h-100">
+            <i class="bi bi-check-circle-fill text-success mb-2"></i>
+            <p class="fw-semibold">E-invoicing & e-archive integration</p>
+          </div>
+        </div>
+              <div class="col-md-3 col-sm-6">
+          <div class="pain-card h-100">
+            <i class="bi bi-check-circle-fill text-success mb-2"></i>
+            <p class="fw-semibold">Accounting-friendly reports</p>
+          </div>
+        </div>
+              <div class="col-md-3 col-sm-6">
+          <div class="pain-card h-100">
+            <i class="bi bi-check-circle-fill text-success mb-2"></i>
+            <p class="fw-semibold">Mobile-friendly dashboard</p>
+          </div>
+        </div>
+              <div class="col-md-3 col-sm-6">
+          <div class="pain-card h-100">
+            <i class="bi bi-check-circle-fill text-success mb-2"></i>
+            <p class="fw-semibold">No training required for staff</p>
+          </div>
+        </div>
+          </div>
+  </div>
+</section>
+
+<section id="whoFor" class="who-for py-5">
+  <div class="container text-center">
+    <span class="badge rounded-pill text-bg-light mb-2">
+      Who is Roomnix for?    </span>
+
+    <h2 class="fw-bold mb-3">Designed for all types of small and medium-sized properties</h2>
+    <p class="text-muted mb-5">Whether you manage rooms, dorm beds, villas, apartments, or camping pitches, Roomnix is built for your property.</p>
+
+    <div class="row g-4 justify-content-center">
+              <div class="col-6 col-md-4 col-lg-2">
+          <div class="who-for-card h-100">
+            <div class="who-for-icon">🏨</div>
+            <p class="fw-semibold who-for-text">Hotels</p>
+          </div>
+        </div>
+              <div class="col-6 col-md-4 col-lg-2">
+          <div class="who-for-card h-100">
+            <div class="who-for-icon">🛏️</div>
+            <p class="fw-semibold who-for-text">Hostels (Dorms & Private Rooms)</p>
+          </div>
+        </div>
+              <div class="col-6 col-md-4 col-lg-2">
+          <div class="who-for-card h-100">
+            <div class="who-for-icon">🏡</div>
+            <p class="fw-semibold who-for-text">Villas & Vacation Rentals</p>
+          </div>
+        </div>
+              <div class="col-6 col-md-4 col-lg-2">
+          <div class="who-for-card h-100">
+            <div class="who-for-icon">🏢</div>
+            <p class="fw-semibold who-for-text">Apartments & Apart Hotels</p>
+          </div>
+        </div>
+              <div class="col-6 col-md-4 col-lg-2">
+          <div class="who-for-card h-100">
+            <div class="who-for-icon">🏕️</div>
+            <p class="fw-semibold who-for-text">Camping & Glamping Sites</p>
+          </div>
+        </div>
+              <div class="col-6 col-md-4 col-lg-2">
+          <div class="who-for-card h-100">
+            <div class="who-for-icon">🚐</div>
+            <p class="fw-semibold who-for-text">Caravan & RV Parks</p>
+          </div>
+        </div>
+          </div>
+  </div>
+</section>
+
+<!-- SEO Keyword Section -->
+<section id="seo-usecases" class="py-5" style="background:#fff;">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="badge rounded-pill text-bg-light mb-2">
+        Use cases      </span>
+      <h2 class="fw-bold mb-2">
+        Property management for every inventory type      </h2>
+      <p class="text-muted mb-0">
+        Roomnix works for rooms, dorm beds, units and pitches — with one calendar and one workflow.      </p>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="p-4 border rounded-4 h-100">
+          <h3 class="h5 fw-semibold mb-2">
+            <a href="/hotel-pms" class="text-decoration-none text-dark">
+              Hotel PMS            </a>
+          </h3>
+          <p class="text-muted mb-0">
+            Manage rooms with a drag & drop calendar, faster check-in, invoicing, payments and reports. Perfect for boutique hotels and small/medium properties.          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="p-4 border rounded-4 h-100">
+          <h3 class="h5 fw-semibold mb-2">
+            <a href="/hostel-pms" class="text-decoration-none text-dark">
+              Hostel PMS (Dorm beds)            </a>
+          </h3>
+          <p class="text-muted mb-0">
+            Sell dorm beds or private rooms, control bed availability, and manage allocations per date. Ideal for hostels with mixed inventory.          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="p-4 border rounded-4 h-100">
+          <h3 class="h5 fw-semibold mb-2">
+            <a href="/apartment-villa-pms" class="text-decoration-none text-dark">
+              Villa & Apartment PMS            </a>
+          </h3>
+          <p class="text-muted mb-0">
+            Manage units, seasonal pricing, minimum stays and guest details. Great for apartments, apart hotels, villas and vacation rentals.          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="p-4 border rounded-4 h-100">
+          <h3 class="h5 fw-semibold mb-2">
+            <a href="/camping-rv-pms" class="text-decoration-none text-dark">
+              Camping & RV Park PMS (Pitches/Sites)            </a>
+          </h3>
+          <p class="text-muted mb-0">
+            Manage pitches/sites, availability, guest check-ins and payments — designed for camping, glamping, caravan and RV parks.          </p>
+        </div>
+      </div>
+    </div>
+
+    
+  </div>
+</section>
+
+<section id="switching" class="switching py-5">
+  <div class="container text-center">
+    <span class="badge rounded-pill text-bg-light mb-2">
+      Switching from another PMS?    </span>
+
+    <h2 class="fw-bold mb-3">
+      Already using another system?    </h2>
+
+    <p class="text-muted mb-5">
+      We handle the migration for you - no downtime, no data loss.    </p>
+
+    <div class="row g-4 justify-content-center">
+              <div class="col-md-4 col-lg-2 col-sm-6">
+          <div class="switch-card h-100">
+            <i class="bi bi-arrow-repeat text-primary mb-2"></i>
+            <p class="fw-medium">Free migration</p>
+          </div>
+        </div>
+              <div class="col-md-4 col-lg-2 col-sm-6">
+          <div class="switch-card h-100">
+            <i class="bi bi-arrow-repeat text-primary mb-2"></i>
+            <p class="fw-medium">Import your rooms & bookings</p>
+          </div>
+        </div>
+              <div class="col-md-4 col-lg-2 col-sm-6">
+          <div class="switch-card h-100">
+            <i class="bi bi-arrow-repeat text-primary mb-2"></i>
+            <p class="fw-medium">1-day setup</p>
+          </div>
+        </div>
+              <div class="col-md-4 col-lg-2 col-sm-6">
+          <div class="switch-card h-100">
+            <i class="bi bi-arrow-repeat text-primary mb-2"></i>
+            <p class="fw-medium">Dedicated onboarding</p>
+          </div>
+        </div>
+              <div class="col-md-4 col-lg-2 col-sm-6">
+          <div class="switch-card h-100">
+            <i class="bi bi-arrow-repeat text-primary mb-2"></i>
+            <p class="fw-medium">WhatsApp support</p>
+          </div>
+        </div>
+          </div>
+  </div>
+</section>
+
+<!-- Pricing -->
+<section id="pricing" class="pricing py-5" style="background-color: #fcedeb;">
+  <div class="container">
+    <h2 class="text-center mb-4 fw-bold" style="font-family: 'Rubik', sans-serif;">
+      Pricing    </h2>
+
+    <p class="text-center text-muted mb-5">
+      Flexible plans for every property size    </p>
+
+    <div class="pricing-transparency text-center mb-4">
+      <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3 flex-wrap flex-md-nowrap">
+        <div><i class="bi bi-check-circle-fill text-success me-2"></i>Inventory-based pricing</div>
+        <div><i class="bi bi-check-circle-fill text-success me-2"></i>Cancel anytime - no contract</div>
+        <div><i class="bi bi-check-circle-fill text-success me-2"></i>Migration support included</div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center g-4 align-items-stretch">
+              <div class="col-md-6">
+          <div class="card border-0 shadow-lg h-100 rounded-4 position-relative">
+            <div class="position-absolute top-0 start-50 translate-middle-x"
+                 style="transform: translate(-50%, -50%); z-index: 1;">
+              <span class="badge bg-outline-primary hero-main-btn p-2 px-3 rounded-pill">
+                Early access offer. Available for a short period              </span>
+            </div>
+
+            <div class="card-body d-flex flex-column justify-content-between text-center py-5 px-4">
+              <h5 class="card-title fw-semibold mb-3">Standard Plan</h5>
+
+              <div class="mb-3">
+                <div class="btn-group" role="group">
+                  <input type="radio" class="btn-check" name="billingStandard" id="standardYearly" checked>
+                  <label class="btn btn-outline-primary billing-active" for="standardYearly">
+                    Yearly                  </label>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="propertyTypeStandard" class="form-label">
+                  Property type                </label>
+                <select id="propertyTypeStandard" class="form-select w-75 mx-auto property-type-select">
+                  <option value="hotel">Hotel</option>
+                  <option value="hostel">Hostel</option>
+                  <option value="apartment">Apartment / Villa</option>
+                  <option value="camping">Camping / Glamping</option>
+                </select>
+                <div class="form-text text-muted">
+                  This helps us configure Roomnix for your inventory (rooms, beds, units, or pitches).                </div>
+              </div>
+
+              <div class="plan-calc-box mb-3">
+                <div class="plan-calc-label inventory-label" data-for="Standard">
+                  Number of units                </div>
+                <div class="plan-slider-row">
+                  <input type="range" id="roomSliderStandard" min="1" max="99" value="10">
+                  <div class="plan-slider-val" id="standardSliderDisplay">10</div>
+                </div>
+                <div class="plan-slider-ends">
+                  <span>1</span><span>99 max</span>
+                </div>
+                <div class="plan-price-display">
+                  <span class="plan-price-amount is-free">Free</span>
+                  <span class="plan-price-unit">/ year</span>
+                </div>
+              </div>
+
+              <div class="mb-4">
+                <span class="d-block small text-muted mb-1">
+                  Commission rate                </span>
+                <span class="commission-value display-6 fw-bold text-success">
+                  3%
+                </span>
+                <span class="d-block small text-muted mt-1">
+                  Per booking via Roomnix Booking Engine.<br>
+                  If you dont want to use the Booking Engine, the PMS remains completely free.                </span>
+              </div>
+
+              <ul class="list-unstyled text-muted mb-4 feature-list">
+                <li>Hotel Management System (HMS)</li>
+                <li>Booking Engine</li>
+                <li>Invoicing System</li>
+                <li>Website Builder</li>
+              </ul>
+
+              <a href="#"
+                 id="standardSubscribeBtn"
+                 class="btn btn-primary hero-main-btn w-100"
+                 data-commission="3">
+                Subscribe Now              </a>
+            </div>
+          </div>
+        </div>
+      
+      <div class="col-md-6">
+        <div class="card border-0 shadow-lg h-100 rounded-4 position-relative">
+          <div class="position-absolute top-0 start-50 translate-middle-x"
+               style="transform: translate(-50%, -50%); z-index: 1;">
+            <span class="badge bg-outline-primary hero-main-btn p-2 px-3 rounded-pill me-1">
+              Recommended            </span>
+          </div>
+
+          <div class="card-body d-flex flex-column justify-content-between text-center py-5 px-4">
+            <h5 class="card-title fw-semibold text-secondary mb-3">Pro Plan</h5>
+
+            <div class="mb-3">
+              <div class="btn-group" role="group">
+                <input type="radio" class="btn-check" name="billingPro" id="proYearly" checked>
+                <label class="btn btn-outline-primary billing-active" for="proYearly">
+                  Yearly                </label>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="propertyTypePro" class="form-label">
+                Property type              </label>
+              <select id="propertyTypePro" class="form-select w-75 mx-auto property-type-select">
+                <option value="hotel">Hotel</option>
+                <option value="hostel">Hostel</option>
+                <option value="apartment">Apartment / Villa</option>
+                <option value="camping">Camping / Glamping</option>
+              </select>
+              <div class="form-text text-muted">
+                This helps us configure Roomnix for your inventory (rooms, beds, units, or pitches).              </div>
+            </div>
+
+            <!-- Pro Degressive Price Calculator -->
+            <div class="plan-calc-box mb-3">
+              <div class="plan-calc-label inventory-label" data-for="Pro">
+                Number of units              </div>
+              <div class="plan-slider-row">
+                <input type="range" id="roomSliderPro" min="1" max="99" value="10">
+                <div class="plan-slider-val" id="proSliderDisplay">10</div>
+              </div>
+              <div class="plan-slider-ends">
+                <span>1 &mdash; min 10 billed</span>
+                <span>99 max</span>
+              </div>
+              <div class="plan-price-display" id="proAnnualTotal"></div>
+            </div>
+
+            <p class="text-muted small mb-4">
+              Start for free on the Standard Plan. Upgrade to Pro when you&#039;re ready to activate the Channel Manager.            </p>
+
+            <ul class="list-unstyled text-muted mb-4 feature-list">
+              <li>Hotel Management System (HMS)</li>
+              <li>Booking Engine</li>
+              <li>Invoicing System</li>
+              <li>Website Builder</li>
+              <li>Channel Manager</li>
+            </ul>
+
+            <a href="#"
+               id="proSubscribeBtn"
+               class="btn btn-primary hero-main-btn w-100"
+               data-commission="0">
+              Start 15-day trial            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Pro Plan Full Pricing Table -->
+<!-- Trusted By Section with Testimonials -->
+<section id="testimonials" class="testimonials py-5">
+  <div class="container text-center">
+    <span class="badge rounded-pill text-bg-light mb-2">
+      Trusted by real properties    </span>
+
+    <h2 class="fw-bold mb-2">Trusted by exceptional hotels, hostels, villas, apartments, and camping/RV parks</h2>
+    <p class="text-muted mb-5">Roomnix empowers modern hospitality with simplicity and power.</p>
+
+    <div class="row justify-content-center g-4">
+      <div class="col-md-5">
+        <div class="testimonial-card h-100">
+          <div class="testimonial-header d-flex align-items-center gap-3 mb-3">
+            <img src="/images/hotel-logos/neoss-logo.jpg"
+                 alt="Neoss Butik Otel Logo"
+                 class="testimonial-logo grayscale-hover">
+            <div class="text-start">
+              <h5 class="fw-semibold mb-0">Neoss Boutique Hotel</h5>
+              <p class="text-muted small mb-0">Seferihisar, Türkiye</p>
+            </div>
+          </div>
+
+          <p class="testimonial-quote fst-italic mb-4">
+            “Roomnix simplified our daily operations from day one. The calendar is intuitive, and the booking engine is incredibly smooth.”
+          </p>
+
+          <div class="testimonial-meta d-flex align-items-center justify-content-between">
+            <div class="testimonial-stars text-warning small">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <span class="text-muted small">
+              Boutique hotel, coastal region            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-5">
+        <div class="testimonial-card h-100">
+          <div class="testimonial-header d-flex align-items-center gap-3 mb-3">
+            <img src="/images/hotel-logos/satsuma-logo.jpeg"
+                 alt="Satsuma Hotel Logo"
+                 class="testimonial-logo grayscale-hover">
+            <div class="text-start">
+              <h5 class="fw-semibold mb-0">Satsuma Garden</h5>
+              <p class="text-muted small mb-0">Izmir, Turkey</p>
+            </div>
+          </div>
+
+          <p class="testimonial-quote fst-italic mb-4">
+            “Choosing Roomnix was simple - it is free, fast to learn and already improves our daily operations. Support is responsive and we feel involved in the product’s evolution.”
+          </p>
+
+          <div class="testimonial-meta d-flex align-items-center justify-content-between">
+            <div class="testimonial-stars text-warning small">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <span class="text-muted small">
+              Beachside hotel            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- What You Can Do Section -->
+<section id="whatYouCanDo" class="py-5 what-you-can-do">
+  <div class="container text-center">
+    <span class="badge rounded-pill text-bg-light mb-2">
+      Start today with Roomnix    </span>
+
+    <h2 class="fw-bold mb-2">What You Can Do with Roomnix</h2>
+    <p class="text-muted mb-5">Powerful tools to simplify every aspect of hotel operations.</p>
+
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3">
+        <div class="feature-card-alt h-100">
+          <div class="feature-icon calendar">
+            <i class="bi bi-calendar3"></i>
+          </div>
+          <div>
+            <h5 class="fw-semibold">📅 HMS with Drag-and-Drop Calendar</h5>
+            <p class="text-muted">Easily manage check-ins, check-outs, and reservations in one visual interface.</p>
+            <a href="https://app.roomnix.com/index.php?demo=1"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-outline-secondary w-100 mt-3">
+              Try HMS Demo            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="feature-card-alt h-100">
+          <div class="feature-icon booking">
+            <i class="bi bi-cart-check"></i>
+          </div>
+          <div>
+            <h5 class="fw-semibold">🌐 Integrated Booking Engine</h5>
+            <p class="text-muted">Accept direct bookings with real-time availability and custom branding.</p>
+            <a id="bookingDemoBtn"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-outline-secondary w-100 mt-3">
+              Try Booking Engine Demo            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="feature-card-alt h-100">
+          <div class="feature-icon website">
+            <i class="bi bi-window"></i>
+          </div>
+          <div>
+            <h5 class="fw-semibold">Website Builder</h5>
+            <p class="text-muted">Create a hotel website in minutes - publish on a free Roomnix subdomain or connect your own domain.</p>
+
+            <a href="https://demo-hotel.roomnix.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-outline-secondary w-100 mt-3">
+              See a sample website            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="feature-card-alt h-100">
+          <div class="feature-icon channel">
+            <i class="bi bi-arrow-repeat"></i>
+          </div>
+          <div>
+            <h5 class="fw-semibold">
+              🔗 Channel Manager            </h5>
+            <p class="text-muted">Sync inventory and rates across OTAs like Booking.com, Airbnb, and Expedia.</p>
+            <a href="https://app.roomnix.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-outline-secondary w-100 mt-3">
+              Try Channel Manager Demo            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Section -->
+<section id="faq" class="faq py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="badge rounded-pill faq-badge mb-2">
+        Answers to common questions      </span>
+      <h2 class="fw-bold mb-2">FAQ</h2>
+      <p class="text-muted mb-0">Everything you need to know before getting started with Roomnix.</p>
+    </div>
+
+    <div class="accordion" id="faqAccordion">
+              <div class="accordion-item faq-item mb-3">
+          <h2 class="accordion-header" id="faq1">
+            <button
+              class="accordion-button  fw-semibold"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapse1"
+              aria-expanded="true"
+              aria-controls="collapse1"
+            >
+              💻 Is Roomnix cloud-based?            </button>
+          </h2>
+          <div
+            id="collapse1"
+            class="accordion-collapse collapse show"
+            data-bs-parent="#faqAccordion"
+          >
+            <div class="accordion-body text-muted">
+              Yes, Roomnix is 100% cloud-based. No installation required - just log in and manage your property from anywhere.            </div>
+          </div>
+        </div>
+              <div class="accordion-item faq-item mb-3">
+          <h2 class="accordion-header" id="faq2">
+            <button
+              class="accordion-button collapsed fw-semibold"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapse2"
+              aria-expanded="false"
+              aria-controls="collapse2"
+            >
+              🔐 Is my property data secure?            </button>
+          </h2>
+          <div
+            id="collapse2"
+            class="accordion-collapse collapse "
+            data-bs-parent="#faqAccordion"
+          >
+            <div class="accordion-body text-muted">
+              Absolutely. We use encrypted data storage and follow best practices to ensure all hotel and guest data is secure and GDPR/KVKK-compliant.            </div>
+          </div>
+        </div>
+              <div class="accordion-item faq-item mb-3">
+          <h2 class="accordion-header" id="faq3">
+            <button
+              class="accordion-button collapsed fw-semibold"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapse3"
+              aria-expanded="false"
+              aria-controls="collapse3"
+            >
+              🔁 Can I migrate from my current system without losing data?            </button>
+          </h2>
+          <div
+            id="collapse3"
+            class="accordion-collapse collapse "
+            data-bs-parent="#faqAccordion"
+          >
+            <div class="accordion-body text-muted">
+              Yes. We provide full migration assistance and securely transfer your rooms, bookings, rates and customer records. No downtime or data loss - we handle everything for you.            </div>
+          </div>
+        </div>
+              <div class="accordion-item faq-item mb-3">
+          <h2 class="accordion-header" id="faq4">
+            <button
+              class="accordion-button collapsed fw-semibold"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapse4"
+              aria-expanded="false"
+              aria-controls="collapse4"
+            >
+              🎁 Is there a free trial or demo?            </button>
+          </h2>
+          <div
+            id="collapse4"
+            class="accordion-collapse collapse "
+            data-bs-parent="#faqAccordion"
+          >
+            <div class="accordion-body text-muted">
+              Yes! You can try Roomnix immediately via our live demo. We also offer a one-year free pilot program for qualified hotels, with no credit card required.            </div>
+          </div>
+        </div>
+              <div class="accordion-item faq-item mb-3">
+          <h2 class="accordion-header" id="faq5">
+            <button
+              class="accordion-button collapsed fw-semibold"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapse5"
+              aria-expanded="false"
+              aria-controls="collapse5"
+            >
+              🛠️ What kind of support does Roomnix offer?            </button>
+          </h2>
+          <div
+            id="collapse5"
+            class="accordion-collapse collapse "
+            data-bs-parent="#faqAccordion"
+          >
+            <div class="accordion-body text-muted">
+              Our support team is available 7 days a week via WhatsApp, email and live assistance. We also provide onboarding support and training resources.            </div>
+          </div>
+        </div>
+              <div class="accordion-item faq-item mb-3">
+          <h2 class="accordion-header" id="faq6">
+            <button
+              class="accordion-button collapsed fw-semibold"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapse6"
+              aria-expanded="false"
+              aria-controls="collapse6"
+            >
+              🏕️ Does Roomnix support only hotels?            </button>
+          </h2>
+          <div
+            id="collapse6"
+            class="accordion-collapse collapse "
+            data-bs-parent="#faqAccordion"
+          >
+            <div class="accordion-body text-muted">
+              No. Roomnix supports hotels, hostels, villas, apartments, camping sites, glamping resorts, and caravan/RV parks. You can manage rooms, beds, units, or pitches depending on your property type.            </div>
+          </div>
+        </div>
+          </div>
+  </div>
+</section>
+
+<!-- Security / Compliance Trust Strip -->
+<section id="trustSecurity" class="trust-security py-4">
+  <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-3">
+    <div class="d-flex align-items-center gap-3">
+      <div class="trust-security-icon">
+        <i class="bi bi-shield-check"></i>
+      </div>
+      <div class="trust-security-text">
+        <div class="trust-security-title">
+          Secure & GDPR / KVKK compliant        </div>
+        <div class="trust-security-subtitle">
+          Built for EU privacy standards and hotel data protection.        </div>
+      </div>
+    </div>
+
+    <div class="d-flex align-items-center gap-3">
+      <div class="trust-security-icon">
+        <i class="bi bi-lock-fill"></i>
+      </div>
+      <div class="trust-security-text">
+        <div class="trust-security-title">
+          Encrypted data        </div>
+        <div class="trust-security-subtitle">
+          All data encrypted in transit (HTTPS) and at rest.        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact py-5">
+  <div class="container text-center">
+    <span class="badge contact-badge mb-2">
+      Let’s talk    </span>
+
+    <h2 class="fw-bold mb-3">Contact Us</h2>
+    <p class="text-muted mb-4">Want a custom quote or have questions? Contact us at</p>
+
+    <div class="contact-details">
+      <p class="fs-6 mb-1">
+        📧 <a href="mailto:info@roomnix.com" class="contact-link">info@roomnix.com</a>
+      </p>
+          </div>
+  </div>
+
+  <div class="follow-us mt-4">
+    <p class="follow-us-text">Follow us</p>
+    <div class="follow-icons">
+      <a href="https://www.instagram.com/roomnix" target="_blank" rel="noopener" aria-label="Instagram">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com/company/roomnix" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <i class="bi bi-linkedin"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer id="footer" class="footer">
+  <div class="container text-center">
+    <nav class="footer-nav mb-2">
+      <a href="#trustChannels">Partners</a>
+      <a href="#features">Features</a>
+      <a href="#painPoints">Why Roomnix</a>
+      <a href="#whoFor">Who it’s for</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#demo">Demo</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+
+    <p class="copy mb-1">&copy; 2025 Roomnix. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- WhatsApp Floating Chat Button -->
+<a
+  href="https://wa.me/908508402160?text=Hi%20Roomnix%20team%2C%20I%27d%20like%20to%20learn%20more%20about%20Roomnix."
+  class="whatsapp-chat-button"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Chat with us on WhatsApp"
+>
+  <div class="whatsapp-chat-icon">
+    <i class="bi bi-whatsapp"></i>
+  </div>
+  <div class="whatsapp-chat-text">
+    <span class="whatsapp-chat-title">
+      Chat with us    </span>
+    <span class="whatsapp-chat-subtitle">
+      Instant support    </span>
+  </div>
+</a>
+
+<script>
+  window.lang = {"go_to_app":"Go to APP","hero_subtitle":"Minimal. Powerful. Cloud-based HMS.","try_demo":"Try Live Demo","subscribe_now":"Subscribe Now","features_title":"Features","features_desc":"Everything you need to manage your property effortlessly.","page_title":"Roomnix | Hotel Management System","features":"Features","features_subtitle":"Everything you need to manage your hotel effortlessly.","booking_calendar":"Booking Calendar","booking_calendar_desc":"Interactive drag-and-drop calendar to manage reservations with ease.","billing_payments":"Billing \u0026 Payments","billing_payments_desc":"Create folios, record cash\/card\/transfer payments, and keep totals clear in one place.","rate_management":"Rate Management","rate_management_desc":"Flexible pricing and availability tools.","user_roles":"User Roles","user_roles_desc":"Customizable access levels for staff and admins.","booking_engine":"Booking Engine","booking_engine_desc":"Let guests book rooms directly from your website, with real-time availability.","channel_manager":"Channel Manager","channel_manager_desc":"Sync inventory and rates across OTAs like Booking.com, Airbnb, and Expedia.","pricing":"Pricing","pricing_subtitle":"Flexible plans for every property size","monthly":"Monthly","yearly":"Yearly ","yearly_base":"Yearly","number_of_units":"Number of units","per_month":"\/month","per_year":"\/year","feature_hms":"Hotel Management System (HMS)","feature_booking_engine":"Booking Engine","select_base":"Select Base","most_popular":"Most Popular","feature_channel_manager":"Channel Manager","select_pro":"Select Pro","feature_all_from_pro":"All from Pro Plan","feature_identity_reporting":"Identity Reporting System","feature_payment_integration":"Payment Integration","feature_invoicing":"Invoicing System","feature_rms":"Revenue Management System (RMS)","select_premium":"Select Premium","trusted_heading":"Trusted by exceptional hotels, hostels, villas, apartments, and camping\/RV parks","trusted_desc":"Roomnix empowers modern hospitality with simplicity and power.","testimonial_1_title":"Neoss Boutique Hotel","testimonial_1_location":"Seferihisar, Türkiye","testimonial_1_quote":"Roomnix simplified our daily operations from day one. The calendar is intuitive, and the booking engine is incredibly smooth.","testimonial_2_title":"Satsuma Garden","testimonial_2_location":"Izmir, Turkey","testimonial_2_quote":"Choosing Roomnix was simple - it is free, fast to learn and already improves our daily operations. Support is responsive and we feel involved in the product’s evolution.","what_you_can_do_title":"What You Can Do with Roomnix","what_you_can_do_desc":"Powerful tools to simplify every aspect of hotel operations.","feature_calendar_title":"📅 HMS with Drag-and-Drop Calendar","feature_calendar_desc":"Easily manage check-ins, check-outs, and reservations in one visual interface.","feature_engine_title":"🌐 Integrated Booking Engine","feature_engine_desc":"Accept direct bookings with real-time availability and custom branding.","feature_engine_demo":"Try Booking Engine Demo","try_hms_demo":"Try HMS Demo","channel_manager_title":"🔗 Channel Manager","try_channel_demo":"Try Channel Manager Demo","faq_title":"FAQ","faq_subtitle":"Everything you need to know before getting started with Roomnix.","faq_q1":"💻 Is Roomnix cloud-based?","faq_q2":"🔐 Is my property data secure?","faq_q3":"🔁 Can I migrate from my current system without losing data?","faq_q4":"🎁 Is there a free trial or demo?","faq_q5":"🛠️ What kind of support does Roomnix offer?","faq_q6":"🏕️ Does Roomnix support only hotels?","faq_a1":"Yes, Roomnix is 100% cloud-based. No installation required - just log in and manage your property from anywhere.","faq_a2":"Absolutely. We use encrypted data storage and follow best practices to ensure all hotel and guest data is secure and GDPR\/KVKK-compliant.","faq_a3":"Yes. We provide full migration assistance and securely transfer your rooms, bookings, rates and customer records. No downtime or data loss - we handle everything for you.","faq_a4":"Yes! You can try Roomnix immediately via our live demo. We also offer a one-year free pilot program for qualified hotels, with no credit card required.","faq_a5":"Our support team is available 7 days a week via WhatsApp, email and live assistance. We also provide onboarding support and training resources.","faq_a6":"No. Roomnix supports hotels, hostels, villas, apartments, camping sites, glamping resorts, and caravan\/RV parks. You can manage rooms, beds, units, or pitches depending on your property type.","contact_title":"Contact Us","contact_text":"Want a custom quote or have questions? Contact us at","footer_text":"\u0026copy; 2025 Roomnix. All rights reserved.","complete_registration":"Complete Your Registration","plan":"Plan","full_name":"Full Name","property_name":"Property Name","country":"Country","select_country":"Select Country","city":"City","address":"Address","phone_number":"Phone Number","email":"Email","password":"Password","confirm_password":"Confirm Password","payment_method":"Payment Method","credit_card":"Credit Card","bank_transfer":"Bank Transfer","card_number":"Card Number","expiry_date":"Expiry Date","cvv":"CVV","card_holder":"Card Holder Name","bank_instructions":"Bank Transfer Instructions:","bank_mail":"After completing your subscription, you’ll receive an email with IBAN details and transfer instructions.","privacy_policy":"Privacy Policy","pre_information_form":"Pre-Information Form","distance_selling_contract":"Distance Selling Contract","confirm_and_pay":"Confirm \u0026 Pay","agree_terms":"By confirming your subscription, you agree to our:","room":"Room","confirm_only":"Confirm","pilot_no_payment":"No payment required for Pilot program.","referral_code_label":"Referral Code (optional)","referral_code_placeholder":"If another hotel referred you, enter their code here","referral_code_help":"If you were referred by a partner hotel, enter the code they gave you so both of you can earn extra free months.","error_missing_fields":"Please fill in all required fields.","error_password_mismatch":"Passwords do not match.","error_prepare_failed":"Failed to prepare the statement: ","error_bind_failed":"Failed to bind parameters: ","error_execution_failed":"Failed to execute the statement: ","error_admin_insert":"Failed to create admin user: ","iyzico_redirecting":"Redirecting to secure Iyzico payment...","iyzico_failed":"❌ Iyzico Payment Init Failed","iyzico_error":"Error:","iyzico_detail":"Detail:","missing_fields":"Missing or invalid fields","email_already_registered":"This email is already registered.","bank_transfer_subject":"Roomnix Bank Transfer Instructions","bank_transfer_greeting":"Dear","bank_transfer_thanks":"Thank you for registering for Roomnix.","bank_transfer_instruction":"To complete your subscription, please transfer the total amount of","bank_name":"Bank Name","account_holder":"Account Holder","iban":"IBAN","swift":"SWIFT\/BIC","currency_info_try":"Currency: TRY (₺)","currency_info_eur":"Currency: EUR (€)\nSWIFT\/BIC: EURBANKTRXXX\n*Ensure the transfer is sent in EUR via SEPA.","reference":"Reference","bank_transfer_note":"After completing the transfer, we will activate your account.","contact_us_note":"If you have any questions, feel free to reply to this email.","best_regards":"Best regards","team_signature":"Roomnix Team","coming_soon":"Coming Soon","privacy_policy_full":"Roomnix (“we”, “our”, or “us”) respects your privacy and is committed to protecting the personal information you provide through our Hotel Management System (“HMS”). This Privacy Policy explains how we collect, use, store, and share information about hotels and their guests, and outlines your rights regarding that information.\n\n1. Information We Collect\nWe may collect and process the following types of information:\n\na) Hotel Information\nHotel name, address, country, and city\nContact information: email address, phone number\nBilling details: payment method, billing cycle, selected plan, VAT information (if applicable)\n\nb) User (Hotel Admin\/Staff) Information\nFull name\nEmail address\nLogin credentials (passwords are securely hashed)\nRole within the system (Admin, Staff, etc.)\n\nc) Guest Information\nStored by the hotel within the HMS:\nFull name\nContact details (email, phone, address)\nNational ID or passport number (where applicable)\nCheck-in and check-out dates\nBooking history and preferences\n\n2. How We Use Your Information\nWe use collected information for the following purposes:\nTo register and manage hotel accounts\nTo provide, maintain, and improve the HMS services\nTo process billing and payment operations securely\nTo store guest data on behalf of hotels for reservation and operational purposes\nTo support legal compliance, including applicable hospitality regulations\nTo send administrative or system-related notifications\n\n3. Data Sharing \u0026 Third-Party Access\nWe do not sell or rent personal information to third parties.\nWe may share hotel or guest information with trusted third-party service providers under the following conditions:\nPayment processors (e.g., Stripe, Iyzico) for secure transactions\nCloud hosting or infrastructure providers (for data storage and access)\nLegal authorities, only when required by law or valid legal requests\nAll third parties are contractually obligated to keep the data confidential and use it only for the specified purpose.\n\n4. Data Security\nWe implement industry-standard security measures to protect personal data:\nSSL\/TLS encryption for all data transmission\nPasswords hashed with strong algorithms (e.g., BCRYPT)\nRole-based access control for staff and hotel users\nDaily database backups\nSecure firewalls and DDoS protection\n\n5. Data Retention\nWe retain hotel and guest data for as long as the hotel account is active or as needed to fulfill our obligations. Upon termination of service, data will be deleted or anonymized within 60 days unless legally required to retain it longer.\n\n6. Your Rights\nYou may exercise the following rights by contacting us:\nAccess, update, or delete personal data\nExport guest data (hotels only)\nRequest restriction of processing\nWithdraw consent at any time (e.g., for marketing communications)\n\n7. Cookies and Tracking\nWe may use cookies and similar technologies to:\nMaintain user sessions\nAnalyze website usage (via tools like Google Analytics)\nImprove user experience\nYou can manage cookie preferences through your browser settings.\n\n8. International Data Transfers\nIf you are located outside the hosting region (e.g., the EU or Turkey), your data may be transferred to and processed in jurisdictions with different data protection laws. We ensure adequate protection through contractual clauses or other lawful mechanisms.\n\n9. Children’s Privacy\nOur HMS is not intended for use by individuals under the age of 18. We do not knowingly collect data from children.\n\n10. Changes to This Policy\nWe reserve the right to update this policy at any time. When we do, we will revise the “Last Updated” date at the top. Significant changes will be communicated via email or system notification.\n\n11. Contact Us\nIf you have questions or concerns about this Privacy Policy, please contact us at:\n📧 privacy@roomnix.com\n📍 Gülbahçe Mah. İçmeler Cad. 14\/2 B06 Urla İzmir Turkey\n📞 +90 850 840 2160","pre_info_full":"Pre-Contractual Information Form\n(in accordance with EU Directive 2011\/83\/EU on Consumer Rights)\n\nCompany Name: Apposia Technology A.S\nAddress: Gülbahçe Mah. İçmeler Cad. No:14\/2 B06 Urla Izmir\nPhone: +90 850 840 2160\nEmail: info@roomnix.com\nWebsite: https:\/\/roomnix.com\n\n1. Subject of the Contract\nThis pre-contractual form is intended to inform consumers about their rights and obligations prior to the conclusion of a distance contract, as defined by EU Directive 2011\/83\/EU. Roomnix provides cloud-based Hotel Management Software as a Service (SaaS).\n\n2. Description of Services\nHotel Management System (HMS)\nOnline Booking Engine\nChannel Manager (OTA Integrations)\nGuest and Staff Management\nRate and Revenue Tools\nThe scope and availability of services vary depending on the selected subscription plan and number of rooms.\n\n3. Price and Payment Terms\nSubscription prices are calculated based on the selected plan (Base or Pro) and number of rooms.\nPrices are shown in EUR, inclusive of applicable VAT.\nPayment options include bank transfer and credit card.\nSubscription cycle: monthly or yearly, as selected during checkout.\nThe total price and renewal terms are clearly presented before final confirmation.\n\n4. Delivery \u0026 Access\nServices are delivered digitally, without physical shipment.\nUpon successful payment, the customer gains immediate access to the Roomnix dashboard.\nAccount credentials are generated during registration.\n\n5. Right of Withdrawal\nUnder Article 16(m) of EU Directive 2011\/83\/EU:\nThe right of withdrawal does not apply to contracts for the supply of digital content which is not supplied on a tangible medium if the performance has begun with the consumer’s prior express consent and with the acknowledgment that they thereby lose their right of withdrawal.\nIf the customer has not started using the service, they may withdraw within 14 days.\nTo exercise the right of withdrawal, a clear written request must be sent to support@roomnix.com.\n\n6. Data Protection (GDPR)\nRoomnix is committed to protecting personal data in accordance with the General Data Protection Regulation (EU) 2016\/679 (GDPR).\nData such as hotel name, contact details, and guest information are collected solely for service delivery and legal compliance.\nUsers have the right to access, rectify, and request deletion of their data at any time.\nFull details are available in our Privacy Policy.\n\n7. Complaint and Dispute Resolution\nConsumers may submit complaints via email to support@roomnix.com.\nIn case of unresolved disputes, customers in the EU may use the Online Dispute Resolution (ODR) platform:\n🔗 https:\/\/ec.europa.eu\/consumers\/odr\n\n8. Confirmation\nBy checking the box and submitting your order, you confirm:\nYou have read and understood this Pre-Contractual Information Form.\nYou agree to waive your right of withdrawal upon activation of the digital service.","distance_contract_full":"(Applicable for Digital Services – EU Consumer Rights Compliant)\n\nThis Distance Selling Contract (“Contract”) is entered into between:\n\nService Provider:\nApposia Technology A.S\nGülbahçe Mah. İçmeler Cad. No: 14\/2 B06 Urla İzmir Turkey\nEmail: info@roomnix.com\nWebsite: https:\/\/roomnix.com\n(hereinafter referred to as the \u0022Provider\u0022)\n\nand\n\nCustomer:\nThe individual or legal entity completing the Roomnix online checkout form.\n(hereinafter referred to as the \u0022Customer\u0022)\n\n1. Subject of the Contract\nThe subject of this contract is the provision of digital software services, specifically access to the Roomnix Hotel Management System (HMS) via the internet, as per the Customer’s selected subscription plan.\n\n2. Nature of the Service\nThe services provided by Roomnix are fully digital and include:\n\n• Hotel and reservation management\n• Channel integration (OTAs)\n• Booking engine\n• Rate and revenue management\n• Staff and guest record keeping\n\nThere is no physical delivery. Access is granted digitally after successful registration and payment.\n\n3. Contract Formation\nThis contract becomes effective when the Customer:\n• Completes the checkout form\n• Accepts the terms and conditions\n• Clicks the Confirm and Pay button\n\nUpon acceptance, the Customer receives email confirmation, and services are provisioned immediately.\n\n4. Duration and Renewal\nThe contract is valid for the selected subscription period (monthly or yearly).\nUnless cancelled, the contract is automatically renewed at the end of the period under the same terms.\n\n5. Price and Payment\nSubscription fees are calculated based on the selected plan and number of rooms.\nPrices include applicable VAT and are clearly displayed before checkout.\nPayment methods: credit card or bank transfer.\nFull payment is required before services become active.\n\n6. Right of Withdrawal (Article 16(m) of Directive 2011\/83\/EU)\nThe Customer acknowledges and agrees that the right of withdrawal does not apply once digital content delivery has begun with their express consent.\nBy confirming payment, the Customer waives the right to cancel after the account is activated.\n\n7. Liability\nRoomnix shall not be held liable for:\n• Downtime or access issues due to third-party infrastructure\n• Customer’s misuse of the system\n• Loss of data due to actions outside Roomnix\u0027s control\n\n8. Personal Data \u0026 GDPR Compliance\nRoomnix collects and processes Customer and guest data in compliance with the General Data Protection Regulation (GDPR).\nDetails on data collection, usage, and user rights are specified in the Privacy Policy.\n\n9. Complaint and Dispute Resolution\nComplaints may be directed to: support@roomnix.com\nIn the event of unresolved disputes, the Customer may use the EU Online Dispute Resolution (ODR) platform:\n🔗 https:\/\/ec.europa.eu\/consumers\/odr\n\n10. Governing Law\nThis contract shall be governed by the laws of the country where the Customer resides, as per EU consumer protection directives.\n\n11. Acceptance\nBy proceeding with payment and using the Roomnix system, the Customer confirms:\n✅ I have read and agree to the terms of this Distance Selling Contract.","hero_title_airbnb":"The simplest way to manage your property.","hero_subtitle_airbnb":"Roomnix helps hotels, hostels, villas \u0026 apartments, and camping\/RV parks run smoothly with an intuitive calendar, fast check-in, online bookings, and effortless billing.","hero_try_demo_now":"Try Live Demo","hero_see_features":"See Features","what_you_can_do_badge":"Start today with Roomnix","faq_badge":"Answers to common questions","whatsapp_chat_title":"Chat with us","whatsapp_chat_subtitle":"Instant support","features_badge":"What you get with Roomnix","back_to_pricing":"Back to pricing","checkout_title":"Complete your Roomnix subscription","checkout_subtitle":"Tell us a bit about your property and confirm your payment method.","your_plan":"Your plan","rooms":"rooms","checkout_price_note":"Final price may vary with local taxes.","secure_checkout":"Secure checkout powered by Roomnix.","checkout_badge":"Finish setting up your account","trust_channels_badge":"Channel partners","trust_channels_more":"+50 more","cm_strip_feat1_title":"Real-Time Sync","cm_strip_feat1_desc":"Availability and rates update instantly across all OTAs — no double bookings.","cm_strip_feat2_title":"One Dashboard","cm_strip_feat2_desc":"Manage all your channels from a single calendar. No more logging into each OTA separately.","cm_strip_feat3_title":"Dynamic Pricing","cm_strip_feat3_desc":"Set rate rules once. Roomnix pushes the right price to every channel automatically.","cm_strip_feat4_title":"Instant Setup","cm_strip_feat4_desc":"Connect your first OTA in minutes. No technical skills required.","cm_strip_learn_more":"Learn more about Channel Manager →","trust_security_gdpr_title":"Secure \u0026 GDPR \/ KVKK compliant","trust_security_gdpr_desc":"Built for EU privacy standards and hotel data protection.","trust_security_encrypt_title":"Encrypted data","trust_security_encrypt_desc":"All data encrypted in transit (HTTPS) and at rest.","pricing_room_based":"Inventory-based pricing","pricing_pay_active":"Pay only for active rooms","pricing_cancel_anytime":"Cancel anytime - no contract","pricing_migration":"Migration support included","why_hotels_choose":"Why properties choose Roomnix","why_hotels_choose_title":"We solve real property management problems","why_hotels_choose_sub":"Focus on operations - let Roomnix handle the rest.","stop_overbookings":"Stop overbookings","easy_planning":"Easy drag \u0026 drop planning","faster_checkin":"Faster check-in process","fewer_mistakes":"Fewer operational mistakes","e_invoice":"E-invoicing \u0026 e-archive integration","accounting":"Accounting-friendly reports","mobile_ui":"Mobile-friendly dashboard","no_training":"No training required for staff","who_for_badge":"Who is Roomnix for?","who_for_title":"Designed for all types of small and medium-sized properties","who_for_sub":"Whether you manage rooms, dorm beds, villas, apartments, or camping pitches, Roomnix is built for your property.","for_boutique":"Boutique Hotels","for_apart":"Apart Hotels \u0026 Bungalows","for_beach":"Beach Hotels","for_guest":"Guesthouses","for_hostel":"Hostels","for_pension":"Pensions","switching_badge":"Switching from another PMS?","switching_title":"Already using another system?","switching_sub":"We handle the migration for you - no downtime, no data loss.","switch_free_migration":"Free migration","switch_import":"Import your rooms \u0026 bookings","switch_setup":"1-day setup","switch_onboarding":"Dedicated onboarding","switch_whatsapp":"WhatsApp support","nav_channels":"Partners","nav_features":"Features","nav_pain_points":"Why Roomnix","nav_who_for":"Who it’s for","nav_testimonials":"Testimonials","nav_pricing":"Pricing","nav_demo":"Demo","nav_faq":"FAQ","standard_commission_label":"Commission rate","standard_commission_note":"Per booking via Roomnix Booking Engine.","standard_commission_detail":"If you dont want to use the Booking Engine, the PMS remains completely free.","follow_us":"Follow us","registration_successful":"🎉 Registration Successful!","registration_success_subtitle":"Your Roomnix PMS account is now active.","registration_success_line1":"Your Roomnix account has been created. Pricing depends on your selected plan and region.","registration_success_line2":"You can now start setting up your hotel in Roomnix.","registration_hotel_label":"Hotel","registration_back_home":"Back to Roomnix homepage","open_roomnix_app":"Open Roomnix App","registration_email_soon_title":"Check your email","registration_email_soon_text":"You will receive an email shortly with the next steps to access your Roomnix account.","base_no_payment":"You only pay commission for each booking (if Booking Engine is used)","trusted_badge":"Trusted by real properties","contact_badge":"Let’s talk","testimonial_1_stay_type":"Boutique hotel, coastal region","testimonial_2_stay_type":"Beachside hotel","early_access":"Early access offer. Available for a short period","pro_plan_note":"Estimated price based on room count.","pro_plan_price_note":"Example above assumes $2.5 per room \/ month for 10 rooms.","estimated_price_note":"Estimated price based on room count.","example_assumes":"Example above assumes $1.5 per room \/ month for 10 rooms.","free":"Free","trial_30_days_note":"You won’t be charged today. Your 15-day free trial starts when you complete this form.","trial_no_payment":"No payment required today. Your 15-day free trial starts now.","start_trial":"Start 15-day trial","trial_badge":"15-day free trial","recommended_badge":"Recommended","trial_gh_base_note":"First 15 days free. No payment today – you can cancel during the trial.","how_did_you_find_us":"How did you hear about Roomnix?","select_option":"Select an option","how_found_google":"Google search","how_found_instagram":"Instagram","how_found_linkedin":"LinkedIn","how_found_friend":"Recommendation from another hotel","how_found_event":"Event \/ fair \/ meetup","how_found_other":"Other","current_pms_label":"Which PMS \/ system do you currently use?","current_pms_placeholder":"e.g. none, Little Hotelier, SabeeApp, other...","website_builder_title":"Website Builder","website_builder_desc_public":"Create a hotel website in minutes - publish on a free Roomnix subdomain or connect your own domain.","feature_website_builder":"Website Builder","see_sample_website":"See a sample website","whatsapp_label":"WhatsApp Number (with country code)","whatsapp_placeholder":"+90 5xx xxx xx xx","instagram_label":"Instagram Username","instagram_placeholder":"yourhotel","whatsapp_or_instagram_help":"Please provide at least a WhatsApp number or Instagram username so we can verify your hotel.","whatsapp_or_instagram_required":"Please enter at least a WhatsApp number or an Instagram username.","whatsapp_invalid":"Invalid WhatsApp number format.","instagram_invalid":"Invalid Instagram username format.","inventory_count_label":"Number of units","inventory_count_hint":"Rooms for hotels, beds for hostels, units for apartments\/villas, pitches for camping.","property_type_setup_note":"You will choose your property type (hotel, hostel, apartment, camping) and inventory settings inside the app after you sign up.","property_type":"Property type","property_type_hint":"This helps us configure Roomnix for your inventory (rooms, beds, units, or pitches).","number_of_rooms":"Number of rooms","number_of_beds":"Number of beds","number_of_pitches":"Number of pitches","seo_usecases_badge":"Use cases","seo_usecases_title":"Property management for every inventory type","seo_usecases_subtitle":"Roomnix works for rooms, dorm beds, units and pitches — with one calendar and one workflow.","seo_hotels_title":"Hotel PMS","seo_hotels_desc":"Manage rooms with a drag \u0026 drop calendar, faster check-in, invoicing, payments and reports. Perfect for boutique hotels and small\/medium properties.","seo_hostels_title":"Hostel PMS (Dorm beds)","seo_hostels_desc":"Sell dorm beds or private rooms, control bed availability, and manage allocations per date. Ideal for hostels with mixed inventory.","seo_villas_title":"Villa \u0026 Apartment PMS","seo_villas_desc":"Manage units, seasonal pricing, minimum stays and guest details. Great for apartments, apart hotels, villas and vacation rentals.","seo_camping_title":"Camping \u0026 RV Park PMS (Pitches\/Sites)","seo_camping_desc":"Manage pitches\/sites, availability, guest check-ins and payments — designed for camping, glamping, caravan and RV parks.","seo_usecases_note":"Tip: Create dedicated pages later (e.g., \/hotel-pms, \/hostel-pms) to rank even faster.","back_home":"Back","see_pricing":"See pricing","hotel_pms_h1":"Hotel PMS Software","hotel_pms_lead":"Cloud hotel PMS with calendar, check-in\/out, invoicing, payments, reporting and booking engine.","hotel_pms_features_title":"Key features","hotel_pms_feat_1":"Drag \u0026 drop booking calendar","hotel_pms_feat_2":"Fast check-in \/ check-out","hotel_pms_feat_3":"Invoices, payments and folios","hotel_pms_feat_4":"Accounting-friendly reports","hotel_pms_feat_5":"Online booking engine","hotel_pms_for_title":"Built for","hotel_pms_for_desc":"Boutique hotels, small and medium-sized hotels, city hotels and coastal properties that need speed and control.","hostel_pms_h1":"Hostel PMS (Dorm Beds)","hostel_pms_lead":"Hostel PMS for dorm beds and private rooms: control bed availability, allocations, check-ins and payments.","hostel_pms_features_title":"Key features","hostel_pms_feat_1":"Dorm beds + private rooms in one calendar","hostel_pms_feat_2":"Bed availability control per date","hostel_pms_feat_3":"Faster check-in \/ guest registration","hostel_pms_feat_4":"Payments, folios and reports","hostel_pms_feat_5":"Booking engine ready (commission only if used)","hostel_pms_for_title":"Built for","hostel_pms_for_desc":"Hostels with dorms, mixed room types, seasonal occupancy and frequent turnarounds.","camping_pms_h1":"Camping \u0026 RV Park PMS","camping_pms_lead":"Manage pitches\/sites with availability, check-ins, payments and reporting. Built for camping, glamping and RV parks.","camping_pms_features_title":"Key features","camping_pms_feat_1":"Pitches\/Sites inventory management","camping_pms_feat_2":"Availability control per date","camping_pms_feat_3":"Fast check-in and payment tracking","camping_pms_feat_4":"Seasonal pricing and minimum stays","camping_pms_feat_5":"Booking engine ready","camping_pms_for_title":"Built for","camping_pms_for_desc":"Camping, glamping, caravan and RV parks that sell pitches\/sites and need simple operations.","apartment_pms_h1":"Apartment \u0026 Villa PMS","apartment_pms_lead":"Manage units with seasonal pricing, minimum stays, guest details, payments and reporting. Built for apartments and vacation rentals.","apartment_pms_features_title":"Key features","apartment_pms_feat_1":"Units inventory management","apartment_pms_feat_2":"Seasonal pricing and minimum stays","apartment_pms_feat_3":"Payments, invoices and folios","apartment_pms_feat_4":"Guest profiles and reporting","apartment_pms_feat_5":"Booking engine ready","apartment_pms_for_title":"Built for","apartment_pms_for_desc":"Apartments, apart hotels, villas and vacation rentals that sell units and need simple operations.","nav_products":"Products","product_hotel_pms_software":"Hotel PMS Software","product_hotel_booking_engine":"Hotel Booking Engine","product_hotel_website_builder":"Hotel Website Builder","product_hotel_guest_wifi_hotspot":"Guest WiFi Hotspot","product_e_invoice_module":"E-Invoice Module","product_kbs_integration":"KBS Integration","product_channel_manager":"Channel Manager","hotel_pms_seo_title":"Hotel PMS Software | Roomnix","hotel_pms_seo_desc":"Roomnix Hotel PMS helps hotels manage reservations, check-in, invoicing, payments and reporting with a drag \u0026 drop calendar.","hotel_pms_feature_1_title":"Drag \u0026 Drop Room Calendar","hotel_pms_feature_1_desc":"See availability instantly and move bookings faster with a visual room calendar.","hotel_pms_feature_2_title":"Fast Check-in \/ Check-out","hotel_pms_feature_2_desc":"Help your front desk team complete arrivals and departures with less friction.","hotel_pms_feature_3_title":"Payments \u0026 Invoicing","hotel_pms_feature_3_desc":"Track balances, take payments and prepare invoices from one place.","hotel_pms_feature_4_title":"Direct Booking Engine","hotel_pms_feature_4_desc":"Accept direct reservations from your own hotel website.","hotel_pms_feature_5_title":"Reports","hotel_pms_feature_5_desc":"Monitor occupancy, revenue and operational performance.","hotel_pms_feature_6_title":"Website Builder","hotel_pms_feature_6_desc":"Launch a hotel website quickly if you do not already have one.","hotel_pms_faq_1_q":"Is Roomnix suitable for boutique hotels?","hotel_pms_faq_1_a":"Yes. Roomnix is especially suitable for boutique and independent hotels that want a practical and easy-to-use PMS.","hotel_pms_faq_2_q":"Can I use Roomnix without the booking engine?","hotel_pms_faq_2_a":"Yes. You can use the PMS on its own, and activate the booking engine only if you want direct bookings.","hotel_pms_faq_3_q":"Can Roomnix help us migrate from another system?","hotel_pms_faq_3_a":"Yes. Roomnix can support onboarding and migration for hotels moving from another PMS.","seo_hotels_badge":"For hotels","seo_hotels_h1":"Hotel PMS software for modern hotel operations","seo_hotels_intro":"Manage rooms, reservations, check-in, billing and reporting from one cloud-based hotel PMS dashboard.","seo_hotels_features_title":"What hotels can do with Roomnix","seo_hotels_features_sub":"Everything your front desk and hotel operations team need in one workflow.","seo_hotels_why_title":"Why Roomnix is a good fit for hotels","seo_hotels_why_desc":"Roomnix is built for boutique hotels and small to medium-sized properties that want a practical PMS without complicated setup or unnecessary complexity.","seo_hotels_bullet_1":"Room-based inventory management","seo_hotels_bullet_2":"Reception-friendly workflow","seo_hotels_bullet_3":"Cloud access from anywhere","seo_hotels_bullet_4":"Direct booking support","seo_hotels_bullet_5":"Operational and financial visibility","hostel_pms_seo_title":"Hostel PMS Software | Roomnix","hostel_pms_seo_desc":"Roomnix Hostel PMS helps hostels manage dorm beds, private rooms, reservations, guest flow and direct bookings.","hostel_pms_feature_1_title":"Dorm Bed Management","hostel_pms_feature_1_desc":"Manage bed-based inventory and availability by date.","hostel_pms_feature_2_title":"Mixed Inventory","hostel_pms_feature_2_desc":"Handle both dorm beds and private rooms from one system.","hostel_pms_feature_3_title":"Fast Allocation","hostel_pms_feature_3_desc":"Assign guests faster and reduce confusion during busy check-ins.","hostel_pms_feature_4_title":"Direct Booking Engine","hostel_pms_feature_4_desc":"Accept direct bookings for beds or private rooms from your website.","hostel_pms_feature_5_title":"Payments \u0026 Billing","hostel_pms_feature_5_desc":"Track balances and payments for individual bookings.","hostel_pms_feature_6_title":"Reports","hostel_pms_feature_6_desc":"Monitor occupancy and performance for your hostel operation.","hostel_pms_faq_1_q":"Can Roomnix manage dorm beds?","hostel_pms_faq_1_a":"Yes. Roomnix supports bed-based hostel inventory and mixed setups with private rooms.","hostel_pms_faq_2_q":"Can I sell both beds and private rooms?","hostel_pms_faq_2_a":"Yes. Roomnix is suitable for hostels that operate both dorms and private rooms.","hostel_pms_faq_3_q":"Is it practical for front desk staff?","hostel_pms_faq_3_a":"Yes. The workflow is designed to make guest allocation and reception tasks simpler.","seo_hostels_badge":"For hostels","seo_hostels_h1":"Hostel PMS software for dorm beds and private rooms","seo_hostels_intro":"Manage dorm beds, private rooms, guest check-in, payments and direct bookings from one hostel PMS.","seo_hostels_features_title":"What hostels can do with Roomnix","seo_hostels_features_sub":"A practical workflow for dorms, beds and private-room hostel operations.","seo_hostels_why_title":"Why Roomnix works for hostels","seo_hostels_why_desc":"Roomnix helps hostels manage bed inventory more clearly while keeping the front desk workflow simple and practical.","seo_hostels_bullet_1":"Bed-based hostel inventory","seo_hostels_bullet_2":"Support for dorms and private rooms","seo_hostels_bullet_3":"Faster guest allocation","seo_hostels_bullet_4":"Direct booking support","seo_hostels_bullet_5":"Clear operational visibility","apartment_pms_seo_title":"Apartment \u0026 Villa PMS Software | Roomnix","apartment_pms_seo_desc":"Roomnix helps apartment hotels, villas and vacation rentals manage units, reservations, seasonal pricing and guest operations.","apartment_pms_feature_1_title":"Unit-Based Inventory","apartment_pms_feature_1_desc":"Manage apartments, villas and rental units from one dashboard.","apartment_pms_feature_2_title":"Seasonal Pricing","apartment_pms_feature_2_desc":"Set pricing based on season, demand and date ranges.","apartment_pms_feature_3_title":"Minimum Stay Rules","apartment_pms_feature_3_desc":"Configure minimum stay logic for your property type.","apartment_pms_feature_4_title":"Guest Management","apartment_pms_feature_4_desc":"Track guest details, booking flow and operational notes.","apartment_pms_feature_5_title":"Direct Bookings","apartment_pms_feature_5_desc":"Accept direct bookings from your own website.","apartment_pms_feature_6_title":"Reports","apartment_pms_feature_6_desc":"See occupancy, revenue and performance for your unit-based operation.","apartment_pms_faq_1_q":"Is Roomnix suitable for villas and vacation rentals?","apartment_pms_faq_1_a":"Yes. Roomnix is suitable for villas, apartments and vacation-rental style operations.","apartment_pms_faq_2_q":"Can I manage different units?","apartment_pms_faq_2_a":"Yes. Roomnix supports unit-based inventory and different accommodation types.","apartment_pms_faq_3_q":"Can I use Roomnix for direct reservations?","apartment_pms_faq_3_a":"Yes. You can connect your own website and accept direct bookings with the Roomnix booking engine.","seo_villas_badge":"For apartments \u0026 villas","seo_villas_h1":"Apartment and villa PMS software for unit-based operations","seo_villas_intro":"Manage units, reservations, pricing rules, guest operations and direct bookings from one cloud-based PMS.","seo_villas_features_title":"What apartment and villa operators can do with Roomnix","seo_villas_features_sub":"A practical PMS workflow for unit-based hospitality and vacation-rental operations.","seo_villas_why_title":"Why Roomnix fits apartment and villa operations","seo_villas_why_desc":"Roomnix works well for operators who manage independent units, villas or apart-style accommodation with flexible pricing and direct reservation needs.","seo_villas_bullet_1":"Unit-based inventory control","seo_villas_bullet_2":"Seasonal and date-based pricing","seo_villas_bullet_3":"Minimum stay flexibility","seo_villas_bullet_4":"Direct booking support","seo_villas_bullet_5":"Practical guest and booking workflow","camping_pms_seo_title":"Camping \u0026 RV Park PMS Software | Roomnix","camping_pms_seo_desc":"Roomnix helps camping sites, glamping operators and RV parks manage pitches, sites, reservations, payments and guest operations.","camping_pms_feature_1_title":"Pitch \/ Site Management","camping_pms_feature_1_desc":"Manage pitches, sites and parcels with a clear availability workflow.","camping_pms_feature_2_title":"Date-Based Availability","camping_pms_feature_2_desc":"Track availability and reservations across your camping inventory.","camping_pms_feature_3_title":"Guest Check-in","camping_pms_feature_3_desc":"Handle arrivals, departures and on-site operations more smoothly.","camping_pms_feature_4_title":"Payments \u0026 Billing","camping_pms_feature_4_desc":"Track payments and booking balances for site reservations.","camping_pms_feature_5_title":"Direct Booking Engine","camping_pms_feature_5_desc":"Accept direct bookings from your own camping or RV park website.","camping_pms_feature_6_title":"Reports","camping_pms_feature_6_desc":"Monitor performance and occupancy across your site inventory.","camping_pms_faq_1_q":"Can Roomnix manage camping pitches or RV sites?","camping_pms_faq_1_a":"Yes. Roomnix supports site-based inventory for camping, glamping and RV park operations.","camping_pms_faq_2_q":"Is it suitable for glamping operators too?","camping_pms_faq_2_a":"Yes. Roomnix can support glamping-style accommodation and parcel-based operations.","camping_pms_faq_3_q":"Can I use Roomnix for direct bookings?","camping_pms_faq_3_a":"Yes. The booking engine can be used on your own website for direct reservations.","seo_camping_badge":"For camping \u0026 RV parks","seo_camping_h1":"Camping and RV park PMS software for site-based operations","seo_camping_intro":"Manage pitches, sites, reservations, payments and guest operations from one practical cloud-based PMS.","seo_camping_features_title":"What camping and RV operators can do with Roomnix","seo_camping_features_sub":"A practical workflow for pitches, sites, glamping and RV park operations.","seo_camping_why_title":"Why Roomnix fits camping and RV park operations","seo_camping_why_desc":"Roomnix helps site-based properties manage inventory, guest flow and bookings with a practical cloud workflow.","seo_camping_bullet_1":"Pitch and parcel management","seo_camping_bullet_2":"Date-based site availability","seo_camping_bullet_3":"Suitable for camping, glamping and RV parks","seo_camping_bullet_4":"Direct booking support","seo_camping_bullet_5":"Simple guest and payment workflow","seo_cta_title":"See how Roomnix fits your property","seo_cta_desc":"Try the demo, explore pricing, or contact us for a walkthrough.","pms_seo_title":"Hotel PMS Software | Roomnix","pms_seo_desc":"Roomnix Hotel PMS helps hotels manage reservations, guests, room availability, check-in, billing and reports from one cloud-based dashboard.","pms_feature_1_title":"Reservation Management","pms_feature_1_desc":"Manage reservations, availability and guest stay flow from a central PMS dashboard.","pms_feature_2_title":"Room Inventory Control","pms_feature_2_desc":"Track room types, room status, occupancy and room availability in real time.","pms_feature_3_title":"Guest Profiles","pms_feature_3_desc":"Store guest information, stay history and operational notes in one place.","pms_feature_4_title":"Check-in \/ Check-out Workflow","pms_feature_4_desc":"Speed up front desk operations for arrivals, departures and room assignment.","pms_feature_5_title":"Payments \u0026 Billing","pms_feature_5_desc":"Track balances, post payments and manage billing-related hotel operations.","pms_feature_6_title":"Reports \u0026 Statistics","pms_feature_6_desc":"Monitor occupancy, revenue and operational performance from one system.","pms_faq_1_q":"What is hotel PMS software?","pms_faq_1_a":"Hotel PMS software helps properties manage reservations, rooms, guests, check-in and daily hotel operations from one system.","pms_faq_2_q":"Can Roomnix PMS work for different property types?","pms_faq_2_a":"Yes. Roomnix supports hotels, hostels, villas, apartments and camping or RV park style operations.","pms_faq_3_q":"Does Roomnix PMS work together with the booking engine?","pms_faq_3_a":"Yes. Roomnix PMS is designed to work together with the Roomnix booking engine and other Roomnix products.","pms_badge":"Core product","pms_h1":"Hotel PMS Software for Modern Hotel Operations","pms_intro":"Manage reservations, guests, room inventory, check-in and hotel operations from one cloud-based PMS dashboard.","hero_alt_pms":"Hotel PMS dashboard","pms_features_title":"What hotels can do with Roomnix PMS","pms_features_sub":"A practical workflow for reservations, room control and front desk operations.","pms_why_title":"Why Roomnix is a strong fit for hotel operations","pms_why_desc":"Roomnix helps hotels handle reservations, guests and daily property operations with a more practical cloud workflow.","pms_bullet_1":"Central reservation dashboard","pms_bullet_2":"Real-time room availability","pms_bullet_3":"Guest and stay management","pms_bullet_4":"Fast check-in and check-out workflow","pms_bullet_5":"Revenue and performance visibility","booking_engine_seo_title":"Hotel Booking Engine | Roomnix","booking_engine_seo_desc":"Roomnix Hotel Booking Engine allows hotels to accept direct reservations from their website with real-time availability and a mobile-friendly booking flow.","booking_engine_feature_1_title":"Direct Reservations","booking_engine_feature_1_desc":"Accept bookings directly from your hotel website and reduce OTA dependency.","booking_engine_feature_2_title":"Real-Time Availability","booking_engine_feature_2_desc":"Show live room availability and prices synchronized with your PMS.","booking_engine_feature_3_title":"Mobile-Friendly Booking","booking_engine_feature_3_desc":"Guests can easily book rooms from phones, tablets or desktops.","booking_engine_feature_4_title":"Multi-language Booking","booking_engine_feature_4_desc":"Offer booking in multiple languages for international guests.","booking_engine_feature_5_title":"Commission Friendly","booking_engine_feature_5_desc":"Only pay commission for reservations generated through Roomnix.","booking_engine_feature_6_title":"Connected to Roomnix PMS","booking_engine_feature_6_desc":"Rates, availability and bookings sync automatically with your PMS.","booking_engine_faq_1_q":"Can I use the Roomnix booking engine on my website?","booking_engine_faq_1_a":"Yes. You can integrate the Roomnix booking engine with your hotel website.","booking_engine_faq_2_q":"Is the booking engine mobile-friendly?","booking_engine_faq_2_a":"Yes. Guests can book rooms from phones, tablets and computers.","booking_engine_faq_3_q":"Does it work with Roomnix PMS?","booking_engine_faq_3_a":"Yes. The booking engine works fully integrated with Roomnix PMS.","booking_engine_badge":"For direct hotel bookings","booking_engine_h1":"Hotel Booking Engine for Direct Reservations","booking_engine_intro":"Increase direct bookings and reduce OTA commissions with the Roomnix booking engine.","booking_engine_features_title":"Powerful booking features for hotels","booking_engine_features_sub":"Everything hotels need to manage direct reservations.","booking_engine_why_title":"Why choose the Roomnix booking engine?","booking_engine_why_desc":"Roomnix helps hotels capture direct demand with a modern booking experience.","booking_engine_bullet_1":"Accept reservations directly on your website","booking_engine_bullet_2":"Real-time room availability","booking_engine_bullet_3":"Mobile optimized booking flow","booking_engine_bullet_4":"Multiple language support","booking_engine_bullet_5":"Integrated with Roomnix PMS","hero_alt_booking_engine":"Roomnix hotel booking engine interface","website_builder_seo_title":"Hotel Website Builder | Roomnix","website_builder_seo_desc":"Roomnix Hotel Website Builder helps hotels create a professional website with direct booking capability and mobile-friendly pages.","website_builder_feature_1_title":"Fast Hotel Website Setup","website_builder_feature_1_desc":"Launch a hotel website quickly without technical knowledge.","website_builder_feature_2_title":"Free Subdomain or Custom Domain","website_builder_feature_2_desc":"Use a free Roomnix subdomain or connect your own domain.","website_builder_feature_3_title":"Built-in Booking Engine","website_builder_feature_3_desc":"Accept direct reservations through the integrated booking engine.","website_builder_feature_4_title":"Mobile Friendly","website_builder_feature_4_desc":"Your website works perfectly on phones, tablets and desktops.","website_builder_feature_5_title":"Designed for Hotels","website_builder_feature_5_desc":"Website structure optimized for hotel presentation and bookings.","website_builder_feature_6_title":"Works with Roomnix Products","website_builder_feature_6_desc":"Connect with Roomnix PMS and booking engine.","website_builder_faq_1_q":"Can I create a hotel website without coding?","website_builder_faq_1_a":"Yes. Roomnix Website Builder allows hotels to create a professional website easily.","website_builder_faq_2_q":"Can I use my own domain?","website_builder_faq_2_a":"Yes. You can connect your own domain or use a Roomnix subdomain.","website_builder_faq_3_q":"Does it work with the Roomnix booking engine?","website_builder_faq_3_a":"Yes. The website builder works together with the Roomnix booking engine.","website_builder_badge":"For hotel websites","website_builder_h1":"Hotel Website Builder with Direct Booking","website_builder_intro":"Create a professional hotel website quickly and connect it with the Roomnix booking engine.","website_builder_features_title":"Features of the Roomnix website builder","website_builder_features_sub":"Everything hotels need to launch a modern website.","website_builder_why_title":"Why hotels use the Roomnix website builder","website_builder_why_desc":"Roomnix helps hotels build a strong online presence.","website_builder_bullet_1":"Fast website launch","website_builder_bullet_2":"Use your own domain","website_builder_bullet_3":"Built for hotels","website_builder_bullet_4":"Integrated booking flow","website_builder_bullet_5":"Mobile-friendly experience","hotspot_seo_title":"Hotel Guest WiFi Hotspot System | Roomnix","hotspot_seo_desc":"Roomnix Guest WiFi Hotspot helps hotels provide secure internet access with room login, guest authentication and network control.","hotspot_feature_1_title":"Room Based Login","hotspot_feature_1_desc":"Guests connect to WiFi using their room number and surname.","hotspot_feature_2_title":"Secure Guest Access","hotspot_feature_2_desc":"Provide controlled and secure internet access for hotel guests.","hotspot_feature_3_title":"Automatic Guest Authentication","hotspot_feature_3_desc":"Guests are authenticated automatically using Roomnix PMS data.","hotspot_feature_4_title":"Staff Internet Access","hotspot_feature_4_desc":"Staff devices can be allowed automatically through MAC address.","hotspot_feature_5_title":"Captive Portal Login Page","hotspot_feature_5_desc":"Guests see a branded login page when connecting to hotel WiFi.","hotspot_feature_6_title":"Router Integration","hotspot_feature_6_desc":"Works with supported hotspot routers for hotel network control.","hotspot_faq_1_q":"How do hotel guests connect to the WiFi?","hotspot_faq_1_a":"Guests connect using their room number and surname through the hotspot login page.","hotspot_faq_2_q":"Does the hotspot system work with the Roomnix PMS?","hotspot_faq_2_a":"Yes. The hotspot system can authenticate guests using reservation data from the Roomnix PMS.","hotspot_faq_3_q":"Can hotel staff access WiFi automatically?","hotspot_faq_3_a":"Yes. Staff devices can be whitelisted for automatic access.","hotspot_badge":"Hotel WiFi system","hotspot_h1":"Hotel Guest WiFi Hotspot System","hotspot_intro":"Provide hotel guests with secure WiFi access using a hotspot login system connected to Roomnix.","hotspot_features_title":"Hotel WiFi Hotspot Features","hotspot_why_title":"Why hotels use guest WiFi hotspot systems","hotspot_why_desc":"Hotels use hotspot systems to control guest internet access and provide a secure network environment.","hotspot_bullet_1":"Secure guest WiFi login","hotspot_bullet_2":"Room-based authentication","hotspot_bullet_3":"Staff device whitelist","hotspot_bullet_4":"Branded login portal","hotspot_bullet_5":"Network access control","hotspot_hero_alt":"Hotel WiFi hotspot dashboard","einvoice_seo_title":"E-Invoice Module for Hotels | Roomnix","einvoice_seo_desc":"Roomnix E-Invoice Module helps hotels manage invoice workflows, billing operations and hospitality finance processes more efficiently.","einvoice_feature_1_title":"Hotel Billing Workflow","einvoice_feature_1_desc":"Manage hotel billing processes with a module designed for accommodation operations.","einvoice_feature_2_title":"Invoice Preparation","einvoice_feature_2_desc":"Prepare invoice data using reservation, guest and payment information.","einvoice_feature_3_title":"Payment Linked Workflow","einvoice_feature_3_desc":"Use invoicing together with payment records and booking balances.","einvoice_feature_4_title":"Part of Roomnix Operations","einvoice_feature_4_desc":"Use invoicing alongside PMS, booking and guest operations in one ecosystem.","einvoice_feature_5_title":"Useful for Turkey-Based Hotels","einvoice_feature_5_desc":"Especially relevant for hotel operations in Turkey and local billing workflows.","einvoice_feature_6_title":"Operational Simplicity","einvoice_feature_6_desc":"Reduce manual finance work and make invoice-related processes more practical.","einvoice_faq_1_q":"What is the Roomnix E-Invoice Module?","einvoice_faq_1_a":"It is a hotel-focused invoicing module that helps properties manage billing and invoice-related workflows more efficiently.","einvoice_faq_2_q":"Is this module especially relevant for hotels in Turkey?","einvoice_faq_2_a":"Yes. The E-Invoice Module is particularly relevant for Turkey-based hotel billing and finance workflows.","einvoice_faq_3_q":"Does it work together with Roomnix PMS and payments?","einvoice_faq_3_a":"Yes. It is designed to work alongside Roomnix reservation, payment and operational flows.","einvoice_badge":"Finance module","einvoice_h1":"E-Invoice Module for Hotel Billing Workflows","einvoice_intro":"Manage invoice-related hotel operations more practically as part of your broader reservation, payment and finance workflow.","hero_alt_einvoice":"Hotel e-invoice module","einvoice_features_title":"What hotels can do with the Roomnix E-Invoice Module","einvoice_features_sub":"A practical billing and invoice workflow for hotel operations.","einvoice_why_title":"Why hotels use the Roomnix E-Invoice Module","einvoice_why_desc":"Hotels need billing workflows that fit operational reality. Roomnix helps connect invoice-related processes to reservations and payment records.","einvoice_bullet_1":"Invoice preparation from booking data","einvoice_bullet_2":"Payment-linked workflow","einvoice_bullet_3":"Useful for Turkey-based operations","einvoice_bullet_4":"Part of hotel finance flow","einvoice_bullet_5":"Works with Roomnix ecosystem","kbs_seo_title":"KBS Integration for Hotels | Roomnix","kbs_seo_desc":"Roomnix KBS Integration helps hotels manage identity reporting workflows and front desk guest reporting operations more efficiently.","kbs_feature_1_title":"Guest Identity Reporting Workflow","kbs_feature_1_desc":"Use a front-desk-oriented workflow for guest identity reporting processes.","kbs_feature_2_title":"Operational Simplicity","kbs_feature_2_desc":"Reduce friction in daily reporting-related hotel reception tasks.","kbs_feature_3_title":"Useful for Turkey-Based Hotels","kbs_feature_3_desc":"Especially relevant for hotel operations in Turkey and KBS-related reporting needs.","kbs_feature_4_title":"Works with Guest Data Flow","kbs_feature_4_desc":"Use reporting-related workflows alongside reservations and guest records.","kbs_feature_5_title":"Hospitality-Oriented Setup","kbs_feature_5_desc":"Designed around hotel and accommodation operations, not generic admin tools.","kbs_feature_6_title":"Part of Roomnix Ecosystem","kbs_feature_6_desc":"Extend PMS operations with reporting and compliance-oriented hotel tools.","kbs_faq_1_q":"What is Roomnix KBS Integration?","kbs_faq_1_a":"It is a hotel-focused integration that helps properties handle guest identity reporting workflows more efficiently.","kbs_faq_2_q":"Is it especially relevant for hotels in Turkey?","kbs_faq_2_a":"Yes. KBS-related operational needs are particularly relevant for Turkey-based hotel properties.","kbs_faq_3_q":"Does it work together with guest and reservation data?","kbs_faq_3_a":"Yes. It is designed to support guest-related workflows alongside reservations and front desk operations.","kbs_badge":"Reporting integration","kbs_h1":"KBS Integration for Hotel Guest Reporting Workflows","kbs_intro":"Manage identity reporting-related hotel workflows more practically as part of your broader guest and front desk operations.","hero_alt_kbs":"Hotel KBS integration","kbs_features_title":"What hotels can do with Roomnix KBS Integration","kbs_features_sub":"A practical guest identity reporting workflow for hotel operations.","kbs_why_title":"Why hotels use KBS-related operational tools","kbs_why_desc":"Hotels need guest reporting workflows that fit front desk operations. Roomnix helps connect these processes to reservation and guest data.","kbs_bullet_1":"Guest identity reporting workflow","kbs_bullet_2":"Front desk operational simplicity","kbs_bullet_3":"Useful for Turkey-based hotels","kbs_bullet_4":"Works with guest records","kbs_bullet_5":"Part of Roomnix hotel ecosystem","blog_index_title":"Roomnix Blog | Hotel PMS, Direct Bookings, Hotel Websites \u0026 Hospitality Tech","blog_index_desc":"Read Roomnix blog articles about hotel PMS software, booking engines, direct bookings, hotel websites, guest WiFi, hotel reports and hospitality operations.","blog_reading_time_default":"5 min read","nav_hotel_pms_software":"Hotel PMS Software","nav_booking_engine":"Booking Engine","nav_website_builder":"Hotel Website Builder","nav_guest_wifi":"Guest WiFi","nav_reports":"Reports \u0026 Revenue","go_to_home":"Home","blog_badge":"Roomnix Blog","blog_latest_articles":"Latest blog articles","blog_index_h1":"Insights for Hotels, Direct Bookings and Hospitality Operations","blog_index_intro":"Explore articles about hotel PMS software, booking engines, direct bookings, hotel websites, front desk operations, guest experience, hotel reports and hospitality technology.","blog_index_intro_secondary":"The Roomnix blog shares practical guides for hotels that want to improve reservations, reduce OTA dependency, strengthen direct bookings and modernize daily property management workflows.","blog_read_more":"Read article","blog_popular_topics_title":"Popular hotel software topics","blog_popular_topics_intro":"Looking beyond the blog? Explore the main Roomnix topics hotels usually search for when comparing property management systems, booking engines, hotel websites and operations tools.","blog_about_title":"What you will find on the Roomnix blog","blog_about_p1":"Our blog focuses on practical hospitality topics such as hotel PMS software, front desk workflows, reservation management, booking engines, direct booking strategy, hotel websites, guest WiFi and reporting.","blog_about_p2":"We also publish content for independent hotels, small properties and teams that want to simplify operations, improve the guest journey and build more control over pricing, inventory and online sales.","blog_about_p3":"As the Roomnix blog grows, this section will include more guides about hotel technology, hospitality operations in Turkey, direct reservation growth and practical software decisions for modern accommodation businesses.","blog_category_hotel_management":"Hotel Management","blog_category_hotel_management_desc":"Articles about hotel PMS software, front desk workflows, reservations, guests and daily property management operations.","blog_category_direct_bookings":"Direct Bookings","blog_category_direct_bookings_desc":"Guides about booking engines, hotel websites, conversion, direct reservations and reducing OTA dependency.","blog_category_hotel_websites":"Hotel Websites","blog_category_hotel_websites_desc":"Content about hotel websites, booking journeys, website performance and direct booking growth.","blog_category_hotel_technology":"Hotel Technology","blog_category_hotel_technology_desc":"Hospitality technology articles covering hotel systems, operations tools, automation and digital workflows.","blog_category_hotel_reports":"Reports \u0026 Revenue","blog_category_hotel_reports_desc":"Articles about hotel reports, revenue management, financial tracking, performance analytics and business insights.","blog_category_hotel_operations":"Hotel Operations","blog_category_hotel_operations_desc":"Articles about hotel operations, daily workflows, staff management, guest experience and operational efficiency.","blog_category_comparisons":"Comparisons","blog_category_comparisons_desc":"Comparison articles about hotel PMS software, booking engines, and hospitality technology tools.","blog_category_page_title":"%s Articles | Roomnix Blog","blog_category_page_desc":"Browse Roomnix blog articles in the %s category. %s","blog_category_intro_secondary":"Browse practical hospitality articles in this category and explore more content about hotel software, operations, guest experience and direct booking growth.","blog_no_articles_title":"No articles yet in this category","blog_no_articles_desc":"This category page is ready, but no published blog posts are available here yet.","blog_back_to_blog":"Back to blog","blog_category_about_title":"About this category","blog_category_about_p1":"Roomnix category pages group together related hospitality articles so hotels can more easily find practical content by topic, from property management systems to direct booking strategy and hotel operations.","blog_category_about_p2":"As the Roomnix blog grows, each category will continue to expand with more useful articles, guides and software insights for accommodation businesses.","blog_translation_fallback_notice":"This article is currently shown in English because the selected language version is not available yet.","blog_related_articles":"Related articles","blog_main_products_title":"Explore main Roomnix products","blog_main_products_desc":"Looking beyond this article? Explore the main Roomnix tools for hotel operations, direct bookings and hotel websites.","blog_related_guides_title":"More blog guides","blog_related_guides_desc":"Continue reading related Roomnix articles about hotel software, booking engines and direct bookings.","tools_badge":"Free Tools","tools_index_title":"Hotel Tools \u0026 Calculators | Roomnix","tools_index_desc":"Use free hotel tools and calculators for OTA commissions, revenue, RevPAR, occupancy, and direct booking performance.","tools_index_h1":"Hotel Tools \u0026 Calculators","tools_index_intro":"Explore free hotel calculators and practical tools for pricing, revenue, occupancy, direct bookings, and OTA costs.","tools_index_intro_secondary":"These tools are designed for independent hotels, small properties, and accommodation businesses that want to make better operational and commercial decisions.","tools_popular_title":"Popular hotel tools","tools_open_tool":"Open tool","tools_about_title":"Why hotel tools matter","tools_about_p1":"Hotels make pricing, distribution, and revenue decisions every day. Simple calculators can help teams understand commission costs, occupancy performance, direct booking impact, and revenue potential more clearly.","tools_about_p2":"Roomnix tools are designed to support practical decision-making for hotels that want to improve direct bookings, reduce OTA dependency, and manage operations more efficiently.","tools_cta_title":"Explore Roomnix products","tools_cta_desc":"Looking beyond calculators? Explore the main Roomnix tools for hotel operations, direct bookings, and hotel websites.","tool_ota_commission_title":"OTA Commission Calculator","tool_ota_commission_desc":"Estimate how much revenue your hotel loses to OTA commissions per booking, per month, or per year.","tool_hotel_revenue_title":"Hotel Revenue Calculator","tool_hotel_revenue_desc":"Estimate monthly and yearly hotel revenue based on room count, ADR, and occupancy.","tool_revpar_title":"RevPAR Calculator","tool_revpar_desc":"Calculate RevPAR quickly using ADR and occupancy data for your property.","tool_occupancy_title":"Occupancy Calculator","tool_occupancy_desc":"Measure hotel occupancy performance for a period using sold room nights and available inventory.","cm_seo_title":"Hotel Channel Manager | Roomnix","cm_seo_desc":"Roomnix Channel Manager connects your property to Booking.com, Airbnb, Expedia, Google Hotel Ads, Agoda and more — syncing rates and availability in real time.","cm_badge":"Roomnix Channel Manager","cm_h1":"Hotel Channel Manager — Connect to 50+ OTAs","cm_intro":"Sync your rates, availability and bookings across Booking.com, Airbnb, Expedia, Google Hotel Ads, Agoda and hundreds more — all from your Roomnix PMS.","cm_channels_connected":"Channels Connected","cm_cta_primary":"Get Pro Plan","cm_cta_title":"Ready to connect your property to every major OTA?","cm_cta_desc":"Start for free on the Standard Plan and upgrade to Pro when you\u0027re ready to connect your channels.","cm_features_title":"Everything you need to manage your channels","cm_features_sub":"One dashboard. All channels. Zero overbookings.","cm_feature_1_title":"Two-Way Sync","cm_feature_1_desc":"Availability and rates flow automatically between Roomnix and all connected OTAs — no manual updates needed.","cm_feature_2_title":"Real-Time Availability","cm_feature_2_desc":"Every booking from any channel instantly updates your Roomnix calendar, preventing overbookings.","cm_feature_3_title":"Rate Management","cm_feature_3_desc":"Set different rates per channel, apply promotions and manage minimum stays from one place.","cm_feature_4_title":"50+ Channels","cm_feature_4_desc":"Connect to Booking.com, Airbnb, Expedia, Google Hotel Ads, Agoda, TripAdvisor, VRBO, Hostelworld and hundreds more.","cm_feature_5_title":"Instant Setup","cm_feature_5_desc":"Connect your first OTA in minutes. No technical knowledge required.","cm_feature_6_title":"Overbooking Protection","cm_feature_6_desc":"Centralized inventory management ensures you never accidentally sell the same room twice.","cm_ota_directory_badge":"Supported channels","cm_ota_directory_title":"Connect to the world\u0027s leading booking platforms","cm_ota_directory_sub":"Roomnix Channel Manager supports 50+ channels. Here are the most popular ones.","cm_ota_type_major":"Major OTA","cm_ota_type_meta":"Metasearch","cm_ota_type_vacation":"Vacation Rental","cm_ota_type_hostel":"Hostel","cm_ota_booking_desc":"The world\u0027s largest accommodation platform. Connect your property to millions of global travelers.","cm_ota_airbnb_desc":"Reach guests looking for unique stays worldwide. Full two-way sync with Airbnb listings.","cm_ota_expedia_desc":"Connect to Expedia Group\u0027s global network including Hotels.com and VRBO brands.","cm_ota_google_desc":"Show your live rates and availability directly in Google Search and Maps — one of the highest-intent booking surfaces.","cm_ota_agoda_desc":"Top OTA in Asia Pacific markets. Reach travelers from China, Japan, South Korea, Thailand and beyond.","cm_ota_tripadvisor_desc":"Appear on TripAdvisor\u0027s hotel search with live rates. Leverage the world\u0027s largest travel review platform.","cm_ota_hotelscom_desc":"Part of the Expedia Group. Popular with loyalty program members who book frequently.","cm_ota_vrbo_desc":"Ideal for vacation rentals, apartments, villas and holiday homes. Part of the Expedia Group.","cm_ota_hostelworld_desc":"The leading OTA for hostels. Connect dorm beds, private rooms and mixed inventory.","cm_ota_more_title":"40+ More Channels","cm_ota_more_desc":"Including Orbitz, HotelsCombined, Priceline, Ctrip, Traveloka, Despegar, loveholidays, HRS, and hundreds of regional OTAs.","cm_how_title":"How the Channel Manager works","cm_how_sub":"A simple, automated workflow that keeps all your channels in sync.","cm_step_1_title":"1. Connect","cm_step_1_desc":"Link your Roomnix account to your OTA extranets. Most channels connect in minutes.","cm_step_2_title":"2. Configure","cm_step_2_desc":"Map your room types and rate plans to each channel. Set pricing rules and restrictions.","cm_step_3_title":"3. Sync","cm_step_3_desc":"Roomnix automatically pushes availability and rates to all channels in real time.","cm_step_4_title":"4. Receive","cm_step_4_desc":"Bookings from any channel flow directly into your Roomnix PMS calendar.","cm_faq_intro":"Everything you need to know about the Roomnix Channel Manager.","cm_faq_1_q":"Which OTAs does the Roomnix Channel Manager support?","cm_faq_1_a":"Roomnix Channel Manager connects to 50+ channels including Booking.com, Airbnb, Expedia, Google Hotel Ads, Agoda, TripAdvisor, Hotels.com, VRBO, Hostelworld and many more regional and niche platforms.","cm_faq_2_q":"Will it prevent overbookings?","cm_faq_2_a":"Yes. All channels share one central inventory in your Roomnix PMS. When a room is booked on any channel it is instantly removed from availability on all others.","cm_faq_3_q":"Can I set different prices per channel?","cm_faq_3_a":"Yes. Rate plans are managed in Roomnix and you can assign different rates, restrictions and promotions to each connected channel.","cm_faq_4_q":"Is the Channel Manager included in the free plan?","cm_faq_4_a":"Channel Manager is part of the Pro Plan. You can explore Roomnix for free on the Standard Plan and upgrade to Pro when ready.","cm_faq_5_q":"How long does setup take?","cm_faq_5_a":"Most properties connect their first channel within minutes. Our onboarding team is available to help if needed."};
+  window.referralCode = "";
+  window.baseCommissionRate = 3;
+  window.visitorCountry = "PK";
+  window.isGhana = false;
+  window.trialDays = 15;
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/index.js"></script>
+</body>
+</html>
