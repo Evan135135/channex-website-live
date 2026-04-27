@@ -4501,4 +4501,13 @@ export const integrations: Integration[] = [
     slug: "ctoutvert",
     website: "https://www.ctoutvert.com/fr"
   },
+  {
+    id: "resonline",
+    name: "Resonline",
+    description: "Australia-based channel manager and online distribution platform providing hotels, motels, and accommodation providers with a total solution to expand their online reach globally. Resonline enables properties to manage rooms and rates across multiple booking channels with ease.",
+    icon: "/lovable-uploads/ota-resonline.png",
+    categories: ["OTA", "Asia Pacific"],
+    slug: "resonline",
+    website: "https://www.resonline.com"
+  },
 ];
