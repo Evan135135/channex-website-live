@@ -4708,4 +4708,49 @@ export const integrations: Integration[] = [
     slug: "naverpms",
     website: ""
   },
+  {
+    id: "checkeasy",
+    name: "Check Easy",
+    description: "French AI-powered property inspection platform automating inventory reports with timestamped photo reports, damage detection, and dispute reduction for Airbnb concierges and property managers.",
+    icon: "/lovable-uploads/pms-checkeasy.png",
+    categories: ["PMS", "Europe"],
+    slug: "checkeasy",
+    website: "https://www.checkeasy.co"
+  },
+  {
+    id: "genthd",
+    name: "genthd",
+    description: "Japanese property management system provider offering hospitality technology solutions for accommodation operators in Japan.",
+    icon: "/lovable-uploads/pms-placeholder.png",
+    categories: ["PMS", "Asia Pacific"],
+    slug: "genthd",
+    website: "https://genthd.com"
+  },
+  {
+    id: "mystay",
+    name: "mystay",
+    description: "Portuguese hospitality platform offering direct booking solutions for villas, apartments, and hotels across Portugal, with best price guarantees and exclusive discounts for direct guests.",
+    icon: "/lovable-uploads/pms-mystay.png",
+    categories: ["PMS", "Europe"],
+    slug: "mystay",
+    website: "https://mystay.pt"
+  },
+  {
+    id: "appsclicks",
+    name: "Appsclicks",
+    description: "Israeli technology company connecting hospitality clients to the right users at the right time using AI, machine learning, data analytics, and human expertise.",
+    icon: "/lovable-uploads/pms-appsclicks.png",
+    categories: ["PMS", "Middle East"],
+    slug: "appsclicks",
+    website: "https://appsclicks.com"
+  },
+  {
+    id: "comfortly",
+    name: "Comfortly",
+    description: "US-based hotel operations platform helping small hotels manage housekeeping, maintenance, and team communication. Fully integrated with rezStream to automate operations and improve efficiency.",
+    icon: "/lovable-uploads/pms-comfortly.png",
+    categories: ["PMS", "North America"],
+    slug: "comfortly",
+    website: "https://comfort.ly"
+  },
 ];
