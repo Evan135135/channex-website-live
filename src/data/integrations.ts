@@ -4753,4 +4753,139 @@ export const integrations: Integration[] = [
     slug: "comfortly",
     website: "https://comfort.ly"
   },
+  {
+    id: "hisamichiono",
+    name: "Hisamichi Ono",
+    description: "Japanese property management system provider offering hospitality technology solutions for accommodation operators in Japan.",
+    icon: "/lovable-uploads/pms-placeholder.png",
+    categories: ["PMS", "Asia Pacific"],
+    slug: "hisamichiono",
+    website: ""
+  },
+  {
+    id: "uttkarsh",
+    name: "UTTKARSH",
+    description: "Canadian property management system provider offering hospitality technology solutions for accommodation operators.",
+    icon: "/lovable-uploads/pms-placeholder.png",
+    categories: ["PMS", "North America"],
+    slug: "uttkarsh",
+    website: ""
+  },
+  {
+    id: "hostport",
+    name: "Host Port",
+    description: "Australian hospitality technology platform simplifying bookings, automating operations, and enhancing guest experiences for accommodation providers.",
+    icon: "/lovable-uploads/pms-hostport.svg",
+    categories: ["PMS", "Asia Pacific"],
+    slug: "hostport",
+    website: "https://www.hostpms.com"
+  },
+  {
+    id: "epia",
+    name: "EPIA",
+    description: "Vietnamese property management system provider offering hospitality technology solutions for accommodation operators.",
+    icon: "/lovable-uploads/pms-placeholder.png",
+    categories: ["PMS", "Asia Pacific"],
+    slug: "epia",
+    website: ""
+  },
+  {
+    id: "flexglobal",
+    name: "Flex",
+    description: "Irish flexible short-term rental platform offering fully furnished, move-in-ready apartments for holidays, business travellers, relocations, and extended stays across London, Paris, Algiers, and more.",
+    icon: "/lovable-uploads/pms-flexglobal.png",
+    categories: ["PMS", "Europe"],
+    slug: "flexglobal",
+    website: "https://theflex.global"
+  },
+  {
+    id: "kolmex",
+    name: "Kolmex",
+    description: "Serbian property management system provider offering hospitality technology solutions for accommodation operators.",
+    icon: "/lovable-uploads/pms-placeholder.png",
+    categories: ["PMS", "Europe"],
+    slug: "kolmex",
+    website: ""
+  },
+  {
+    id: "opesuites",
+    name: "OpeSuites",
+    description: "Colombian furnished apartment provider offering temporary stays in Bogotá, providing comfortable accommodations in prime locations for business and leisure travellers.",
+    icon: "/lovable-uploads/pms-placeholder.png",
+    categories: ["PMS", "Latin America"],
+    slug: "opesuites",
+    website: "https://ope.com.co"
+  },
+  {
+    id: "hostspilot",
+    name: "Hosts Pilot",
+    description: "Romanian AI-powered platform offering one-click setup for Airbnb and Booking.com hosts to generate direct booking websites, guest guides, and automated guest communication.",
+    icon: "/lovable-uploads/pms-hostspilot.png",
+    categories: ["PMS", "Europe"],
+    slug: "hostspilot",
+    website: "https://www.host-pilot.ai"
+  },
+  {
+    id: "stayarc",
+    name: "Stayarc",
+    description: "UK-based all-in-one property management system and channel manager built for short-term rental hosts and vacation property owners. StayArc uses built-in AI to manage bookings, guest messages, and calendars from a unified dashboard.",
+    icon: "/lovable-uploads/pms-stayarc-fav.png",
+    categories: ["PMS", "Europe"],
+    slug: "stayarc",
+    website: "https://www.stayarc.com"
+  },
+  {
+    id: "kan2go",
+    name: "Kan2Go",
+    description: "Greek cloud-based PMS giving property owners full control through a modern system designed for simple management, better organisation, and higher returns.",
+    icon: "/lovable-uploads/pms-kan2go.svg",
+    categories: ["PMS", "Europe"],
+    slug: "kan2go",
+    website: "https://kan2go.gr"
+  },
+  {
+    id: "tenerifebsl",
+    name: "Tenerife Belgique SL",
+    description: "Spanish property management company guiding buyers through property purchases in Tenerife, offering full-service support from search to completion.",
+    icon: "/lovable-uploads/pms-tenerifebsl.png",
+    categories: ["PMS", "Europe"],
+    slug: "tenerifebsl",
+    website: "https://www.tenerifeonline.com"
+  },
+  {
+    id: "morphicai",
+    name: "Morphicai",
+    description: "UK-based AI co-host platform for Airbnb guest messaging, combining automated replies, AI drafts, WhatsApp host approval, and human-in-the-loop safeguards for property managers.",
+    icon: "/lovable-uploads/pms-morphicai.png",
+    categories: ["PMS", "Europe"],
+    slug: "morphicai",
+    website: "https://www.morphicai.io"
+  },
+  {
+    id: "adivor",
+    name: "Adivor",
+    description: "Mexican AI automation agency helping hospitality businesses grow with AI agents, marketing automation, and technology consulting.",
+    icon: "/lovable-uploads/pms-adivor.png",
+    categories: ["PMS", "Latin America"],
+    slug: "adivor",
+    website: "https://adivor.com.mx"
+  },
+  {
+    id: "insistmx",
+    name: "insist",
+    description: "Mexican software development company specialising in IT solutions for the hotel, restaurant, and hospitality sectors, offering management systems, advisory, and maintenance services.",
+    icon: "/lovable-uploads/pms-insistmx.png",
+    categories: ["PMS", "Latin America"],
+    slug: "insistmx",
+    website: "https://www.insist.com.mx"
+  },
+  {
+    id: "outhands",
+    name: "Outhands",
+    description: "Dutch full-service internet agency specialising in web design, web development, e-commerce, and online marketing for hospitality and other businesses.",
+    icon: "/lovable-uploads/pms-placeholder.png",
+    categories: ["PMS", "Europe"],
+    slug: "outhands",
+    website: ""
+  },
 ];
