@@ -4888,4 +4888,13 @@ export const integrations: Integration[] = [
     slug: "outhands",
     website: ""
   },
+  {
+    id: "localota",
+    name: "LocalOTA",
+    description: "LocalOTA is an online travel agency connecting travellers with unique local accommodations, experiences, and destinations, helping property owners reach guests seeking authentic local stays.",
+    icon: "/lovable-uploads/ota-localota.jpg",
+    categories: ["OTA", "North America"],
+    slug: "localota",
+    website: "https://www.localota.com"
+  },
 ];
