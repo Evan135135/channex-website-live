@@ -15,7 +15,6 @@ jobs:
       contents: read
       pages: write
       id-token: write
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -33,18 +32,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Install Chromium for pre-rendering
-        run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y chromium-browser
-
       - name: Build project
         run: pnpm build
-
-      - name: Pre-render pages for AI crawlers
-        run: node scripts/prerender.mjs
-        env:
-          PUPPETEER_EXECUTABLE_PATH: /usr/bin/chromium-browser
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
