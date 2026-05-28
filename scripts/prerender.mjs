@@ -1,8 +1,9 @@
 /**
  * Post-build pre-rendering script.
- * Starts a local static server, visits each route with headless Chromium,
+ * Starts a local static server, visits each main page with headless Chromium,
  * and saves the fully-rendered HTML into the dist folder.
- * This makes every page directly readable by AI crawlers and non-browser clients.
+ * The integrations page and blog sub-pages are intentionally excluded to keep
+ * the deployment artifact small and the build fast.
  */
 
 import { execSync, spawn } from "child_process";
@@ -13,37 +14,23 @@ import { fileURLToPath } from "url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const distDir = join(__dirname, "..", "dist");
 
+// Only pre-render the main static pages — no integrations, no blog sub-pages
 const routes = [
   "/",
   "/about",
   "/features",
-  "/integrations",
-  "/contact",
   "/pricing",
-  "/start-integration",
+  "/contact",
   "/blog",
   "/comparison/siteminder",
   "/policy",
-  "/pricing-calculator",
-  "/blog/airbnb-weekly-monthly-discounts",
-  "/blog/airbnb-notifications-channex-dashboard",
-  "/blog/maximize-revenue-basic-discounts",
-  "/blog/monitoring-trip-issues-performance-dashboard",
-  "/blog/airbnb-new-listing-promotion",
-  "/blog/airbnb-listing-quality-dashboard",
-  "/blog/sandwich-nights-unbookable-dates",
-  "/blog/staah-su-vs-channex-alternative",
-  "/blog/airbnb-review-tags-channex",
-  "/blog/airbnb-los-pricing-channex",
-  "/blog/non-refundable-discount-airbnb-channex",
-  "/blog/airbnb-checkout-instructions-channex",
 ];
 
 const PORT = 4173;
 const BASE_URL = `http://localhost:${PORT}`;
 
 async function prerender() {
-  console.log("🚀 Starting pre-render process...");
+  console.log("🚀 Starting pre-render process (main pages only)...");
 
   // Start a simple static server
   console.log(`📡 Starting static server on port ${PORT}...`);
