@@ -15,6 +15,12 @@ function excludeLovableUploads() {
         fs.rmSync(uploadsDir, { recursive: true, force: true });
         console.log("✅ Removed dist/lovable-uploads (logos served from GitHub raw CDN)");
       }
+      // Remove _redirects if present - SPA routing handled by wrangler.jsonc
+      const redirectsFile = path.resolve(__dirname, "dist/_redirects");
+      if (fs.existsSync(redirectsFile)) {
+        fs.rmSync(redirectsFile);
+        console.log("✅ Removed dist/_redirects (SPA routing handled by wrangler.jsonc)");
+      }
     },
   };
 }
