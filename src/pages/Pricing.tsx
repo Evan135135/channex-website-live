@@ -4,9 +4,47 @@ import Seo from "@/components/Seo";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Link } from "react-router-dom";
-import { Check, CreditCard, Shield, RefreshCw, ArrowRight, Building2, Home, MessageSquare } from "lucide-react";
+import { Check, CreditCard, Shield, RefreshCw, ArrowRight, Building2, Home, MessageSquare, Calculator, ChevronDown, ChevronUp } from "lucide-react";
+import { useState } from "react";
+
+const faqs = [
+  {
+    question: "Is there a free trial or sandbox environment?",
+    answer: "Yes — Channex provides a full sandbox environment so you can test the API, map channels, and validate your integration before going live. Contact our team to get sandbox credentials set up."
+  },
+  {
+    question: "What counts as an \"active\" property?",
+    answer: "A property is considered active in any month where it has at least one live channel connection. Properties that are set up but have no active channel connections are not billed."
+  },
+  {
+    question: "What does the $130/month platform fee cover?",
+    answer: "The platform fee covers your API access, the Channex dashboard, the Mapping API, unlimited user seats, standard tech support, and onboarding assistance. Per-property charges are billed on top of this fee based on the number of active connected properties."
+  },
+  {
+    question: "Are there volume discounts for large deployments?",
+    answer: "Yes. Hotel rates reduce from $7.00 to as low as $4.00 per property at scale, and vacation rental unit rates reduce from $0.50 to as low as $0.30 per unit. Use the pricing calculator to see the exact rate that applies to your portfolio size."
+  },
+  {
+    question: "What contract length is required?",
+    answer: "Channex is billed monthly with no long-term contract required. You can scale up, scale down, or cancel at any time."
+  },
+  {
+    question: "Is there a setup or onboarding fee?",
+    answer: "No. There are no setup fees. Onboarding and technical support are included in the platform fee."
+  },
+  {
+    question: "Can I white-label the Channex interface for my customers?",
+    answer: "Yes — the WhiteLabel plan is specifically designed for PMS providers and booking engines who want to offer channel management under their own brand. The interface, API responses, and documentation can all be white-labelled."
+  },
+  {
+    question: "Which channels are supported?",
+    answer: "Channex connects to 400+ channels including Booking.com, Expedia, Airbnb, Google Hotel Search, Agoda, Hotelbeds, Hostelworld, Ctrip, and many more. See the full list on the integrations page."
+  }
+];
 
 const Pricing = () => {
+  const [openFaq, setOpenFaq] = useState<number | null>(null);
+
   const plan = {
     name: "WhiteLabel",
     price: "$130",
@@ -76,6 +114,30 @@ const Pricing = () => {
                 </Button>
               </CardContent>
             </Card>
+          </div>
+
+          {/* Pricing Calculator CTA */}
+          <div className="mb-20">
+            <div className="max-w-3xl mx-auto bg-gradient-to-br from-primary/5 to-primary/10 border border-primary/20 rounded-2xl p-8 text-center">
+              <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-5">
+                <Calculator className="h-7 w-7 text-primary" />
+              </div>
+              <h2 className="text-2xl font-bold text-foreground font-inter mb-3">
+                Estimate Your Monthly Cost
+              </h2>
+              <p className="text-muted-foreground font-inter mb-6 max-w-xl mx-auto">
+                Enter your hotel and vacation rental portfolio size to get an instant cost estimate — including volume discounts. No commitment required.
+              </p>
+              <Button asChild size="lg" className="font-inter">
+                <Link to="/pricing-calculator">
+                  Open Pricing Calculator
+                  <ArrowRight size={16} className="ml-2" />
+                </Link>
+              </Button>
+              <p className="text-xs text-muted-foreground font-inter mt-4">
+                Volume discounts apply automatically from 500+ hotels or 2,000+ VR units
+              </p>
+            </div>
           </div>
 
           {/* White Label Pricing Breakdown */}
@@ -231,6 +293,41 @@ const Pricing = () => {
                   </tbody>
                 </table>
               </div>
+            </div>
+          </div>
+
+          {/* FAQ Section */}
+          <div className="mb-20 max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold text-center text-foreground mb-12 font-inter">
+              Frequently Asked Questions
+            </h2>
+            <div className="space-y-3">
+              {faqs.map((faq, index) => {
+                const isOpen = openFaq === index;
+                return (
+                  <div
+                    key={index}
+                    className="border border-border rounded-xl overflow-hidden"
+                  >
+                    <button
+                      className="w-full flex items-center justify-between p-6 text-left bg-background hover:bg-muted/30 transition-colors"
+                      onClick={() => setOpenFaq(isOpen ? null : index)}
+                      aria-expanded={isOpen}
+                    >
+                      <span className="font-semibold text-foreground font-inter pr-4">{faq.question}</span>
+                      {isOpen
+                        ? <ChevronUp className="h-5 w-5 text-muted-foreground flex-shrink-0" />
+                        : <ChevronDown className="h-5 w-5 text-muted-foreground flex-shrink-0" />
+                      }
+                    </button>
+                    {isOpen && (
+                      <div className="px-6 pb-6 bg-muted/20">
+                        <p className="text-muted-foreground font-inter leading-relaxed">{faq.answer}</p>
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
             </div>
           </div>
 
