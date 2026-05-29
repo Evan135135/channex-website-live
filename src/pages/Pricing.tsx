@@ -129,10 +129,10 @@ const Pricing = () => {
                 Enter your hotel and vacation rental portfolio size to get an instant cost estimate — including volume discounts. No commitment required.
               </p>
               <Button asChild size="lg" className="font-inter">
-                <Link to="/pricing-calculator">
+                <a href="/pricing-calculator" target="_blank" rel="noopener noreferrer">
                   Open Pricing Calculator
                   <ArrowRight size={16} className="ml-2" />
-                </Link>
+                </a>
               </Button>
               <p className="text-xs text-muted-foreground font-inter mt-4">
                 Volume discounts apply automatically from 500+ hotels or 2,000+ VR units
