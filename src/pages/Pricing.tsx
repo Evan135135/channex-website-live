@@ -331,20 +331,6 @@ const Pricing = () => {
             </div>
           </div>
 
-          {/* Comparison Section */}
-          <div className="text-center mb-16 p-8 bg-primary/5 rounded-lg border border-primary/20">
-            <h2 className="text-2xl font-bold text-foreground mb-4 font-inter">Comparing Channel Managers?</h2>
-            <p className="text-muted-foreground font-inter mb-6">
-              See how Channex compares to other solutions like SiteMinder
-            </p>
-            <Button size="sm" variant="outline" asChild>
-              <Link to="/comparison/siteminder">
-                View Comparison
-                <ArrowRight size={16} className="ml-2" />
-              </Link>
-            </Button>
-          </div>
-
           {/* OTA Section */}
           <div className="text-center mb-16 p-8 bg-muted/50 rounded-lg">
             <h2 className="text-2xl font-bold text-foreground mb-4 font-inter">Are you an OTA?</h2>
