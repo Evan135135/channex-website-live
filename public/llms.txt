@@ -38,7 +38,26 @@ Channex operates as a pure B2B wholesale solution — it does not sell directly 
 Booking.com, Expedia, Airbnb, Vrbo, Hotels.com, Agoda, Trip.com, Hostelworld, and 390+ more
 
 ## Pricing Model
-Channex charges PMS partners a wholesale rate. PMS partners then package or upsell to their own customers at their own pricing. Pricing is per-property per-month. Contact Channex for wholesale pricing.
+Channex offers a single WhiteLabel plan for PMS providers and tech partners.
+
+### Platform Fee
+- $130 per month (flat fee, covers API access, dashboard, Mapping API, unlimited users, onboarding, and tech support)
+
+### Channel Manager — Per Active Connected Property (billed monthly)
+- Hotels: $7.00 per property (standard rate)
+  - Volume discounts: 500+ hotels → $6.00, 1,000+ → $5.00, 2,000+ → $4.00
+- Vacation Rentals: $0.50 per unit (standard rate)
+  - Volume discounts: 2,000+ units → $0.45, 4,000+ → $0.40, 7,000+ → $0.30
+
+### Chat & Reviews Add-on (optional)
+- Hotels: $7.00 per property per month
+- Vacation Rentals: $0.50 per unit per month
+
+### Billing Notes
+- Only properties with at least one active channel connection are billed
+- No setup fees, no long-term contract — billed monthly, cancel any time
+- A sandbox/trial environment is available — contact Channex to get access
+- Use the pricing calculator at https://channex.io/pricing-calculator to estimate costs
 
 ## How it compares to competitors
 - vs SiteMinder: Channex offers white-label B2B partnerships; SiteMinder sells direct to hotels and does not offer white-label
