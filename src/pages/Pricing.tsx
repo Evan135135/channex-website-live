@@ -3,56 +3,23 @@ import Footer from "@/components/Footer";
 import Seo from "@/components/Seo";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import { Link } from "react-router-dom";
-import { Check, CreditCard, Shield, RefreshCw, X, ArrowRight, Building2, Home, MessageSquare, Star } from "lucide-react";
+import { Check, CreditCard, Shield, RefreshCw, ArrowRight, Building2, Home, MessageSquare } from "lucide-react";
 
 const Pricing = () => {
-  const plans = [
-    {
-      name: "Standard Plan",
-      price: "$30",
-      period: "per month",
-      description: "For Individual properties such as hotels and Vacation Rentals to work directly with Channex",
-      popular: true,
-      features: [
-        "Mews or Apaleo PMS Connection",
-        "No API access",
-        "Channel Manager",
-        "Messages And Reviews",
-        "Standard Support"
-      ]
-    },
-    {
-      name: "WhiteLabel",
-      price: "$130",
-      period: "per Month",
-      description: "For tech providers like PMS and Booking Engines. Very Competitive Prices per property.",
-      popular: false,
-      features: [
-        "Competitive per-property pricing",
-        "API Access",
-        "White-label solution",
-        "Mapping API",
-        "Tech Support"
-      ]
-    },
-    {
-      name: "Enterprise",
-      price: "$1500",
-      period: "per month (billed monthly)",
-      description: "For large businesses with special requirements.",
-      popular: false,
-      features: [
-        "Custom requirements",
-        "Large-scale deployment",
-        "Dedicated support",
-        "Custom integrations",
-        "SLA guarantee",
-        "Training & onboarding"
-      ]
-    }
-  ];
+  const plan = {
+    name: "WhiteLabel",
+    price: "$130",
+    period: "per Month",
+    description: "For tech providers like PMS and Booking Engines. Very Competitive Prices per property.",
+    features: [
+      "Competitive per-property pricing",
+      "API Access",
+      "White-label solution",
+      "Mapping API",
+      "Tech Support"
+    ]
+  };
 
   return (
     <div className="min-h-screen bg-background">
@@ -76,51 +43,39 @@ const Pricing = () => {
             </p>
           </div>
 
-          {/* Pricing Cards */}
-          <div className="grid md:grid-cols-3 gap-8 mb-20">
-            {plans.map((plan, index) => (
-              <Card key={index} className={`relative ${plan.popular ? 'border-primary shadow-lg scale-105' : ''}`}>
-                {plan.popular && (
-                  <Badge className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-primary text-primary-foreground">
-                    Most popular
-                  </Badge>
-                )}
+          {/* Pricing Card */}
+          <div className="flex justify-center mb-20">
+            <Card className="relative w-full max-w-sm border-primary/30 shadow-lg">
+              <CardHeader className="text-center space-y-4">
+                <h3 className="text-2xl font-bold text-foreground font-inter">{plan.name}</h3>
+                <div className="space-y-2">
+                  <div className="text-sm text-muted-foreground font-inter">From</div>
+                  <div className="text-4xl font-bold text-foreground font-inter">{plan.price}</div>
+                  <div className="text-sm text-muted-foreground font-inter">{plan.period}</div>
+                </div>
+              </CardHeader>
+
+              <CardContent className="space-y-6">
+                <p className="text-muted-foreground text-center font-inter">{plan.description}</p>
                 
-                <CardHeader className="text-center space-y-4">
-                  <h3 className="text-2xl font-bold text-foreground font-inter">{plan.name}</h3>
-                  <div className="space-y-2">
-                    <div className="text-sm text-muted-foreground font-inter">From</div>
-                    <div className="text-4xl font-bold text-foreground font-inter">{plan.price}</div>
-                    <div className="text-sm text-muted-foreground font-inter">{plan.period}</div>
-                  </div>
-                </CardHeader>
+                <ul className="space-y-3">
+                  {plan.features.map((feature, featureIndex) => (
+                    <li key={featureIndex} className="flex items-center space-x-3">
+                      <Check className="h-5 w-5 text-primary flex-shrink-0" />
+                      <span className="text-muted-foreground font-inter">{feature}</span>
+                    </li>
+                  ))}
+                </ul>
 
-                <CardContent className="space-y-6">
-                  <p className="text-muted-foreground text-center font-inter">{plan.description}</p>
-                  
-                  <ul className="space-y-3">
-                    {plan.features.map((feature, featureIndex) => (
-                      <li key={featureIndex} className="flex items-center space-x-3">
-                        {feature === "No API access" ? (
-                          <X className="h-5 w-5 text-red-500 flex-shrink-0" />
-                        ) : (
-                          <Check className="h-5 w-5 text-primary flex-shrink-0" />
-                        )}
-                        <span className="text-muted-foreground font-inter">{feature}</span>
-                      </li>
-                    ))}
-                  </ul>
-
-                  <Button 
-                    asChild
-                    className={`w-full ${plan.popular ? 'bg-gradient-primary hover:shadow-primary' : ''} font-inter`}
-                    variant={plan.popular ? 'default' : 'outline'}
-                  >
-                    <Link to="/contact">Contact Us</Link>
-                  </Button>
-                </CardContent>
-              </Card>
-            ))}
+                <Button 
+                  asChild
+                  className="w-full font-inter"
+                  variant="default"
+                >
+                  <Link to="/contact">Contact Us</Link>
+                </Button>
+              </CardContent>
+            </Card>
           </div>
 
           {/* White Label Pricing Breakdown */}
@@ -200,62 +155,39 @@ const Pricing = () => {
           {/* Feature Comparison Table */}
           <div className="mb-20">
             <h2 className="text-3xl font-bold text-center text-foreground mb-12 font-inter">
-              Feature Comparison
+              Features
             </h2>
             
-            <div className="overflow-x-auto">
+            <div className="overflow-x-auto max-w-2xl mx-auto">
               <table className="w-full border border-border rounded-lg overflow-hidden">
                 <thead>
                   <tr className="bg-muted/50">
-                    <th className="text-left p-6 font-semibold text-foreground font-inter">Features</th>
-                    <th className="text-center p-6 font-semibold text-foreground font-inter">Standard</th>
+                    <th className="text-left p-6 font-semibold text-foreground font-inter">Feature</th>
                     <th className="text-center p-6 font-semibold text-foreground font-inter">WhiteLabel</th>
-                    <th className="text-center p-6 font-semibold text-foreground font-inter">Enterprise</th>
                   </tr>
                 </thead>
                 <tbody>
                   {[
-                    { feature: "Hotels Fee (Per Property)", standard: "$50", whitelabel: "$7", enterprise: "Contact" },
-                    { feature: "Vacation Rental Fee (Per unit)", standard: "$4", whitelabel: "$0.50", enterprise: "Contact" },
-                    { feature: "Dashboard", standard: "✓", whitelabel: "✓", enterprise: "✓" },
-                    { feature: "PMS Integration", standard: "✓", whitelabel: "✓", enterprise: "✓" },
-                    { feature: "API Access", standard: "✗", whitelabel: "✓", enterprise: "✓" },
-                    { feature: "Channel Reports", standard: "✓", whitelabel: "✓", enterprise: "✓" },
-                    { feature: "Support via Chat & Email", standard: "✓", whitelabel: "✓", enterprise: "✓" },
-                    { feature: "Unlimited Users", standard: "✓", whitelabel: "✓", enterprise: "✓" },
-                    { feature: "Onboarding & Training", standard: "✓", whitelabel: "✓", enterprise: "✓" },
-                    { feature: "Messaging & Reviews App (Hotels)", standard: "Included", whitelabel: "$7 / property", enterprise: "✓" },
-                    { feature: "Messaging & Reviews App (VR)", standard: "Included", whitelabel: "$0.50 / unit", enterprise: "✓" },
-                    { feature: "Channel and Mapping API", standard: "✗", whitelabel: "✓", enterprise: "✓" },
-                    { feature: "Custom Billing", standard: "✗", whitelabel: "✗", enterprise: "✓" }
+                    { feature: "Hotels Fee (Per Property)", whitelabel: "$7" },
+                    { feature: "Vacation Rental Fee (Per unit)", whitelabel: "$0.50" },
+                    { feature: "Dashboard", whitelabel: "✓" },
+                    { feature: "PMS Integration", whitelabel: "✓" },
+                    { feature: "API Access", whitelabel: "✓" },
+                    { feature: "Channel Reports", whitelabel: "✓" },
+                    { feature: "Support via Chat & Email", whitelabel: "✓" },
+                    { feature: "Unlimited Users", whitelabel: "✓" },
+                    { feature: "Onboarding & Training", whitelabel: "✓" },
+                    { feature: "Messaging & Reviews App (Hotels)", whitelabel: "$7 / property" },
+                    { feature: "Messaging & Reviews App (VR)", whitelabel: "$0.50 / unit" },
+                    { feature: "Channel and Mapping API", whitelabel: "✓" },
                   ].map((row, index) => (
                     <tr key={index} className={index % 2 === 0 ? "bg-background" : "bg-muted/25"}>
                       <td className="p-6 font-medium text-foreground font-inter">{row.feature}</td>
                       <td className="p-6 text-center text-muted-foreground font-inter">
-                        {row.standard === "✓" ? (
-                          <Check className="h-5 w-5 text-primary mx-auto" />
-                        ) : row.standard === "✗" ? (
-                          <span className="text-muted-foreground">—</span>
-                        ) : (
-                          row.standard
-                        )}
-                      </td>
-                      <td className="p-6 text-center text-muted-foreground font-inter">
                         {row.whitelabel === "✓" ? (
                           <Check className="h-5 w-5 text-primary mx-auto" />
-                        ) : row.whitelabel === "✗" ? (
-                          <span className="text-muted-foreground">—</span>
                         ) : (
                           <span className="font-semibold text-foreground">{row.whitelabel}</span>
-                        )}
-                      </td>
-                      <td className="p-6 text-center text-muted-foreground font-inter">
-                        {row.enterprise === "✓" ? (
-                          <Check className="h-5 w-5 text-primary mx-auto" />
-                        ) : row.enterprise === "✗" ? (
-                          <span className="text-muted-foreground">—</span>
-                        ) : (
-                          row.enterprise
                         )}
                       </td>
                     </tr>
@@ -269,50 +201,30 @@ const Pricing = () => {
               <h3 className="text-2xl font-bold text-center text-foreground mb-8 font-inter">
                 Supported Channels
               </h3>
-              <div className="overflow-x-auto">
+              <div className="overflow-x-auto max-w-2xl mx-auto">
                 <table className="w-full border border-border rounded-lg overflow-hidden">
                   <thead>
                     <tr className="bg-muted/50">
                       <th className="text-left p-6 font-semibold text-foreground font-inter">Channel</th>
-                      <th className="text-center p-6 font-semibold text-foreground font-inter">Standard</th>
                       <th className="text-center p-6 font-semibold text-foreground font-inter">WhiteLabel</th>
-                      <th className="text-center p-6 font-semibold text-foreground font-inter">Enterprise</th>
                     </tr>
                   </thead>
                   <tbody>
                     {[
-                      { channel: "Booking.com", standard: "✓", whitelabel: "✓", enterprise: "✓" },
-                      { channel: "Expedia", standard: "✓", whitelabel: "✓", enterprise: "✓" },
-                      { channel: "Google Hotel Search (Hotels & Vacation Rentals)", standard: "✓", whitelabel: "✓", enterprise: "✓" },
-                      { channel: "Airbnb", standard: "✓", whitelabel: "✓", enterprise: "✓" },
-                      { channel: "Hostelworld", standard: "✓", whitelabel: "✓", enterprise: "✓" },
-                      { channel: "Agoda", standard: "✓", whitelabel: "✓", enterprise: "✓" },
-                      { channel: "Hotelbeds", standard: "✓", whitelabel: "✓", enterprise: "✓" },
-                      { channel: "Ctrip", standard: "✓", whitelabel: "✓", enterprise: "✓" },
-                      { channel: "Other Channels (See integration page for full list)", standard: "✓", whitelabel: "✓", enterprise: "✓" }
-                    ].map((row, index) => (
+                      "Booking.com",
+                      "Expedia",
+                      "Google Hotel Search (Hotels & Vacation Rentals)",
+                      "Airbnb",
+                      "Hostelworld",
+                      "Agoda",
+                      "Hotelbeds",
+                      "Ctrip",
+                      "Other Channels (See integration page for full list)"
+                    ].map((channel, index) => (
                       <tr key={index} className={index % 2 === 0 ? "bg-background" : "bg-muted/25"}>
-                        <td className="p-6 font-medium text-foreground font-inter">{row.channel}</td>
-                        <td className="p-6 text-center text-muted-foreground font-inter">
-                          {row.standard === "✓" ? (
-                            <Check className="h-5 w-5 text-primary mx-auto" />
-                          ) : (
-                            <span className="text-muted-foreground">—</span>
-                          )}
-                        </td>
-                        <td className="p-6 text-center text-muted-foreground font-inter">
-                          {row.whitelabel === "✓" ? (
-                            <Check className="h-5 w-5 text-primary mx-auto" />
-                          ) : (
-                            <span className="text-muted-foreground">—</span>
-                          )}
-                        </td>
-                        <td className="p-6 text-center text-muted-foreground font-inter">
-                          {row.enterprise === "✓" ? (
-                            <Check className="h-5 w-5 text-primary mx-auto" />
-                          ) : (
-                            <span className="text-muted-foreground">—</span>
-                          )}
+                        <td className="p-6 font-medium text-foreground font-inter">{channel}</td>
+                        <td className="p-6 text-center">
+                          <Check className="h-5 w-5 text-primary mx-auto" />
                         </td>
                       </tr>
                     ))}
