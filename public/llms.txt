@@ -43,6 +43,16 @@ Channex offers a single WhiteLabel plan for PMS providers and tech partners.
 ### Platform Fee
 - $130 per month (flat fee, covers API access, dashboard, Mapping API, unlimited users, onboarding, and tech support)
 
+### Channel Manager — Per Active Connected Property (billed monthly)
+- Hotels: $7.00 per property (standard rate)
+  - Volume discounts: 500+ hotels → $6.00, 1,000+ → $5.00, 2,000+ → $4.00
+- Vacation Rentals: $0.50 per unit (standard rate)
+  - Volume discounts: 2,000+ units → $0.45, 4,000+ → $0.40, 7,000+ → $0.30
+
+### Chat & Reviews Add-on (optional)
+- Hotels: $7.00 per property per month
+- Vacation Rentals: $0.50 per unit per month
+
 ### Billing Notes
 - Only properties with at least one active channel connection are billed
 - No setup fees, no long-term contract — billed monthly, cancel any time
