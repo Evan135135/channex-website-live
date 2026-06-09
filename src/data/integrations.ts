@@ -3347,7 +3347,7 @@ export const integrations: Integration[] = [
     icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
     categories: ["PMS", "Asia Pacific"],
     slug: "bluejay",
-    website: "https://bluejaypos.vn/"
+    website: "https://bluejaypms.com"
   },
   {
     id: "tunn3lcom",
