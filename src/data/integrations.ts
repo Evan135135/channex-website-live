@@ -3341,15 +3341,6 @@ export const integrations: Integration[] = [
     website: "https://www.trvmglobal.com/"
   },
   {
-    id: "bluejay",
-    name: "BlueJay",
-    description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
-    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
-    categories: ["PMS", "Asia Pacific"],
-    slug: "bluejay",
-    website: "https://bluejaypms.com"
-  },
-  {
     id: "tunn3lcom",
     name: "tunn3l.com",
     description: "Cloud-based property management system providing comprehensive hotel operations management and channel connectivity.",
