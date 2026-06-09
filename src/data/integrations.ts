@@ -1647,9 +1647,11 @@ export const integrations: Integration[] = [
   {
     id: "106",
     name: "Blue Jay PMS",
-    description: "A cloud-based property management system designed for small to medium-sized accommodations. Offers features like booking management, channel integration, and guest communication. Ideal for properties seeking an affordable and efficient solution to streamline operations.",
+    description: "A cloud-based property management system from Vietnam designed for hotels seeking to streamline operations and grow revenue. Connects with 200+ OTA channels, offers booking management, channel management, and guest communication tools. 80% of hotels using Blue Jay PMS report a 20% increase in revenue.",
     icon: "https://storage.googleapis.com/your-bucket/bluejay-icon.png",
-    categories: ["PMS", "Asia"]
+    categories: ["PMS", "Asia"],
+    slug: "blue-jay-pms",
+    website: "https://bluejaypms.com"
   },
   {
     id: "107",
