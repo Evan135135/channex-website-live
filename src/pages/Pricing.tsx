@@ -212,6 +212,9 @@ const Pricing = () => {
             <p className="text-center text-sm text-muted-foreground mt-6 font-inter">
               * Only properties with at least one active channel connection are billed. The $130/month platform fee applies in addition to per-property charges.
             </p>
+            <p className="text-center text-sm text-muted-foreground mt-2 font-inter">
+              All prices are excluding VAT.
+            </p>
           </div>
 
           {/* Feature Comparison Table */}

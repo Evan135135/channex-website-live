@@ -235,7 +235,7 @@ export default function PricingCalculator() {
         <p className="text-center text-xs text-[#b4b2a9] font-inter mt-2">
           Questions?{" "}
           <a href="https://channex.io/contact" className="text-[#888780] hover:underline">Talk to our team</a>
-          {" "}·{" "}All prices in USD
+          {" "}·{" "}All prices in USD · Excluding VAT
         </p>
       </div>
     </div>
