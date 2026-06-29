@@ -62,17 +62,20 @@
     </script>
 
     <script type="text/javascript">
-      // Handle GitHub Pages SPA routing
-      (function() {
-        var redirectPath = sessionStorage.getItem('redirectPath');
-        if (redirectPath) {
-          sessionStorage.removeItem('redirectPath');
-          // Only restore if we're at /index.html
-          if (window.location.pathname === '/index.html' || window.location.pathname === '/') {
-            window.history.replaceState(null, null, redirectPath);
-          }
+      // Handle GitHub Pages SPA routing - decode the query-string encoded path
+      (function(l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search.slice(1).split('&').map(function(s) {
+            return s.replace(/~and~/g, '&');
+          });
+          window.history.replaceState(
+            null, null,
+            l.pathname.slice(0, -1) + decoded[0] +
+            (decoded[1] ? '?' + decoded[1] : '') +
+            l.hash
+          );
         }
-      })();
+      }(window.location));
     </script>
   </head>
 

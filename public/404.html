@@ -5,16 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Redirecting...</title>
     <script type="text/javascript">
-      // Get the path that was requested
-      var path = window.location.pathname;
-      var search = window.location.search;
-      var hash = window.location.hash;
-      
-      // Store the full path for React Router to handle
-      sessionStorage.setItem('redirectPath', path + search + hash);
-      
-      // Redirect to index.html
-      window.location.replace('/');
+      // GitHub Pages SPA redirect - encode the path as a query string parameter
+      // so it survives the redirect to the root index.html
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') + '/?/' +
+        l.pathname.slice(1).split('/').join('/') +
+        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
     </script>
   </head>
   <body>
