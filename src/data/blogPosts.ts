@@ -1211,5 +1211,104 @@ export const blogPosts: BlogPost[] = [
     featuredImage: "/lovable-uploads/98fd546a-dcf2-4e99-ab63-2ac38047f1c0.png",
     readTime: 3,
     metaDescription: "Learn how to set up and manage Airbnb checkout instructions with Channex to improve guest experience and streamline property turnovers."
+  },
+  {
+    id: "airbnb-new-listing-promotion-automation",
+    title: "Get Booked Faster: Automating Your Airbnb New Property Launch with Channex",
+    slug: "airbnb-new-listing-promotion-automation",
+    excerpt: "Struggling to get your new Airbnb listings off the ground? Discover how Channex's built-in Airbnb New Listing Promotion management gets you booked 20% faster, directly from your channel manager dashboard.",
+    content: `
+      <p>Launching a new property is one of the most stressful parts of property management. You’ve invested time, effort, and capital into getting a home guest-ready, but now you face the hardest hurdle: <strong>the cold-start problem</strong>. In a crowded marketplace, listings with zero reviews are invisible. Guests hesitate to book unverified properties, and without bookings, you can't get the reviews needed to build trust.</p>
+      
+      <p>To break this cycle, Airbnb offers a powerful tool: the <strong>New Listing Promotion</strong>. And now, Channex allows you to fully automate and manage this promotion across your entire portfolio directly from your channel manager dashboard.</p>
+      
+      <p>Here is how you can use this integration to get booked 20% faster and build immediate booking momentum.</p>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">The Power of the 20% Launch Discount</h2>
+      
+      <p>Airbnb’s New Listing Promotion allows hosts to offer an introductory 20% discount to the first three guests who book a new property. While some managers hesitate to discount their rates, the data shows this is one of the highest-ROI decisions you can make during a launch:</p>
+      
+      <ul>
+        <li><strong>20% Faster Bookings:</strong> Properties with the launch promo active secure their first three bookings significantly faster than those without it.</li>
+        <li><strong>Review Acceleration:</strong> You need exactly 3 reviews for your star rating to appear publicly on Airbnb. Getting to this milestone is critical because listings with visible star ratings convert at a much higher rate.</li>
+        <li><strong>Search Algorithm Boost:</strong> Airbnb naturally gives new listings a temporary ranking boost. Pairing this visibility boost with a highly attractive 20% discount maximizes your click-through and booking rates, sending positive signals to the search algorithm.</li>
+      </ul>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">No More Extranet Hopping</h2>
+      
+      <p>Historically, property managers had to log into the Airbnb extranet for every single new property to opt into this promotion, track its progress, and manually disable it if needed. For operators managing dozens or hundreds of units, this "extranet hopping" is a massive time sink and leads to missed opportunities.</p>
+      
+      <p>Channex solves this by bringing the entire promotion lifecycle directly into your central channel manager. Under your listing settings, you can now see the live eligibility and status of every property's launch promotion.</p>
+      
+      <figure style="margin: 2rem 0;">
+        <img src="/lovable-uploads/airbnb-promo-available.png" alt="Channex Listing tab showing New Listing Promo Available status" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;" />
+        <figcaption style="text-align: center; margin-top: 0.75rem; color: #64748b; font-size: 0.875rem; font-style: italic;">Instantly see which new listings are eligible for the 20% promotion directly inside Channex</figcaption>
+      </figure>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Complete Control: Enable or Disable with One Click</h2>
+      
+      <p>We believe in giving you absolute control over your pricing strategy. While the New Listing Promotion is highly effective, there are times when you might want to pause or disable it—for example, if you've already secured high-value bookings from other channels or if high-season demand means you can easily book at full price.</p>
+      
+      <p>With Channex, disabling a running promotion is as simple as clicking a button. The change syncs to Airbnb instantly, updating your live rates in real-time.</p>
+      
+      <figure style="margin: 2rem 0;">
+        <img src="/lovable-uploads/airbnb-promo-disable.png" alt="Channex showing option to disable running New Listing Promo" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;" />
+        <figcaption style="text-align: center; margin-top: 0.75rem; color: #64748b; font-size: 0.875rem; font-style: italic;">Need to adjust your strategy? Disable active promotions instantly with one click</figcaption>
+      </figure>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Launch Best Practices for Property Managers</h2>
+      
+      <p>To get the absolute most out of this feature, we recommend the following launch playbook:</p>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 2rem 0; border: 1px solid #e2e8f0;">
+        <thead>
+          <tr style="background-color: #f8fafc;">
+            <th style="padding: 1rem; text-align: left; border-bottom: 2px solid #e2e8f0; font-weight: 600;">Phase</th>
+            <th style="padding: 1rem; text-align: left; border-bottom: 2px solid #e2e8f0; font-weight: 600;">Action Item</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 1rem; border-bottom: 1px solid #e2e8f0;"><strong>1. Pre-Launch</strong></td>
+            <td style="padding: 1rem; border-bottom: 1px solid #e2e8f0;">Ensure your content, high-resolution photos, and house rules are fully completed and pushed via Channex.</td>
+          </tr>
+          <tr>
+            <td style="padding: 1rem; border-bottom: 1px solid #e2e8f0;"><strong>2. Go-Live</strong></td>
+            <td style="padding: 1rem; border-bottom: 1px solid #e2e8f0;">The moment the listing is live, navigate to the Channex Listing tab and confirm the "New Listing Promo" status is set to active.</td>
+          </tr>
+          <tr>
+            <td style="padding: 1rem; border-bottom: 1px solid #e2e8f0;"><strong>3. Post-Booking</strong></td>
+            <td style="padding: 1rem; border-bottom: 1px solid #e2e8f0;">Once you secure your first 3 bookings, provide exceptional service to ensure those crucial 5-star reviews are submitted, unlocking your public star rating.</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Start Boosting Your Listings Today</h2>
+      
+      <p>The Airbnb New Listing Promotion management is available now to all Channex partners with active Airbnb connections. There is no additional fee or setup required to use this feature.</p>
+      
+      <p>Log in to your Channex dashboard, head to your Airbnb Channel Settings, and see which of your properties are ready for a launch boost!</p>
+    `,
+    author: {
+      name: "Channex Team",
+      avatar: "/placeholder.svg",
+      bio: "Actionable distribution tips and product guidance."
+    },
+    publishDate: "2026-06-29",
+    category: blogCategories[3],
+    tags: ["Product Updates", "Airbnb", "New Listing", "Promotion", "Channel Management", "Property Management"],
+    featuredImage: "/lovable-uploads/airbnb-new-listing-promo-header.jpg",
+    readTime: 4,
+    metaDescription: "Learn how to use Channex to manage and automate Airbnb's New Listing Promotion directly from your channel manager. Get your first 3 bookings 20% faster."
   }
 ];
