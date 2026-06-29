@@ -1310,5 +1310,121 @@ export const blogPosts: BlogPost[] = [
     featuredImage: "/lovable-uploads/airbnb-new-listing-promo-header.jpg",
     readTime: 4,
     metaDescription: "Learn how to use Channex to manage and automate Airbnb's New Listing Promotion directly from your channel manager. Get your first 3 bookings 20% faster."
+  },
+  {
+    id: "airbnb-last-minute-discounts-q3",
+    title: "Maximize Q3 Occupancy: Managing Airbnb Last-Minute Discounts Directly via Channex",
+    slug: "airbnb-last-minute-discounts-q3",
+    excerpt: "Don't let empty nights spoil your peak Q3 season. Learn how to configure and automate Airbnb Last-Minute Discounts directly inside Channex to capture late-booking travelers and maximize your revenue.",
+    content: `
+      <p>As we head into the peak Q3 travel season, occupancy is top of mind for every property manager. While high-season weekends often sell out months in advance, mid-week gaps and last-minute cancellations can leave expensive holes in your calendar. In the vacation rental industry, an unsold night is perishable inventory—once the night passes, that potential revenue is gone forever.</p>
+      
+      <p>To help you capture high-intent, late-booking travelers, Channex is excited to highlight our direct integration with <strong>Airbnb’s Last-Minute Discounts</strong>. You can now configure, adjust, and automate these promotional rules directly from your Channex dashboard without ever needing to log into the Airbnb extranet.</p>
+      
+      <p>Here is how you can use this feature to protect your Q3 bottom line and keep your occupancy high.</p>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Why Last-Minute Discounts Matter for Q3</h2>
+      
+      <p>Last-minute bookings have seen a massive surge in recent years. Travelers are increasingly waiting until the week of—or even the day of—their trip to book accommodations, looking for spontaneous summer getaways or searching for price drops. By offering a strategic last-minute discount, you position your properties at the top of their search results.</p>
+      
+      <p>Last-minute promotions give you three key advantages:</p>
+      
+      <ul>
+        <li><strong>Algorithmic Visibility:</strong> Airbnb's search algorithm favors listings with active promotions and competitive pricing, giving you a natural ranking boost during high-traffic search windows.</li>
+        <li><strong>Perishable Inventory Protection:</strong> A discounted booking is always better than an empty room. Securing a guest at 15% or 20% off covers your operational costs and contributes directly to your net profit.</li>
+        <li><strong>Cross-Selling Gaps:</strong> Easily fill those awkward 1- or 2-night gaps between longer bookings that are otherwise difficult to sell at standard rates.</li>
+      </ul>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Step-by-Step: How to Configure Last-Minute Discounts in Channex</h2>
+      
+      <p>We’ve made the setup process incredibly simple. You can apply these discount rules to individual listings or across multiple properties in just a few clicks.</p>
+      
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #1e293b;">Step 1: Open Your Listing Actions</h3>
+      
+      <p>Navigate to the <strong>Channel Settings</strong> for Airbnb inside Channex, and click on the <strong>Listing</strong> tab. Find the property you want to adjust, click the <strong>Actions</strong> dropdown on the right, and select <strong>Price settings</strong>.</p>
+      
+      <figure style="margin: 2rem 0;">
+        <img src="/lovable-uploads/airbnb-last-minute-listing-tab.png" alt="Channex Edit Channel Listing tab showing Price Settings option in Actions menu" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;" />
+        <figcaption style="text-align: center; margin-top: 0.75rem; color: #64748b; font-size: 0.875rem; font-style: italic;">Access Price Settings directly from the Actions menu on any listing</figcaption>
+      </figure>
+      
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #1e293b;">Step 2: Add a Discount Rule</h3>
+      
+      <p>Inside the Price Settings modal, scroll down to the <strong>Length of stay discounts</strong> section. Click the <strong>Add discount rule</strong> dropdown on the right and select <strong>Last-minute</strong>.</p>
+      
+      <figure style="margin: 2rem 0;">
+        <img src="/lovable-uploads/airbnb-last-minute-price-settings.png" alt="Channex Price Settings modal showing Add Discount Rule dropdown with Last-minute option" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;" />
+        <figcaption style="text-align: center; margin-top: 0.75rem; color: #64748b; font-size: 0.875rem; font-style: italic;">Choose 'Last-minute' from the discount rule options</figcaption>
+      </figure>
+      
+      <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #1e293b;">Step 3: Define Your Booking Window and Discount</h3>
+      
+      <p>Now, define your parameters. You can choose how many days before arrival the discount should trigger (from 1 to 14 days) and the exact percentage discount you want to offer.</p>
+      
+      <p>For example, you can set a rule where bookings made within <strong>2 days</strong> of arrival automatically receive a <strong>15% discount</strong>.</p>
+      
+      <figure style="margin: 2rem 0;">
+        <img src="/lovable-uploads/airbnb-last-minute-days-dropdown.png" alt="Channex dropdown to select number of days for Last-minute discount trigger" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;" />
+        <figcaption style="text-align: center; margin-top: 0.75rem; color: #64748b; font-size: 0.875rem; font-style: italic;">Select the trigger window (in days) and input your desired discount percentage</figcaption>
+      </figure>
+      
+      <p>Once you click save, Channex will instantly push this logic to Airbnb. The platform will automatically calculate and apply the discount to any eligible search queries in real-time.</p>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Strategic Playbook: Q3 Last-Minute Discounting</h2>
+      
+      <p>Discounting should always be strategic, not reactive. To maximize revenue without diluting your brand value, consider this Q3 playbook:</p>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 2rem 0; border: 1px solid #e2e8f0;">
+        <thead>
+          <tr style="background-color: #f8fafc;">
+            <th style="padding: 1rem; text-align: left; border-bottom: 2px solid #e2e8f0; font-weight: 600;">Scenario</th>
+            <th style="padding: 1rem; text-align: left; border-bottom: 2px solid #e2e8f0; font-weight: 600;">Recommended Rule</th>
+            <th style="padding: 1rem; text-align: left; border-bottom: 2px solid #e2e8f0; font-weight: 600;">Strategy</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 1rem; border-bottom: 1px solid #e2e8f0;"><strong>High-Value Properties</strong></td>
+            <td style="padding: 1rem; border-bottom: 1px solid #e2e8f0;">3 Days → 10% Discount</td>
+            <td style="padding: 1rem; border-bottom: 1px solid #e2e8f0;">Keep discounts conservative. High-end guests are less price-sensitive but appreciate a modest incentive to seal the deal.</td>
+          </tr>
+          <tr>
+            <td style="padding: 1rem; border-bottom: 1px solid #e2e8f0;"><strong>Standard Apartments</strong></td>
+            <td style="padding: 1rem; border-bottom: 1px solid #e2e8f0;">2 Days → 15% - 20% Discount</td>
+            <td style="padding: 1rem; border-bottom: 1px solid #e2e8f0;">More aggressive discounting is effective here to stand out in highly competitive urban or leisure markets.</td>
+          </tr>
+          <tr>
+            <td style="padding: 1rem; border-bottom: 1px solid #e2e8f0;"><strong>Mid-Week Gaps</strong></td>
+            <td style="padding: 1rem; border-bottom: 1px solid #e2e8f0;">1 Day → 25% Discount</td>
+            <td style="padding: 1rem; border-bottom: 1px solid #e2e8f0;">If a property is empty tomorrow night, trigger a steep discount to secure a booking that covers housekeeping and basic utility costs.</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e2e8f0;" />
+      
+      <h2 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b;">Get Started Today</h2>
+      
+      <p>Don't let empty calendar days drag down your Q3 performance. With Channex, managing your Airbnb Last-Minute Discounts is fast, centralized, and completely automated.</p>
+      
+      <p>Log in to your Channex account today, navigate to your Airbnb Listing Price Settings, and set up your summer discount rules in under two minutes!</p>
+    `,
+    author: {
+      name: "Channex Team",
+      avatar: "/placeholder.svg",
+      bio: "Actionable distribution tips and product guidance."
+    },
+    publishDate: "2026-06-29",
+    category: blogCategories[3],
+    tags: ["Product Updates", "Airbnb", "Discounts", "Last-Minute Bookings", "Revenue Management", "Channel Management"],
+    featuredImage: "/lovable-uploads/airbnb-last-minute-discounts-hero.jpg",
+    readTime: 4,
+    metaDescription: "Learn how to manage and automate Airbnb Last-Minute Discounts directly from Channex to drive bookings, fill mid-week gaps, and maximize Q3 revenue."
   }
 ];
