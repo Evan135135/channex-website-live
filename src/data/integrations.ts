@@ -4942,4 +4942,31 @@ export const integrations: Integration[] = [
       "Properties in all major global markets seeking trade distribution"
     ]
   },
+  {
+    id: "nuitee",
+    name: "Nuitee",
+    description: "Nuitee is an AI-driven B2B hotel distribution and API platform, providing developers and travel businesses with modular APIs for hotel search, rates, booking, and branded site deployment. Poised to disrupt the $75B B2B hotel market.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["OTA", "B2B", "Global"],
+    slug: "nuitee",
+    website: "https://nuitee.com",
+    longDescription: "Nuitee is an AI-powered B2B hotel distribution platform designed for developers, travel businesses, and hoteliers. It offers modular APIs and agentic workflows that power hotel search, pricing, booking, and distribution at scale. With OpenAPI specs, SDKs, and a sandbox environment, Nuitee enables startups and enterprises to build and deploy travel products rapidly. For hoteliers, Nuitee provides tools to manage distribution, bookings, payments, and content optimisation through a proprietary AI mapping engine that standardises hotel identity, rooms, and media across providers. Backed by leading venture capital and described as poised to disrupt the $75B B2B hotel market.",
+    features: [
+      "AI-driven APIs for hotel search, rates, and booking",
+      "Agentic workflows for automated travel distribution",
+      "OpenAPI specs, SDKs, and developer sandbox",
+      "Proprietary AI mapping and content enhancement engine",
+      "Modular architecture for startups and enterprises",
+      "Branded site deployment in a single sprint",
+      "Distribution, booking, and payment management for hoteliers",
+      "Clean hotel data standardisation across all channels"
+    ],
+    useCases: [
+      "Travel tech companies building hotel booking products via API",
+      "Hotels seeking AI-powered distribution and content optimisation",
+      "Enterprises needing scalable B2B hotel connectivity",
+      "Developers wanting fast hotel API integration with sandbox testing",
+      "Businesses looking to standardise hotel data across multiple channels"
+    ]
+  },
 ];
