@@ -4890,4 +4890,29 @@ export const integrations: Integration[] = [
     slug: "localota",
     website: "https://www.localota.com"
   },
+  {
+    id: "kliknbook",
+    name: "KliknBook",
+    description: "KliknBook is a B2B online travel agency offering travel agencies exclusive access to hotel inventory across key Asian markets including Singapore, Kuala Lumpur, and Bangkok. Focused on speed, accuracy, and efficiency in hotel booking.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["OTA", "B2B", "Asia"],
+    slug: "kliknbook",
+    website: "https://www.kliknbook.com",
+    longDescription: "KliknBook is a B2B online booking platform that provides travel agencies with exclusive access to competitive hotel rates across Asia's most in-demand markets. With a focus on Singapore, Kuala Lumpur, Bangkok, and other high-demand Asian cities, KliknBook delivers a fast, accurate, and efficient booking experience. The platform is backed by state-of-the-art booking technology and dedicated customer care, making it an ideal channel for properties looking to reach the B2B travel agency market across Asia.",
+    features: [
+      "Exclusive B2B access for travel agencies",
+      "Focus on high-demand Asian city markets",
+      "Fast and accurate real-time booking",
+      "Competitive preferred rates and channel manager support",
+      "Dedicated customer care",
+      "Online registration and agency management",
+      "Multi-language support"
+    ],
+    useCases: [
+      "Hotels targeting B2B travel agency distribution in Asia",
+      "Properties in Singapore, Kuala Lumpur, Bangkok, and other Asian cities",
+      "Accommodations seeking preferred rate distribution",
+      "Hotels looking to expand into the Asian B2B market"
+    ]
+  },
 ];
