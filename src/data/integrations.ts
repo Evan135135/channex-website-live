@@ -4915,4 +4915,31 @@ export const integrations: Integration[] = [
       "Hotels looking to expand into the Asian B2B market"
     ]
   },
+  {
+    id: "webbeds",
+    name: "WebBeds",
+    description: "WebBeds is a global B2B marketplace for the travel trade, connecting 500,000+ hotels with over 50,000 online and offline travel buyers across 50+ countries. One of the world's largest B2B hotel distribution platforms with $3.2B+ TTV.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["OTA", "B2B", "Global"],
+    slug: "webbeds",
+    website: "https://www.webbeds.com",
+    longDescription: "WebBeds is one of the world's largest B2B hotel distribution marketplaces, operated by Web Travel Group. It connects global and regional hotel chains, independent hotels, apartments, resorts, and ground travel services with a network of over 50,000 travel buyers — including online travel agencies, retail travel agents, corporate travel managers, tour operators, wholesalers, and airlines. With a team of 1,900+ people in 120+ cities across 50+ countries speaking 50+ languages, WebBeds provides hotels with powerful distribution solutions, enhanced analytics, and inventory optimisation tools to maximise revenue and reach.",
+    features: [
+      "Access to 50,000+ global B2B travel buyers",
+      "500,000+ hotel marketplace with global reach",
+      "Robust API connectivity for seamless integration",
+      "Trade-only online booking sites",
+      "Enhanced analytics and inventory optimisation",
+      "1,900+ staff across 120+ cities in 50+ countries",
+      "Support for hotels, apartments, resorts, and ground services",
+      "Multi-language support (50+ languages)"
+    ],
+    useCases: [
+      "Hotels seeking global B2B distribution to travel agencies and tour operators",
+      "Properties targeting corporate travel managers and wholesalers",
+      "Hotel chains wanting API connectivity to a large B2B buyer network",
+      "Accommodations looking to optimise inventory across global B2B channels",
+      "Properties in all major global markets seeking trade distribution"
+    ]
+  },
 ];
