@@ -4969,4 +4969,31 @@ export const integrations: Integration[] = [
       "Businesses looking to standardise hotel data across multiple channels"
     ]
   },
+  {
+    id: "yatra",
+    name: "Yatra",
+    description: "Yatra is one of India's leading online travel companies, offering real-time bookings for 103,000+ hotels in India and 1.5M+ hotels worldwide. A top corporate travel services provider with 700+ corporate customers and multiple national tourism awards.",
+    icon: "https://storage.googleapis.com/your-bucket/placeholder-logo.png",
+    categories: ["OTA", "Asia", "Global"],
+    slug: "yatra",
+    website: "https://www.yatra.com",
+    longDescription: "Yatra (Yatra Online Limited) is one of India's leading online travel companies and the country's top corporate travel services provider. Founded in August 2006 and headquartered in Gurugram, India, Yatra provides real-time bookings for over 103,000 hotels in India and more than 1,500,000 hotels worldwide. The platform covers domestic and international air travel, hotel bookings, holiday packages, buses, trains, in-city activities, cabs, homestays, and cruises. With 700+ corporate customers and recognition as the Most Trusted E-Commerce Travel Brand in India (Economic Times Brand Equity Survey), Yatra is an essential distribution channel for hotels targeting the Indian market and corporate travel segment.",
+    features: [
+      "Real-time bookings for 103,000+ hotels in India",
+      "1,500,000+ hotel inventory worldwide",
+      "India's leading corporate travel services platform",
+      "700+ corporate customers",
+      "Domestic and international travel coverage",
+      "Multi-product platform: flights, hotels, holidays, buses, trains",
+      "B2B portal for travel agents",
+      "Multiple national tourism award winner"
+    ],
+    useCases: [
+      "Hotels targeting the Indian domestic travel market",
+      "Properties seeking corporate travel distribution in India",
+      "International hotels wanting access to Indian outbound travelers",
+      "Accommodations looking to reach India's growing online travel segment",
+      "Hotels targeting B2B travel agents in India"
+    ]
+  },
 ];
